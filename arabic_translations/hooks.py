@@ -86,7 +86,7 @@ app_license = "mit"
 # ------------
 
 # before_install = "arabic_translations.install.before_install"
-before_app_install = "arabic_translations.utils.before_app_install"
+before_install = "arabic_translations.utils.before_install"
 # after_install = "arabic_translations.install.after_install"
 
 # Uninstallation

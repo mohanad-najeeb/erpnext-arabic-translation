@@ -7,7 +7,7 @@ import frappe
 _LOGGER = frappe.logger("arabic_translations")
 
 
-def before_app_install(app_name: str, *args, **kwargs) -> None:
+def before_install(app_name: Optional[str] = None, *args, **kwargs) -> None:
     """Hook: copy Arabic locale files into installed apps during install."""
     try:
         copy_locale_files()
@@ -70,6 +70,14 @@ def _copy_for_app(app: str, source_root: str) -> None:
 
             source_file = os.path.join(dirpath, filename)
             rel_path = os.path.relpath(source_file, app_source_dir)
+
+            # Drop leading "<app>/" folder from the source bundle so we copy into
+            # the actual app root rather than nesting (source layout includes the
+            # app name).
+            prefix = f"{app}{os.sep}"
+            if rel_path.startswith(prefix):
+                rel_path = rel_path[len(prefix) :]
+
             dest_path = os.path.join(app_dest_root, rel_path)
 
             os.makedirs(os.path.dirname(dest_path), exist_ok=True)

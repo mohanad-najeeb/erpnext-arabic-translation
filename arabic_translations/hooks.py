@@ -101,7 +101,7 @@ before_install = "arabic_translations.utils.before_install"
 # Name of the app being installed is passed as an argument
 
 # before_app_install = "arabic_translations.utils.before_app_install"
-# after_app_install = "arabic_translations.utils.after_app_install"
+after_app_install = "arabic_translations.utils.after_app_install"
 
 # Integration Cleanup
 # -------------------

@@ -28,6 +28,16 @@ def after_app_install(app_name: Optional[str] = None, *args, **kwargs) -> None:
         _LOGGER.exception("Failed to re-apply Arabic locale files after app install/update")
 
 
+def after_migrate() -> None:
+    """Hook: re-apply Arabic locale files after site migration (e.g. bench update)."""
+    try:
+        copy_locale_files()
+        _LOGGER.info("Re-applied Arabic translations after migrate")
+    except Exception:
+        _LOGGER.exception("Failed to re-apply Arabic locale files after migrate")
+
+
+
 def copy_locale_files() -> None:
     """Detect Frappe version/apps and copy ar.po/ar.csv bundles into place."""
     major = _get_frappe_major_version()

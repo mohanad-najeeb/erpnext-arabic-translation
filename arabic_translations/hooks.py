@@ -103,6 +103,11 @@ before_install = "arabic_translations.utils.before_install"
 # before_app_install = "arabic_translations.utils.before_app_install"
 after_app_install = "arabic_translations.utils.after_app_install"
 
+# After Migrate
+# ------------
+# Hook on migration (bench migrate)
+after_migrate = "arabic_translations.utils.after_migrate"
+
 # Integration Cleanup
 # -------------------
 # To clean up dependencies/integrations with other apps

@@ -5024,7 +5024,7 @@ New credit limit is less than current outstanding amount for the customer. Credi
 "No values","لا توجد قيم"
 "No {0} Accounts found for this company.","لم يتم العثور على حسابات {0} لهذه الشركة."
 "No {0} found for Inter Company Transactions.","لم يتم العثور على {0} معاملات Inter Company."
-"No.","لا."
+"No.","الرقم"
 "No. of Employees","عدد الموظفين"
 "No. of parallel job cards which can be allowed on this workstation. Example: 2 would mean this workstation can process production for two Work Orders at a time.","عدد بطاقات العمل المتوازية التي يمكن السماح بها في محطة العمل هذه. مثال: 2 يعني أن محطة العمل هذه يمكنها معالجة الإنتاج لأمري عمل في نفس الوقت."
 "Non Conformance","غير مطابقة"

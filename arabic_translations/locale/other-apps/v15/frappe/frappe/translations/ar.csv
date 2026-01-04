@@ -764,10 +764,10 @@ Does nothing if a workflow isn't set up.","السماح بالتعديل حتى 
 "Attached File","ملف مرفق"
 "Attached To DocType","مرفق بDocType"
 "Attached To Field","مرفق إلى الحقل"
-"Attached To Name","أرفقت للأسم"
+"Attached To Name","مرفق بالاسم"
 "Attached To Name must be a string or an integer","يجب أن يكون اسم مرفق بـ سلسلة نصية أو عددًا صحيحًا"
 "Attachment","مرفق"
-"Attachment Limit (MB)","الحد مرفق (MB)"
+"Attachment Limit (MB)","حد المرفقات (ميجابايت)"
 "Attachment Limit Reached","تم الوصول إلى حد المرفقات"
 "Attachment Link","رابط المرفقات"
 "Attachment Removed","تم حذف المرفق"
@@ -969,7 +969,7 @@ has a transparent background and use the &lt;img /&gt; tag. Keep size as 200px x
 "Button","زر"
 "Button Gradients","تدرجات الزر"
 "Button Rounded Corners","زوايا دائرية بأزرار"
-"Button Shadows","زر الظلال"
+"Button Shadows","ظلال الزر"
 "By ""Naming Series"" field","حسب حقل ""سلسلة التسمية"""
 "By default the title is used as meta title, adding a value here will override it.","بشكل افتراضي ، يتم استخدام العنوان كعنوان تعريف ، وستؤدي إضافة قيمة هنا إلى تجاوزه."
 "By default, emails are only sent for failed backups.","افتراضيًا، يتم إرسال رسائل البريد الإلكتروني فقط للنسخ الاحتياطية الفاشلة."
@@ -1021,7 +1021,7 @@ has a transparent background and use the &lt;img /&gt; tag. Keep size as 200px x
 "Cancel All Documents","الغاء جميع الوثائق"
 "Cancel Scheduling","إلغاء الجدولة"
 "Cancel {0} documents?","إلغاء {0} وثائق؟"
-"Cancelled","ألغيت"
+"Cancelled","ملغي"
 "Cancelled Document restored as Draft","تم استعادة المستند الملغى كمسودة"
 "Cancelling","إلغاء"
 "Cancelling documents","إلغاء الوثائق"
@@ -1111,7 +1111,7 @@ Warning: Incorrectly updating counters can prevent documents from getting create
 "Changing any setting will reflect on all the email accounts associated with this domain.","سيؤثر تغيير أي إعداد على جميع حسابات البريد الإلكتروني المرتبطة بهذا النطاق."
 "Changing rounding method on site with data can result in unexpected behaviour.","تغيير طريقة التقريب على موقع يحتوي على بيانات قد يؤدي إلى سلوك غير متوقع."
 "Channel","قناة"
-"Chart","خريطة"
+"Chart","مخطط"
 "Chart Configuration","تكوين الرسم البياني"
 "Chart Name","اسم المخطط"
 "Chart Options","خيارات الرسم البياني"
@@ -1241,20 +1241,20 @@ Column Name cannot be empty"
 "Compare Versions","مقارنة الإصدارات"
 "Compilation warning","تحذير تجميع"
 "Compiled Successfully","جمعت بنجاح"
-"Complete","أكمال"
+"Complete","إكمال"
 "Complete By","الكامل من جانب"
 "Complete Registration","أكمال التسجيل"
 "Complete Setup","إكمال الإعداد"
-"Completed","أكتمل"
+"Completed","مكتمل"
 "Completed By Role","أكمل بواسطة الدور"
 "Completed By User","أكمل بواسطة المستخدم"
 "Component","مكون"
 "Compose Email","كتابة رسالة الكترونية"
 "Compressed","مضغوط"
-"Condition","الحالة"
+"Condition","الشرط"
 "Condition JSON","شرط JSON"
 "Condition description","وصف الشرط"
-"Conditions","الظروف"
+"Conditions","الشروط"
 "Configuration","الإعدادات"
 "Configure Chart","تكوين المخطط"
 "Configure Columns","تهيئة الأعمدة"
@@ -1369,9 +1369,9 @@ Default Naming will make the amended document to behave same as new documents.",
 "Create your workflow visually using the Workflow Builder.","أنشئ سير عملك بصريًا باستخدام منشئ سير العمل."
 "Created","أنشأ"
 "Created At","أنشئ في"
-"Created By","منشئه بواسطه"
+"Created By","أنشئ بواسطة"
 "Created Custom Field {0} in {1}","إنشاء الحقل المخصص {0} في {1}"
-"Created On","منشئه في"
+"Created On","أنشئ في"
 "Creating {0}","إنشاء {0}"
 "Creation of this document is only permitted in developer mode.","إنشاء هذا المستند مسموح به فقط في وضع المطور."
 "Cron","كرون"
@@ -1394,7 +1394,7 @@ Default Naming will make the amended document to behave same as new documents.",
 "Custom Base URL","عنوان ورل لقاعدة مخصصة"
 "Custom Block Name","اسم الكتلة المخصصة"
 "Custom Blocks","الكتل المخصصة"
-"Custom CSS","مخصصةCSS"
+"Custom CSS","CSS مخصص"
 "Custom Configuration","التكوين المخصص"
 "Custom Delimiters","محددات مخصصة"
 "Custom DocPerm","DocPerm مخصص"
@@ -1409,12 +1409,12 @@ Default Naming will make the amended document to behave same as new documents.",
 "Custom Format","تنسيق مخصص"
 "Custom Group Search","بحث مجموعة مخصص"
 "Custom Group Search if filled needs to contain the user placeholder {0}, eg uid={0},ou=users,dc=example,dc=com","إذا تم ملء بحث المجموعة المخصص، فيجب أن يحتوي على العنصر النائب للمستخدم {0}، على سبيل المثال uid={0},ou=users,dc=example,dc=com"
-"Custom HTML","مخصصةHTML"
+"Custom HTML","HTML مخصص"
 "Custom HTML Block","كتلة HTML مخصصة"
-"Custom HTML Help","مخصصةHTML مساعدة"
+"Custom HTML Help","مساعدة HTML المخصص"
 "Custom LDAP Directoy Selected, please ensure 'LDAP Group Member attribute' and 'Group Object Class' are entered","تم تحديد دليل LDAP مخصص، يرجى التأكد من إدخال 'سمة عضو مجموعة LDAP' و 'فئة كائن المجموعة'"
 "Custom Label","تسمية مخصصة"
-"Custom Menu Items","قائمة مخصصة عناصر"
+"Custom Menu Items","عناصر القائمة المخصصة"
 "Custom Options","خيارات مخصصة"
 "Custom Overrides","تجاوزات مخصصة"
 "Custom Report","تقرير مخصص"
@@ -1452,16 +1452,16 @@ Default Naming will make the amended document to behave same as new documents.",
 "Dark","داكن"
 "Dark Color","لون غامق"
 "Dark Theme","المظهر الداكن"
-"Dashboard","لوحة القيادة"
+"Dashboard","لوحة المعلومات"
 "Dashboard Chart","مخطط لوحة القيادة"
 "Dashboard Chart Field","حقل مخطط لوحة القيادة"
-"Dashboard Chart Link","لوحة الرسم البياني رابط"
+"Dashboard Chart Link","رابط مخطط لوحة المعلومات"
 "Dashboard Chart Source","مصدر مخطط لوحة القيادة"
 "Dashboard Manager","مدير لوحة القيادة"
 "Dashboard Name","اسم لوحة القيادة"
 "Dashboard Settings","اعدادات اللوحة الرئيسية"
 "Dashboard View","عرض لوحة التحكم"
-"Dashboards","لوحات"
+"Dashboards","لوحات المعلومات"
 "Data","البيانات"
 "Data Clipped","تم اقتطاع البيانات"
 "Data Export","تصدير البيانات"
@@ -1745,16 +1745,16 @@ Default Naming will make the amended document to behave same as new documents.",
 "Download","تحميل"
 "Download Backups","تحميل النسخ الاحتياطية"
 "Download Data","تحميل البيانات"
-"Download Files Backup","تحميل الملفات النسخ الاحتياطي"
+"Download Files Backup","تحميل النسخة الاحتياطية للملفات"
 "Download Link","رابط التحميل"
 "Download PDF","تحميل PDF"
 "Download Report","تحميل التقرير"
-"Download Template","تحميل الوثيقة"
+"Download Template","تحميل القالب"
 "Download Your Data","قم بتنزيل بياناتك"
 "Download vCard","تنزيل vCard"
 "Download vCards","تنزيل vCards"
 "Dr","د."
-"Draft","مشروع"
+"Draft","مسودة"
 "Drag","سحب"
 "Drag & Drop a section here from another tab","اسحب وأفلت قسمًا هنا من علامة تبويب أخرى"
 "Drag and drop files here or upload from","اسحب وأفلت الملفات هنا أو قم بالتحميل من"
@@ -1766,8 +1766,8 @@ Default Naming will make the amended document to behave same as new documents.",
 "Dropbox Refresh Token","رمز تحديث Dropbox"
 "Dropbox Settings","إعدادات دروب بوكس"
 "Dropbox Setup","إعداد دروببوإكس"
-"Dropdowns","هبوط قطرة"
-"Due Date","بسبب تاريخ"
+"Dropdowns","القوائم المنسدلة"
+"Due Date","تاريخ الاستحقاق"
 "Due Date Based On","تاريخ الاستحقاق بناء على"
 "Duplicate","مكررة"
 "Duplicate Entry","إدخال مكرر"
@@ -1785,10 +1785,10 @@ Default Naming will make the amended document to behave same as new documents.",
 "Dynamic Route","الطريق الديناميكي"
 "Dynamic Template","قالب ديناميكي"
 "ESC","ESC"
-"Edit","تصحيح"
-"Edit","تصحيح"
-"Edit","تصحيح"
-"Edit","تصحيح"
+"Edit","تعديل"
+"Edit","تعديل"
+"Edit","تعديل"
+"Edit","تعديل"
 "Edit Address in Form","تحرير العنوان في النموذج"
 "Edit Auto Email Report Settings","تحرير إعدادات تقرير البريد الإلكتروني الآلي"
 "Edit Chart","تحرير المخطط"
@@ -1830,39 +1830,39 @@ Default Naming will make the amended document to behave same as new documents.",
 "Email","البريد الإلكتروني"
 "Email Account","حساب البريد الإلكتروني"
 "Email Account Disabled.","حساب البريد الإلكتروني معطل."
-"Email Account Name","البريد الإلكتروني اسم الحساب"
+"Email Account Name","اسم حساب البريد الإلكتروني"
 "Email Account added multiple times","تمت إضافة حساب البريد الإلكتروني عدة مرات"
 "Email Account not setup. Please create a new Email Account from Settings > Email Account","لم يتم إعداد حساب البريد الإلكتروني. يرجى إنشاء حساب بريد إلكتروني جديد من الإعدادات > حساب البريد الإلكتروني"
 "Email Address","البريد الالكتروني"
 "Email Address whose Google Contacts are to be synced.","عنوان البريد الإلكتروني الذي سيتم مزامنة جهات اتصال Google الخاصة به."
 "Email Addresses","عناوين البريد الإلكتروني"
-"Email Domain","المجال البريد الإلكتروني"
-"Email Flag Queue","البريد الإلكتروني العلم قائمة الانتظار"
+"Email Domain","نطاق البريد الإلكتروني"
+"Email Flag Queue","قائمة انتظار علامات البريد الإلكتروني"
 "Email Footer Address","تذييل البريد الإلكتروني"
-"Email Group","البريد الإلكتروني المجموعة"
-"Email Group Member","أرسل عضو المجموعة"
+"Email Group","مجموعة البريد الإلكتروني"
+"Email Group Member","عضو مجموعة البريد الإلكتروني"
 "Email Header","ترويسة البريد الإلكتروني"
 "Email ID","عنوان الايميل"
-"Email IDs","البريد الإلكتروني معرفات"
+"Email IDs","معرّفات البريد الإلكتروني"
 "Email Id","البريد الإلكتروني"
 "Email Inbox","البريد الوارد"
 "Email Queue","قائمة إنتظار البريد الإلكتروني"
-"Email Queue Recipient","البريد الإلكتروني المستلم قائمة الانتظار"
+"Email Queue Recipient","مستلم قائمة انتظار البريد الإلكتروني"
 "Email Queue flushing aborted due to too many failures.","تم إحباط مسح قائمة انتظار البريد الإلكتروني بسبب كثرة الإخفاقات."
 "Email Queue records.","سجلات قائمة انتظار البريد الإلكتروني."
-"Email Reply Help","البريد الالكتروني رد مساعدة"
+"Email Reply Help","مساعدة الرد على البريد الإلكتروني"
 "Email Retry Limit","حد إعادة محاولة البريد الإلكتروني"
-"Email Rule","البريد الإلكتروني القاعدة"
-"Email Sent","إرسال البريد الإلكتروني"
+"Email Rule","قاعدة البريد الإلكتروني"
+"Email Sent","تم الإرسال"
 "Email Sent At","تم إرسال البريد الإلكتروني في"
 "Email Settings","إعدادات البريد الإلكتروني"
 "Email Signature","توقيع البريد الالكترونى"
 "Email Status","حالة البريد الإلكتروني"
-"Email Sync Option","مزامنة البريد الإلكتروني الخيار"
+"Email Sync Option","خيار مزامنة البريد الإلكتروني"
 "Email Template","قالب البريد الإلكتروني"
 "Email Threads on Assigned Document","سلاسل البريد الإلكتروني على المستند المعين"
 "Email To","البريد الإلكتروني الى"
-"Email Unsubscribe","البريد الإلكتروني إلغاء الاشتراك"
+"Email Unsubscribe","إلغاء الاشتراك من البريد الإلكتروني"
 "Email has been marked as spam","تم وضع علامة على البريد الإلكتروني كغير مرغوب فيه"
 "Email has been moved to trash","تم نقل البريد الإلكتروني إلى المهملات"
 "Email is mandatory to create User Email","البريد الإلكتروني إلزامي لإنشاء بريد إلكتروني للمستخدم"
@@ -1872,7 +1872,7 @@ Default Naming will make the amended document to behave same as new documents.",
 "Emails","رسائل البريد الإلكتروني"
 "Emails Pulled","تم سحب رسائل البريد الإلكتروني"
 "Emails are already being pulled from this account.","يتم سحب رسائل البريد الإلكتروني بالفعل من هذا الحساب."
-"Emails are muted","رسائل البريد الإلكتروني هي صامتة"
+"Emails are muted","رسائل البريد الإلكتروني مكتومة"
 "Emails will be sent with next possible workflow actions","سيتم إرسال رسائل البريد الإلكتروني مع إجراءات سير العمل التالية المحتملة"
 "Embed code copied","تم نسخ كود التضمين"
 "Empty column","عمود فارغ"
@@ -1911,7 +1911,7 @@ Default Naming will make the amended document to behave same as new documents.",
 opens modal.","تمكين إذا كان عند النقر
 يفتح نافذة منبثقة."
 "Enable in-app website tracking","تمكين تتبع الموقع داخل التطبيق"
-"Enabled","تمكين"
+"Enabled","مُفعّل"
 "Enabled Scheduler","تم تمكين المجدول"
 "Enabled email inbox for user {0}","صندوق الوارد للبريد الإلكتروني المُمكّن للمستخدم {0}"
 "Enables Calendar and Gantt views.","يمكّن عروض التقويم وجانت."
@@ -1987,7 +1987,7 @@ opens modal.","تمكين إذا كان عند النقر
 "Example: 00001","مثال: 00001"
 "Example: Setting this to 24:00 will log out a user if they are not active for 24:00 hours.","مثال: تعيين هذا إلى 24:00 سيؤدي إلى تسجيل خروج المستخدم إذا لم يكن نشطًا لمدة 24:00 ساعة."
 "Example: {{ subject }}","مثال: {{topic}}"
-"Excel","تفوق"
+"Excel","إكسل"
 "Excellent","ممتاز"
 "Exception","استثناء"
 "Execute","نفذ - اعدم"
@@ -2034,7 +2034,7 @@ opens modal.","تمكين إذا كان عند النقر
 "Extra Parameters","معلمات إضافية"
 "Facebook","الفيسبوك"
 "Fail","فشل"
-"Failed","باءت بالفشل"
+"Failed","فاشل"
 "Failed Emails","رسائل البريد الإلكتروني الفاشلة"
 "Failed Job Count","عدد المهام الفاشلة"
 "Failed Jobs","المهام الفاشلة"
@@ -2134,7 +2134,7 @@ opens modal.","تمكين إذا كان عند النقر
 "File type of {0} is not allowed","نوع الملف {0} غير مسموح به"
 "File {0} does not exist","الملف {0} غير موجود"
 "Files","الملفات"
-"Filter","منقي"
+"Filter","تصفية"
 "Filter By","تصفية حسب"
 "Filter Data","تصفية البيانات"
 "Filter List","قائمة تصفية"
@@ -2177,7 +2177,7 @@ opens modal.","تمكين إذا كان عند النقر
 "Folder name should not include '/' (slash)","يجب ألا يتضمن اسم المجلد &#39;/&#39; (شرطة مائلة)"
 "Folder {0} is not empty","المجلد {0} غير فارغ"
 "Folio","فوليو"
-"Follow","إتبع"
+"Follow","متابعة"
 "Followed by","متبوع بـ"
 "Following Report Filters have missing values:","عوامل تصفية التقرير التالية تحتوي على قيم مفقودة:"
 "Following document {0}","متابعة المستند {0}"
@@ -2198,8 +2198,8 @@ opens modal.","تمكين إذا كان عند النقر
 "Footer HTML","تذييل HTML"
 "Footer HTML set from attachment {0}","تم تعيين HTML التذييل من المرفق {0}"
 "Footer Image","صورة التذييل"
-"Footer Items","تذييل العناصر"
-"Footer Logo","تذييل الشعار"
+"Footer Items","عناصر التذييل"
+"Footer Logo","شعار التذييل"
 "Footer Script","نص برمجي للتذييل"
 "Footer Template","قالب التذييل"
 "Footer Template Values","قيم قالب التذييل"
@@ -2394,11 +2394,11 @@ For Select, enter list of Options, each on a new line.","لـ ""روابط""، �
 "Has Role","له صلاحية"
 "Has Web View","لديه عرض الويب"
 "Have an account? Login","هل لديك حساب ؟ تسجيل الدخول"
-"Header","العنوان الرأسي"
+"Header","الترويسة"
 "Header HTML","رأس HTML"
 "Header HTML set from attachment {0}","تعيين HTML رأس من المرفق {0}"
 "Header Script","نص برمجي للرأس"
-"Header and Breadcrumbs","رأس وفتات الخبز"
+"Header and Breadcrumbs","الترويسة ومسار التنقل"
 "Header, Robots","الرأس، الروبوتات"
 "Header/Footer scripts can be used to add dynamic behaviours.","يمكن استخدام نصوص الرأس/التذييل البرمجية لإضافة سلوكيات ديناميكية."
 "Headers","الترويسات"
@@ -2447,7 +2447,7 @@ For Select, enter list of Options, each on a new line.","لـ ""روابط""، �
 "Hide footer in auto email reports","إخفاء تذييل الصفحة في تقارير البريد الإلكتروني التلقائية"
 "Hide footer signup","إخفاء تسجيل التذييل"
 "Hide navbar","إخفاء شريط التنقل"
-"High","مستوى عالي"
+"High","عالي"
 "Higher priority rule will be applied first","سيتم تطبيق قاعدة الأولوية الأعلى أولاً"
 "Highlight","تمييز"
 "Hint: Include symbols, numbers and capital letters in the password","تلميح: تضمين الرموز والأرقام والأحرف الكبيرة في كلمة المرور"
@@ -2568,7 +2568,7 @@ For Select, enter list of Options, each on a new line.","لـ ""روابط""، �
 "In List View","في عرض القائمة"
 "In Minutes","بالدقائق"
 "In Preview","في المعاينة"
-"In Progress","في تَقَدم"
+"In Progress","قيد التنفيذ"
 "In Read Only Mode","في وضع القراءة فقط"
 "In Reply To","ردا على"
 "In Standard Filter","في التصفية الرئيسية"
@@ -2648,7 +2648,7 @@ For Select, enter list of Options, each on a new line.","لـ ""روابط""، �
 "Introduction","مقدمة"
 "Introductory information for the Contact Us Page","المعلومات التمهيدية لصفحة اتصل بنا"
 "Introspection URI","URI الاستبطان"
-"Invalid","غير صالحة"
+"Invalid","غير صالح"
 "Invalid ""depends_on"" expression","تعبير &quot;under_on&quot; غير صالح"
 "Invalid ""depends_on"" expression set in filter {0}","تم تعيين تعبير &quot;يعتمد على&quot; غير صالح في عامل التصفية {0}"
 "Invalid ""mandatory_depends_on"" expression","تعبير ""mandatory_depends_on"" غير صالح"
@@ -2816,12 +2816,12 @@ For Select, enter list of Options, each on a new line.","لـ ""روابط""، �
 "LDAP search path for Groups","مسار بحث LDAP للمجموعات"
 "LDAP search path for Users","مسار بحث LDAP للمستخدمين"
 "LDAP settings incorrect. validation response was: {0}","إعدادات LDAP غير صحيحة. كان رد التحقق: {0}"
-"Label","ملصق"
-"Label Help","التسمية تعليمات"
+"Label","تسمية"
+"Label Help","تعليمات التسمية"
 "Label and Type","التسمية و النوع"
 "Label is mandatory","التسمية إلزامية"
 "Landing Page","الصفحة المقصودة"
-"Landscape","المناظر الطبيعيه"
+"Landscape","أفقي"
 "Language","اللغة"
 "Language Code","كود اللغة"
 "Language Name","اسم اللغة"
@@ -2895,7 +2895,7 @@ For Select, enter list of Options, each on a new line.","لـ ""روابط""، �
 "Light Blue","أزرق فاتح"
 "Light Color","لون فاتح"
 "Light Theme","السمة الفاتحة"
-"Like","مثل"
+"Like","إعجاب"
 "Like limit","الحد الأقصى للإعجابات"
 "Like limit per hour","حد الإعجابات في الساعة"
 "Like on {0}: {1}","إعجاب على {0}: {1}"
@@ -2905,7 +2905,7 @@ For Select, enter list of Options, each on a new line.","لـ ""روابط""، �
 "Limit","حد"
 "Limit Number of DB Backups","الحد من عدد النسخ الاحتياطية DB"
 "Line","خط"
-"Link","حلقة الوصل"
+"Link","رابط"
 "Link Cards","بطاقات الارتباط"
 "Link Count","عدد الروابط"
 "Link Details","تفاصيل الرابط"
@@ -2916,7 +2916,7 @@ For Select, enter list of Options, each on a new line.","لـ ""روابط""، �
 "Link Fieldname","اسم الحقل الرابط"
 "Link Filters","عوامل تصفية الرابط"
 "Link Name","اسم الرابط"
-"Link Title","لينك تيتل"
+"Link Title","عنوان الرابط"
 "Link To","رابط ل"
 "Link To in Row","ربط بـ في الصف"
 "Link Type","نوع الرابط"
@@ -2925,7 +2925,7 @@ For Select, enter list of Options, each on a new line.","لـ ""روابط""، �
 "Link that is the website home page. Standard Links (home, login, products, blog, about, contact)","الرابط الذي يمثل الصفحة الرئيسية للموقع. الروابط القياسية (الرئيسية، تسجيل الدخول، المنتجات، المدونة، من نحن، اتصل بنا)"
 "Link to the page you want to open. Leave blank if you want to make it a group parent.","الرابط إلى الصفحة التي تريد فتحها. اتركه فارغا إذا كنت تريد أن تجعل من أحد الوالدين المجموعة."
 "Linked","مرتبط"
-"Linked With","ترتبط"
+"Linked With","مرتبط مع"
 "Links","الروابط"
 "List","قائمة"
 "List / Search Settings","إعدادات القائمة / البحث"
@@ -3074,7 +3074,7 @@ Mandatory field: set role for"
 "Memory Usage in MB","استخدام الذاكرة بالميجابايت"
 "Mention","أشير"
 "Mentions","يذكر"
-"Menu","الخيارات"
+"Menu","قائمة"
 "Merge with existing","دمج مع الحالي"
 "Merging is only possible between Group-to-Group or Leaf Node-to-Leaf Node","الدمج مسموح فقط بين مجموعة ومجموعة أو فرع وفرع<br>Merging is only possible between Group-to-Group or Leaf Node-to-Leaf Node"
 "Message","رسالة"
@@ -3188,7 +3188,7 @@ Mandatory field: set role for"
 "Name already taken, please set a new name","الاسم مأخوذ بالفعل، يرجى تعيين اسم جديد"
 "Name cannot contain special characters like {0}","الإسم لا يمكن أن يحتوي على أحرف خاصة مثل {0}"
 "Name of the Document Type (DocType) you want this field to be linked to. e.g. Customer","اسم نوع الوثيقة (DOCTYPE) تريد هذا الحقل لتكون مرتبطة. على سبيل المثال العملاء"
-"Name of the new Print Format","اسم الشكل الجديد طباعة"
+"Name of the new Print Format","اسم تنسيق الطباعة الجديد"
 "Name of {0} cannot be {1}","اسم {0} لا يمكن أن يكون {1}"
 "Names and surnames by themselves are easy to guess.","الأسماء والألقاب في حد ذاتها سهلة التخمين."
 "Naming","التسمية"
@@ -3432,14 +3432,14 @@ Mandatory field: set role for"
 "Notification Log","سجل الإخطار"
 "Notification Recipient","مستلم الإعلام"
 "Notification Settings","إعدادات الإشعار"
-"Notification Subscribed Document","وثيقة الاشتراك المكتوبة"
+"Notification Subscribed Document","مستند الاشتراك في الإشعارات"
 "Notification sent to","تم إرسال الإشعار إلى"
 "Notification: customer {0} has no Mobile number set","إشعار: العميل {0} ليس لديه رقم هاتف محمول معين"
 "Notification: document {0} has no {1} number set (field: {2})","إشعار: المستند {0} ليس لديه رقم {1} معين (الحقل: {2})"
 "Notification: user {0} has no Mobile number set","إشعار: المستخدم {0} ليس لديه رقم هاتف محمول معين"
 "Notifications","إخطارات"
 "Notifications Disabled","الإشعارات معطلة"
-"Notifications and bulk mails will be sent from this outgoing server.","سيتم إرسال إخطارات ورسائل السائبة من هذا الخادم المنتهية ولايته."
+"Notifications and bulk mails will be sent from this outgoing server.","سيتم إرسال الإشعارات والرسائل المجمّعة من هذا الخادم الصادر."
 "Notify Users On Every Login","إعلام المستخدمين على كل تسجيل الدخول"
 "Notify by Email","الإخطار عن طريق البريد الإلكتروني"
 "Notify by email","إبلاغ عبر البريد الإلكتروني"
@@ -3538,8 +3538,8 @@ Mandatory field: set role for"
 "Only the assignee can complete this to-do.","يمكن للمكلف فقط إكمال هذه المهمة."
 "Only {0} emailed reports are allowed per user.","يسمح فقط بـ {0} تقرير مرسل عبر البريد الإلكتروني لكل مستخدم."
 "Oops! Something went wrong.","عفوًا! حدث خطأ ما."
-"Open","فتح"
-"Open","فتح"
+"Open","مفتوح"
+"Open","مفتوح"
 "Open Awesomebar","افتح شريط ممتاز"
 "Open Communication","فتح الاتصال"
 "Open Document","افتح المستند"
@@ -3690,7 +3690,7 @@ Mandatory field: set role for"
 "Payload Count","عدد الحمولة"
 "Peak Memory Usage","ذروة استخدام الذاكرة"
 "Pending","معلق"
-"Pending Approval","ما زال يحتاج بتصدير"
+"Pending Approval","بانتظار الموافقة"
 "Pending Emails","رسائل البريد الإلكتروني المعلقة"
 "Pending Jobs","الوظائف المعلقة"
 "Pending Verification","في انتظار التحقق"
@@ -3710,7 +3710,7 @@ Mandatory field: set role for"
 "Permission Log","سجل الأذونات"
 "Permission Manager","مدير الأذونات"
 "Permission Query","استعلام الإذن"
-"Permission Rules","إذن قوانين"
+"Permission Rules","قواعد الأذونات"
 "Permission Type","نوع الإذن"
 "Permissions","الصلاحيات"
 "Permissions Error","خطأ في الأذونات"
@@ -3719,7 +3719,7 @@ Mandatory field: set role for"
 "Permissions at higher levels are Field Level permissions. All Fields have a Permission Level set against them and the rules defined at that permissions apply to the field. This is useful in case you want to hide or make certain field read-only for certain Roles.","الأذونات على المستويات الأعلى هي أذونات على مستوى الحقل. جميع الحقول لديها مستوى إذن معين لها والقواعد المحددة في تلك الأذونات تنطبق على الحقل. هذا مفيد في حال كنت تريد إخفاء أو جعل حقل معين للقراءة فقط لأدوار معينة."
 "Permissions at level 0 are Document Level permissions, i.e. they are primary for access to the document.","الأذونات على المستوى 0 هي أذونات على مستوى المستند، أي أنها أساسية للوصول إلى المستند."
 "Permissions get applied on Users based on what Roles they are assigned.","يتم تطبيق الأذونات على المستخدمين بناءً على الأدوار المعينة لهم."
-"Permitted Documents For User","المستندات يسمح للمستخدم"
+"Permitted Documents For User","المستندات المسموح بها للمستخدم"
 "Permitted Roles","الأدوار المسموح بها"
 "Personal","الشخصية"
 "Personal Data Deletion Request","طلب حذف البيانات الشخصية"
@@ -3842,9 +3842,9 @@ Mandatory field: set role for"
 "Portal Menu","البوابة القائمة"
 "Portal Menu Item","بوابة عنصر القائمة"
 "Portal Settings","إعدادات البوابة"
-"Portrait","صورة"
+"Portrait","عمودي"
 "Position","موضع"
-"Post","بعد"
+"Post","نشر"
 "Post it here, our mentors will help you out.","انشره هنا، سيساعدك مرشدونا."
 "Postal","بريدي"
 "Postal Code","الرمز البريدي"
@@ -3896,20 +3896,20 @@ Mandatory field: set role for"
 "Print Format Builder Beta","منشئ تنسيق الطباعة (تجريبي)"
 "Print Format Error","خطأ في تنسيق الطباعة"
 "Print Format Field Template","قالب حقل تنسيق الطباعة"
-"Print Format Help","تنسيق الطباعة مساعدة"
+"Print Format Help","مساعدة تنسيق الطباعة"
 "Print Format Type","نوع تنسيق الطباعة"
 "Print Format {0} is disabled","تم تعطيل تنسيق الطباعة {0}"
 "Print Heading","عنوان الطباعة"
 "Print Hide","اخفاء الطباعة"
-"Print Hide If No Value","طباعة إخفاء إذا لا قيمة"
+"Print Hide If No Value","إخفاء عند الطباعة إذا لا توجد قيمة"
 "Print Language","لغة الطباعة"
-"Print Sent to the printer!","طباعة المرسلة إلى الطابعة!"
+"Print Sent to the printer!","تم إرسال الطباعة إلى الطابعة!"
 "Print Server","ملقم الطباعة"
 "Print Settings","إعدادات الطباعة"
-"Print Style","الطباعة ستايل"
+"Print Style","نمط الطباعة"
 "Print Style Name","اسم نمط الطباعة"
-"Print Style Preview","معاينة قبل الطباعة ستايل"
-"Print Width","طباعة العرض"
+"Print Style Preview","معاينة نمط الطباعة"
+"Print Width","عرض الطباعة"
 "Print Width of the field, if the field is a column in a table","حقل عرض الطباعة، إذا كان الحقل عمود في الجدول"
 "Print document","طباعة المستند"
 "Print with letterhead","طباعة مع ترويسة"
@@ -3920,7 +3920,7 @@ Mandatory field: set role for"
 "Printer mapping not set.","لم يتم تعيين تعيين الطابعة."
 "Printing","طبع"
 "Printing failed","فشلت الطباعة"
-"Priority","أفضلية"
+"Priority","الأولوية"
 "Private","خاص"
 "Private Files (MB)","الملفات الخاصة (ميجابايت)"
 "ProTip: Add <code>Reference: {{ reference_doctype }} {{ reference_name }}</code> to send document reference","ProTip: إضافة <code>Reference: {{ reference_doctype }} {{ reference_name }}</code> لإرسال وثيقة مرجعية"
@@ -3942,7 +3942,7 @@ Mandatory field: set role for"
 "Provide a list of allowed file extensions for file uploads. Each line should contain one allowed file type. If unset, all file extensions are allowed. Example: <br>CSV<br>JPG<br>PNG","قدم قائمة بامتدادات الملفات المسموح بها لتحميل الملفات. يجب أن يحتوي كل سطر على نوع ملف واحد مسموح به. إذا لم يتم تعيينه، فسيتم السماح بجميع امتدادات الملفات. مثال: <br>CSV<br>JPG<br>PNG"
 "Provider","المزود"
 "Provider Name","اسم المزود"
-"Public","جمهور"
+"Public","عام"
 "Public Files (MB)","الملفات العامة (ميجابايت)"
 "Publish","نشر"
 "Publish as a web page","نشر كصفحة ويب"
@@ -3970,7 +3970,7 @@ Mandatory field: set role for"
 "QR Code for Login Verification","رمز الاستجابة السريعة لتسجيل الدخول"
 "QZ Tray Failed: ","فشل علبة QZ:"
 "Quarterly","فصلي"
-"Query","سؤال"
+"Query","استعلام"
 "Query / Script","استعلام / برنامج نصي"
 "Query Options","خيارات الاستعلام"
 "Query Parameters","معلمات الاستعلام"
@@ -4144,19 +4144,19 @@ Queued for backup. It may take a few minutes to an hour."
 "Reply","رد"
 "Reply All","الرد على الجميع"
 "Report","تقرير"
-"Report Builder","تقرير منشئ"
+"Report Builder","منشئ التقارير"
 "Report Column","عمود التقرير"
-"Report Description","وصف تقرير"
+"Report Description","وصف التقرير"
 "Report Document Error","تقرير خطأ في المستند"
 "Report Filter","عامل تصفية التقرير"
-"Report Filters","مرشحات تقرير"
+"Report Filters","فلاتر التقرير"
 "Report Hide","إخفاء التقرير"
-"Report Information","تقرير المعلومات"
+"Report Information","معلومات التقرير"
 "Report Manager","مدير التقارير"
-"Report Name","تقرير الاسم"
+"Report Name","اسم التقرير"
 "Report Name, Report Field and Fucntion are required to create a number card","اسم التقرير وحقل التقرير والوظيفة مطلوبة لإنشاء بطاقة رقمية"
 "Report Ref DocType","نوع مستند مرجع التقرير"
-"Report Reference Doctype","تقرير مرجع Doctype"
+"Report Reference Doctype","نوع مستند مرجع التقرير"
 "Report Type","نوع التقرير"
 "Report View","عرض التقرير"
 "Report bug","الإبلاغ عن خطأ"
@@ -4246,7 +4246,7 @@ Queued for backup. It may take a few minutes to an hour."
 "Right Bottom","أسفل اليمين"
 "Right Center","وسط اليمين"
 "Robots.txt","ملف robots.txt"
-"Role","صلاحية"
+"Role","دور"
 "Role 'All' will be given to all system + website users.","سيتم منح دور 'الكل' لجميع مستخدمي النظام + الموقع."
 "Role 'Desk User' will be given to all system users.","سيتم منح دور 'مستخدم سطح المكتب' لجميع مستخدمي النظام."
 "Role Name","اسم الدور"
@@ -4368,7 +4368,7 @@ Queued for backup. It may take a few minutes to an hour."
 "Scheduler: Inactive","المجدول: غير نشط"
 "Scope","النطاق"
 "Scopes","نطاقات"
-"Script","سيناريو"
+"Script","نص برمجي"
 "Script Manager","مدير البرنامج النصي"
 "Script Report","تقرير النصي"
 "Script Type","نوع البرنامج النصي"
@@ -4394,7 +4394,7 @@ Queued for backup. It may take a few minutes to an hour."
 "Search results for","نتائج البحث عن"
 "Search...","بحث..."
 "Searching ...","جاري البحث ..."
-"Section","الجزء"
+"Section","قسم"
 "Section Break","فاصل قسم"
 "Section Heading","قسم العنوان"
 "Section ID","معرف القسم"
@@ -4406,9 +4406,9 @@ Queued for backup. It may take a few minutes to an hour."
 "See on Website","ترى على الموقع"
 "See previous responses","عرض الردود السابقة"
 "See the document at {0}","انظر المستند على {0}"
-"Seen","رأيت"
+"Seen","مشاهَد"
 "Seen By","تمت رؤيته بواسطة"
-"Seen By Table","ينظر من خلال الجدول"
+"Seen By Table","جدول من شاهد"
 "Select","حدد"
 "Select All","تحديد الكل"
 "Select Attachments","حدد المرفقات"
@@ -4640,7 +4640,7 @@ Queued for backup. It may take a few minutes to an hour."
 "Settings for Contact Us Page","إعدادات صفحة اتصل بنا"
 "Settings for the About Us Page","إعدادات صفحة من نحن"
 "Settings to control blog categories and interactions like comments and likes","إعدادات للتحكم في فئات المدونة والتفاعلات مثل التعليقات والإعجابات"
-"Setup","الإعدادات"
+"Setup","إعداد"
 "Setup > Customize Form","إعداد > تخصيص النموذج"
 "Setup > User","إعداد > المستخدم"
 "Setup > User Permissions","إعداد > أذونات المستخدم"
@@ -4660,7 +4660,7 @@ Queued for backup. It may take a few minutes to an hour."
 "Short Name","الاسم المختصر"
 "Short keyboard patterns are easy to guess","نماذج لوحة المفاتيح قصيرة من السهل تخمين"
 "Shortcuts","اختصارات"
-"Show","تبين"
+"Show","إظهار"
 "Show ""Call to Action"" in Blog","إظهار ""دعوة للعمل"" في المدونة"
 "Show Absolute Values","إظهار القيم المطلقة"
 "Show All","إظهار الكل"
@@ -4797,7 +4797,7 @@ Queued for backup. It may take a few minutes to an hour."
 "Sr","ر.ت"
 "Sr No.","الرقم التسلسلي"
 "Stack Trace","تتبع المكدس"
-"Standard","اساسي"
+"Standard","قياسي"
 "Standard DocType can not be deleted.","لا يمكن حذف نوع المستند القياسي."
 "Standard DocType cannot have default print format, use Customize Form","لا يمكن أن يكون تنسيق دوكتيب القياسي تنسيق طباعة افتراضي، استخدام نموذج مخصص"
 "Standard Not Set","المعيار غير محدد"
@@ -4863,12 +4863,12 @@ Queued for backup. It may take a few minutes to an hour."
 "Subject Field","حقل الموضوع"
 "Subject Field type should be Data, Text, Long Text, Small Text, Text Editor","يجب أن يكون نوع حقل الموضوع بيانات ، نص ، نص طويل ، نص صغير ، محرر نص"
 "Submission Queue","قائمة انتظار الإرسال"
-"Submit","تسجيل"
-"Submit","تسجيل"
-"Submit","تسجيل"
-"Submit","تسجيل"
-"Submit","تسجيل"
-"Submit","تسجيل"
+"Submit","اعتماد"
+"Submit","اعتماد"
+"Submit","اعتماد"
+"Submit","اعتماد"
+"Submit","اعتماد"
+"Submit","اعتماد"
 "Submit After Import","إرسال بعد الاستيراد"
 "Submit an Issue","إرسال مشكلة"
 "Submit another response","إرسال رد آخر"
@@ -4960,9 +4960,9 @@ Queued for backup. It may take a few minutes to an hour."
 "Table updated","الجدول محدث"
 "Table {0} cannot be empty","جدول {0} لا يمكن أن يكون فارغا"
 "Tabloid","Tabloid"
-"Tag","بطاقة شعار"
+"Tag","وسم"
 "Tag Link","علامة الارتباط"
-"Tags","بطاقات"
+"Tags","وسوم"
 "Take Backup","خذ نسخة احتياطية"
 "Take Backup Now","ابداء النسخ الاحتياطي الآن"
 "Take Photo","تصوير"
@@ -5064,7 +5064,7 @@ The resource you are looking for is not available"
 "The value you pasted was {0} characters long. Max allowed characters is {1}.","القيمة التي لصقتها كانت بطول {0} حرفًا. الحد الأقصى المسموح به للأحرف هو {1}."
 "The webhook will be triggered if this expression is true","سيتم تشغيل webhook إذا كان هذا التعبير صحيحًا"
 "The {0} is already on auto repeat {1}","{0} قيد التكرار التلقائي {1}"
-"Theme","موضوع"
+"Theme","سمة"
 "Theme Changed","تم تغيير المظهر"
 "Theme Configuration","تكوين الموضوع"
 "Theme URL","عنوان URL الموضوع"
@@ -5188,7 +5188,7 @@ eval:doc.age&gt;18",""
 "Timeseries","السلاسل الزمنية"
 "Timespan","الفترة الزمنية"
 "Timestamp","الطابع الزمني"
-"Title","اللقب"
+"Title","العنوان"
 "Title Field","حقل العنوان"
 "Title Prefix","عنوان الاختصار"
 "Title field must be a valid fieldname","يجب أن يكون حقل العنوان حقل اسم صالح"
@@ -5284,10 +5284,10 @@ eval:doc.age&gt;18",""
 "Traceback","تتبع الأخطاء"
 "Track Changes","تعقب التغيرات"
 "Track Email Status","تتبع حالة البريد الإلكتروني"
-"Track Field","حقل المسار"
-"Track Seen","المسار رأيت"
+"Track Field","حقل التتبع"
+"Track Seen","تتبع المشاهدة"
 "Track Steps","تتبع الخطوات"
-"Track Views","طرق العرض المسار"
+"Track Views","تتبع المشاهدات"
 "Track if your email has been opened by the recipient.
 <br>
 Note: If you're sending to multiple recipients, even if 1 recipient reads the email, it'll be considered ""Opened""","تتبع ما إذا كان المستلم قد فتح بريدك الإلكتروني.
@@ -5449,8 +5449,8 @@ Note: If you're sending to multiple recipients, even if 1 recipient reads the em
 "Use this fieldname to generate title","استخدام هذا FIELDNAME لتوليد عنوان"
 "Use this, for example, if all sent emails should also be send to an archive.","استخدم هذا، على سبيل المثال، إذا كان يجب إرسال جميع رسائل البريد الإلكتروني المرسلة أيضًا إلى أرشيف."
 "Used OAuth","تم استخدام OAuth"
-"User","المستعمل"
-"User ","المستعمل"
+"User","المستخدم"
+"User ","المستخدم"
 "User '{0}' already has the role '{1}'","المستخدم{0} يملك بالفعل الدور {1}<br>User '{0}' already has the role '{1}'"
 "User Activity Report","تقرير نشاط المستخدم"
 "User Activity Report Without Sort","تقرير نشاط المستخدم بدون فرز"
@@ -5675,13 +5675,13 @@ Note: If you're sending to multiple recipients, even if 1 recipient reads the em
 "Will be your login ID","سيكون معرف تسجيل الدخول"
 "Will only be shown if section headings are enabled","سيتم عرض فقط إذا تم تمكين عناوين المقطع"
 "Will run scheduled jobs only once a day for inactive sites. Set it to 0 to avoid automatically disabling the scheduler.","سيتم تشغيل المهام المجدولة مرة واحدة فقط يوميًا للمواقع غير النشطة. قم بتعيينها إلى 0 لتجنب تعطيل المجدول تلقائيًا."
-"With Letter head","مع رئيس رسالة"
+"With Letter head","مع الترويسة"
 "Worker Information","معلومات العامل"
 "Worker Name","اسم العامل"
 "Workflow","سير العمل"
 "Workflow Action","إجراء سير العمل"
-"Workflow Action Master","سير العمل الاجراء الاساسي"
-"Workflow Action Name","سير العمل اسم العمل"
+"Workflow Action Master","الإجراء الرئيسي لسير العمل"
+"Workflow Action Name","اسم إجراء سير العمل"
 "Workflow Action Permitted Role","دور مسموح به لإجراء سير العمل"
 "Workflow Action is not created for optional states","لم يتم إنشاء إجراء سير العمل للحالات الاختيارية"
 "Workflow Builder","منشئ سير العمل"
@@ -5689,7 +5689,7 @@ Note: If you're sending to multiple recipients, even if 1 recipient reads the em
 "Workflow Builder allows you to create workflows visually. You can drag and drop states and link them to create transitions. Also you can update thieir properties from the sidebar.","يسمح لك منشئ سير العمل بإنشاء مسارات عمل مرئيًا. يمكنك سحب وإفلات الحالات وربطها لإنشاء انتقالات. كما يمكنك تحديث خصائصها من الشريط الجانبي."
 "Workflow Data","بيانات سير العمل"
 "Workflow Details","تفاصيل سير العمل"
-"Workflow Document State","سير العمل الوثيقة الدولة"
+"Workflow Document State","حالة مستند سير العمل"
 "Workflow Name","اسم سير العمل"
 "Workflow State","حالة سير العمل"
 "Workflow State Field","حقل حالة سير العمل"
@@ -5697,7 +5697,7 @@ Note: If you're sending to multiple recipients, even if 1 recipient reads the em
 "Workflow State transition not allowed from {0} to {1}","انتقال حالة سير العمل غير مسموح به من {0} إلى {1}"
 "Workflow States Don't Exist","حالات سير العمل غير موجودة"
 "Workflow Status","حالة سير العمل"
-"Workflow Transition","الانتقال سير العمل"
+"Workflow Transition","انتقال سير العمل"
 "Workflow state represents the current state of a document.","تمثل حالة سير العمل الحالة الحالية للمستند."
 "Workflow updated successfully","تم تحديث سير العمل بنجاح"
 "Workspace","مساحة العمل"
@@ -5885,7 +5885,7 @@ Note: If you're sending to multiple recipients, even if 1 recipient reads the em
 "commented","علق"
 "create","إنشاء"
 "cyan","سماوي"
-"d","د"
+"d","ي"
 "darkgrey","الرمادي الداكن"
 "dashboard","لوحة القيادة"
 "dd-mm-yyyy","DD-MM-YYYY"
@@ -5915,7 +5915,7 @@ Note: If you're sending to multiple recipients, even if 1 recipient reads the em
 "green","أخضر"
 "grey","رمادي"
 "gzip not found in PATH! This is required to take a backup.","لم يتم العثور على gzip في المسار! هذا مطلوب لإجراء نسخة احتياطية."
-"h","ح"
+"h","س"
 "hub","محور"
 "icon","رمز"
 "import","استيراد"
@@ -5930,7 +5930,7 @@ Note: If you're sending to multiple recipients, even if 1 recipient reads the em
 "logged in","تسجيل الدخول"
 "login_required","مطلوب_تسجيل_الدخول"
 "long","طويل"
-"m","م"
+"m","د"
 "merged {0} into {1}","تم دمج {0} إلى {1}"
 "min read","دقيقة قراءة"
 "mm-dd-yyyy","شهر-يوم-سنة"
@@ -5968,7 +5968,7 @@ Note: If you're sending to multiple recipients, even if 1 recipient reads the em
 "report","أبلغ عن"
 "response","استجابة"
 "restored {0} as {1}","استعادة {0} ك {1}"
-"s","س"
+"s","ث"
 "s256","s256"
 "scheduled","من المقرر"
 "select","حدد"
@@ -6057,14 +6057,14 @@ Note: If you're sending to multiple recipients, even if 1 recipient reads the em
 "{0} contains an invalid Fetch From expression, Fetch From can't be self-referential.","يحتوي {0} على تعبير ""جلب من"" غير صالح، لا يمكن أن يكون ""جلب من"" مرجعيًا ذاتيًا."
 "{0} created successfully","تم إنشاء {0} بنجاح"
 "{0} created this","أنشأ {0} هذا"
-"{0} d","{0} د"
+"{0} d","{0} ي"
 "{0} days ago","قبل {0} أيام"
 "{0} does not exist in row {1}","{0} غير موجود في الصف {1}"
 "{0} field cannot be set as unique in {1}, as there are non-unique existing values","لا يمكن أن يحتوي اسم الحقل {0} على أحرف خاصة مثل {1}"
 "{0} format could not be determined from the values in this column. Defaulting to {1}.","تعذر تحديد تنسيق {0} من القيم الموجودة في هذا العمود. يتم الافتراضي إلى {1}."
 "{0} from {1} to {2}","{0} من {1} إلى {2}"
 "{0} from {1} to {2} in row #{3}","{0} من {1} إلى {2} في الصف #{3}"
-"{0} h","{0} ح"
+"{0} h","{0} س"
 "{0} has already assigned default value for {1}.","{0} قام بالفعل بتعيين القيمة الافتراضية لـ {1}."
 "{0} has been successfully added to the Email Group.","{0}  تم بنجاح الإضافة إلى مجموعة البريد الإلكتروني"
 "{0} has left the conversation in {1} {2}","{0} تركت محادثة في {1} {2}"
@@ -6158,9 +6158,9 @@ Note: If you're sending to multiple recipients, even if 1 recipient reads the em
 "{0} updated","{0}  تم تحديث"
 "{0} values selected","{0} القيم المحددة"
 "{0} viewed this","عرض {0} هذا"
-"{0} w","{0} ث"
+"{0} w","{0} أ"
 "{0} weeks ago","قبل {0} أسبوع /أسابيع"
-"{0} y","{0} ص"
+"{0} y","{0} س"
 "{0} years ago","قبل {0} سنة"
 "{0} {1} added","تمت إضافة {0} {1}"
 "{0} {1} added to Dashboard {2}","تمت إضافة {0} {1} إلى لوحة التحكم {2}"

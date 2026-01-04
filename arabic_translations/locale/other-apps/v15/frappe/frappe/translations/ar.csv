@@ -764,10 +764,10 @@ Does nothing if a workflow isn't set up.","السماح بالتعديل حتى 
 "Attached File","ملف مرفق"
 "Attached To DocType","مرفق بDocType"
 "Attached To Field","مرفق إلى الحقل"
-"Attached To Name","أرفقت للأسم"
+"Attached To Name","مرفق بالاسم"
 "Attached To Name must be a string or an integer","يجب أن يكون اسم مرفق بـ سلسلة نصية أو عددًا صحيحًا"
 "Attachment","مرفق"
-"Attachment Limit (MB)","الحد مرفق (MB)"
+"Attachment Limit (MB)","حد المرفقات (ميجابايت)"
 "Attachment Limit Reached","تم الوصول إلى حد المرفقات"
 "Attachment Link","رابط المرفقات"
 "Attachment Removed","تم حذف المرفق"
@@ -969,7 +969,7 @@ has a transparent background and use the &lt;img /&gt; tag. Keep size as 200px x
 "Button","زر"
 "Button Gradients","تدرجات الزر"
 "Button Rounded Corners","زوايا دائرية بأزرار"
-"Button Shadows","زر الظلال"
+"Button Shadows","ظلال الزر"
 "By ""Naming Series"" field","حسب حقل ""سلسلة التسمية"""
 "By default the title is used as meta title, adding a value here will override it.","بشكل افتراضي ، يتم استخدام العنوان كعنوان تعريف ، وستؤدي إضافة قيمة هنا إلى تجاوزه."
 "By default, emails are only sent for failed backups.","افتراضيًا، يتم إرسال رسائل البريد الإلكتروني فقط للنسخ الاحتياطية الفاشلة."
@@ -1369,9 +1369,9 @@ Default Naming will make the amended document to behave same as new documents.",
 "Create your workflow visually using the Workflow Builder.","أنشئ سير عملك بصريًا باستخدام منشئ سير العمل."
 "Created","أنشأ"
 "Created At","أنشئ في"
-"Created By","منشئه بواسطه"
+"Created By","أنشئ بواسطة"
 "Created Custom Field {0} in {1}","إنشاء الحقل المخصص {0} في {1}"
-"Created On","منشئه في"
+"Created On","أنشئ في"
 "Creating {0}","إنشاء {0}"
 "Creation of this document is only permitted in developer mode.","إنشاء هذا المستند مسموح به فقط في وضع المطور."
 "Cron","كرون"
@@ -1394,7 +1394,7 @@ Default Naming will make the amended document to behave same as new documents.",
 "Custom Base URL","عنوان ورل لقاعدة مخصصة"
 "Custom Block Name","اسم الكتلة المخصصة"
 "Custom Blocks","الكتل المخصصة"
-"Custom CSS","مخصصةCSS"
+"Custom CSS","CSS مخصص"
 "Custom Configuration","التكوين المخصص"
 "Custom Delimiters","محددات مخصصة"
 "Custom DocPerm","DocPerm مخصص"
@@ -1409,12 +1409,12 @@ Default Naming will make the amended document to behave same as new documents.",
 "Custom Format","تنسيق مخصص"
 "Custom Group Search","بحث مجموعة مخصص"
 "Custom Group Search if filled needs to contain the user placeholder {0}, eg uid={0},ou=users,dc=example,dc=com","إذا تم ملء بحث المجموعة المخصص، فيجب أن يحتوي على العنصر النائب للمستخدم {0}، على سبيل المثال uid={0},ou=users,dc=example,dc=com"
-"Custom HTML","مخصصةHTML"
+"Custom HTML","HTML مخصص"
 "Custom HTML Block","كتلة HTML مخصصة"
-"Custom HTML Help","مخصصةHTML مساعدة"
+"Custom HTML Help","مساعدة HTML المخصص"
 "Custom LDAP Directoy Selected, please ensure 'LDAP Group Member attribute' and 'Group Object Class' are entered","تم تحديد دليل LDAP مخصص، يرجى التأكد من إدخال 'سمة عضو مجموعة LDAP' و 'فئة كائن المجموعة'"
 "Custom Label","تسمية مخصصة"
-"Custom Menu Items","قائمة مخصصة عناصر"
+"Custom Menu Items","عناصر القائمة المخصصة"
 "Custom Options","خيارات مخصصة"
 "Custom Overrides","تجاوزات مخصصة"
 "Custom Report","تقرير مخصص"
@@ -1455,13 +1455,13 @@ Default Naming will make the amended document to behave same as new documents.",
 "Dashboard","لوحة المعلومات"
 "Dashboard Chart","مخطط لوحة القيادة"
 "Dashboard Chart Field","حقل مخطط لوحة القيادة"
-"Dashboard Chart Link","لوحة الرسم البياني رابط"
+"Dashboard Chart Link","رابط مخطط لوحة المعلومات"
 "Dashboard Chart Source","مصدر مخطط لوحة القيادة"
 "Dashboard Manager","مدير لوحة القيادة"
 "Dashboard Name","اسم لوحة القيادة"
 "Dashboard Settings","اعدادات اللوحة الرئيسية"
 "Dashboard View","عرض لوحة التحكم"
-"Dashboards","لوحات"
+"Dashboards","لوحات المعلومات"
 "Data","البيانات"
 "Data Clipped","تم اقتطاع البيانات"
 "Data Export","تصدير البيانات"
@@ -1745,11 +1745,11 @@ Default Naming will make the amended document to behave same as new documents.",
 "Download","تحميل"
 "Download Backups","تحميل النسخ الاحتياطية"
 "Download Data","تحميل البيانات"
-"Download Files Backup","تحميل الملفات النسخ الاحتياطي"
+"Download Files Backup","تحميل النسخة الاحتياطية للملفات"
 "Download Link","رابط التحميل"
 "Download PDF","تحميل PDF"
 "Download Report","تحميل التقرير"
-"Download Template","تحميل الوثيقة"
+"Download Template","تحميل القالب"
 "Download Your Data","قم بتنزيل بياناتك"
 "Download vCard","تنزيل vCard"
 "Download vCards","تنزيل vCards"
@@ -2198,8 +2198,8 @@ opens modal.","تمكين إذا كان عند النقر
 "Footer HTML","تذييل HTML"
 "Footer HTML set from attachment {0}","تم تعيين HTML التذييل من المرفق {0}"
 "Footer Image","صورة التذييل"
-"Footer Items","تذييل العناصر"
-"Footer Logo","تذييل الشعار"
+"Footer Items","عناصر التذييل"
+"Footer Logo","شعار التذييل"
 "Footer Script","نص برمجي للتذييل"
 "Footer Template","قالب التذييل"
 "Footer Template Values","قيم قالب التذييل"
@@ -2398,7 +2398,7 @@ For Select, enter list of Options, each on a new line.","لـ ""روابط""، �
 "Header HTML","رأس HTML"
 "Header HTML set from attachment {0}","تعيين HTML رأس من المرفق {0}"
 "Header Script","نص برمجي للرأس"
-"Header and Breadcrumbs","رأس وفتات الخبز"
+"Header and Breadcrumbs","الترويسة ومسار التنقل"
 "Header, Robots","الرأس، الروبوتات"
 "Header/Footer scripts can be used to add dynamic behaviours.","يمكن استخدام نصوص الرأس/التذييل البرمجية لإضافة سلوكيات ديناميكية."
 "Headers","الترويسات"
@@ -2817,7 +2817,7 @@ For Select, enter list of Options, each on a new line.","لـ ""روابط""، �
 "LDAP search path for Users","مسار بحث LDAP للمستخدمين"
 "LDAP settings incorrect. validation response was: {0}","إعدادات LDAP غير صحيحة. كان رد التحقق: {0}"
 "Label","تسمية"
-"Label Help","التسمية تعليمات"
+"Label Help","تعليمات التسمية"
 "Label and Type","التسمية و النوع"
 "Label is mandatory","التسمية إلزامية"
 "Landing Page","الصفحة المقصودة"
@@ -2916,7 +2916,7 @@ For Select, enter list of Options, each on a new line.","لـ ""روابط""، �
 "Link Fieldname","اسم الحقل الرابط"
 "Link Filters","عوامل تصفية الرابط"
 "Link Name","اسم الرابط"
-"Link Title","لينك تيتل"
+"Link Title","عنوان الرابط"
 "Link To","رابط ل"
 "Link To in Row","ربط بـ في الصف"
 "Link Type","نوع الرابط"
@@ -2925,7 +2925,7 @@ For Select, enter list of Options, each on a new line.","لـ ""روابط""، �
 "Link that is the website home page. Standard Links (home, login, products, blog, about, contact)","الرابط الذي يمثل الصفحة الرئيسية للموقع. الروابط القياسية (الرئيسية، تسجيل الدخول، المنتجات، المدونة، من نحن، اتصل بنا)"
 "Link to the page you want to open. Leave blank if you want to make it a group parent.","الرابط إلى الصفحة التي تريد فتحها. اتركه فارغا إذا كنت تريد أن تجعل من أحد الوالدين المجموعة."
 "Linked","مرتبط"
-"Linked With","ترتبط"
+"Linked With","مرتبط مع"
 "Links","الروابط"
 "List","قائمة"
 "List / Search Settings","إعدادات القائمة / البحث"
@@ -3188,7 +3188,7 @@ Mandatory field: set role for"
 "Name already taken, please set a new name","الاسم مأخوذ بالفعل، يرجى تعيين اسم جديد"
 "Name cannot contain special characters like {0}","الإسم لا يمكن أن يحتوي على أحرف خاصة مثل {0}"
 "Name of the Document Type (DocType) you want this field to be linked to. e.g. Customer","اسم نوع الوثيقة (DOCTYPE) تريد هذا الحقل لتكون مرتبطة. على سبيل المثال العملاء"
-"Name of the new Print Format","اسم الشكل الجديد طباعة"
+"Name of the new Print Format","اسم تنسيق الطباعة الجديد"
 "Name of {0} cannot be {1}","اسم {0} لا يمكن أن يكون {1}"
 "Names and surnames by themselves are easy to guess.","الأسماء والألقاب في حد ذاتها سهلة التخمين."
 "Naming","التسمية"
@@ -4144,19 +4144,19 @@ Queued for backup. It may take a few minutes to an hour."
 "Reply","رد"
 "Reply All","الرد على الجميع"
 "Report","تقرير"
-"Report Builder","تقرير منشئ"
+"Report Builder","منشئ التقارير"
 "Report Column","عمود التقرير"
-"Report Description","وصف تقرير"
+"Report Description","وصف التقرير"
 "Report Document Error","تقرير خطأ في المستند"
 "Report Filter","عامل تصفية التقرير"
-"Report Filters","مرشحات تقرير"
+"Report Filters","فلاتر التقرير"
 "Report Hide","إخفاء التقرير"
-"Report Information","تقرير المعلومات"
+"Report Information","معلومات التقرير"
 "Report Manager","مدير التقارير"
-"Report Name","تقرير الاسم"
+"Report Name","اسم التقرير"
 "Report Name, Report Field and Fucntion are required to create a number card","اسم التقرير وحقل التقرير والوظيفة مطلوبة لإنشاء بطاقة رقمية"
 "Report Ref DocType","نوع مستند مرجع التقرير"
-"Report Reference Doctype","تقرير مرجع Doctype"
+"Report Reference Doctype","نوع مستند مرجع التقرير"
 "Report Type","نوع التقرير"
 "Report View","عرض التقرير"
 "Report bug","الإبلاغ عن خطأ"

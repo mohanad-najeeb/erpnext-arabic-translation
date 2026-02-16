@@ -17,6 +17,25 @@ bench get-app https://github.com/ibrahim317/erpnext-arabic-full-translation
 bench install-app arabic_translations
 ```
 
+### Docker / Production Deployment
+
+If you are using Docker or deploying in a production environment where frontend assets are pre-compiled:
+
+Standard installation hooks only run when installing the app on a site (runtime). However, frontend assets (JS/CSS) are compiled during the image build process. To ensure translations are applied to these assets, you must copy the translation files *before* building the assets.
+
+Add the following step to your custom Dockerfile after installing apps but before running `bench build`:
+
+```dockerfile
+# Install the app
+RUN bench get-app https://github.com/ibrahim317/erpnext-arabic-full-translation
+
+# Copy translation files for all apps in the environment
+RUN bench install-arabic-translations
+
+# Build assets (will include the updated translations)
+RUN bench build
+```
+
 ### Contributing
 
 This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:

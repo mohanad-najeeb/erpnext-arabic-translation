@@ -242,4 +242,3 @@ after_migrate = "arabic_translations.utils.after_migrate"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
-

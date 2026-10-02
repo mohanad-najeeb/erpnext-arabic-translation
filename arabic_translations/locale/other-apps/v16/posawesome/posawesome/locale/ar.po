@@ -1,0 +1,1361 @@
+# Arabic translations for POS Awesome.
+# Copyright (C) 2026 Arabic Translations contributors
+# This file is distributed under the same license as POS Awesome.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: POS Awesome develop-a86fd291\n"
+"Report-Msgid-Bugs-To: https://github.com/mohanad-najeeb/erpnext-arabic-translation/issues\n"
+"POT-Creation-Date: 2026-08-09 17:50+0400\n"
+"PO-Revision-Date: 2026-08-09 17:50+0400\n"
+"Last-Translator: Arabic Translations contributors\n"
+"Language: ar\n"
+"Language-Team: Arabic\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=0 && "
+"n%100<=2 ? 4 : 5);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+msgid "- Total Outstanding"
+msgstr "- إجمالي المبلغ المستحق"
+
+msgid "- Total Unallocated"
+msgstr "- إجمالي المبلغ غير المخصص"
+
+msgid "About"
+msgstr "حول"
+
+msgid "Account Head"
+msgstr "رأس الحساب"
+
+msgid "Add New Address"
+msgstr "إضافة عنوان جديد"
+
+msgid "Add/Edit Coupon Conditions"
+msgstr "إضافة أو تعديل شروط القسيمة"
+
+msgid "Additional Discount"
+msgstr "خصم إضافي"
+
+msgid "Additional Discount %"
+msgstr "نسبة الخصم الإضافي"
+
+msgid "Additional Notes"
+msgstr "ملاحظات إضافية"
+
+msgid "Address"
+msgstr "عنوان"
+
+msgid "Address Line 1"
+msgstr "سطر العنوان الأول"
+
+msgid "Address Line 2"
+msgstr "سطر العنوان الثاني"
+
+msgid "Address Name"
+msgstr "اسم العنوان"
+
+msgid "Allow Change Posting Date"
+msgstr "السماح بتغيير تاريخ الترحيل"
+
+msgid "Allow Create Sales Order"
+msgstr "السماح بإنشاء أمر بيع"
+
+msgid "Allow Credit Sale"
+msgstr "السماح بالبيع الآجل"
+
+msgid "Allow Customer Purchase Order"
+msgstr "السماح بأمر شراء العميل"
+
+msgid "Allow Duplicate Customer Names"
+msgstr "السماح بتكرار أسماء العملاء"
+
+msgid "Allow Make New Payments"
+msgstr "السماح بإنشاء دفعات جديدة"
+
+msgid "Allow Mpesa Reconcile Payments"
+msgstr "السماح بتسوية دفعات M-Pesa"
+
+msgid "Allow Partial Payment"
+msgstr "السماح بالدفع الجزئي"
+
+msgid "Allow Print Draft Invoices"
+msgstr "السماح بطباعة مسودات الفواتير"
+
+msgid "Allow Print Last Invoice"
+msgstr "السماح بطباعة آخر فاتورة"
+
+msgid "Allow Reconcile Payments"
+msgstr "السماح بتسوية الدفعات"
+
+msgid "Allow Return"
+msgstr "السماح بالإرجاع"
+
+msgid "Allow Select Sales Order"
+msgstr "السماح باختيار أمر بيع"
+
+msgid "Allow Submissions in background job"
+msgstr "السماح بالاعتماد عبر مهمة في الخلفية"
+
+msgid "Allow User to Edit Item Discount"
+msgstr "السماح للمستخدم بتعديل خصم الصنف"
+
+msgid "Allow Write Off Change"
+msgstr "السماح بشطب المبلغ المتبقي"
+
+msgid "Allow Zero Rated Items"
+msgstr "السماح بالأصناف ذات الضريبة الصفرية"
+
+msgid "Allow add New Items on New Line"
+msgstr "إضافة الأصناف الجديدة في سطر جديد"
+
+msgid "Allow user to edit Additional Discount"
+msgstr "السماح للمستخدم بتعديل الخصم الإضافي"
+
+msgid "Allow user to edit Rate"
+msgstr "السماح للمستخدم بتعديل السعر"
+
+msgid "Amended From"
+msgstr "معدل من"
+
+msgid "Amount"
+msgstr "المبلغ"
+
+msgid "Applied"
+msgstr "مطبق"
+
+msgid "Apply Customer Discount"
+msgstr "تطبيق خصم العميل"
+
+msgid "Apply For"
+msgstr "تطبيق على"
+
+msgid "Apply For POS Profiles"
+msgstr "تطبيق على ملفات نقاط البيع"
+
+msgid "Apply On"
+msgstr "تطبيق على"
+
+msgid "Apply Rule On Brand"
+msgstr "تطبيق القاعدة على العلامة التجارية"
+
+msgid "Apply Rule On Item Code"
+msgstr "تطبيق القاعدة على رمز الصنف"
+
+msgid "Apply Rule On Item Group"
+msgstr "تطبيق القاعدة على مجموعة الصنف"
+
+msgid "Apply Type"
+msgstr "نوع التطبيق"
+
+msgid "Auto Apply"
+msgstr "تطبيق تلقائي"
+
+msgid "Auto Create Referral For New Customers"
+msgstr "إنشاء إحالة تلقائيًا للعملاء الجدد"
+
+msgid "Auto Delete Draft Invoice"
+msgstr "حذف مسودة الفاتورة تلقائيًا"
+
+msgid "Auto Fetch Coupon Gifts"
+msgstr "جلب هدايا القسيمة تلقائيًا"
+
+msgid "Auto Set Batch"
+msgstr "تعيين الدفعة تلقائيًا"
+
+msgid "Auto Set Delivery Charges"
+msgstr "تعيين رسوم التوصيل تلقائيًا"
+
+msgid "Available Credit"
+msgstr "الرصيد المتاح"
+
+msgid "Available QTY"
+msgstr "الكمية المتاحة"
+
+msgid "Back"
+msgstr "رجوع"
+
+msgid "Batch No"
+msgstr "رقم الدفعة"
+
+msgid "Batch No Expiry Date"
+msgstr "تاريخ انتهاء رقم الدفعة"
+
+msgid "Batch No. Available QTY"
+msgstr "الكمية المتاحة لرقم الدفعة"
+
+msgid "Bill Ref Number"
+msgstr "الرقم المرجعي للفاتورة"
+
+msgid "Birthday"
+msgstr "تاريخ الميلاد"
+
+msgid "Brand"
+msgstr "العلامة التجارية"
+
+msgid "Business Short Code"
+msgstr "الرمز المختصر للمنشأة"
+
+msgid "Business Shortcode"
+msgstr "الرمز المختصر للمنشأة"
+
+msgid "Cache the values for n minutes"
+msgstr "تخزين القيم مؤقتًا لمدة n دقيقة"
+
+msgid "Campaign"
+msgstr "حملة"
+
+msgid "Cancel"
+msgstr "إلغاء"
+
+msgid "Cancel Current Invoice ?"
+msgstr "هل تريد إلغاء الفاتورة الحالية؟"
+
+msgid "Cancel Payment"
+msgstr "إلغاء الدفع"
+
+msgid "Cancelled"
+msgstr "ملغاة"
+
+msgid "Card"
+msgstr "بطاقة"
+
+msgid "Cash Mode of Payment"
+msgstr "طريقة الدفع النقدي"
+
+msgid "Cashier"
+msgstr "أمين الصندوق"
+
+msgid "Charges not found"
+msgstr "لم يتم العثور على رسوم"
+
+msgid "Close"
+msgstr "إغلاق"
+
+msgid "Close Shift"
+msgstr "إغلاق الوردية"
+
+msgid "Closed"
+msgstr "مغلق"
+
+msgid "Closing Amount"
+msgstr "مبلغ الإغلاق"
+
+msgid "Closing POS Shift"
+msgstr "إغلاق وردية نقاط البيع"
+
+msgid "Closing Shift"
+msgstr "إغلاق الوردية"
+
+msgid "Code"
+msgstr "رمز"
+
+msgid "Company"
+msgstr "شركة"
+
+msgid "Company is required"
+msgstr "الشركة مطلوبة"
+
+msgid "Confirm Mobile Number"
+msgstr "تأكيد رقم الجوال"
+
+msgid "Cost Center"
+msgstr "مركز التكلفة"
+
+msgid "Cost Center is not set in pos profile {}"
+msgstr "لم يتم تعيين مركز التكلفة في ملف نقاط البيع {}"
+
+msgid "Coupon"
+msgstr "قسيمة"
+
+msgid "Coupon Based"
+msgstr "حسب القسيمة"
+
+msgid "Coupon Code"
+msgstr "رمز القسيمة"
+
+msgid "Coupon Code Based"
+msgstr "حسب رمز القسيمة"
+
+msgid "Coupon Description"
+msgstr "وصف القسيمة"
+
+msgid "Coupon Name"
+msgstr "اسم القسيمة"
+
+msgid "Coupon Type"
+msgstr "نوع القسيمة"
+
+msgid "Coupons"
+msgstr "القسائم"
+
+msgid "Create Customer"
+msgstr "إنشاء عميل"
+
+msgid "Create POS Opening Shift"
+msgstr "إنشاء وردية افتتاح نقاط البيع"
+
+msgid "Credit Change"
+msgstr "الباقي كرصيد"
+
+msgid "Currency"
+msgstr "العملة"
+
+msgid ""
+"Currency is not correct, party account currency is {party_account_currency} and transaction currency is "
+"{currency}"
+msgstr "العملة غير صحيحة؛ عملة حساب الطرف هي {party_account_currency} وعملة المعاملة هي {currency}"
+
+msgid "Currency is required"
+msgstr "العملة مطلوبة"
+
+msgid "Customer"
+msgstr "العميل"
+
+msgid "Customer Group"
+msgstr "مجموعة العميل"
+
+msgid "Customer Name"
+msgstr "اسم العميل"
+
+msgid "Customer already exists"
+msgstr "العميل موجود مسبقًا"
+
+msgid "Customer created successfully."
+msgstr "تم إنشاء العميل بنجاح."
+
+msgid "Customer creation failed."
+msgstr "فشل إنشاء العميل."
+
+msgid "Customer group is required."
+msgstr "مجموعة العميل مطلوبة."
+
+msgid "Customer is required"
+msgstr "العميل مطلوب"
+
+msgid "Customer name is required."
+msgstr "اسم العميل مطلوب."
+
+msgid "Customer not found"
+msgstr "لم يتم العثور على العميل"
+
+msgid "Customer territory is required."
+msgstr "منطقة العميل مطلوبة."
+
+msgid "Customer updated successfully."
+msgstr "تم تحديث العميل بنجاح."
+
+msgid "Date"
+msgstr "تاريخ"
+
+msgid "Default Card View"
+msgstr "عرض البطاقات الافتراضي"
+
+msgid "Default Currency"
+msgstr "العملة الافتراضية"
+
+msgid "Default Loyalty Program"
+msgstr "برنامج الولاء الافتراضي"
+
+msgid "Default Rate"
+msgstr "السعر الافتراضي"
+
+msgid "Default Rate is required"
+msgstr "السعر الافتراضي مطلوب"
+
+msgid "Default Sales Order"
+msgstr "أمر البيع الافتراضي"
+
+msgid "Delivery Charges"
+msgstr "رسوم التوصيل"
+
+msgid "Delivery Charges POS Profile"
+msgstr "ملف نقاط البيع لرسوم التوصيل"
+
+msgid "Delivery Charges Rate"
+msgstr "قيمة رسوم التوصيل"
+
+msgid "Delivery Date"
+msgstr "تاريخ التسليم"
+
+msgid "Description"
+msgstr "وصف"
+
+msgid "Details"
+msgstr "تفاصيل"
+
+msgid "Difference"
+msgstr "الفرق"
+
+msgid "Difference:"
+msgstr "الفرق:"
+
+msgid "Disable"
+msgstr "تعطيل"
+
+msgid "Disabled"
+msgstr "معطل"
+
+msgid "Discount %"
+msgstr "نسبة الخصم"
+
+msgid "Discount Amount"
+msgstr "قيمة الخصم"
+
+msgid "Discount Percentage"
+msgstr "نسبة الخصم"
+
+msgid "Discount Type"
+msgstr "نوع الخصم"
+
+msgid "Discount percentage for item '{0}' cannot be greater than {1}%"
+msgstr "لا يمكن أن تتجاوز نسبة الخصم للصنف '{0}' ‏{1}%"
+
+msgid "Display Additional Notes"
+msgstr "إظهار الملاحظات الإضافية"
+
+msgid "Display Item Code"
+msgstr "إظهار رمز الصنف"
+
+msgid "Draft"
+msgstr "مسودة"
+
+msgid "Due Date"
+msgstr "تاريخ الاستحقاق"
+
+msgid "Edit"
+msgstr "تعديل"
+
+msgid "Email ID"
+msgstr "البريد الإلكتروني"
+
+msgid "Email Id"
+msgstr "البريد الإلكتروني"
+
+msgid "Expected Amount"
+msgstr "المبلغ المتوقع"
+
+msgid "Failed"
+msgstr "فشل"
+
+msgid "Final Customer Offer"
+msgstr "عرض العميل النهائي"
+
+msgid "First Name"
+msgstr "الاسم الأول"
+
+msgid "For POS Closing Shift Payment Reconciliation"
+msgstr "لتسوية مدفوعات إغلاق وردية نقاط البيع"
+
+msgid "Full Name"
+msgstr "الاسم الكامل"
+
+msgid "Gift Card"
+msgstr "بطاقة هدية"
+
+msgid "Give Item"
+msgstr "الصنف الممنوح"
+
+msgid "Give Item Row ID"
+msgstr "معرف سطر الصنف الممنوح"
+
+msgid "Give Product"
+msgstr "منح منتج"
+
+msgid "Given Quantity"
+msgstr "الكمية الممنوحة"
+
+msgid "Grand Total"
+msgstr "الإجمالي الكلي"
+
+msgid "Group"
+msgstr "مجموعة"
+
+msgid "Group not found"
+msgstr "لم يتم العثور على المجموعة"
+
+msgid "Held"
+msgstr "معلقة"
+
+msgid "Hide Close Shift"
+msgstr "إخفاء إغلاق الوردية"
+
+msgid "Hide Expected Amount"
+msgstr "إخفاء المبلغ المتوقع"
+
+msgid "Hide Unavailable Items"
+msgstr "إخفاء الأصناف غير المتاحة"
+
+msgid "Hide Variants Items"
+msgstr "إخفاء أصناف المتغيرات"
+
+msgid "Invalid Opening Entry"
+msgstr "قيد الافتتاح غير صالح"
+
+msgid "Invalid Period"
+msgstr "الفترة غير صالحة"
+
+msgid "Invoice"
+msgstr "فاتورة"
+
+msgid "Invoice ID"
+msgstr "معرف الفاتورة"
+
+msgid "Invoice Number"
+msgstr "رقم الفاتورة"
+
+msgid "Invoice Submission Ledger"
+msgstr "سجل اعتماد الفواتير"
+
+msgid "Invoice {0} Deleted"
+msgstr "تم حذف الفاتورة {0}"
+
+msgid "Invoices"
+msgstr "الفواتير"
+
+msgid "Is Cashback"
+msgstr "استرداد نقدي"
+
+msgid "Is Credit Sale"
+msgstr "بيع آجل"
+
+msgid "Is Offer"
+msgstr "عرض"
+
+msgid "Is Offer Replace For item Row ID"
+msgstr "معرف سطر الصنف الذي يستبدله العرض"
+
+msgid "It is best not to use more than four numbers"
+msgstr "يفضل ألا تستخدم أكثر من أربعة أرقام"
+
+msgid "Item Code"
+msgstr "رمز الصنف"
+
+msgid "Item Group"
+msgstr "مجموعة الصنف"
+
+msgid "Item Price"
+msgstr "سعر الصنف"
+
+msgid "Item Rate Should Less Then"
+msgstr "يجب أن يكون سعر الصنف أقل من"
+
+msgid "Items"
+msgstr "الأصناف"
+
+msgid "Items Discounts"
+msgstr "خصومات الأصناف"
+
+msgid "Items Group"
+msgstr "مجموعة الأصناف"
+
+msgid "Label"
+msgstr "التسمية"
+
+msgid "Last Name"
+msgstr "اسم العائلة"
+
+msgid "Linked Invoices"
+msgstr "الفواتير المرتبطة"
+
+msgid "List"
+msgstr "قائمة"
+
+msgid "Loading authorized cashiers..."
+msgstr "جارٍ تحميل أمناء الصندوق المصرح لهم..."
+
+msgid "Logout"
+msgstr "تسجيل خروج"
+
+msgid "Loyalty Point"
+msgstr "نقطة ولاء"
+
+msgid "Loyalty Point Offer Applied"
+msgstr "تم تطبيق عرض نقاط الولاء"
+
+msgid "Loyalty Point Scheme"
+msgstr "نظام نقاط الولاء"
+
+msgid "Loyalty Points"
+msgstr "نقاط الولاء"
+
+msgid "Loyalty Program"
+msgstr "برنامج الولاء"
+
+msgid "MSISDN"
+msgstr "رقم المشترك"
+
+msgid "Max Amount"
+msgstr "أقصى مبلغ"
+
+msgid "Max Discount Percentage Allowed"
+msgstr "أقصى نسبة خصم مسموح بها"
+
+msgid "Max Quantity"
+msgstr "الحد الأقصى للكمية"
+
+msgid "Maximum Use"
+msgstr "الاستخدام الأقصى"
+
+msgid "Maximum discount for Item {0} is {1}%"
+msgstr "الحد الأقصى للخصم على الصنف {0} هو {1}%"
+
+msgid "Middle Name"
+msgstr "الاسم الأوسط"
+
+msgid "Min Amount"
+msgstr "الحد الأدنى للمبلغ"
+
+msgid "Min Quantity"
+msgstr "الحد الأدنى للكمية"
+
+msgid "Mobile NO"
+msgstr "رقم الجوال"
+
+msgid "Mobile No"
+msgstr "رقم الجوال"
+
+msgid "Mobile Number"
+msgstr "رقم الجوال"
+
+msgid "Mode"
+msgstr "الطريقة"
+
+msgid "Mode Of Payment"
+msgstr "طريقة الدفع"
+
+msgid "Mode of Payment"
+msgstr "طريقة الدفع"
+
+msgid "Mode of Payment is required"
+msgstr "طريقة الدفع مطلوبة"
+
+msgid "Modes of Payment"
+msgstr "طرق الدفع"
+
+msgid "Mpesa C2B Register URL"
+msgstr "تسجيل رابط C2B لخدمة M-Pesa"
+
+msgid "Mpesa Payment Register"
+msgstr "سجل دفعات M-Pesa"
+
+msgid "Mpesa Settings"
+msgstr "إعدادات M-Pesa"
+
+msgid "Name"
+msgstr "اسم"
+
+msgid "Net Total"
+msgstr "صافي الإجمالي"
+
+msgid "New Offer Available"
+msgstr "يتوفر عرض جديد"
+
+msgid "Nobile Number"
+msgstr "رقم الجوال"
+
+msgid "Offer"
+msgstr "عرض"
+
+msgid "Offer Applied"
+msgstr "تم تطبيق العرض"
+
+msgid "Offer Name"
+msgstr "اسم العرض"
+
+msgid "Offers"
+msgstr "العروض"
+
+msgid "Offers &amp; Coupons"
+msgstr "العروض والقسائم"
+
+msgid "Only One Use Per Customer"
+msgstr "استخدام واحد فقط لكل عميل"
+
+msgid "Open"
+msgstr "مفتوح"
+
+msgid "Opening Amount"
+msgstr "مبلغ الافتتاح"
+
+msgid "Opening Balance Details"
+msgstr "تفاصيل الرصيد الافتتاحي"
+
+msgid "Opening Shift"
+msgstr "افتتاح الوردية"
+
+msgid "Order"
+msgstr "الطلب"
+
+msgid "Order ID"
+msgstr "معرف الطلب"
+
+msgid "Org Account Balance"
+msgstr "رصيد الحساب الأصلي"
+
+msgid "Outstanding"
+msgstr "المستحق"
+
+msgid "PAY"
+msgstr "الدفع"
+
+msgid "POS"
+msgstr "نقطة البيع"
+
+msgid "POS Awesome"
+msgstr "نقاط البيع المتقدمة"
+
+msgid "POS Awesome Advance Settings"
+msgstr "الإعدادات المتقدمة لنقاط البيع المتقدمة"
+
+msgid "POS Awesome App"
+msgstr "تطبيق نقاط البيع المتقدمة"
+
+msgid "POS Awesome Payments"
+msgstr "مدفوعات نقاط البيع المتقدمة"
+
+msgid "POS Awesome Payments is not enabled for this POS Profile"
+msgstr "مدفوعات نقاط البيع المتقدمة غير مفعلة لملف نقاط البيع هذا"
+
+msgid "POS Awesome Settings"
+msgstr "إعدادات نقاط البيع المتقدمة"
+
+msgid "POS Closing Shift"
+msgstr "إغلاق وردية نقاط البيع"
+
+msgid "POS Closing Shift Detail"
+msgstr "تفاصيل إغلاق وردية نقاط البيع"
+
+msgid "POS Closing Shift Taxes"
+msgstr "ضرائب إغلاق وردية نقاط البيع"
+
+msgid "POS Closing Shift {} against {} between selected period"
+msgstr "إغلاق وردية نقاط البيع {} مقابل {} خلال الفترة المحددة"
+
+msgid "POS Coupon"
+msgstr "قسيمة نقاط البيع"
+
+msgid "POS Coupon Detail"
+msgstr "تفاصيل قسيمة نقاط البيع"
+
+msgid "POS Coupons Detail"
+msgstr "تفاصيل قسائم نقاط البيع"
+
+msgid "POS Offer"
+msgstr "عرض نقاط البيع"
+
+msgid "POS Offer Detail"
+msgstr "تفاصيل عرض نقاط البيع"
+
+msgid "POS Offer is disable."
+msgstr "عرض نقاط البيع معطل."
+
+msgid "POS Offers"
+msgstr "عروض نقاط البيع"
+
+msgid "POS Offers Detail"
+msgstr "تفاصيل عروض نقاط البيع"
+
+msgid "POS Opening Shift"
+msgstr "افتتاح وردية نقاط البيع"
+
+msgid "POS Opening Shift Detail"
+msgstr "تفاصيل افتتاح وردية نقاط البيع"
+
+msgid "POS Opening Shift is required"
+msgstr "افتتاح وردية نقاط البيع مطلوب"
+
+msgid "POS Opening Shift {0} is not for the same POS Profile"
+msgstr "افتتاح وردية نقاط البيع {0} لا يتبع ملف نقاط البيع نفسه"
+
+msgid "POS Opening Shift {0} is not for the same company"
+msgstr "افتتاح وردية نقاط البيع {0} لا يتبع الشركة نفسها"
+
+msgid "POS Payment Entry Reference"
+msgstr "مرجع قيد دفع نقاط البيع"
+
+msgid "POS Payments"
+msgstr "مدفوعات نقاط البيع"
+
+msgid "POS Profile"
+msgstr "ملف نقاط البيع"
+
+msgid "POS Profile is required"
+msgstr "ملف نقاط البيع مطلوب"
+
+msgid "POS Profile {} does not belongs to company {}"
+msgstr "ملف نقاط البيع {} لا يتبع الشركة {}"
+
+msgid "POS Profiles"
+msgstr "ملفات نقاط البيع"
+
+msgid "POS Shift"
+msgstr "وردية نقاط البيع"
+
+msgid "POS Shift {0} is not open"
+msgstr "وردية نقاط البيع {0} غير مفتوحة"
+
+msgid "POS Transactions"
+msgstr "معاملات نقاط البيع"
+
+msgid "Paid"
+msgstr "مدفوع"
+
+msgid "Paid Amount"
+msgstr "المبلغ المدفوع"
+
+msgid "Paid Change"
+msgstr "الباقي النقدي"
+
+msgid "Payment Entry"
+msgstr "قيد دفع"
+
+msgid "Payment Entry is already created or payment account is not matched"
+msgstr "تم إنشاء قيد الدفع مسبقًا أو أن حساب الدفع غير متطابق"
+
+msgid "Payment Gateway Account not found"
+msgstr "لم يتم العثور على حساب بوابة الدفع"
+
+msgid "Payment ID"
+msgstr "معرف الدفع"
+
+msgid "Payment Reconciliation"
+msgstr "تسوية المدفوعات"
+
+msgid "Payment Request for {0}"
+msgstr "طلب دفع لـ {0}"
+
+msgid "Payment Request took too long to respond. Please try requesting for payment again"
+msgstr "استغرق طلب الدفع وقتًا طويلًا للاستجابة. يرجى إعادة طلب الدفع"
+
+msgid "Payment amount cannot be less than or equal to 0"
+msgstr "لا يمكن أن يكون مبلغ الدفعة أقل من أو يساوي 0"
+
+msgid "Payment of {0} received successfully."
+msgstr "تم استلام دفعة بقيمة {0} بنجاح."
+
+msgid "Payment request failed"
+msgstr "فشلت عملية الدفع"
+
+msgid "Payments"
+msgstr "المدفوعات"
+
+msgid "Pending"
+msgstr "معلق"
+
+msgid "Period End Date"
+msgstr "تاريخ انتهاء الفترة"
+
+msgid "Period Start Date"
+msgstr "تاريخ بداية الفترة"
+
+msgid "Pleas Set Customer Mobile Number"
+msgstr "يرجى تعيين رقم جوال العميل"
+
+msgid "Please enter the phone number first"
+msgstr "الرجاء إدخال رقم الهاتف أولاً"
+
+msgid "Please make a payment or select an payment"
+msgstr "يرجى إجراء دفعة أو اختيار دفعة"
+
+msgid "Please request phone payment or use other payment method"
+msgstr "يرجى طلب الدفع عبر الهاتف أو استخدام طريقة دفع أخرى"
+
+msgid "Please select Coupon Code Based POS Offer."
+msgstr "يرجى اختيار عرض نقاط بيع يعتمد على رمز القسيمة."
+
+msgid "Please select a customer"
+msgstr "يرجى اختيار عميل"
+
+msgid "Please select an invoice"
+msgstr "يرجى اختيار فاتورة"
+
+msgid "Please select the correct POS Offer with the same company."
+msgstr "يرجى اختيار عرض نقاط البيع الصحيح والتابع للشركة نفسها."
+
+msgid "Please select the customer."
+msgstr "يرجى اختيار العميل."
+
+msgid "Posting Date"
+msgstr "تاريخ الترحيل"
+
+msgid "Posting Time"
+msgstr "وقت الترحيل"
+
+msgid "Price"
+msgstr "السعر"
+
+msgid "Price Discount Scheme"
+msgstr "نظام خصم السعر"
+
+msgid "Price list Rate"
+msgstr "سعر قائمة الأسعار"
+
+msgid "Primary Customer Offer"
+msgstr "عرض العميل الأساسي"
+
+msgid "Print Draft"
+msgstr "طباعة المسودة"
+
+msgid "Print Last Invoice"
+msgstr "طباعة آخر فاتورة"
+
+msgid "Printed"
+msgstr "تمت الطباعة"
+
+msgid "Processing Payment"
+msgstr "جارٍ معالجة الدفع"
+
+msgid "Product Discount Scheme"
+msgstr "نظام خصم المنتج"
+
+msgid "Profile"
+msgstr "ملف"
+
+msgid "Profiles List"
+msgstr "قائمة الملفات"
+
+msgid "Promo Type"
+msgstr "نوع العرض الترويجي"
+
+msgid "Promotional"
+msgstr "ترويجي"
+
+msgid "Promotional Schemes"
+msgstr "المخططات الترويجية"
+
+msgid "Purchase Order"
+msgstr "أمر الشراء"
+
+msgid "Purchase Order Date"
+msgstr "تاريخ أمر الشراء"
+
+msgid "QTY"
+msgstr "الكمية"
+
+msgid "Qualifying Transaction / Item"
+msgstr "المعاملة / الصنف المؤهل"
+
+msgid "Quantity and Amount Conditions"
+msgstr "شروط الكمية والمبلغ"
+
+msgid "Quantity for item '{0}' cannot be Zero (0)"
+msgstr "لا يمكن أن تكون كمية الصنف '{0}' صفرًا (0)"
+
+msgid "Rate"
+msgstr "السعر"
+
+msgid "Rate cannot be zero for item {0}"
+msgstr "لا يمكن أن يكون سعر الصنف {0} صفرًا"
+
+msgid "Redeem Credit"
+msgstr "استخدام الرصيد"
+
+msgid "Redeem Loyalty Points"
+msgstr "استخدام نقاط الولاء"
+
+msgid "Redeemed Customer Credit"
+msgstr "رصيد العميل المستخدم"
+
+msgid "Referral Campaign"
+msgstr "حملة الإحالة"
+
+msgid "Referral Code"
+msgstr "رمز الإحالة"
+
+msgid "Referral Code is required"
+msgstr "رمز الإحالة مطلوب"
+
+msgid "Referral Code {0} is disabled"
+msgstr "رمز الإحالة {0} معطل"
+
+msgid "Referral Code {0} is not exists"
+msgstr "رمز الإحالة {0} غير موجود"
+
+msgid "Referral Company"
+msgstr "شركة الإحالة"
+
+msgid "Referral Name"
+msgstr "اسم الإحالة"
+
+msgid "Register Status"
+msgstr "حالة التسجيل"
+
+msgid "Replace Cheapest Item"
+msgstr "استبدال أرخص صنف"
+
+msgid "Replace Same Item"
+msgstr "استبدال الصنف نفسه"
+
+msgid "Request"
+msgstr "طلب"
+
+msgid "Return"
+msgstr "إرجاع"
+
+msgid "Return Invoice Total Not Correct"
+msgstr "إجمالي فاتورة الإرجاع غير صحيح"
+
+msgid "Return Invoice Total should not be higher than {0}"
+msgstr "يجب ألا يتجاوز إجمالي فاتورة الإرجاع {0}"
+
+msgid "Rounded Total"
+msgstr "الإجمالي بعد التقريب"
+
+msgid ""
+"Row #{0}: The batch {1} has only {2} qty. Please select another batch which has {3} qty available or split "
+"the row into multiple rows, to deliver/issue from multiple batches"
+msgstr ""
+"السطر رقم {0}: تحتوي الدفعة {1} على كمية {2} فقط. يرجى اختيار دفعة أخرى تتوفر فيها كمية {3} أو تقسيم السطر "
+"إلى عدة أسطر للتسليم/الصرف من عدة دفعات"
+
+msgid "Row ID"
+msgstr "معرف السطر"
+
+msgid "Sales Invoice"
+msgstr "فاتورة المبيعات"
+
+msgid "Sales Invoice Reference"
+msgstr "مرجع فاتورة المبيعات"
+
+msgid "Sales Person"
+msgstr "مندوب مبيعات"
+
+msgid "Sales Person not found"
+msgstr "لم يتم العثور على مندوب المبيعات"
+
+msgid "Save/New"
+msgstr "حفظ / جديد"
+
+msgid "Scale Barcode Settings"
+msgstr "إعدادات باركود الميزان"
+
+msgid "Scale Barcode Start With"
+msgstr "يبدأ باركود الميزان بـ"
+
+msgid "Search"
+msgstr "البحث"
+
+msgid "Search Items"
+msgstr "البحث عن الأصناف"
+
+msgid "Search Limit Number"
+msgstr "عدد نتائج البحث"
+
+msgid ""
+"Search Limit for Items\n"
+"For best performance keep this under 1500"
+msgstr ""
+"حد البحث عن الأصناف\n"
+"لأفضل أداء، اجعله أقل من 1500"
+
+msgid "Search Mpesa Payments"
+msgstr "البحث في دفعات M-Pesa"
+
+msgid "Search by Batch Number"
+msgstr "البحث برقم الدفعة"
+
+msgid "Search by Mobile"
+msgstr "البحث برقم الجوال"
+
+msgid "Search by Name"
+msgstr "البحث بالاسم"
+
+msgid "Search by Serial Number"
+msgstr "البحث بالرقم التسلسلي"
+
+msgid "Select"
+msgstr "اختيار"
+
+msgid "Select Hold Invoice"
+msgstr "اختيار فاتورة معلقة"
+
+msgid "Select Payment"
+msgstr "اختيار دفعة"
+
+msgid "Select Return Invoice"
+msgstr "اختيار فاتورة إرجاع"
+
+msgid "Select S.O"
+msgstr "اختيار أمر بيع"
+
+msgid "Select Sales Orders"
+msgstr "اختيار أوامر البيع"
+
+msgid "Selected POS Opening Shift should be open."
+msgstr "يجب أن تكون وردية افتتاح نقاط البيع المحددة مفتوحة."
+
+msgid "Selected serial numbers of item {0} is incorrect"
+msgstr "الأرقام التسلسلية المحددة للصنف {0} غير صحيحة"
+
+msgid "Send invoice to submit after printing"
+msgstr "إرسال الفاتورة للاعتماد بعد الطباعة"
+
+msgid "Serial No"
+msgstr "الرقم التسلسلي"
+
+msgid "Serial No QTY"
+msgstr "كمية الرقم التسلسلي"
+
+msgid "Server Cache Duration"
+msgstr "مدة التخزين المؤقت على الخادم"
+
+msgid "Set Posting Date"
+msgstr "تعيين تاريخ الترحيل"
+
+msgid "Shift"
+msgstr "الوردية"
+
+msgid "Shipping Account"
+msgstr "حساب الشحن"
+
+msgid "Show Template Items"
+msgstr "إظهار أصناف القالب"
+
+msgid "Sorry, this coupon code cannot be used by this company"
+msgstr "عذرًا، لا يمكن لهذه الشركة استخدام رمز القسيمة هذا"
+
+msgid "Sorry, this coupon code cannot be used by this customer"
+msgstr "عذرًا، لا يمكن لهذا العميل استخدام رمز القسيمة هذا"
+
+msgid "Sorry, this coupon code is no longer valid"
+msgstr "عذرًا، رمز القسيمة هذا لم يعد صالحًا"
+
+msgid "Sorry, this coupon code not exists"
+msgstr "عذرًا، رمز القسيمة هذا غير موجود"
+
+msgid "Sorry, this coupon code's validity has expired"
+msgstr "عذرًا، انتهت صلاحية رمز القسيمة هذا"
+
+msgid "Sorry, this coupon code's validity has not started"
+msgstr "عذرًا، لم تبدأ صلاحية رمز القسيمة هذا"
+
+msgid "Sorry, {0} have used this coupon before"
+msgstr "عذرًا، استخدم {0} هذه القسيمة مسبقًا"
+
+msgid "Status"
+msgstr "الحالة"
+
+msgid "Status must be one of {0}"
+msgstr "يجب أن تكون الحالة إحدى القيم التالية: {0}"
+
+msgid "Stock QTY"
+msgstr "كمية المخزون"
+
+msgid "Stock UOM"
+msgstr "وحدة قياس المخزون"
+
+msgid "Submission Ledger"
+msgstr "سجل الاعتماد"
+
+msgid "Submit"
+msgstr "اعتماد"
+
+msgid "Submit & Print"
+msgstr "اعتماد وطباعة"
+
+msgid "Submit Payment"
+msgstr "اعتماد الدفع"
+
+msgid "Success"
+msgstr "نجاح"
+
+msgid "Tax ID"
+msgstr "الرقم الضريبي"
+
+msgid "Tax Inclusive"
+msgstr "شامل الضريبة"
+
+msgid "Tax and Charges"
+msgstr "الضرائب والرسوم"
+
+msgid "Taxes"
+msgstr "الضرائب"
+
+msgid "Territory"
+msgstr "المنطقة"
+
+msgid "Territory not found"
+msgstr "لم يتم العثور على المنطقة"
+
+msgid "The QTY of the item {0} cannot be greater than {1}"
+msgstr "لا يمكن أن تتجاوز كمية الصنف {0} القيمة {1}"
+
+msgid "The discount should not be higher than {0}%"
+msgstr "يجب ألا يتجاوز الخصم {0}%"
+
+msgid "The existing batch quantity of item {0} is not enough"
+msgstr "الكمية المتاحة من دفعة الصنف {0} غير كافية"
+
+msgid "The existing quantity '{0}' for item '{1}' is not enough"
+msgstr "الكمية المتاحة '{0}' للصنف '{1}' غير كافية"
+
+msgid "The item {0} cannot be returned because it is not in the invoice {1}"
+msgstr "لا يمكن إرجاع الصنف {0} لأنه غير موجود في الفاتورة {1}"
+
+msgid "There is no Customer !"
+msgstr "لا يوجد عميل!"
+
+msgid "There is no Items !"
+msgstr "لا توجد أصناف!"
+
+msgid "Third Party Trans ID"
+msgstr "معرف معاملة الطرف الثالث"
+
+msgid "This Referral Code {0} not exists"
+msgstr "رمز الإحالة {0} غير موجود"
+
+msgid "This Serial Number {0} has already been added!"
+msgstr "تمت إضافة الرقم التسلسلي {0} مسبقًا!"
+
+msgid "This coupon already used !"
+msgstr "تم استخدام هذه القسيمة مسبقًا!"
+
+msgid "This invoice {0} cannot be deleted"
+msgstr "لا يمكن حذف الفاتورة {0}"
+
+msgid "Till Number"
+msgstr "رقم نقطة التحصيل"
+
+msgid "Time"
+msgstr "الوقت"
+
+msgid "Title"
+msgstr "العنوان"
+
+msgid "Total"
+msgstr "الإجمالي"
+
+msgid "Total Amount"
+msgstr "إجمالي المبلغ"
+
+msgid "Total Invoices:"
+msgstr "إجمالي الفواتير:"
+
+msgid "Total Mpesa:"
+msgstr "إجمالي M-Pesa:"
+
+msgid "Total Payments:"
+msgstr "إجمالي المدفوعات:"
+
+msgid "Total Qty"
+msgstr "إجمالي الكمية"
+
+msgid "Total Quantity"
+msgstr "الكمية الإجمالية"
+
+msgid "Total Selected :"
+msgstr "إجمالي المحدد:"
+
+msgid "Trans Amount"
+msgstr "مبلغ المعاملة"
+
+msgid "Trans Amount is required"
+msgstr "مبلغ المعاملة مطلوب"
+
+msgid "Trans ID"
+msgstr "معرف المعاملة"
+
+msgid "Trans Time"
+msgstr "وقت المعاملة"
+
+msgid "Transaction"
+msgstr "المعاملة"
+
+msgid "Transaction Type"
+msgstr "نوع المعاملة"
+
+msgid "Type"
+msgstr "النوع"
+
+msgid "UOM"
+msgstr "وحدة القياس"
+
+msgid "Unallocated"
+msgstr "غير مخصص"
+
+msgid "Update Customer"
+msgstr "تحديث العميل"
+
+msgid "Use Browser Local Storage"
+msgstr "استخدام التخزين المحلي للمتصفح"
+
+msgid "Use Cashback"
+msgstr "استخدام الاسترداد النقدي"
+
+msgid "Use Customer Credit"
+msgstr "استخدام رصيد العميل"
+
+msgid "Use Delivery Charges"
+msgstr "استخدام رسوم التوصيل"
+
+msgid "Use Limit Search"
+msgstr "تحديد نتائج البحث"
+
+msgid "Use POS Awesome Payments"
+msgstr "استخدام مدفوعات نقاط البيع المتقدمة"
+
+msgid "Use Percentage Discount"
+msgstr "استخدام نسبة الخصم"
+
+msgid "Use QTY Input"
+msgstr "استخدام حقل إدخال الكمية"
+
+msgid "Use Redis cache on the server to speedup initial loads of POS Awesome"
+msgstr "استخدام ذاكرة Redis المؤقتة على الخادم لتسريع التحميل الأولي لنقاط البيع المتقدمة"
+
+msgid "Use Search Limit for Items"
+msgstr "تحديد نتائج البحث عن الأصناف"
+
+msgid "Use Server Cache"
+msgstr "استخدام التخزين المؤقت على الخادم"
+
+msgid "Used"
+msgstr "مستخدم"
+
+msgid "User {} has been disabled. Please select valid user/cashier"
+msgstr "تم تعطيل المستخدم {}. يرجى اختيار مستخدم/أمين صندوق صالح"
+
+msgid "Valid From"
+msgstr "صالح من تاريخ"
+
+msgid "Valid Upto"
+msgstr "صالح حتى"
+
+msgid "Validity and Usage"
+msgstr "الصلاحية والاستخدام"
+
+msgid "Waiting for payment... "
+msgstr "بانتظار الدفع... "
+
+msgid "Warehouse"
+msgstr "المستودع"
+
+msgid "Write Off Difference Amount"
+msgstr "شطب مبلغ الفرق"
+
+msgid "You are not allowed to print draft invoices"
+msgstr "غير مسموح لك بطباعة مسودات الفواتير"
+
+msgid "You can redeem credit upto"
+msgstr "يمكنك استخدام رصيد حتى"
+
+msgid "You can redeem upto"
+msgstr "يمكنك استخدام حتى"
+
+msgid "add"
+msgstr "إضافة"
+
+msgid "e.g. \"Summer Holiday 2019 Offer 20\""
+msgstr "مثال: «عرض عطلة الصيف 2019 بخصم 20»"
+
+msgid "is Offer"
+msgstr "عرض"
+
+msgid "unique e.g. SAVE20  To be used to get discount"
+msgstr "رمز فريد، مثل SAVE20، يستخدم للحصول على الخصم"
+
+msgid "{0} Coupon used are {1}. Allowed quantity is exhausted"
+msgstr "استخدمت القسيمة {0} عدد {1} من المرات. تم استنفاد الكمية المسموح بها"

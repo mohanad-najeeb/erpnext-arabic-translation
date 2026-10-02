@@ -62,7 +62,9 @@ def copy_locale_files(apps: list[str] | None = None) -> None:
 
 	apps = apps or []
 	for app in apps:
-		_copy_for_app(app, source_root)
+		copied_files = _copy_for_app(app, source_root)
+		if "ar.po" in copied_files:
+			_compile_translation(app)
 
 
 def _get_frappe_major_version() -> int | None:
@@ -79,18 +81,19 @@ def _get_frappe_major_version() -> int | None:
 		return None
 
 
-def _copy_for_app(app: str, source_root: str) -> None:
+def _copy_for_app(app: str, source_root: str) -> set[str]:
 	app_source_dir = os.path.join(source_root, app)
 	if not os.path.isdir(app_source_dir):
 		_LOGGER.info("No Arabic locale bundle for app %s at %s", app, app_source_dir)
-		return
+		return set()
 
 	try:
 		app_dest_root = frappe.get_app_path(app)
 	except Exception:
 		_LOGGER.warning("Could not resolve app path for %s; skipping", app)
-		return
+		return set()
 
+	copied_files = set()
 	for dirpath, _, files in os.walk(app_source_dir):
 		for filename in files:
 			if filename not in {"ar.po", "ar.csv"}:
@@ -110,4 +113,15 @@ def _copy_for_app(app: str, source_root: str) -> None:
 
 			os.makedirs(os.path.dirname(dest_path), exist_ok=True)
 			shutil.copy2(source_file, dest_path)
+			copied_files.add(filename)
 			_LOGGER.info("Copied %s for app %s to %s", filename, app, dest_path)
+
+	return copied_files
+
+
+def _compile_translation(app: str) -> None:
+	"""Compile the copied PO file because Frappe v16 reads translations from MO files."""
+	from frappe.gettext.translate import compile_translations
+
+	compile_translations(target_app=app, locale="ar", force=True)
+	_LOGGER.info("Compiled Arabic translations for app %s", app)

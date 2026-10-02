@@ -1,11 +1,11 @@
 ### Arabic Translations
 
-Arabic Translations for Frappe, ERPNext, HR and CRM
+Arabic Translations for Frappe, ERPNext, HRMS, CRM, and POS Awesome
 
 ### What it does
 
-- Provides Arabic translations for Frappe, ERPNext, and HRMS.
-- On install, auto-detects the Frappe major version (v15 or v16) and copies the matching Arabic locale bundle for each installed app from `arabic_translations/locale/other-apps/{version}` into the app’s `locale/` or `translations/` folder (`ar.po` or `ar.csv`). Existing files are overwritten to ensure fresh strings.
+- Provides Arabic translations for Frappe, ERPNext, HRMS, CRM, and POS Awesome.
+- On install, auto-detects the Frappe major version (v15 or v16) and copies the matching Arabic locale bundle for each installed app from `arabic_translations/locale/other-apps/{version}` into the app’s `locale/` or `translations/` folder (`ar.po` or `ar.csv`). Existing files are overwritten to ensure fresh strings. Copied v16 PO files are compiled to MO catalogs so Frappe loads the updated translations without an asset rebuild.
 
 ### Installation
 

@@ -147,7 +147,7 @@ msgstr "يتطلب العميل المتوقع اسم شخص أو اسم مؤس�
 
 #: crm/lead_syncing/doctype/lead_sync_source/lead_sync_source.py:49
 msgid "A lead sync source is already enabled for this Facebook Lead Form!"
-msgstr "تم بالفعل تمكين مصدر مزامنة عميل محتمل لنموذج Facebook عميل محتمل هذا!"
+msgstr "تم بالفعل تفعيل مصدر مزامنة عميل محتمل لنموذج Facebook عميل محتمل هذا!"
 #: crm/templates/emails/helpdesk_invitation.html:5
 msgid "A new account has been created for you at {0}"
 msgstr "تم إنشاء حساب جديد لك في {0}"
@@ -646,11 +646,11 @@ msgstr "تكليف إلى"
 
 #: frontend/src/components/AssignToBody.vue:67
 msgid "Assign To Me"
-msgstr "تعيين لي"
+msgstr "تكليف لي"
 #. Label of the assigned_to (Link) field in DocType 'CRM Task'
 #: crm/fcrm/doctype/crm_task/crm_task.json
 msgid "Assigned To"
-msgstr "كلف إلى"
+msgstr "تكليف إلى"
 
 #: frontend/src/components/Settings/AssignmentRules/AssigneeRules.vue:5
 msgid "Assignee Rules"
@@ -671,7 +671,7 @@ msgstr "تم مسح المهمة بنجاح"
 #: frontend/src/components/Settings/AssignmentRules/AssignmentRuleView.vue:605
 #: frontend/src/components/Settings/AssignmentRules/AssignmentRuleView.vue:606
 msgid "Assignment Condition"
-msgstr "حالة التعيين"
+msgstr "حالة التكليف"
 #: frontend/src/components/Settings/AssignmentRules/AssignmentRuleView.vue:609
 msgid "Assignment Days"
 msgstr "أيام الواجب"
@@ -684,27 +684,27 @@ msgstr "أيام المهمة مطلوبة"
 #: frontend/src/components/Layouts/AppSidebar.vue:612
 #: frontend/src/components/Settings/AssignmentRules/AssignmentRulesList.vue:16
 msgid "Assignment Rule"
-msgstr "قاعدة الاحالة"
+msgstr "قاعدة التكليف"
 
 #: frontend/src/components/Settings/AssignmentRules/AssignmentRuleView.vue:698
 msgid "Assignment Rule Created"
-msgstr "تم إنشاء قاعدة التعيين"
+msgstr "تم إنشاء قاعدة التكليف"
 #: frontend/src/components/Settings/AssignmentRules/AssignmentRuleListItem.vue:123
 msgid "Assignment Rule Deleted"
-msgstr "تم حذف قاعدة التعيين"
+msgstr "تم حذف قاعدة التكليف"
 #: frontend/src/components/Settings/AssignmentRules/AssignmentRuleListItem.vue:155
 msgid "Assignment Rule Duplicated"
-msgstr "قاعدة التعيين مكررة"
+msgstr "قاعدة تكليف مكررة"
 #: frontend/src/components/Settings/AssignmentRules/AssignmentRuleView.vue:780
 msgid "Assignment Rule Updated"
-msgstr "تم تحديث قاعدة التعيين"
+msgstr "تم تحديث قاعدة التكليف"
 #: frontend/src/components/Settings/AssignmentRules/AssignmentRuleListItem.vue:187
 msgid "Assignment Rule {0} Updated"
-msgstr "تم تحديث قاعدة التعيين {0}"
+msgstr "تم تحديث قاعدة التكليف {0}"
 #: frontend/src/components/Settings/AssignmentRules/AssignmentRules.vue:7
 #: frontend/src/components/Settings/Settings.vue:193
 msgid "Assignment Rules"
-msgstr "قواعد الاحالة"
+msgstr "قواعد التكليف"
 
 #: frontend/src/components/Settings/AssignmentRules/AssignmentRuleView.vue:302
 msgid "Assignment Schedule"
@@ -783,13 +783,13 @@ msgstr "إكمال تلقائي"
 #: crm/fcrm/doctype/fcrm_settings/fcrm_settings.json
 #: frontend/src/components/Settings/GeneralSettings.vue:64
 msgid "Automatically sets Communication Status to “Open” for the lead or deal when a new communication is created. Applies only when SLA is enabled"
-msgstr "يقوم تلقائيًا بتعيين حالة الاتصال على \"مفتوح\" لـ عميل محتمل أو صفقة عند إنشاء اتصال جديد. ينطبق فقط عند تمكين اتفاقية مستوى الخدمة"
+msgstr "يقوم تلقائيًا بتعيين حالة الاتصال على \"مفتوح\" لـ عميل محتمل أو صفقة عند إنشاء اتصال جديد. ينطبق فقط عند تفعيل اتفاقية مستوى الخدمة"
 #. Description of the 'Mark lead/deal as replied on response' (Check) field in
 #. DocType 'FCRM Settings'
 #: crm/fcrm/doctype/fcrm_settings/fcrm_settings.json
 #: frontend/src/components/Settings/GeneralSettings.vue:42
 msgid "Automatically sets Communication Status to “Replied” for the lead or deal when a response is received. Applies only when SLA is enabled"
-msgstr "يقوم تلقائيًا بتعيين حالة الاتصال على \"تم الرد\" لـ عميل محتمل أو صفقة عند تلقي رد. ينطبق فقط عند تمكين اتفاقية مستوى الخدمة"
+msgstr "يقوم تلقائيًا بتعيين حالة الاتصال على \"تم الرد\" لـ عميل محتمل أو صفقة عند تلقي رد. ينطبق فقط عند تفعيل اتفاقية مستوى الخدمة"
 #. Description of the 'Auto update Expected Deal Value' (Check) field in
 #. DocType 'FCRM Settings'
 #: crm/fcrm/doctype/fcrm_settings/fcrm_settings.json
@@ -798,7 +798,7 @@ msgid "Automatically update \"Expected Deal Value\" based on the total value of 
 msgstr "قم بتحديث \"قيمة صفقة المتوقعة\" تلقائيًا استنادًا إلى القيمة الإجمالية للمنتجات المرتبطة في صفقة"
 #: frontend/src/components/Settings/Settings.vue:190
 msgid "Automation & Rules"
-msgstr "الأتمتة والقواعد"
+msgstr "الأتمتة و القواعد"
 #: crm/api/dashboard.py:252
 msgid "Average deal value of non won/lost deals"
 msgstr "متوسط قيمة الصفقات غير الفائزة أو الخاسرة"
@@ -1093,6 +1093,9 @@ msgstr "تفاصيل المكالمة"
 msgid "Call Log"
 msgstr "سجل المكالمات"
 
+msgid "Call Logs"
+msgstr "سجلات المكالمات"
+
 #. Label of the receiver (Link) field in DocType 'CRM Call Log'
 #: crm/fcrm/doctype/crm_call_log/crm_call_log.json
 msgid "Call Received By"
@@ -1170,7 +1173,7 @@ msgid "Cannot delete: linked ERPNext Item {0} is referenced by a Quotation. Remo
 msgstr "لا يمكن الحذف: تتم الإشارة إلى عنصر ERPNext المرتبط {0} بواسطة عرض أسعار. قم بإزالة المرجع أو حذف العنصر في ERPNext أولاً."
 #: frontend/src/components/Settings/AssignmentRules/AssignmentRuleListItem.vue:170
 msgid "Cannot enable rule without adding users in it"
-msgstr "لا يمكن تمكين القاعدة دون إضافة مستخدمين إليها"
+msgstr "لا يمكن تفعيل القاعدة دون إضافة مستخدمين إليها"
 #: crm/api/__init__.py:109
 msgid "Cannot invite for this role"
 msgstr "لا يمكن الدعوة لهذا الدور"
@@ -1464,7 +1467,7 @@ msgstr "قم بتكوين إعدادات تكامل Twilio Telephony هنا"
 #: frontend/src/composables/demoData.js:26
 #: frontend/src/composables/frappecloud.js:29
 msgid "Confirm"
-msgstr "أكد"
+msgstr "التأكيد"
 
 #: frontend/src/components/Settings/Sla/EditResponseResolutionModal.vue:39
 #: frontend/src/components/Settings/Sla/WorkDayModal.vue:66
@@ -1483,7 +1486,7 @@ msgid "Confirm {0}"
 msgstr "تأكيد {0}"
 #: frontend/src/components/Settings/ERPNextSettings.vue:274
 msgid "Connect ERPNext to Frappe CRM"
-msgstr "قم بتوصيل ERPNext بـ Frappe CRM"
+msgstr "تم ربط النظام بإدارة علاقات العملاء"
 #: frontend/src/pages/Welcome.vue:35
 msgid "Connect your Email"
 msgstr "قم بتوصيل بريدك الإلكتروني"
@@ -1594,7 +1597,7 @@ msgid "Copied to Clipboard"
 msgstr "تم النسخ إلى الحافظة"
 #: crm/fcrm/doctype/erpnext_crm_settings/erpnext_crm_settings.py:156
 msgid "Could not create the Frappe CRM custom fields on {0} automatically. If it is running the latest ERPNext, enable <b>Frappe CRM Data Synchronization</b> in its CRM Settings, Otherwise check the Error Log."
-msgstr "تعذر إنشاء حقول Frappe CRM المخصصة على {0} تلقائيًا. إذا كان يقوم بتشغيل أحدث إصدار من ERPNext، فقم بتمكين <b>Frappe CRM Data Synchronization</b> في إعدادات CRM الخاصة به، وإلا فتحقق من سجل الأخطاء."
+msgstr "تعذر إنشاء حقول Frappe CRM المخصصة على {0} تلقائيًا. إذا كان يقوم بتشغيل أحدث إصدار من ERPNext، فقم بتفعيل <b>Frappe CRM Data Synchronization</b> في إعدادات CRM الخاصة به، وإلا فتحقق من سجل الأخطاء."
 #: frontend/src/components/Settings/Hierarchy/useRemoveNode.js:16
 msgid "Could not remove."
 msgstr "لا يمكن الإزالة."
@@ -1759,11 +1762,11 @@ msgstr "مظلم"
 #: frontend/src/components/Settings/DashboardSettings.vue:6
 #: frontend/src/components/Settings/Settings.vue:127
 msgid "Dashboard"
-msgstr "لوحة القيادة"
+msgstr "المؤشرات"
 
 #: frontend/src/components/Settings/DashboardSettings.vue:70
 msgid "Dashboard Currency"
-msgstr "عملة لوحة القيادة"
+msgstr "عملة المؤشرات"
 #: frontend/src/components/Settings/DashboardSettings.vue:74
 msgid "Dashboard number cards & charts will show currency in the selected format. Once set, cannot be edited."
 msgstr "ستعرض بطاقات ومخططات أرقام لوحة المعلومات العملة بالتنسيق المحدد. بمجرد التعيين، لا يمكن تحريره."
@@ -2156,28 +2159,28 @@ msgstr "تنسيق عرض التواريخ عبر النظام"
 #: crm/fcrm/doctype/crm_global_settings/crm_global_settings.json
 #: crm/fcrm/doctype/crm_view_settings/crm_view_settings.json
 msgid "DocType"
-msgstr "نوع المستند"
+msgstr "مستند"
 
 #: crm/api/doc.py:803
 msgid "Doctype is required"
-msgstr "نوع الوثيقة مطلوب"
+msgstr "نوع المستند مطلوب"
 #: frontend/src/pages/MobileLead.vue:204
 msgid "Document Not Found"
-msgstr "لم يتم العثور على الوثيقة"
+msgstr "لم يتم العثور على المستند"
 #. Label of the dt (Link) field in DocType 'CRM Fields Layout'
 #: crm/fcrm/doctype/crm_fields_layout/crm_fields_layout.json
 msgid "Document Type"
-msgstr "نوع الوثيقة"
+msgstr "نوع المستند"
 
 #: frontend/src/components/Settings/Telephony/TelephonySettings.vue:242
 msgid "Document created successfully"
 msgstr "تم إنشاء المستند بنجاح"
 #: frontend/src/data/document.js:41
 msgid "Document does not exist"
-msgstr "الوثيقة غير موجودة"
+msgstr "المستند غير موجودة"
 #: crm/api/activities.py:20 frontend/src/pages/MobileDeal.vue:354
 msgid "Document not found"
-msgstr "لم يتم العثور على الوثيقة"
+msgstr "لم يتم العثور على المستند"
 #: frontend/src/data/document.js:55
 msgid "Document updated successfully"
 msgstr "تم تحديث المستند بنجاح"
@@ -2293,7 +2296,7 @@ msgid "ERPNext integration is active. Create an Item in ERPNext and it will appe
 msgstr "تكامل ERPNext نشط. قم بإنشاء عنصر في ERPNext وسيظهر في منتج CRM تلقائيًا."
 #: crm/fcrm/doctype/erpnext_crm_settings/erpnext_crm_settings.py:220
 msgid "ERPNext integration must be enabled on the same site"
-msgstr "يجب تمكين تكامل ERPNext على نفس الموقع"
+msgstr "يجب تفعيل تكامل ERPNext على نفس الموقع"
 #: crm/fcrm/doctype/erpnext_crm_settings/erpnext_crm_settings.py:70
 #: crm/fcrm/doctype/erpnext_crm_settings/erpnext_crm_settings.py:87
 #: crm/fcrm/doctype/erpnext_crm_settings/erpnext_crm_settings.py:523
@@ -2485,41 +2488,41 @@ msgstr "فارغ - اختر حقلاً للفرز حسبه"
 #: frontend/src/components/Settings/Telephony/ExotelSettings.vue:117
 #: frontend/src/components/Settings/Telephony/TwilioSettings.vue:124
 msgid "Enable"
-msgstr "تمكين"
+msgstr "مفعل"
 
 #: frontend/src/components/Settings/Telephony/ExotelSettings.vue:112
 msgid "Enable Exotel integration to make and receive calls directly from your CRM"
-msgstr "قم بتمكين تكامل Exotel لإجراء واستقبال المكالمات مباشرة من نظام إدارة علاقات العملاء (CRM) الخاص بك"
+msgstr "قم بتفعيل تكامل Exotel لإجراء واستقبال المكالمات مباشرة من نظام إدارة علاقات العملاء (CRM) الخاص بك"
 #. Label of the enable_forecasting (Check) field in DocType 'FCRM Settings'
 #: crm/fcrm/doctype/fcrm_settings/fcrm_settings.json
 #: frontend/src/components/Settings/DashboardSettings.vue:31
 msgid "Enable Forecasting"
-msgstr "تمكين التنبؤ"
+msgstr "تفعيل التنبؤ"
 #: frontend/src/components/Settings/emailConfig.js:28
 msgid "Enable Incoming"
-msgstr "تمكين الوارد"
+msgstr "تفعيل الوارد"
 
 #: frontend/src/components/Settings/emailConfig.js:34
 msgid "Enable Outgoing"
-msgstr "تمكين البريد الصادر"
+msgstr "تفعيل البريد الصادر"
 
 #: frontend/src/components/Settings/Hierarchy/Hierarchy.vue:62
 msgid "Enable Sales Hierarchy"
-msgstr "تمكين المبيعات التسلسل الهرمي"
+msgstr "تفعيل المبيعات التسلسل الهرمي"
 #. Label of the enable_sales_hierarchy (Check) field in DocType 'FCRM Settings'
 #: crm/fcrm/doctype/fcrm_settings/fcrm_settings.json
 msgid "Enable Sales Hierarchy Permissions"
-msgstr "تمكين المبيعات أذونات التسلسل الهرمي"
+msgstr "تفعيل المبيعات أذونات التسلسل الهرمي"
 #: frontend/src/components/Settings/Telephony/TwilioSettings.vue:119
 msgid "Enable Twilio integration to make and receive calls directly from your CRM"
-msgstr "قم بتمكين تكامل Twilio لإجراء واستقبال المكالمات مباشرة من نظام إدارة علاقات العملاء (CRM) الخاص بك"
+msgstr "قم بتفعيل تكامل Twilio لإجراء واستقبال المكالمات مباشرة من نظام إدارة علاقات العملاء (CRM) الخاص بك"
 #: frontend/src/components/Settings/Telephony/ExotelSettings.vue:90
 #: frontend/src/components/Settings/Telephony/TwilioSettings.vue:97
 msgid "Enable call recording for incoming and outgoing calls"
-msgstr "تمكين تسجيل المكالمات للمكالمات الواردة والصادرة"
+msgstr "تفعيل تسجيل المكالمات للمكالمات الواردة والصادرة"
 #: frontend/src/components/Settings/ERPNextSettings.vue:278
 msgid "Enable the integration to create quotations and auto create customers in ERPNext."
-msgstr "تمكين التكامل لإنشاء عروض الأسعار وإنشاء العملاء تلقائيًا في ERPNext."
+msgstr "تفعيل التكامل لإنشاء عروض الأسعار وإنشاء العملاء تلقائيًا في ERPNext."
 #. Label of the enabled (Check) field in DocType 'CRM Exotel Settings'
 #. Label of the enabled (Check) field in DocType 'CRM Form Script'
 #. Label of the enabled (Check) field in DocType 'CRM Service Level Agreement'
@@ -2540,12 +2543,12 @@ msgstr "تمكين التكامل لإنشاء عروض الأسعار وإنش�
 #: frontend/src/components/Settings/Sla/SlaPolicyList.vue:65
 #: frontend/src/components/Settings/Sla/SlaPolicyView.vue:30
 msgid "Enabled"
-msgstr "تمكين"
+msgstr "مفعل"
 
 #. Label of the enabled (Check) field in DocType 'Lead Sync Source'
 #: crm/lead_syncing/doctype/lead_sync_source/lead_sync_source.json
 msgid "Enabled?"
-msgstr "تمكين?"
+msgstr "مفعل?"
 
 #. Label of the end_date (Date) field in DocType 'CRM Service Level Agreement'
 #: crm/fcrm/doctype/crm_service_level_agreement/crm_service_level_agreement.json
@@ -2749,7 +2752,7 @@ msgid "Exotel Settings"
 msgstr "إعدادات إكسوتيل"
 #: frontend/src/components/Layouts/AppSidebar.vue:120
 msgid "Expand"
-msgstr "وسعت"
+msgstr "توسعة"
 
 #. Label of the expected_closure_date (Date) field in DocType 'CRM Deal'
 #: crm/fcrm/doctype/crm_deal/crm_deal.json
@@ -3061,7 +3064,7 @@ msgstr "تم تحديث البرنامج النصي للنموذج بنجاح"
 #. Name of a Workspace
 #: crm/fcrm/workspace/frappe_crm/frappe_crm.json
 msgid "Frappe CRM"
-msgstr "فرابيه CRM"
+msgstr "علاقات العملاء"
 #: frontend/src/components/Layouts/AppSidebar.vue:638
 msgid "Frappe CRM mobile"
 msgstr "فرابيه CRM المحمول"
@@ -3240,7 +3243,7 @@ msgstr "إخفاء التسجيل"
 #. Option for the 'Priority' (Select) field in DocType 'CRM Task'
 #: crm/fcrm/doctype/crm_task/crm_task.json
 msgid "High"
-msgstr "مستوى عالي"
+msgstr "عالية"
 
 #. Label of the holiday_list (Link) field in DocType 'CRM Service Level
 #. Agreement'
@@ -3302,7 +3305,7 @@ msgstr "أنا أفهم، أضف الشروط"
 #: crm/lead_syncing/doctype/facebook_page/facebook_page.json
 #: frontend/src/components/Settings/LeadSyncing/FailureLogs.vue:112
 msgid "ID"
-msgstr "هوية شخصية"
+msgstr "المعرف"
 
 #. Label of the icon (Code) field in DocType 'CRM Dropdown Item'
 #. Label of the icon (Data) field in DocType 'CRM View Settings'
@@ -3313,19 +3316,19 @@ msgstr "أيقونة"
 
 #: frontend/src/components/Settings/emailConfig.js:61
 msgid "If enabled, a lead will be automatically created when an incoming email is received from an unknown contact."
-msgstr "في حالة التمكين، سيتم إنشاء عميل محتمل تلقائيًا عند تلقي بريد إلكتروني وارد من جهة اتصال غير معروف."
+msgstr "في حالة التفعيل، سيتم إنشاء عميل محتمل تلقائيًا عند تلقي بريد إلكتروني وارد من جهة اتصال غير معروف."
 #: frontend/src/components/Settings/emailConfig.js:53
 msgid "If enabled, all outgoing emails will be sent from this account. Note: Only one account can be default outgoing."
-msgstr "إذا تم تمكينه، فسيتم إرسال جميع رسائل البريد الإلكتروني الصادرة من هذا الحساب. ملاحظة: يمكن أن يكون حساب واحد فقط صادرًا بشكل افتراضي."
+msgstr "إذا تم تفعيله، فسيتم إرسال جميع رسائل البريد الإلكتروني الصادرة من هذا الحساب. ملاحظة: يمكن أن يكون حساب واحد فقط صادرًا بشكل افتراضي."
 #: frontend/src/components/Settings/emailConfig.js:45
 msgid "If enabled, all replies to your company (eg: replies@yourcompany.com) will come to this account. Note: Only one account can be default incoming."
-msgstr "إذا تم تمكينه، فإن جميع الردود على شركتك (على سبيل المثال: ردود@yourcompany.com) ستأتي إلى هذا الحساب. ملاحظة: يمكن أن يكون هناك حساب واحد فقط واردًا افتراضيًا."
+msgstr "إذا تم تفعيله، فإن جميع الردود على شركتك (على سبيل المثال: ردود@yourcompany.com) ستأتي إلى هذا الحساب. ملاحظة: يمكن أن يكون هناك حساب واحد فقط واردًا افتراضيًا."
 #: frontend/src/components/Settings/emailConfig.js:31
 msgid "If enabled, emails will be pulled from this account."
-msgstr "إذا تم تمكينه، سيتم سحب رسائل البريد الإلكتروني من هذا الحساب."
+msgstr "إذا تم تفعيله، سيتم سحب رسائل البريد الإلكتروني من هذا الحساب."
 #: frontend/src/components/Settings/emailConfig.js:37
 msgid "If enabled, outgoing emails can be sent from this account."
-msgstr "إذا تم تمكينه، فيمكن إرسال رسائل البريد الإلكتروني الصادرة من هذا الحساب."
+msgstr "إذا تم تفعيله، فيمكن إرسال رسائل البريد الإلكتروني الصادرة من هذا الحساب."
 #. Label of the image (Attach Image) field in DocType 'CRM Lead'
 #. Label of the image (Attach Image) field in DocType 'CRM Product'
 #: crm/fcrm/doctype/crm_lead/crm_lead.json
@@ -3412,7 +3415,7 @@ msgid "Integration"
 msgstr "التكامل"
 #: crm/integrations/exotel/handler.py:72
 msgid "Integration Not Enabled"
-msgstr "التكامل غير ممكن"
+msgstr "التكامل غير مفعل"
 #: frontend/src/components/Settings/Telephony/TelephonySettings.vue:144
 msgid "Integrations"
 msgstr "التكاملات"
@@ -3780,17 +3783,17 @@ msgstr "عميل محتمل البيانات"
 #. Label of the lead_details_tab (Tab Break) field in DocType 'CRM Deal'
 #: crm/fcrm/doctype/crm_deal/crm_deal.json
 msgid "Lead Details"
-msgstr "تفاصيل الزبون المحتمل"
+msgstr "تفاصيل العميل المحتمل"
 
 #. Label of the lead_name (Data) field in DocType 'CRM Deal'
 #: crm/fcrm/doctype/crm_deal/crm_deal.json
 msgid "Lead Name"
-msgstr "اسم الزبون المحتمل"
+msgstr "اسم العميل المحتمل"
 
 #. Label of the lead_owner (Link) field in DocType 'CRM Lead'
 #: crm/fcrm/doctype/crm_lead/crm_lead.json
 msgid "Lead Owner"
-msgstr "مالك الزبون المحتمل"
+msgstr "مالك العميل المحتمل"
 
 #: crm/fcrm/doctype/crm_lead/crm_lead.py:142
 msgid "Lead Owner cannot be same as the Lead Email Address"
@@ -4006,7 +4009,7 @@ msgstr "أسباب فقدان صفقة"
 #. Option for the 'Priority' (Select) field in DocType 'CRM Task'
 #: crm/fcrm/doctype/crm_task/crm_task.json
 msgid "Low"
-msgstr "منخفض"
+msgstr "منخفضة"
 
 #: frontend/src/components/Telephony/CallUI.vue:6
 #: frontend/src/pages/Contact.vue:92
@@ -4123,7 +4126,7 @@ msgstr "ربما"
 #: crm/fcrm/doctype/crm_call_log/crm_call_log.json
 #: crm/fcrm/doctype/crm_task/crm_task.json
 msgid "Medium"
-msgstr "متوسط"
+msgstr "متوسطة"
 
 #. Option for the 'Type' (Select) field in DocType 'CRM Notification'
 #: crm/fcrm/doctype/crm_notification/crm_notification.json
@@ -4640,7 +4643,7 @@ msgstr "نص الإخطار"
 #. Notification'
 #: crm/fcrm/doctype/crm_notification/crm_notification.json
 msgid "Notification Type Doc"
-msgstr "نوع الإخطار وثيقة"
+msgstr "نوع الإخطار مستند"
 #. Label of the notification_type_doctype (Link) field in DocType 'CRM
 #. Notification'
 #: crm/fcrm/doctype/crm_notification/crm_notification.json
@@ -4762,7 +4765,7 @@ msgstr "فتح في نافذة جديدة"
 #: frontend/src/doctypes/crm_task/form.js:9
 #: frontend/src/doctypes/fcrm_note/form.js:9
 msgid "Open {0}"
-msgstr "مفتوحة {0}"
+msgstr "إفتح {0}"
 
 #: frontend/src/components/ConditionsFilter/CFCondition.vue:47
 #: frontend/src/pages/Calendar.vue:105
@@ -4806,7 +4809,7 @@ msgstr "ترتيب الأنشطة ورسائل البريد الإلكتروني
 #: frontend/src/pages/Organization.vue:487
 #: frontend/src/pages/Organization.vue:541
 msgid "Organization"
-msgstr "منظمة"
+msgstr "الشركة"
 
 #. Label of the organization_details_section (Section Break) field in DocType
 #. 'CRM Deal'
@@ -4824,7 +4827,7 @@ msgstr "مؤسسة الشعار"
 #: crm/fcrm/doctype/crm_deal/crm_deal.json
 #: crm/fcrm/doctype/crm_organization/crm_organization.json
 msgid "Organization Name"
-msgstr "اسم المنظمة"
+msgstr "اسم الشركة"
 
 #: crm/fcrm/doctype/erpnext_crm_settings/erpnext_crm_settings.py:503
 msgid "Organization or a primary Contact is required to create a customer"
@@ -4999,7 +5002,7 @@ msgid "Please check your access token"
 msgstr "يرجى التحقق من رمز الوصول الخاص بك"
 #: crm/integrations/twilio/twilio_handler.py:119
 msgid "Please enable twilio settings before making a call."
-msgstr "الرجاء تمكين إعدادات twilio قبل إجراء مكالمة."
+msgstr "الرجاء تفعيل إعدادات twilio قبل إجراء مكالمة."
 #: frontend/src/components/FilesUploader/FilesUploader.vue:155
 msgid "Please enter a valid URL"
 msgstr "الرجاء إدخال عنوان URL صالح"
@@ -5103,7 +5106,7 @@ msgstr "يجب أن تكون الأولويات فريدة من نوعها"
 #: frontend/src/components/Settings/Sla/EditResponseResolutionModal.vue:11
 #: frontend/src/components/Settings/Sla/SlaPriorityList.vue:171
 msgid "Priority"
-msgstr "أفضلية"
+msgstr "الأهمية"
 
 #: frontend/src/components/Settings/Sla/utils.js:125
 msgid "Priority {0}: Priority Name is required"
@@ -5217,7 +5220,7 @@ msgid "Quick Filters"
 msgstr "عوامل تصفية سريعة"
 #: frontend/src/components/ViewControls.vue:741
 msgid "Quick filters updated successfully"
-msgstr "تم تحديث المرشحات السريعة بنجاح"
+msgstr "تم تحديث الفلترات السريعة بنجاح"
 #. Label of the rate (Currency) field in DocType 'CRM Products'
 #: crm/fcrm/doctype/crm_products/crm_products.json
 msgid "Rate"
@@ -5273,7 +5276,7 @@ msgstr "مرجع Doctype"
 #: crm/fcrm/doctype/crm_task/crm_task.json
 #: crm/fcrm/doctype/fcrm_note/fcrm_note.json
 msgid "Reference Document Type"
-msgstr "مرجع نوع الوثيقة"
+msgstr "مرجع نوع المستند"
 
 #. Label of the reference_docname (Dynamic Link) field in DocType 'CRM Call
 #. Log'
@@ -5283,7 +5286,7 @@ msgstr "اسم الإشارة"
 
 #: crm/api/whatsapp.py:21
 msgid "Reference document {0} {1} does not exist."
-msgstr "الوثيقة المرجعية {0} {1} غير موجودة."
+msgstr "المستند المرجعية {0} {1} غير موجودة."
 #: crm/api/whatsapp.py:270 crm/api/whatsapp.py:322
 msgid "Referenced WhatsApp message does not exist."
 msgstr "رسالة WhatsApp المشار إليها غير موجودة."
@@ -5624,7 +5627,7 @@ msgid "Sales Hierarchy disabled"
 msgstr "المبيعات تم تعطيل التسلسل الهرمي"
 #: frontend/src/components/Settings/Hierarchy/Hierarchy.vue:334
 msgid "Sales Hierarchy enabled"
-msgstr "المبيعات تم تمكين التسلسل الهرمي"
+msgstr "المبيعات تم تفعيل التسلسل الهرمي"
 #. Name of a role
 #. Option for the 'Role' (Select) field in DocType 'CRM Invitation'
 #: crm/fcrm/doctype/crm_call_log/crm_call_log.json
@@ -5984,28 +5987,28 @@ msgid "Setting disabled successfully"
 msgstr "تم تعطيل الإعداد بنجاح"
 #: frontend/src/components/Settings/GeneralSettings.vue:152
 msgid "Setting enabled successfully"
-msgstr "تم تمكين الإعداد بنجاح"
+msgstr "تم تفعيل الإعداد بنجاح"
 #: frontend/src/components/Settings/emailConfig.js:158
 msgid "Setting up Frappe Mail requires you to have an API key and API Secret of your email account. Read more"
 msgstr "يتطلب إعداد Frappe Mail أن يكون لديك مفتاح API وسر API لحساب بريدك الإلكتروني. اقرأ المزيد"
 #: frontend/src/components/Settings/emailConfig.js:104
 msgid "Setting up GMail requires you to enable two factor authentication and app specific passwords. Read more"
-msgstr "يتطلب إعداد GMail تمكين المصادقة الثنائية وكلمات المرور الخاصة بالتطبيق. اقرأ المزيد"
+msgstr "يتطلب إعداد GMail تفعيل المصادقة الثنائية وكلمات المرور الخاصة بالتطبيق. اقرأ المزيد"
 #: frontend/src/components/Settings/emailConfig.js:113
 msgid "Setting up Outlook requires you to enable two factor authentication and app specific passwords. Read more"
-msgstr "يتطلب إعداد Outlook تمكين المصادقة الثنائية وكلمات المرور الخاصة بالتطبيق. اقرأ المزيد"
+msgstr "يتطلب إعداد Outlook تفعيل المصادقة الثنائية وكلمات المرور الخاصة بالتطبيق. اقرأ المزيد"
 #: frontend/src/components/Settings/emailConfig.js:122
 msgid "Setting up Sendgrid requires you to enable two factor authentication and app specific passwords. Read more"
-msgstr "يتطلب إعداد Sendgrid تمكين المصادقة الثنائية وكلمات المرور الخاصة بالتطبيق. اقرأ المزيد"
+msgstr "يتطلب إعداد Sendgrid تفعيل المصادقة الثنائية وكلمات المرور الخاصة بالتطبيق. اقرأ المزيد"
 #: frontend/src/components/Settings/emailConfig.js:131
 msgid "Setting up Sparkpost requires you to enable two factor authentication and app specific passwords. Read more"
-msgstr "يتطلب إعداد Sparkpost تمكين المصادقة الثنائية وكلمات المرور الخاصة بالتطبيق. اقرأ المزيد"
+msgstr "يتطلب إعداد Sparkpost تفعيل المصادقة الثنائية وكلمات المرور الخاصة بالتطبيق. اقرأ المزيد"
 #: frontend/src/components/Settings/emailConfig.js:140
 msgid "Setting up Yahoo requires you to enable two factor authentication and app specific passwords. Read more"
-msgstr "يتطلب إعداد Yahoo تمكين المصادقة الثنائية وكلمات المرور الخاصة بالتطبيق. اقرأ المزيد"
+msgstr "يتطلب إعداد Yahoo تفعيل المصادقة الثنائية وكلمات المرور الخاصة بالتطبيق. اقرأ المزيد"
 #: frontend/src/components/Settings/emailConfig.js:149
 msgid "Setting up Yandex requires you to enable two factor authentication and app specific passwords. Read more"
-msgstr "يتطلب إعداد Yandex تمكين المصادقة الثنائية وكلمات المرور الخاصة بالتطبيق. اقرأ المزيد"
+msgstr "يتطلب إعداد Yandex تفعيل المصادقة الثنائية وكلمات المرور الخاصة بالتطبيق. اقرأ المزيد"
 #: frontend/src/components/Settings/GeneralSettings.vue:161
 msgid "Setting updated successfully"
 msgstr "تم تحديث الإعداد بنجاح"
@@ -6148,11 +6151,11 @@ msgid "Source disabled successfully"
 msgstr "تم تعطيل المصدر بنجاح"
 #: frontend/src/components/Settings/LeadSyncing/LeadSyncSources.vue:158
 msgid "Source enabled successfully"
-msgstr "تم تمكين المصدر بنجاح"
+msgstr "تم تفعيل المصدر بنجاح"
 #: frontend/src/components/Dashboard/AddChartModal.vue:64
 #: frontend/src/components/Dashboard/DashboardItem.vue:21
 msgid "Spacer"
-msgstr "فاصل"
+msgstr "مسافة"
 
 #: frontend/src/pages/PersonaForm.vue:59
 msgid "Spreadsheets"
@@ -6312,7 +6315,7 @@ msgid "Syncing started in background"
 msgstr "بدأت المزامنة في الخلفية"
 #: frontend/src/components/Settings/ThemeSwitcher.vue:162
 msgid "System"
-msgstr "نظام"
+msgstr "النظام"
 
 #: frontend/src/components/Settings/Settings.vue:119
 msgid "System Configuration"
@@ -6400,7 +6403,7 @@ msgid "Template disabled successfully"
 msgstr "تم تعطيل القالب بنجاح"
 #: frontend/src/components/Settings/EmailTemplate/EmailTemplates.vue:196
 msgid "Template enabled successfully"
-msgstr "تم تمكين القالب بنجاح"
+msgstr "تم تفعيل القالب بنجاح"
 #: frontend/src/components/Settings/EmailTemplate/EditEmailTemplate.vue:236
 msgid "Template renamed successfully"
 msgstr "تمت إعادة تسمية القالب بنجاح"
@@ -6857,7 +6860,7 @@ msgid "Upload Attachment"
 msgstr "تحميل المرفق"
 #: frontend/src/components/Activities/WhatsAppBox.vue:152
 msgid "Upload Document"
-msgstr "تحميل الوثيقة"
+msgstr "تحميل المستند"
 #: frontend/src/components/Activities/WhatsAppBox.vue:160
 #: frontend/src/pages/Contact.vue:48 frontend/src/pages/Lead.vue:93
 #: frontend/src/pages/MobileContact.vue:38
@@ -6887,7 +6890,7 @@ msgstr "استخدم ERPNext لإنشاء المنتجات"
 #: crm/fcrm/doctype/crm_telephony_agent/crm_telephony_agent.json
 #: crm/fcrm/doctype/crm_view_settings/crm_view_settings.json
 msgid "User"
-msgstr "المستعمل"
+msgstr "المستخدم"
 
 #: frontend/src/components/Settings/Settings.vue:99
 msgid "User Configuration"
@@ -7013,7 +7016,7 @@ msgstr "أسبوع"
 #: crm/fcrm/doctype/fcrm_settings/fcrm_settings.json
 #: frontend/src/components/Settings/CalendarSettings.vue:51
 msgid "Weekly"
-msgstr "الأسبوعية"
+msgstr "أسبوعيا"
 
 #. Label of the weekly_off (Check) field in DocType 'CRM Holiday'
 #. Label of the weekly_off (Select) field in DocType 'CRM Holiday List'
@@ -7404,7 +7407,7 @@ msgid "john@doe.com"
 msgstr "جون@doe.com"
 #: frontend/src/utils/index.js:172 frontend/src/utils/index.js:198
 msgid "just now"
-msgstr "الآن فقط"
+msgstr "منذ لحظات"
 
 #. Option for the 'Type' (Select) field in DocType 'CRM View Settings'
 #: crm/fcrm/doctype/crm_view_settings/crm_view_settings.json

@@ -4,7 +4,7 @@ authors = [
     { name = "ibrahim317", email = "i.aboelsoud21@gmail.com"},
     { name = "Mohanad Najeeb", email = "mohanad.najeeb@eptikar.com"},
 ]
-description = "Arabic Translations for Frappe, ERPNext, HR and CRM"
+description = "Arabic Translations for Frappe, ERPNext, HRMS, CRM, and POS Awesome"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]

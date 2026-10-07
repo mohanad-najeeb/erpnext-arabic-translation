@@ -42,7 +42,7 @@ msgid "08:00 pm"
 msgstr "08:00 مساءا"
 #: frontend/src/utils/index.js:204
 msgid "1 hour ago"
-msgstr "منذ 1 ساعة"
+msgstr "منذ ساعة"
 
 #: frontend/src/composables/event.js:207
 msgid "1 hr"
@@ -50,7 +50,7 @@ msgstr "1 ساعة"
 
 #: frontend/src/utils/index.js:200
 msgid "1 minute ago"
-msgstr "منذ 1 دقيقة"
+msgstr "منذ دقيقة"
 
 #: frontend/src/utils/index.js:219
 msgid "1 month ago"
@@ -58,7 +58,7 @@ msgstr "قبل شهر"
 
 #: frontend/src/utils/index.js:215
 msgid "1 week ago"
-msgstr "1 قبل أسبوع"
+msgstr "قبل أسبوع"
 
 #: frontend/src/utils/index.js:223
 msgid "1 year ago"
@@ -140,14 +140,14 @@ msgid "<span class=\"h5\"><b>PORTAL</b></span>"
 msgstr "<span class=\"h5\"><b>البوابة</b></span>"
 #: frontend/src/components/CommunicationArea.vue:80
 msgid "@John, can you please check this?"
-msgstr "@ جون ، هل يمكنك التحقق من ذلك من فضلك؟"
+msgstr "@John، هل يمكنك التحقق من هذا من فضلك؟"
 #: crm/fcrm/doctype/crm_lead/crm_lead.py:125
 msgid "A Lead requires either a person's name or an organization's name"
-msgstr "يتطلب العميل المتوقع اسم شخص أو اسم مؤسسة"
+msgstr "يتطلب العميل المحتمل اسم شخص أو اسم مؤسسة"
 
 #: crm/lead_syncing/doctype/lead_sync_source/lead_sync_source.py:49
 msgid "A lead sync source is already enabled for this Facebook Lead Form!"
-msgstr "تم بالفعل تفعيل مصدر مزامنة عميل محتمل لنموذج Facebook عميل محتمل هذا!"
+msgstr "يوجد بالفعل مصدر مزامنة مفعل لنموذج العملاء المحتملين هذا على Facebook!"
 #: crm/templates/emails/helpdesk_invitation.html:5
 msgid "A new account has been created for you at {0}"
 msgstr "تم إنشاء حساب جديد لك في {0}"
@@ -157,7 +157,7 @@ msgid "A valid call log is required."
 msgstr "مطلوب سجل مكالمات صالح."
 #: frontend/src/components/Settings/Hierarchy/useDragDrop.js:69
 msgid "A {0} cannot report to a {1}"
-msgstr "لا يمكن لـ {0} الإبلاغ إلى {1}"
+msgstr "لا يمكن أن يكون {1} مديرًا مباشرًا لـ {0}"
 #. Label of the api_key (Data) field in DocType 'CRM Exotel Settings'
 #. Label of the api_key (Data) field in DocType 'CRM Twilio Settings'
 #. Label of the api_key (Data) field in DocType 'ERPNext CRM Settings'
@@ -177,7 +177,7 @@ msgstr "مفتاح API"
 #: frontend/src/components/Settings/ERPNextSettings.vue:88
 #: frontend/src/components/Settings/emailConfig.js:93
 msgid "API Secret"
-msgstr "كلمة مرور API"
+msgstr "المفتاح السري لواجهة برمجة التطبيقات"
 
 #. Label of the api_token (Password) field in DocType 'CRM Exotel Settings'
 #: crm/fcrm/doctype/crm_exotel_settings/crm_exotel_settings.json
@@ -190,7 +190,7 @@ msgid "API key is required"
 msgstr "مفتاح API مطلوب"
 #: frontend/src/components/Settings/ERPNextSettings.vue:503
 msgid "API secret is required"
-msgstr "مطلوب سر API"
+msgstr "المفتاح السري لواجهة برمجة التطبيقات مطلوب"
 #: frontend/src/components/Telephony/TwilioCallUI.vue:88
 msgid "Accept"
 msgstr "قبول"
@@ -209,11 +209,11 @@ msgstr "مقبول"
 #. Label of the accepted_at (Datetime) field in DocType 'CRM Invitation'
 #: crm/fcrm/doctype/crm_invitation/crm_invitation.json
 msgid "Accepted At"
-msgstr "مقبولة في"
+msgstr "تاريخ ووقت القبول"
 
 #: frontend/src/pages/NotPermitted.vue:7
 msgid "Access Denied"
-msgstr "تم الرفض"
+msgstr "الوصول مرفوض"
 #. Label of the access_key (Data) field in DocType 'FCRM Settings'
 #: crm/fcrm/doctype/fcrm_settings/fcrm_settings.json
 #: frontend/src/components/Settings/DashboardSettings.vue:135
@@ -254,7 +254,7 @@ msgstr "اسم الحساب"
 #: frontend/src/components/Settings/Telephony/ExotelSettings.vue:59
 #: frontend/src/components/Settings/Telephony/TwilioSettings.vue:45
 msgid "Account SID"
-msgstr "معرف معرف الحساب (SID) للحساب"
+msgstr "معرف الحساب (SID)"
 #: frontend/src/components/Settings/emailConfig.js:178
 msgid "Account name is required"
 msgstr "اسم الحساب مطلوب"
@@ -292,11 +292,11 @@ msgid "Add Account"
 msgstr "إضافة حساب"
 #: frontend/src/components/Settings/AssignmentRules/AssigneeSearch.vue:8
 msgid "Add Assignee"
-msgstr "إضافة معهود إليه"
+msgstr "إضافة مستخدم لإسناد المهمة إليه"
 
 #: frontend/src/components/Calendar/Attendee.vue:122
 msgid "Add Attendee"
-msgstr "إضافة الحضور"
+msgstr "إضافة مشارك"
 #: crm/fcrm/doctype/crm_product/crm_product_list.js:3
 msgid "Add CRM Product"
 msgstr "إضافة منتج CRM"

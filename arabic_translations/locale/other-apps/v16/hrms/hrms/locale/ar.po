@@ -31,19 +31,19 @@ msgstr ""
 #. field in DocType 'HR Settings'
 #: hrms/hr/doctype/hr_settings/hr_settings.json
 msgid " Unlink Payment on Cancellation of Employee Advance"
-msgstr "إلغاء ربط الدفع عند إلغاء تقدم الموظفين"
+msgstr " إلغاء ربط الدفعة عند إلغاء سلفة الموظف"
 
 #: hrms/hr/report/employee_leave_balance/employee_leave_balance.py:23
 msgid "\"From Date\" can not be greater than or equal to \"To Date\""
-msgstr "لا يمكن أن يكون \"From Date\" أكبر من أو يساوي \"To Date\""
+msgstr "يجب أن يكون \"من تاريخ\" أسبق من \"إلى تاريخ\""
 
 #: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:86
 msgid "% Utilization (B + NB) / T"
-msgstr "٪ استخدام (B + NB) / T"
+msgstr "٪ استغلال ساعات العمل (B + NB) / T"
 
 #: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:92
 msgid "% Utilization (B / T)"
-msgstr "استخدام ٪ (ب / ر)"
+msgstr "٪ استغلال ساعات العمل (B / T)"
 
 #: hrms/hr/doctype/employee_checkin/employee_checkin.py:183
 msgid "'employee_field_value' and 'timestamp' are required."
@@ -223,7 +223,7 @@ msgstr "23:00"
 
 #: hrms/payroll/doctype/bulk_salary_structure_assignment/bulk_salary_structure_assignment.js:272
 msgid "<b>Base</b> amount has not been set for the following employee(s): {0}"
-msgstr "لم يتم تعيين المبلغ <b> base </b> للموظف (S) التالي: {0}"
+msgstr "لم يتم تحديد مبلغ <b>الراتب الأساسي</b> للموظفين التاليين: {0}"
 
 #. Description of the 'Password Policy' (Data) field in DocType 'Payroll
 #. Settings'
@@ -232,7 +232,7 @@ msgid ""
 "<b>Example:</b> SAL-{first_name}-{date_of_birth.year} <br>This will "
 "generate a password like SAL-Jane-1972"
 msgstr ""
-"<b>مثال:</b> SAL- {first_name} - {date_of_birth.year} <br> سيؤدي هذا إلى "
+"<b>مثال:</b> SAL-{first_name}-{date_of_birth.year} <br>سيؤدي هذا إلى "
 "إنشاء كلمة مرور مثل SAL-Jane-1972"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:315
@@ -240,7 +240,7 @@ msgstr ""
 msgid ""
 "<b>Total Leaves Allocated</b> are more than the number of days in the "
 "allocation period"
-msgstr "<b> إجمالي الأوراق المخصصة </b> أكثر من عدد الأيام في فترة التخصيص"
+msgstr "<b>إجمالي أيام الإجازة المخصصة</b> يتجاوز عدد الأيام في فترة التخصيص"
 
 #. Content of the 'Help' (HTML) field in DocType 'Salary Component'
 #: hrms/payroll/doctype/salary_component/salary_component.json
@@ -277,35 +277,35 @@ msgid ""
 "<pre><code>Amount: 1000</code></pre></li>\n"
 "</ol>"
 msgstr ""
-"<h3> مساعدة </h3> \n"
+"<h3>مساعدة</h3>\n"
 "\n"
-" <p> ملاحظات: </p> \n"
+"<p>ملاحظات:</p>\n"
 "\n"
-" <ol> \n"
-" <li> استخدم الحقل <code>base</code> لاستخدام الراتب الأساسي للموظف </li>"
-" \n"
-" <li> استخدم اختصارات مكونات الراتب في الشروط والصيغ.  <code>BS = Basic "
-"Salary</code> </li> \n"
-" <li> استخدم اسم الحقل لتفاصيل الموظف في الشروط والصيغ.  <code>Employment"
-" Type = employment_type</code> <code>Branch = branch</code> </li> \n"
-" <li> استخدم اسم الحقل من قسيمة الراتب في الشروط والصيغ.  <code>Payment "
-"Days = payment_days</code> <code>Leave without pay = "
-"leave_without_pay</code> </li> \n"
-" يمكن أيضًا إدخال المبلغ المباشر <li> بناءً على الحالة. انظر المثال 3 "
-"</li> </ol> \n"
+"<ol>\n"
+"<li>استخدم الحقل <code>base</code> للإشارة إلى الراتب الأساسي للموظف</li>\n"
+"<li>استخدم اختصارات مكونات الراتب في الشروط والصيغ. "
+"<code>BS = Basic Salary</code></li>\n"
+"<li>استخدم أسماء حقول بيانات الموظف في الشروط والصيغ. "
+"<code>Employment Type = employment_type</code><code>Branch = branch</code></li>\n"
+"<li>استخدم أسماء حقول قسيمة الراتب في الشروط والصيغ. "
+"<code>Payment Days = payment_days</code><code>Leave without pay = "
+"leave_without_pay</code></li>\n"
+"<li>يمكن أيضًا إدخال مبلغ مباشر بناءً على شرط. انظر المثال "
+"3</li></ol>\n"
 "\n"
-" أمثلة <h4> </h4> \n"
-" <ol> \n"
-" <li> حساب الراتب الأساسي على أساس <code>base</code> \n"
-" <pre> <code>Condition: base &lt; 10000</code> </pre> \n"
-" <pre> <code>Formula: base * .2</code> </pre> </li> \n"
-" <li> حساب HRA على أساس الراتب الأساسي <code>BS</code>  \n"
-" <pre> <code>Condition: BS &gt; 2000</code> </pre> \n"
-" <pre> <code>Formula: BS * .1</code> </pre> </li> \n"
-" <li> حساب TDS على أساس نوع التوظيف <code>employment_type</code>  \n"
-" <pre> <code>Condition: employment_type==\"Intern\"</code> </pre> \n"
-" <pre> <code>Amount: 1000</code> </pre> </li> \n"
-" </ol>"
+"<h4>أمثلة</h4>\n"
+"<ol>\n"
+"<li>احتساب الراتب الأساسي بناءً على <code>base</code>\n"
+"<pre><code>Condition: base &lt; 10000</code></pre>\n"
+"<pre><code>Formula: base * .2</code></pre></li>\n"
+"<li>احتساب بدل السكن (HRA) بناءً على الراتب الأساسي <code>BS</code> \n"
+"<pre><code>Condition: BS &gt; 2000</code></pre>\n"
+"<pre><code>Formula: BS * .1</code></pre></li>\n"
+"<li>احتساب الضريبة المقتطعة من المنبع (TDS) بناءً على نوع التوظيف "
+"<code>employment_type</code> \n"
+"<pre><code>Condition: employment_type==\"Intern\"</code></pre>\n"
+"<pre><code>Amount: 1000</code></pre></li>\n"
+"</ol>"
 
 #. Content of the 'html_6' (HTML) field in DocType 'Taxable Salary Slab'
 #: hrms/payroll/doctype/taxable_salary_slab/taxable_salary_slab.json
@@ -321,28 +321,28 @@ msgid ""
 "<li>Applying tax by Salary Component<br>\n"
 "<code>Condition: base &gt; 10000</code></li></ol>"
 msgstr ""
-"أمثلة على شروط <h4> </h4> \n"
-" <ol> \n"
-" <li> تطبيق الضريبة إذا كان الموظف من مواليد 31-12-1937 و01-01 1958 "
-"(الموظفون الذين تتراوح أعمارهم بين 60 إلى 80) <br> \n"
-" <code>Condition: date_of_birth&gt;date(1937, 12, 31) and "
-"date_of_birth&lt;date(1958, 01, 01)</code> </li> <br> <li> تطبيق الضريبة "
-"حسب جنس الموظف <br> \n"
-" <code>Condition: gender==\"Male\"</code> </li> <br> \n"
-" <li> تطبيق الضريبة حسب مكون الراتب <br> \n"
-" <code>Condition: base &gt; 10000</code> </li> </ol>"
+"<h4>أمثلة على الشروط</h4>\n"
+"<ol>\n"
+"<li>تطبيق الضريبة إذا كان الموظف مولودًا بين 31-12-1937 و01-01-1958 "
+"(الموظفون الذين تتراوح أعمارهم بين 60 و80 عامًا)<br>\n"
+"<code>Condition: date_of_birth&gt;date(1937, 12, 31) and "
+"date_of_birth&lt;date(1958, 01, 01)</code></li><br><li>تطبيق الضريبة حسب "
+"جنس الموظف<br>\n"
+"<code>Condition: gender==\"Male\"</code></li><br>\n"
+"<li>تطبيق الضريبة بناءً على مكون الراتب<br>\n"
+"<code>Condition: base &gt; 10000</code></li></ol>"
 
 #. Content of the 'Half Day Marked Employee Header' (HTML) field in DocType
 #. 'Employee Attendance Tool'
 #: hrms/hr/doctype/employee_attendance_tool/employee_attendance_tool.json
 msgid "<h5>Employees on Half Day</h5>"
-msgstr "موظفو <h5> في نصف يوم </h5>"
+msgstr "<h5>الموظفون المسجل لهم حضور نصف يوم</h5>"
 
 #. Content of the 'Unmarked Employee Header' (HTML) field in DocType 'Employee
 #. Attendance Tool'
 #: hrms/hr/doctype/employee_attendance_tool/employee_attendance_tool.json
 msgid "<h5>Unmarked Employees</h5>"
-msgstr "<h5> الموظفون غير المحددين </h5>"
+msgstr "<h5>الموظفون الذين لم يُسجل حضورهم</h5>"
 
 #. Content of the 'Horizontal Break' (HTML) field in DocType 'Employee
 #. Attendance Tool'
@@ -409,7 +409,7 @@ msgstr "أيام الغياب"
 
 #: hrms/hr/report/shift_attendance/shift_attendance.py:178
 msgid "Absent Records"
-msgstr "السجلات الغائبة"
+msgstr "سجلات الغياب"
 
 #: hrms/payroll/report/salary_payments_via_ecs/salary_payments_via_ecs.py:58
 msgid "Account No"
@@ -466,7 +466,7 @@ msgstr "مكون الاستحقاق"
 
 #: hrms/payroll/doctype/salary_component/salary_component.py:112
 msgid "Accrual Component can only be set for Earning Salary Components."
-msgstr "لا يمكن تعيين مكون الاستحقاق إلا لمكونات كسب الراتب."
+msgstr "لا يمكن تفعيل مكون الاستحقاق إلا لمكونات الراتب من نوع المستحقات."
 
 #: hrms/payroll/doctype/salary_component/salary_component.py:132
 msgid ""
@@ -486,7 +486,7 @@ msgstr ""
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:673
 msgid "Accrual Journal Entry for salaries from {0} to {1}"
-msgstr "مدخل يومية تراكمية للرواتب من {0} إلى {1}"
+msgstr "قيد يومية لاستحقاق الرواتب من {0} إلى {1}"
 
 #. Option for the 'Payout Method' (Select) field in DocType 'Salary Component'
 #: hrms/payroll/doctype/salary_component/salary_component.json
@@ -496,31 +496,31 @@ msgstr "الاستحقاق والدفع في نهاية فترة الرواتب"
 #. Option for the 'Payout Method' (Select) field in DocType 'Salary Component'
 #: hrms/payroll/doctype/salary_component/salary_component.json
 msgid "Accrue per cycle, pay only on claim"
-msgstr "استحقاق لكل دورة، ادفع فقط عند المطالبة"
+msgstr "الاستحقاق في كل دورة، والصرف عند المطالبة فقط"
 
 #. Label of the accrued_benefits (Table) field in DocType 'Salary Slip'
 #: hrms/payroll/doctype/salary_slip/salary_slip.json
 msgid "Accrued Benefits"
-msgstr "الفوائد المتراكمة"
+msgstr "المزايا المستحقة"
 
 #. Name of a report
 #. Label of a Workspace Sidebar Item
 #: hrms/payroll/report/accrued_earnings_report/accrued_earnings_report.json
 #: hrms/workspace_sidebar/tax_&_benefits.json
 msgid "Accrued Earnings Report"
-msgstr "تقرير الأرباح المتراكمة"
+msgstr "تقرير مستحقات الرواتب المتراكمة"
 
 #: hrms/payroll/doctype/employee_benefit_ledger/employee_benefit_ledger.py:123
 msgid ""
 "Accrued amount {0} is less than paid amount {1} for Benefit {2} in "
 "payroll period {3}"
 msgstr ""
-"المبلغ المستحق {0} أقل من المبلغ المدفوع {1} لفائدة {2} في فترة الرواتب "
+"المبلغ المستحق {0} أقل من المبلغ المدفوع {1} للميزة {2} في فترة الرواتب "
 "{3}"
 
 #: hrms/hr/doctype/attendance_request/attendance_warnings.html:8
 msgid "Action on Submission"
-msgstr "العمل على التقديم"
+msgstr "الإجراء عند الاعتماد"
 
 #. Label of the activity_name (Data) field in DocType 'Employee Boarding
 #. Activity'
@@ -532,14 +532,14 @@ msgstr "اسم النشاط"
 #. Proof Submission Detail'
 #: hrms/payroll/doctype/employee_tax_exemption_proof_submission_detail/employee_tax_exemption_proof_submission_detail.json
 msgid "Actual Amount"
-msgstr "الكمية الفعلية"
+msgstr "المبلغ الفعلي"
 
 #. Label of the actual_encashable_days (Float) field in DocType 'Leave
 #. Encashment'
 #: hrms/hr/doctype/leave_encashment/leave_encashment.json
 #: hrms/hr/doctype/leave_encashment/leave_encashment.py:163
 msgid "Actual Encashable Days"
-msgstr "الأيام الفعلية القابلة للتنفيذ"
+msgstr "أيام الإجازة الفعلية القابلة للتعويض النقدي"
 
 #. Label of the actual_overtime_duration (Float) field in DocType 'Attendance'
 #: hrms/hr/doctype/attendance/attendance.json
@@ -552,9 +552,8 @@ msgid ""
 " different leave allocations. You can still apply for leaves which would "
 "be compensated during the next allocation."
 msgstr ""
-"الأرصدة الفعلية غير متوفرة لأن تطبيق الإجازة يمتد على مخصصات إجازة "
-"مختلفة. لا يزال بإمكانك التقدم بطلب للحصول على الأوراق التي سيتم تعويضها "
-"أثناء التخصيص التالي."
+"الأرصدة الفعلية غير متاحة لأن طلب الإجازة يمتد عبر فترات تخصيص مختلفة. "
+"لا يزال بإمكانك طلب إجازات تُحتسب من رصيد التخصيص التالي."
 
 #. Label of the add_day_wise_dates (Button) field in DocType 'Leave Block List'
 #: hrms/hr/doctype/leave_block_list/leave_block_list.json
@@ -563,7 +562,7 @@ msgstr "أضف تواريخ نهارية"
 
 #: hrms/hr/employee_property_update.js:43
 msgid "Add Employee Property"
-msgstr "إضافة ممتلكات الموظف"
+msgstr "إضافة خاصية للموظف"
 
 #: frontend/src/components/ExpensesTable.vue:123
 msgid "Add Expense"
@@ -571,7 +570,7 @@ msgstr "أضف المصاريف"
 
 #: hrms/public/js/performance/performance_feedback.js:95
 msgid "Add Feedback"
-msgstr "أضف ردود الفعل"
+msgstr "إضافة تقييم"
 
 #: frontend/src/components/ExpenseTaxesTable.vue:118
 msgid "Add Tax"
@@ -595,15 +594,15 @@ msgstr "إضافة الاجازات غير المستخدمة من المخصص�
 msgid ""
 "Add unused leaves from previous leave period's allocation to this "
 "allocation"
-msgstr "أضف أوراق غير مستخدمة من تخصيص فترة الإجازة السابقة لهذا التخصيص"
+msgstr "إضافة رصيد الإجازات غير المستخدم من الفترة السابقة إلى هذا التخصيص"
 
 #: hrms/payroll/doctype/salary_slip/salary_slip.py:1686
 msgid ""
 "Added tax components from the Salary Component master as the salary "
 "structure didn't have any tax component."
 msgstr ""
-"المكونات الضريبية المضافة من ماجستير مكون الراتب حيث أن هيكل الرواتب لم "
-"يكن لديه أي مكون ضريبي."
+"تمت إضافة المكونات الضريبية من سجل مكونات الراتب، لأن هيكل الراتب لم "
+"يتضمن أي مكون ضريبي."
 
 #: hrms/hr/employee_property_update.js:193
 msgid "Added to details"
@@ -683,25 +682,25 @@ msgstr "نوع التعديل"
 #. Option for the 'Level' (Select) field in DocType 'Training Event'
 #: hrms/hr/doctype/training_event/training_event.json
 msgid "Advance"
-msgstr "مقدما"
+msgstr "متقدم"
 
 #: hrms/hr/doctype/employee_advance/employee_advance.py:85
 msgid "Advance Account Required"
-msgstr "مطلوب حساب مسبق"
+msgstr "حساب السلف مطلوب"
 
 #: hrms/hr/doctype/employee_advance/employee_advance.py:89
 msgid ""
 "Advance Account is mandatory. Please set the {0} in the Company {1} and "
 "submit this document."
-msgstr "الحساب المسبق إلزامي. يرجى تعيين {0} في الشركة {1} وإرسال هذا المستند."
+msgstr "حساب السلف إلزامي. يرجى تحديد {0} في الشركة {1} واعتماد هذا المستند."
 
 #: hrms/hr/doctype/employee_advance/employee_advance.py:132
 msgid ""
 "Advance Account {} currency should be same as Salary Currency of Employee"
 " {}. Please select same currency Advance Account"
 msgstr ""
-"يجب أن تكون عملة الحساب المسبق {} هي نفس عملة راتب الموظف {}. يرجى اختيار"
-" نفس العملة الحساب المسبق"
+"يجب أن تطابق عملة حساب السلف {} عملة راتب الموظف {}. يرجى اختيار حساب "
+"سلف بالعملة نفسها"
 
 #. Label of the advanced_filters_section (Section Break) field in DocType
 #. 'Leave Control Panel'
@@ -716,7 +715,7 @@ msgstr "الفلترات المتقدمة"
 
 #: hrms/hr/doctype/expense_claim/expense_claim.py:467
 msgid "All Exchange Gain/Loss amount of {0} has been booked through {1}"
-msgstr "تم حجز جميع أرباح/خسائر التبادل الخاصة بـ {0} من خلال {1}"
+msgstr "تم تسجيل كامل مبلغ أرباح/خسائر فروق الصرف البالغ {0} من خلال {1}"
 
 #: hrms/hr/doctype/goal/goal_tree.js:215
 msgid "All Goals"
@@ -746,7 +745,7 @@ msgstr "تخصيص إجازة"
 
 #: hrms/hr/doctype/leave_control_panel/leave_control_panel.js:193
 msgid "Allocate leaves to {0} employee(s)?"
-msgstr "تخصيص الأوراق إلى {0} الموظف (s)؟"
+msgstr "هل تريد تخصيص رصيد إجازات لعدد {0} من الموظفين؟"
 
 #. Label of the allocate_on_day (Select) field in DocType 'Leave Type'
 #: hrms/hr/doctype/leave_type/leave_type.json
@@ -787,7 +786,7 @@ msgstr "تفاصيل التخصيص"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.js:119
 msgid "Allocation Expired!"
-msgstr "تخصيص انتهت!"
+msgstr "انتهت صلاحية تخصيص الإجازات!"
 
 #: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:86
 msgid "Allocation is greater than the maximum allowed {0} for leave type {1}"
@@ -796,7 +795,7 @@ msgstr "التخصيص أكبر من الحد الأقصى المسموح به �
 #. Label of the leave_allocation (Link) field in DocType 'Leave Adjustment'
 #: hrms/hr/doctype/leave_adjustment/leave_adjustment.json
 msgid "Allocation to Adjust"
-msgstr "تخصيص لضبط"
+msgstr "تخصيص الإجازات المراد تعديله"
 
 #: hrms/hr/utils.py:437
 msgid ""
@@ -816,12 +815,12 @@ msgstr ""
 #. 'HR Settings'
 #: hrms/hr/doctype/hr_settings/hr_settings.json
 msgid "Allow Employee Checkin from Mobile App"
-msgstr "السماح للموظف بالتحقق من تطبيق الهاتف المحمول"
+msgstr "السماح بتسجيل حضور الموظف من تطبيق الجوال"
 
 #. Label of the allow_encashment (Check) field in DocType 'Leave Type'
 #: hrms/hr/doctype/leave_type/leave_type.json
 msgid "Allow Encashment"
-msgstr "السماح بالصرف"
+msgstr "السماح بالتعويض النقدي عن الإجازات"
 
 #. Label of the allow_geolocation_tracking (Check) field in DocType 'HR
 #. Settings'
@@ -849,7 +848,7 @@ msgstr "السماح برصيد سالب"
 #. Label of the allow_over_allocation (Check) field in DocType 'Leave Type'
 #: hrms/hr/doctype/leave_type/leave_type.json
 msgid "Allow Over Allocation"
-msgstr "السماح على التخصيص"
+msgstr "السماح بتخصيص رصيد إجازات يتجاوز مدة الفترة"
 
 #. Label of the allow_tax_exemption (Check) field in DocType 'Income Tax Slab'
 #: hrms/payroll/doctype/income_tax_slab/income_tax_slab.json
@@ -870,12 +869,12 @@ msgstr "السماح للمستخدمين"
 #. 'Shift Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "Allow check-out after shift end time (in minutes)"
-msgstr "السماح بتسجيل المغادرة بعد وقت انتهاء التحول (بالدقائق)"
+msgstr "السماح بتسجيل الانصراف بعد انتهاء الوردية (بالدقائق)"
 
 #. Option for the 'Payout Method' (Select) field in DocType 'Salary Component'
 #: hrms/payroll/doctype/salary_component/salary_component.json
 msgid "Allow claim for full benefit amount"
-msgstr "السماح بالمطالبة بكامل مبلغ المنفعة"
+msgstr "السماح بالمطالبة بكامل مبلغ الميزة"
 
 #. Description of the 'Allow Users' (Section Break) field in DocType 'Leave
 #. Block List'
@@ -891,13 +890,13 @@ msgstr ""
 msgid ""
 "Allows allocating more leaves than the number of days in the allocation "
 "period."
-msgstr "يسمح بتخصيص أوراق أكثر من عدد الأيام في فترة التخصيص."
+msgstr "يسمح بتخصيص أيام إجازة أكثر من عدد الأيام في فترة التخصيص."
 
 #. Option for the 'Determine Check-in and Check-out' (Select) field in DocType
 #. 'Shift Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "Alternating entries as IN and OUT during the same shift"
-msgstr "بالتناوب إدخالات مثل IN و OUT خلال نفس التحول"
+msgstr "اعتبار السجلات بالتناوب حضورًا (IN) وانصرافًا (OUT) خلال الوردية نفسها"
 
 #: hrms/payroll/doctype/salary_structure/salary_structure.py:83
 msgid "Amount Based on Formula"
@@ -932,7 +931,7 @@ msgstr "مقدار المصاريف"
 #. Encashment'
 #: hrms/hr/doctype/leave_encashment/leave_encashment.json
 msgid "Amount paid against this encashment"
-msgstr "المبلغ المدفوع مقابل هذا التسجيل"
+msgstr "المبلغ المدفوع مقابل هذا التعويض النقدي عن الإجازات"
 
 #. Description of the 'Returned Amount' (Currency) field in DocType 'Employee
 #. Advance'
@@ -950,19 +949,19 @@ msgstr "لا ينبغي أن يكون المبلغ أقل من الصفر"
 #. Advance'
 #: hrms/hr/doctype/employee_advance/employee_advance.json
 msgid "Amount that has been paid against this advance"
-msgstr "المبلغ الذي تم دفعه مقابل هذا التقدم"
+msgstr "المبلغ المدفوع مقابل هذه السلفة"
 
 #: hrms/payroll/doctype/arrear/arrear.py:118
 msgid ""
 "An Arrear document already exists for employee {0} with salary structure "
 "{1} in payroll period {2}"
-msgstr "يوجد مستند متأخر بالفعل للموظف {0} مع هيكل الراتب {1} في فترة الرواتب {2}"
+msgstr "يوجد بالفعل مستند متأخرات للموظف {0} بهيكل الراتب {1} في فترة الرواتب {2}"
 
 #: hrms/hr/doctype/employee_checkin/employee_checkin.py:82
 msgid ""
 "An attendance record is linked to this checkin. Please cancel the "
 "attendance before modifying time."
-msgstr "يرتبط سجل الحضور بهذا الشيكات. يرجى إلغاء الحضور قبل تعديل الوقت."
+msgstr "يوجد سجل حضور مرتبط بتسجيل الحضور هذا. يرجى إلغاء سجل الحضور قبل تعديل الوقت."
 
 #. Label of the annual_allocation (Float) field in DocType 'Leave Policy
 #. Detail'
@@ -972,11 +971,11 @@ msgstr "التخصيص السنوي"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:408
 msgid "Annual Allocation Exceeded"
-msgstr "التخصيص السنوي تجاوز"
+msgstr "تم تجاوز التخصيص السنوي"
 
 #: hrms/payroll/report/employee_ctc_break_up/employee_profile_card.html:123
 msgid "Annual CTC"
-msgstr "لجنة مكافحة الإرهاب السنوية"
+msgstr "التكلفة السنوية الإجمالية للموظف (CTC)"
 
 #. Label of the annual_gross_earning (Currency) field in DocType 'Salary
 #. Structure Assignment'
@@ -991,7 +990,7 @@ msgstr "الراتب السنوي"
 #. Label of the annual_taxable_amount (Currency) field in DocType 'Salary Slip'
 #: hrms/payroll/doctype/salary_slip/salary_slip.json
 msgid "Annual Taxable Amount"
-msgstr "المبلغ الخاضع للضريبة السنوي"
+msgstr "المبلغ السنوي الخاضع للضريبة"
 
 #. Label of the description (Small Text) field in DocType 'Travel Request'
 #: hrms/hr/doctype/travel_request/travel_request.json
@@ -1007,7 +1006,7 @@ msgstr "أي ملاحظات أخرى ، جهد جدير بالملاحظة يج�
 #. DocType 'Gratuity Rule'
 #: hrms/payroll/doctype/gratuity_rule/gratuity_rule.json
 msgid "Applicable Earnings Component"
-msgstr "مكون الأرباح المعمول به"
+msgstr "مكون المستحقات المطبق"
 
 #. Label of the applicable_salary_component (Table MultiSelect) field in
 #. DocType 'Overtime Type'
@@ -1019,7 +1018,7 @@ msgstr "مكونات الراتب المطبقة"
 #. 'Employee Boarding Activity'
 #: hrms/hr/doctype/employee_boarding_activity/employee_boarding_activity.json
 msgid "Applicable in the case of Employee Onboarding"
-msgstr "ينطبق على حالة تشغيل الموظف"
+msgstr "ينطبق عند تهيئة الموظف الجديد"
 
 #. Label of the applicant_email (Data) field in DocType 'Job Offer'
 #: hrms/hr/doctype/job_offer/job_offer.json
@@ -1047,7 +1046,7 @@ msgstr "مقدم الطلب للحصول على وظيفة"
 
 #: hrms/hr/report/recruitment_analytics/recruitment_analytics.py:44
 msgid "Applicant name"
-msgstr "اسم التطبيق"
+msgstr "اسم المتقدم"
 
 #. Label of a Card Break in the Leaves Workspace
 #: hrms/hr/workspace/leaves/leaves.json
@@ -1061,11 +1060,11 @@ msgstr "حالة الطلب"
 #. Label of the job_application_route (Data) field in DocType 'Job Opening'
 #: hrms/hr/doctype/job_opening/job_opening.json
 msgid "Application Web Form Route"
-msgstr "مسار نموذج ويب التطبيق"
+msgstr "مسار نموذج التقدم للوظيفة على الويب"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:241
 msgid "Application period cannot be across two allocation records"
-msgstr "فترة الطلب لا يمكن ان تكون خلال سجلين مخصصين"
+msgstr "لا يمكن أن تمتد فترة طلب الإجازة عبر سجلَي تخصيص"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:238
 msgid "Application period cannot be outside leave allocation period"
@@ -1088,28 +1087,28 @@ msgstr "ينطبق على شركة"
 #. Description of a DocType
 #: hrms/hr/doctype/leave_application/leave_application.json
 msgid "Apply / Approve Leaves"
-msgstr "تطبيق / الموافقة على الأوراق"
+msgstr "طلب الإجازات / الموافقة عليها"
 
 #: hrms/templates/generators/job_opening.html:29
 #: hrms/templates/generators/job_opening.html:209
 msgid "Apply Now"
-msgstr "التطبيق الآن"
+msgstr "تقدم الآن"
 
 #. Label of the applicable_for_public_holiday (Check) field in DocType
 #. 'Overtime Type'
 #: hrms/hr/doctype/overtime_type/overtime_type.json
 msgid "Apply for Public Holiday"
-msgstr "التقدم بطلب للحصول على عطلة رسمية"
+msgstr "ينطبق على العطلات الرسمية"
 
 #. Label of the applicable_for_weekend (Check) field in DocType 'Overtime Type'
 #: hrms/hr/doctype/overtime_type/overtime_type.json
 msgid "Apply for Weekend"
-msgstr "التقدم بطلب للحصول على عطلة نهاية الأسبوع"
+msgstr "ينطبق على عطلات نهاية الأسبوع"
 
 #. Label of the appointment_date (Date) field in DocType 'Appointment Letter'
 #: hrms/hr/doctype/appointment_letter/appointment_letter.json
 msgid "Appointment Date"
-msgstr "تاريخ الموعد"
+msgstr "تاريخ التعيين"
 
 #. Name of a DocType
 #. Label of a Link in the Recruitment Workspace
@@ -1118,7 +1117,7 @@ msgstr "تاريخ الموعد"
 #: hrms/hr/workspace/recruitment/recruitment.json
 #: hrms/workspace_sidebar/recruitment.json
 msgid "Appointment Letter"
-msgstr "رسالة موعد"
+msgstr "خطاب التعيين"
 
 #. Label of the appointment_letter_template (Link) field in DocType
 #. 'Appointment Letter'
@@ -1130,12 +1129,12 @@ msgstr "رسالة موعد"
 #: hrms/hr/workspace/recruitment/recruitment.json
 #: hrms/workspace_sidebar/recruitment.json
 msgid "Appointment Letter Template"
-msgstr "قالب رسالة التعيين"
+msgstr "قالب خطاب التعيين"
 
 #. Name of a DocType
 #: hrms/hr/doctype/appointment_letter_content/appointment_letter_content.json
 msgid "Appointment Letter content"
-msgstr "محتوى رسالة التعيين"
+msgstr "محتوى خطاب التعيين"
 
 #. Name of a DocType
 #. Label of the appraisal (Link) field in DocType 'Employee Performance
@@ -1216,7 +1215,7 @@ msgstr "عنوان قالب التقييم"
 
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.py:161
 msgid "Appraisal Template not found for some designations."
-msgstr "قالب تقييم غير موجود لبعض التسميات."
+msgstr "لم يُعثر على قالب تقييم لبعض المسميات الوظيفية."
 
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.py:151
 msgid "Appraisal creation is queued. It may take a few minutes."
@@ -1235,15 +1234,15 @@ msgstr "التقييم {0} لا ينتمي إلى الموظف {1}"
 #. Name of a DocType
 #: hrms/hr/doctype/appraisee/appraisee.json
 msgid "Appraisee"
-msgstr "التقييم"
+msgstr "الموظف الخاضع للتقييم"
 
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.js:159
 msgid "Appraisees: {0}"
-msgstr "تقييمات: {0}"
+msgstr "الموظفون الخاضعون للتقييم: {0}"
 
 #: hrms/setup.py:402
 msgid "Apprentice"
-msgstr "وضع تحت التدريب"
+msgstr "متدرب مهني"
 
 #. Label of the section_break_7 (Section Break) field in DocType 'Leave
 #. Application'
@@ -1259,12 +1258,12 @@ msgstr "حالة الموافقة"
 
 #: hrms/hr/doctype/expense_claim/expense_claim.py:201
 msgid "Approval Status must be 'Approved' or 'Rejected'"
-msgstr "يجب أن تكون حالة الموافقة 'Approved' أو 'Rejected'."
+msgstr "يجب أن تكون حالة الموافقة 'تمت الموافقة' أو 'مرفوض'."
 
 #: frontend/src/components/RequestActionSheet.vue:108
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.js:119
 msgid "Approve"
-msgstr "يعتمد"
+msgstr "موافقة"
 
 #. Option for the 'Approval Status' (Select) field in DocType 'Expense Claim'
 #. Option for the 'Status' (Select) field in DocType 'Leave Application'
@@ -1275,7 +1274,7 @@ msgstr "يعتمد"
 #: hrms/hr/doctype/leave_application/leave_application.json
 #: hrms/hr/doctype/shift_request/shift_request.json
 msgid "Approved"
-msgstr "موافقة"
+msgstr "تمت الموافقة"
 
 #. Label of the approver (Link) field in DocType 'Department Approver'
 #. Label of the approver (Link) field in DocType 'Shift Assignment Tool'
@@ -1288,7 +1287,7 @@ msgstr "المخول بالموافقة"
 
 #: hrms/setup.py:135 hrms/setup.py:238
 msgid "Approvers"
-msgstr "الموافقات"
+msgstr "المخولون بالموافقة"
 
 #: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.js:39
 #: hrms/public/js/salary_slip_deductions_report_filters.js:22
@@ -1305,7 +1304,7 @@ msgstr "هل أنت متأكد أنك تريد حذف {0}"
 
 #: hrms/payroll/doctype/salary_slip/salary_slip_list.js:19
 msgid "Are you sure you want to email the selected salary slips?"
-msgstr "هل أنت متأكد من أنك تريد إرسال رواتب محددة بالبريد الإلكتروني؟"
+msgstr "هل أنت متأكد من رغبتك في إرسال قسائم الرواتب المحددة بالبريد الإلكتروني؟"
 
 #: hrms/hr/doctype/employee_referral/employee_referral.js:9
 msgid "Are you sure you want to reject the Employee Referral?"
@@ -1314,7 +1313,7 @@ msgstr "هل أنت متأكد أنك تريد رفض إحالة الموظف؟"
 #. Name of a DocType
 #: hrms/payroll/doctype/arrear/arrear.json
 msgid "Arrear"
-msgstr "متأخر"
+msgstr "متأخرات الرواتب"
 
 #. Label of the arrear_component (Check) field in DocType 'Salary Component'
 #: hrms/payroll/doctype/salary_component/salary_component.json
@@ -1325,12 +1324,12 @@ msgstr "مكون المتأخرات"
 msgid ""
 "Arrear Component cannot be set for Salary Components based on taxable "
 "salary."
-msgstr "لا يمكن تعيين مكون المتأخر لمكونات الراتب بناءً على الراتب الخاضع للضريبة."
+msgstr "لا يمكن تفعيل مكون المتأخرات لمكونات الراتب المحسوبة بناءً على الراتب الخاضع للضريبة."
 
 #. Label of the arrear_start_date (Date) field in DocType 'Arrear'
 #: hrms/payroll/doctype/arrear/arrear.json
 msgid "Arrear Start Date"
-msgstr "تاريخ البدء المتأخر"
+msgstr "تاريخ بدء احتساب المتأخرات"
 
 #. Label of the arrears_tab (Tab Break) field in DocType 'Arrear'
 #: hrms/payroll/doctype/arrear/arrear.json
@@ -1340,11 +1339,11 @@ msgstr "المتأخرات"
 #. Label of the arrival_date (Datetime) field in DocType 'Travel Itinerary'
 #: hrms/hr/doctype/travel_itinerary/travel_itinerary.json
 msgid "Arrival Datetime"
-msgstr "تارخ الوصول"
+msgstr "تاريخ ووقت الوصول"
 
 #: hrms/payroll/doctype/employee_benefit_application/employee_benefit_application.py:49
 msgid "As per your assigned Salary Structure you cannot apply for benefits"
-msgstr "حسب هيكل الرواتب المعيّن الخاص بك ، لا يمكنك التقدم بطلب للحصول على مخصصات"
+msgstr "لا يمكنك طلب مزايا وفقًا لهيكل الراتب المعين لك"
 
 #: hrms/hr/doctype/full_and_final_statement/full_and_final_statement.py:132
 msgid "Asset Recovery Cost for {0}: {1}"
@@ -1358,7 +1357,7 @@ msgstr "الأصول المخصصة"
 
 #: hrms/payroll/doctype/bulk_salary_structure_assignment/bulk_salary_structure_assignment.js:283
 msgid "Assign Salary Structure to {0} employee(s)?"
-msgstr "تعيين هيكل الراتب إلى {0} الموظف (s)؟"
+msgstr "هل تريد تعيين هيكل الراتب لعدد {0} من الموظفين؟"
 
 #. Option for the 'Action' (Select) field in DocType 'Shift Assignment Tool'
 #: hrms/hr/doctype/shift_assignment_tool/shift_assignment_tool.js:110
@@ -1386,7 +1385,7 @@ msgstr "تعيين هيكل ..."
 
 #: hrms/payroll/doctype/salary_structure/salary_structure.py:291
 msgid "Assigning Structures..."
-msgstr "هيكلية التخصيص..."
+msgstr "جارٍ تعيين هياكل الرواتب..."
 
 #: hrms/payroll/report/employee_ctc_break_up/employee_profile_card.html:108
 msgid "Assignment Date: "
@@ -1405,18 +1404,18 @@ msgstr "المهمة على أساس"
 
 #: hrms/hr/doctype/holiday_list_assignment/holiday_list_assignment.py:66
 msgid "Assignment start date cannot be outside holiday list dates"
-msgstr "لا يمكن أن يكون تاريخ بدء الواجب خارج تواريخ قائمة العطلات"
+msgstr "يجب أن يقع تاريخ بدء التعيين ضمن فترة قائمة العطلات"
 
 #: hrms/hr/doctype/job_requisition/job_requisition.js:50
 #: hrms/hr/doctype/job_requisition/job_requisition.js:74
 msgid "Associate Job Opening"
-msgstr "ربط الوظيفة الافتتاح"
+msgstr "ربط بشاغر وظيفي"
 
 #. Label of the associated_document (Dynamic Link) field in DocType 'Employee
 #. Grievance'
 #: hrms/hr/doctype/employee_grievance/employee_grievance.json
 msgid "Associated Document"
-msgstr "مستند مرتبطة"
+msgstr "المستند المرتبط"
 
 #. Label of the associated_document_type (Link) field in DocType 'Employee
 #. Grievance'
@@ -1432,7 +1431,7 @@ msgstr "يجب اختيار مقابلة واحدة على الأقل."
 #. Proof Submission Detail'
 #: hrms/payroll/doctype/employee_tax_exemption_proof_submission_detail/employee_tax_exemption_proof_submission_detail.json
 msgid "Attach Proof"
-msgstr "نعلق دليل"
+msgstr "إرفاق مستند إثبات"
 
 #. Label of the attempted (Check) field in DocType 'Earned Leave Schedule'
 #: hrms/hr/doctype/earned_leave_schedule/earned_leave_schedule.json
@@ -1490,7 +1489,7 @@ msgstr "معرف الحضور"
 #: hrms/hr/doctype/employee_attendance_tool/employee_attendance_tool.js:102
 #: hrms/hr/doctype/employee_checkin/employee_checkin.json
 msgid "Attendance Marked"
-msgstr "الحضور ملحوظ"
+msgstr "سجل الحضور المرتبط"
 
 #. Label of the attendance_request (Link) field in DocType 'Attendance'
 #. Name of a DocType
@@ -1508,7 +1507,7 @@ msgstr "طلب حضور"
 
 #: frontend/src/views/attendance/AttendanceRequestList.vue:5
 msgid "Attendance Request History"
-msgstr "تاريخ طلب الحضور"
+msgstr "سجل طلبات الحضور"
 
 #. Label of the attendance_settings_section (Section Break) field in DocType
 #. 'HR Settings'
@@ -1524,7 +1523,7 @@ msgstr "الحضور إلى تاريخ"
 #: hrms/hr/doctype/attendance_request/attendance_request.py:189
 #: hrms/hr/doctype/attendance_request/attendance_request.py:208
 msgid "Attendance Updated"
-msgstr "تحديث الحضور"
+msgstr "تم تحديث الحضور"
 
 #: hrms/hr/doctype/attendance_request/attendance_request.js:19
 msgid "Attendance Warnings"
@@ -1538,67 +1537,67 @@ msgstr "لا يمكن أن يكون تاريخ الحضور {0} أقل من تا
 msgid ""
 "Attendance for all the employees under this criteria has been marked "
 "already."
-msgstr "لقد تم بالفعل تحديد الحضور لجميع الموظفين بموجب هذه المعايير."
+msgstr "تم بالفعل تسجيل الحضور لجميع الموظفين المطابقين لهذه المعايير."
 
 #: hrms/hr/doctype/attendance/attendance.py:155
 msgid ""
 "Attendance for employee {0} is already marked for an overlapping shift "
 "{1}: {2}"
-msgstr "تم وضع علامة على الحضور للموظف {0} للتحول المتداخل {1}: {2}"
+msgstr "تم بالفعل تسجيل حضور الموظف {0} لوردية متداخلة {1}: {2}"
 
 #: hrms/hr/doctype/attendance/attendance.py:109
 msgid "Attendance for employee {0} is already marked for the date {1}: {2}"
-msgstr "تم وضع علامة على الحضور للموظف {0} للتاريخ {1}: {2}"
+msgstr "تم بالفعل تسجيل حضور الموظف {0} بتاريخ {1}: {2}"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:635
 msgid "Attendance for employee {0} is already marked for the following dates: {1}"
-msgstr "تم وضع علامة على الحضور للموظف {0} للتواريخ التالية: {1}"
+msgstr "تم بالفعل تسجيل حضور الموظف {0} في التواريخ التالية: {1}"
 
 #: hrms/hr/doctype/attendance_request/attendance_warnings.html:2
 msgid ""
 "Attendance for the following dates will be skipped/overwritten on "
 "submission"
-msgstr "سيتم تخطي/كتابة الحضور للتواريخ التالية عند التقديم"
+msgstr "سيتم تخطي تسجيل الحضور أو استبدال سجلاته للتواريخ التالية عند الاعتماد"
 
 #: hrms/hr/doctype/attendance/attendance_list.js:101
 msgid "Attendance from {0} to {1} has already been marked for the Employee {2}"
-msgstr "لقد تم بالفعل وضع علامة على الحضور من {0} إلى {1} للموظف {2}"
+msgstr "تم بالفعل تسجيل حضور الموظف {2} من {0} إلى {1}"
 
 #: hrms/public/js/templates/employees_with_unmarked_attendance.html:36
 msgid ""
 "Attendance has been marked for all the employees between the selected "
 "payroll dates."
-msgstr "تم وضع علامة على الحضور لجميع الموظفين بين تواريخ كشوف المرتبات المحددة."
+msgstr "تم تسجيل الحضور لجميع الموظفين خلال فترة الرواتب المحددة."
 
 #: hrms/public/js/templates/employees_with_unmarked_attendance.html:6
 msgid ""
 "Attendance is pending for these employees between the selected payroll "
 "dates. Mark attendance to proceed. Refer {0} for details."
 msgstr ""
-"الحضور معلق لهؤلاء الموظفين بين تواريخ كشوف المرتبات المحددة. علامة "
-"الحضور للمضي قدما. الرجوع {0} للحصول على التفاصيل."
+"لم يُسجل حضور هؤلاء الموظفين خلال فترة الرواتب المحددة. سجل الحضور "
+"للمتابعة. راجع {0} للاطلاع على التفاصيل."
 
 #: hrms/hr/doctype/employee_attendance_tool/employee_attendance_tool.js:291
 msgid "Attendance marked successfully"
-msgstr "يحمل الحضور بنجاح"
+msgstr "تم تسجيل الحضور بنجاح"
 
 #: hrms/hr/doctype/attendance/attendance.py:404
 msgid "Attendance marked successfully."
-msgstr "تم وضع علامة على الحضور بنجاح."
+msgstr "تم تسجيل الحضور بنجاح."
 
 #: hrms/hr/doctype/attendance_request/attendance_request.py:227
 msgid "Attendance not submitted for {0} as it is a Holiday."
-msgstr "لم يتم إرسال الحضور إلى {0} لأنه عطلة."
+msgstr "لم يُعتمد الحضور بتاريخ {0} لأنه يوم عطلة."
 
 #: hrms/hr/doctype/attendance_request/attendance_request.py:236
 msgid "Attendance not submitted for {0} as {1} is on leave."
-msgstr "لم يتم تقديم الحضور لـ {0} لأن {1} في إجازة."
+msgstr "لم يُعتمد الحضور بتاريخ {0} لأن الموظف {1} في إجازة."
 
 #. Description of the 'Process Attendance After' (Date) field in DocType 'Shift
 #. Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "Attendance will be marked automatically only after this date."
-msgstr "سيتم تمييز الحضور تلقائيًا بعد هذا التاريخ فقط."
+msgstr "سيتم تسجيل الحضور تلقائيًا بعد هذا التاريخ فقط."
 
 #: frontend/src/views/attendance/Dashboard.vue:19
 msgid "AttendanceRequestListView"
@@ -1612,7 +1611,7 @@ msgstr "الحضور"
 
 #: hrms/hr/dashboard_chart_source/hiring_vs_attrition_count/hiring_vs_attrition_count.py:56
 msgid "Attrition Count"
-msgstr "عدد الاستنزاف"
+msgstr "عدد الموظفين المغادرين"
 
 #: hrms/hr/report/monthly_attendance_sheet/monthly_attendance_sheet.js:43
 #: hrms/public/js/salary_slip_deductions_report_filters.js:26
@@ -1628,7 +1627,7 @@ msgstr "إعدادات الحضور التلقائي"
 #. Label of the auto_leave_encashment (Check) field in DocType 'HR Settings'
 #: hrms/hr/doctype/hr_settings/hr_settings.json
 msgid "Auto Leave Encashment"
-msgstr "إجازة مغادرة السيارات"
+msgstr "التعويض النقدي التلقائي عن الإجازات"
 
 #. Option for the 'KRA Evaluation Method' (Select) field in DocType 'Appraisal
 #. Cycle'
@@ -1653,49 +1652,49 @@ msgstr "يجلب تلقائيًا جميع الأصول المخصصة للمو�
 #. Label of the auto_update_last_sync (Check) field in DocType 'Shift Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "Automatically update Last Sync of Checkin"
-msgstr "تحديث تلقائيا آخر مزامنة من checkin"
+msgstr "تحديث وقت آخر مزامنة لسجلات الحضور والانصراف تلقائيًا"
 
 #. Label of the available_leaves (Float) field in DocType 'Salary Slip Leave'
 #: hrms/payroll/doctype/salary_slip_leave/salary_slip_leave.json
 msgid "Available Leave(s)"
-msgstr "الإجازة (الإجازة) المتاحة"
+msgstr "رصيد الإجازات المتاح"
 
 #: hrms/hr/doctype/leave_application/leave_application_dashboard.html:11
 msgid "Available Leaves"
-msgstr "الأوراق المتاحة"
+msgstr "رصيد الإجازات المتاح"
 
 #. Label of the avg_feedback_score (Float) field in DocType 'Appraisal'
 #: hrms/hr/doctype/appraisal/appraisal.json
 #: hrms/hr/doctype/appraisal_cycle/appraisal_cycle.js:84
 msgid "Average Feedback Score"
-msgstr "متوسط ​​درجة ردود الفعل"
+msgstr "متوسط درجات تقييم الأداء"
 
 #. Label of the average_rating (Rating) field in DocType 'Interview Feedback'
 #: hrms/hr/doctype/interview_feedback/interview_feedback.json
 #: hrms/public/js/templates/feedback_summary.html:5
 msgid "Average Rating"
-msgstr "متوسط ​​التصنيف"
+msgstr "متوسط التقييم"
 
 #. Description of the 'Final Score' (Float) field in DocType 'Appraisal'
 #: hrms/hr/doctype/appraisal/appraisal.json
 msgid "Average of Goal Score, Feedback Score, and Self Appraisal Score"
-msgstr "متوسط ​​نقاط الهدف، ونقاط ردود الفعل، ونقاط التقييم الذاتي"
+msgstr "متوسط درجات الأهداف وتقييم الأداء والتقييم الذاتي"
 
 #: hrms/public/js/templates/interview_feedback.html:16
 msgid "Average rating of demonstrated skills"
-msgstr "متوسط ​​تصنيف المهارات الموضحة"
+msgstr "متوسط تقييم المهارات التي أظهرها المتقدم"
 
 #: hrms/hr/report/appraisal_overview/appraisal_overview.py:52
 msgid "Avg Feedback Score"
-msgstr "درجة التغذية المرتدة AVG"
+msgstr "متوسط درجات تقييم الأداء"
 
 #: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:220
 msgid "Avg Utilization"
-msgstr "استخدام AVG"
+msgstr "متوسط استغلال ساعات العمل"
 
 #: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:226
 msgid "Avg Utilization (Billed Only)"
-msgstr "استخدام AVG (فواتير فقط)"
+msgstr "متوسط استغلال ساعات العمل (الساعات المفوترة فقط)"
 
 #. Option for the 'Status' (Select) field in DocType 'Job Offer'
 #: hrms/hr/doctype/job_offer/job_offer.json
@@ -1708,11 +1707,11 @@ msgstr "العودة إلى تسجيل الدخول"
 
 #: hrms/hr/doctype/leave_application/leave_application.py:209
 msgid "Backdated Leave Application is restricted. Please set the {} in {}"
-msgstr "تطبيق الإجازة الخلفية مقيد. يرجى تعيين {} في {}"
+msgstr "طلبات الإجازة بأثر رجعي مقيدة. يرجى ضبط {} في {}"
 
 #: hrms/hr/doctype/expense_claim/expense_claim.js:282
 msgid "Bank Entries"
-msgstr "مدخلات البنك"
+msgstr "القيود البنكية"
 
 #. Name of a report
 #. Label of a Link in the Payroll Workspace
@@ -1725,19 +1724,19 @@ msgstr "التحويلات المصرفية"
 #: hrms/payroll/doctype/bulk_salary_structure_assignment/bulk_salary_structure_assignment.js:180
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
 msgid "Base"
-msgstr "الاساسي"
+msgstr "الراتب الأساسي"
 
 #. Label of the section_break_7 (Section Break) field in DocType 'Salary
 #. Structure Assignment'
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
 msgid "Base, Variable & Leave Encashment"
-msgstr "صرف أساسي ومتغير وإجازة"
+msgstr "الراتب الأساسي والمتغير والتعويض النقدي عن الإجازات"
 
 #. Label of the begin_check_in_before_shift_start_time (Int) field in DocType
 #. 'Shift Type'
 #: hrms/hr/doctype/shift_type/shift_type.json
 msgid "Begin check-in before shift start time (in minutes)"
-msgstr "ابدأ تسجيل الوصول قبل وقت بدء التحول (بالدقائق)"
+msgstr "بدء تسجيل الحضور قبل بداية الوردية (بالدقائق)"
 
 #: hrms/controllers/employee_reminders.py:75
 msgid "Below is the list of upcoming holidays for you:"
@@ -1745,36 +1744,36 @@ msgstr "فيما يلي قائمة العطلات القادمة لك:"
 
 #: hrms/overrides/dashboard_overrides.py:35
 msgid "Benefit"
-msgstr "فائدة"
+msgstr "ميزة"
 
 #. Label of the amount (Currency) field in DocType 'Employee Benefit Detail'
 #: hrms/payroll/doctype/employee_benefit_detail/employee_benefit_detail.json
 msgid "Benefit Amount"
-msgstr "مبلغ المنفعة"
+msgstr "مبلغ الميزة"
 
 #. Label of a Workspace Sidebar Item
 #: hrms/workspace_sidebar/tax_&_benefits.json
 msgid "Benefit Application"
-msgstr "تطبيق فائدة"
+msgstr "طلب مزايا"
 
 #. Label of a Workspace Sidebar Item
 #: hrms/workspace_sidebar/tax_&_benefits.json
 msgid "Benefit Claim"
-msgstr "المطالبة بالمنفعة"
+msgstr "مطالبة بمزايا"
 
 #. Label of the employee_benefit_details_section (Section Break) field in
 #. DocType 'Employee Benefit Ledger'
 #: hrms/payroll/doctype/employee_benefit_ledger/employee_benefit_ledger.json
 msgid "Benefit Details"
-msgstr "تفاصيل المنفعة"
+msgstr "تفاصيل الميزة"
 
 #: hrms/payroll/doctype/employee_benefit_application/employee_benefit_application.py:62
 msgid "Benefit amount of component {0} exceeds {1}"
-msgstr "مبلغ الاستفادة من المكون {0} يتجاوز {1}"
+msgstr "مبلغ الميزة للمكون {0} يتجاوز {1}"
 
 #: hrms/payroll/doctype/employee_benefit_application/employee_benefit_application.py:56
 msgid "Benefit amount of component {0} should be greater than 0"
-msgstr "يجب أن يكون مقدار فائدة المكون {0} أكبر من 0"
+msgstr "يجب أن يكون مبلغ الميزة للمكون {0} أكبر من 0"
 
 #: hrms/payroll/doctype/salary_structure/salary_structure.py:512
 msgid ""
@@ -1793,7 +1792,7 @@ msgstr ""
 #: hrms/payroll/doctype/employee_benefit_claim/employee_benefit_claim.json
 #: hrms/payroll/workspace/tax_&_benefits/tax_&_benefits.json
 msgid "Benefits"
-msgstr "فوائد"
+msgstr "مزايا"
 
 #: hrms/hr/report/project_profitability/project_profitability.py:169
 msgid "Bill Amount"
@@ -1801,11 +1800,11 @@ msgstr "مبلغ فاتورة"
 
 #: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:251
 msgid "Billed Hours"
-msgstr "ساعات فواتير"
+msgstr "الساعات المفوترة"
 
 #: hrms/hr/report/employee_hours_utilization_based_on_timesheet/employee_hours_utilization_based_on_timesheet.py:68
 msgid "Billed Hours (B)"
-msgstr "ساعات الفواتير (ب)"
+msgstr "الساعات المفوترة (B)"
 
 #. Option for the 'Payroll Frequency' (Select) field in DocType 'Payroll Entry'
 #. Option for the 'Payroll Frequency' (Select) field in DocType 'Salary Slip'
@@ -1845,12 +1844,12 @@ msgstr "الأيام المحظورة"
 #. Description of a DocType
 #: hrms/hr/doctype/leave_block_list/leave_block_list.json
 msgid "Block Holidays on important days."
-msgstr "عطلات كتلة في أيام مهمة."
+msgstr "منع الإجازات في الأيام المهمة."
 
 #. Label of the boarding_status (Select) field in DocType 'Employee Onboarding'
 #: hrms/hr/doctype/employee_onboarding/employee_onboarding.json
 msgid "Boarding Status"
-msgstr "حالة الصعود"
+msgstr "حالة تهيئة الموظف الجديد"
 
 #. Label of the bonus_section (Section Break) field in DocType 'Retention
 #. Bonus'
@@ -1878,11 +1877,11 @@ msgstr "الفرع: {0}"
 
 #: hrms/payroll/doctype/salary_structure/salary_structure.js:137
 msgid "Bulk Assignments"
-msgstr "المهام السائبة"
+msgstr "التعيينات الجماعية"
 
 #: hrms/hr/doctype/leave_policy_assignment/leave_policy_assignment_list.js:3
 msgid "Bulk Leave Policy Assignment"
-msgstr "تعيين سياسة الإجازة السائبة"
+msgstr "تعيين سياسة الإجازات جماعيًا"
 
 #. Name of a DocType
 #. Label of a Link in the Payroll Workspace
@@ -1890,23 +1889,23 @@ msgstr "تعيين سياسة الإجازة السائبة"
 #: hrms/payroll/doctype/salary_structure/salary_structure_list.js:3
 #: hrms/payroll/workspace/payroll/payroll.json
 msgid "Bulk Salary Structure Assignment"
-msgstr "تعيين هيكل الرواتب بالجملة"
+msgstr "تعيين هيكل الراتب جماعيًا"
 
 #: hrms/hr/doctype/attendance/attendance.py:398
 msgid ""
 "Bulk attendance marking is already in progress for employee {0}. You can "
 "monitor the job status {1}"
 msgstr ""
-"إن وضع علامة الحضور الجماعي قيد التقدم بالفعل للموظف {0}. يمكنك مراقبة "
-"حالة الوظيفة {1}"
+"تسجيل الحضور الجماعي قيد التنفيذ بالفعل للموظف {0}. يمكنك متابعة "
+"حالة المهمة {1}"
 
 #: hrms/hr/doctype/attendance/attendance.py:394
 msgid ""
 "Bulk attendance marking is queued with a background job. It may take a "
 "while. You can monitor the job status {0}"
 msgstr ""
-"يتم وضع علامات الحضور المجمع في قائمة الانتظار مع مهمة في الخلفية. قد "
-"يستغرق الأمر بعض الوقت. يمكنك مراقبة حالة الوظيفة {0}"
+"تمت جدولة تسجيل الحضور الجماعي ضمن مهمة في الخلفية. قد يستغرق ذلك "
+"بعض الوقت. يمكنك متابعة حالة المهمة {0}"
 
 #. Description of the 'Calculate Final Score based on Formula' (Check) field in
 #. DocType 'Appraisal Cycle'
@@ -1916,18 +1915,17 @@ msgid ""
 "Feedback Score, and Self Appraisal Score. Enable this to set a different "
 "formula"
 msgstr ""
-"بشكل افتراضي ، يتم حساب النتيجة النهائية على أنها متوسط ​​درجة الأهداف ، "
-"ونقاط التغذية المرتدة ، ودرجة التقييم الذاتي. تفعيل هذا من وضع صيغة "
-"مختلفة"
+"تُحسب الدرجة النهائية افتراضيًا كمتوسط درجات الأهداف وتقييم الأداء "
+"والتقييم الذاتي. فعّل هذا الخيار لتحديد صيغة مختلفة"
 
 #. Label of the ctc (Currency) field in DocType 'Salary Slip'
 #: hrms/payroll/doctype/salary_slip/salary_slip.json
 msgid "CTC"
-msgstr "CTC"
+msgstr "التكلفة الإجمالية للموظف (CTC)"
 
 #: hrms/payroll/report/employee_ctc_break_up/employee_ctc_break_up.py:63
 msgid "CTC Missing for Employee"
-msgstr "CTC مفقود للموظف"
+msgstr "لم تُحدد التكلفة الإجمالية للموظف (CTC)"
 
 #. Label of the calculate_final_score_based_on_formula (Check) field in DocType
 #. 'Appraisal Cycle'
@@ -1939,7 +1937,7 @@ msgstr "حساب النتيجة النهائية على أساس الصيغة"
 #. 'Gratuity Rule'
 #: hrms/payroll/doctype/gratuity_rule/gratuity_rule.json
 msgid "Calculate Gratuity Amount Based On"
-msgstr "احسب مبلغ الإكراميات على أساس"
+msgstr "احتساب مكافأة نهاية الخدمة بناءً على"
 
 #. Label of the payroll_based_on (Select) field in DocType 'Payroll Settings'
 #: hrms/payroll/doctype/payroll_settings/payroll_settings.json
@@ -1984,7 +1982,7 @@ msgstr "لا يمكن تعديل الوقت"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:359
 msgid "Cannot allocate leaves outside the allocation period {0} - {1}"
-msgstr "لا يمكن تخصيص الأوراق خارج فترة التخصيص {0} - {1}"
+msgstr "لا يمكن تخصيص إجازات خارج فترة التخصيص {0} - {1}"
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:488
 msgid ""
@@ -2048,7 +2046,7 @@ msgstr "لا يمكن تسجيل الحضور لموظف غير نشط {0}"
 
 #: hrms/payroll/doctype/payroll_entry/payroll_entry.py:112
 msgid "Cannot submit. Attendance is not marked for some employees."
-msgstr "لا يمكن التقديم. لم يتم تسجيل الحضور لبعض الموظفين."
+msgstr "لا يمكن الاعتماد. لم يُسجل الحضور لبعض الموظفين."
 
 #: hrms/hr/doctype/leave_allocation/leave_allocation.py:174
 msgid "Cannot update allocation for {0} after submission"
@@ -2065,13 +2063,13 @@ msgstr "لا يمكن تحديث حالة مجموعات الأهداف"
 #: hrms/hr/doctype/leave_control_panel/leave_control_panel.json
 #: hrms/hr/doctype/leave_type/leave_type.json
 msgid "Carry Forward"
-msgstr "المضي قدما"
+msgstr "ترحيل رصيد الإجازات"
 
 #. Label of the carry_forwarded_leaves_count (Float) field in DocType 'Leave
 #. Allocation'
 #: hrms/hr/doctype/leave_allocation/leave_allocation.json
 msgid "Carry Forwarded Leaves"
-msgstr "تحمل أوراق واحال"
+msgstr "رصيد الإجازات المرحل"
 
 #: hrms/setup.py:353 hrms/setup.py:354
 msgid "Casual Leave"
@@ -2109,8 +2107,8 @@ msgid ""
 "Changing KRA in this parent goal will align all the child goals to the "
 "same KRA, if any."
 msgstr ""
-"سيؤدي تغيير مؤشرات الأداء الرئيسية في هذا الهدف الرئيسي إلى مواءمة جميع "
-"الأهداف الفرعية مع نفس مؤشرات الأداء الرئيسية، إن وجدت."
+"سيؤدي تغيير مجال النتائج الرئيسية (KRA) في هذا الهدف الرئيسي إلى تعيين "
+"المجال نفسه لجميع الأهداف الفرعية، إن وجدت."
 
 #: hrms/public/js/utils/index.js:147
 msgid ""

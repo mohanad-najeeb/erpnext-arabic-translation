@@ -1,4 +1,3 @@
-
 msgid ""
 msgstr ""
 "Project-Id-Version:  frappe\n"
@@ -20470,7 +20469,7 @@ msgid "No new Google Contacts synced."
 msgstr "لم تتم مزامنة جهات اتصال Google الجديدة."
 
 #: frappe/public/js/frappe/ui/notifications/notifications.js:346
-msgid "No new notifications"
+msgid "No New Notifications"
 msgstr "لا توجد إشعارات جديدة"
 
 #: frappe/public/js/frappe/form/doctype_settings/tabs/notification.js:94
@@ -39444,18 +39443,20 @@ msgid ""
 "Days a Failed or Skipped queue row is kept before the nightly sweep removes "
 "it."
 msgstr ""
+"عدد الأيام التي يُحتفظ فيها بصف قائمة الانتظار الفاشل أو المتجاوز قبل "
+"أن تحذفه عملية التنظيف الليلية."
 
 #: frappe/public/js/print_format_builder/components/inspector/Stepper.vue:9
 msgid "Decrease"
-msgstr ""
+msgstr "إنقاص"
 
 #: frappe/public/js/frappe/form/controls/text_editor.js:328
 msgid "Decrease indent"
-msgstr ""
+msgstr "تقليل المسافة البادئة"
 
 #: frappe/public/js/frappe/form/doctype_settings/registry.js:174
 msgid "Default removed"
-msgstr ""
+msgstr "تمت إزالة القيمة الافتراضية"
 
 #: frappe/public/js/frappe/form/form.js:1358
 #: frappe/public/js/frappe/form/form.js:1417
@@ -39464,7 +39465,7 @@ msgstr "حذف الكل"
 
 #: frappe/public/js/frappe/form/form.js:1409
 msgid "Delete All Documents"
-msgstr ""
+msgstr "حذف جميع المستندات"
 
 #: frappe/public/js/frappe/form/controls/text_editor.js:293
 msgid "Delete Column"
@@ -39472,43 +39473,43 @@ msgstr "حذف العمود"
 
 #: frappe/public/js/frappe/form/controls/text_editor.js:292
 msgid "Delete Row"
-msgstr ""
+msgstr "حذف الصف"
 
 #: frappe/public/js/frappe/form/controls/text_editor.js:294
 msgid "Delete Table"
-msgstr ""
+msgstr "حذف الجدول"
 
 #: frappe/public/js/frappe/form/doctype_settings/tabs/user_permissions.js:57
 msgid "Delete this user permission?"
-msgstr ""
+msgstr "هل تريد حذف صلاحية المستخدم هذه؟"
 
 #: frappe/public/js/print_format_builder/components/VersionHistory.vue:91
 msgid "Delete this version"
-msgstr ""
+msgstr "حذف هذا الإصدار"
 
 #: frappe/desk/form/linked_with.py:648
 msgid "Deleted {0} linked documents."
-msgstr ""
+msgstr "تم حذف {0} من المستندات المرتبطة."
 
 #: frappe/desk/reportview.py:928
 msgid "Deleted {0} records from {1} doctype"
-msgstr ""
+msgstr "تم حذف {0} من السجلات من نوع المستند {1}"
 
 #: frappe/public/js/frappe/form/form.js:1373
 msgid "Deleting documents..."
-msgstr ""
+msgstr "جارٍ حذف المستندات..."
 
 #. Label of the deprecated (Check) field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
 #: frappe/public/js/frappe/form/templates/form_sidebar.html:50
 #: frappe/public/js/frappe/list/base_list.js:197
 msgid "Deprecated"
-msgstr ""
+msgstr "مهمل"
 
 #. Label of the depth (Int) field in DocType 'Recorder Event'
 #: frappe/core/doctype/recorder_event/recorder_event.json
 msgid "Depth"
-msgstr ""
+msgstr "العمق"
 
 #. Label of a Sidebar Item
 #: frappe/build/sidebar/build/build.json
@@ -39519,203 +39520,211 @@ msgstr "مكتب"
 msgid ""
 "Disable <b>{0}</b> on this site? It keeps its data, but stops taking effect."
 msgstr ""
+"هل تريد تعطيل <b>{0}</b> على هذا الموقع؟ ستبقى بياناته، لكن سيتوقف "
+"تطبيقه."
 
 #. Label of the disable_application (Button) field in DocType 'Installed
 #. Application'
 #: frappe/core/doctype/installed_application/installed_application.json
 msgid "Disable Application"
-msgstr ""
+msgstr "تعطيل التطبيق"
 
 #. Label of the disable_automations (Check) field in DocType 'Automation
 #. Settings'
 #: frappe/automation/doctype/automation_settings/automation_settings.json
 msgid "Disable Automations"
-msgstr ""
+msgstr "تعطيل الأتمتة"
 
 #. Label of the disabled_reason (Small Text) field in DocType 'Automation
 #. Flow'
 #: frappe/automation/doctype/automation_flow/automation_flow.json
 msgid "Disabled Reason"
-msgstr ""
+msgstr "سبب التعطيل"
 
 #: frappe/public/js/print_format_builder/components/VersionHistory.vue:51
 msgid "Discard the draft and go back to this"
-msgstr ""
+msgstr "تجاهل المسودة والعودة إلى هذا الإصدار"
 
 #: frappe/public/js/print_format_builder/components/VersionHistory.vue:137
 msgid "Discard your unapplied changes and go back to what this format prints?"
-msgstr ""
+msgstr "هل تريد تجاهل التغييرات غير المطبقة والعودة إلى التنسيق الذي تُنتجه هذه النسخة؟"
 
 #: frappe/public/js/print_format_builder/stores/index.js:274
 msgid "Discarding…"
-msgstr ""
+msgstr "جارٍ التجاهل..."
 
 #: frappe/public/js/frappe/form/form.js:1405
 msgid "Do you want to delete {0} along with all linked documents?"
-msgstr ""
+msgstr "هل تريد حذف {0} مع جميع المستندات المرتبطة به؟"
 
 #. Option for the 'Trigger Type' (Select) field in DocType 'Automation Flow'
 #: frappe/automation/doctype/automation_flow/automation_flow.json
 msgid "Doc Cancelled"
-msgstr ""
+msgstr "إلغاء المستند"
 
 #. Option for the 'Trigger Type' (Select) field in DocType 'Automation Flow'
 #: frappe/automation/doctype/automation_flow/automation_flow.json
 msgid "Doc Created"
-msgstr ""
+msgstr "إنشاء المستند"
 
 #. Option for the 'Trigger Type' (Select) field in DocType 'Automation Flow'
 #: frappe/automation/doctype/automation_flow/automation_flow.json
 msgid "Doc Deleted"
-msgstr ""
+msgstr "حذف المستند"
 
 #. Option for the 'Trigger Type' (Select) field in DocType 'Automation Flow'
 #: frappe/automation/doctype/automation_flow/automation_flow.json
 msgid "Doc Submitted"
-msgstr ""
+msgstr "اعتماد المستند"
 
 #. Option for the 'Trigger Type' (Select) field in DocType 'Automation Flow'
 #: frappe/automation/doctype/automation_flow/automation_flow.json
 msgid "Doc Updated"
-msgstr ""
+msgstr "تحديث المستند"
 
 #. Name of a DocType
 #: frappe/desk/doctype/dock/dock.json
 msgid "Dock"
-msgstr ""
+msgstr "شريط التطبيقات"
 
 #. Name of a DocType
 #: frappe/desk/doctype/dock_item/dock_item.json
 msgid "Dock Item"
-msgstr ""
+msgstr "عنصر في شريط التطبيقات"
 
 #. Label of the items_section (Section Break) field in DocType 'Dock'
 #. Label of the items (Table) field in DocType 'Dock'
 #: frappe/desk/doctype/dock/dock.json
 msgid "Dock Items"
-msgstr ""
+msgstr "عناصر شريط التطبيقات"
 
 #: frappe/public/js/frappe/ui/sidebar/dock_manager.js:36
 msgid "Dock updated for everyone"
-msgstr ""
+msgstr "تم تحديث شريط التطبيقات للجميع"
 
 #. Option for the 'Run As' (Select) field in DocType 'Automation Flow'
 #: frappe/automation/doctype/automation_flow/automation_flow.json
 msgid "Document Owner"
-msgstr ""
+msgstr "مالك المستند"
 
 #: frappe/automation_engine/actions/core.py:191
 msgid "Document owner"
-msgstr ""
+msgstr "مالك المستند"
 
 #: frappe/automation_engine/api.py:99 frappe/automation_engine/api.py:288
 msgid "Document-less automations do not accept a document name"
-msgstr ""
+msgstr "لا تقبل عمليات الأتمتة التي لا ترتبط بمستند اسمَ مستند"
 
 #: frappe/www/desk.py:29
 msgid "Don't panic. Run this command and reload the page:"
-msgstr ""
+msgstr "لا داعي للقلق. نفّذ هذا الأمر ثم أعد تحميل الصفحة:"
 
 #. Label of the draft_data (Code) field in DocType 'Print Format'
 #: frappe/printing/doctype/print_format/print_format.json
 msgid "Draft Data"
-msgstr ""
+msgstr "بيانات المسودة"
 
 #: frappe/printing/doctype/print_format/print_format.py:415
 msgid "Draft data must be an object"
-msgstr ""
+msgstr "يجب أن تكون بيانات المسودة كائنًا"
 
 #: frappe/public/js/print_format_builder/stores/index.js:276
 msgid "Draft discarded"
-msgstr ""
+msgstr "تم تجاهل المسودة"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:255
 msgid ""
 "Drag to reorder, and under a section to put an entry in it. The eye takes an"
 " entry off the sidebar; the pencil renames it."
-msgstr ""
+msgstr "اسحب لإعادة الترتيب، أو إلى قسم لإضافة العنصر إليه. تزيل أيقونة "
+"العين العنصر من الشريط الجانبي، ويتيح رمز القلم إعادة تسميته."
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:252
 msgid ""
 "Drag to reorder, and under a section to put an entry in it. The eye takes an"
 " entry off the sidebar; the pencil renames one and says how a section draws."
-msgstr ""
+msgstr "اسحب لإعادة الترتيب، أو إلى قسم لإضافة العنصر إليه. تزيل أيقونة "
+"العين العنصر من الشريط الجانبي، ويتيح رمز القلم إعادة تسمية العنصر "
+"وتحديد طريقة عرض القسم."
 
 #: frappe/public/js/frappe/ui/sidebar/dock_manager.js:89
 msgid "Drag to reorder. The eye takes an entry off the dock."
-msgstr ""
+msgstr "اسحب لإعادة الترتيب. تزيل أيقونة العين العنصر من شريط التطبيقات."
 
 #: frappe/public/js/frappe/ui/side_panel.html:2
 msgid "Drag to resize"
-msgstr ""
+msgstr "اسحب لتغيير الحجم"
 
 #. Label of the drain_seconds (Float) field in DocType 'Automation Settings'
 #: frappe/automation/doctype/automation_settings/automation_settings.json
 msgid "Drain Seconds"
-msgstr ""
+msgstr "مدة تصريف قائمة الانتظار (بالثواني)"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:627
 msgid ""
 "Draw it as a row with its entries nested under it, rather than as a heading "
 "over them."
-msgstr ""
+msgstr "اعرضه كصف تندرج عناصره تحته بدلًا من عرضه كعنوان فوقها."
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:185
 msgid ""
 "Drop the site's arrangement of this sidebar and every person's own, so what "
 "you save here is what shows."
-msgstr ""
+msgstr "احذف ترتيب الموقع لهذا الشريط الجانبي وترتيب كل مستخدم، ليصبح الترتيب "
+"الذي تحفظه هنا هو المعروض للجميع."
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:258
 msgid "Drop this arrangement and go back to {0}."
-msgstr ""
+msgstr "إلغاء هذا الترتيب والعودة إلى {0}."
 
 #: frappe/public/js/frappe/ui/sidebar/dock_manager.js:263
 msgid ""
 "Drops every person's own arrangement of this rail as well as the site's, so "
 "everybody is back on what the app ships."
-msgstr ""
+msgstr "احذف ترتيب كل مستخدم لهذا الشريط وترتيب الموقع أيضًا، ليعود الجميع "
+"إلى الترتيب الذي يوفره التطبيق."
 
 #: frappe/desk/doctype/workspace/workspace.py:245
 #: frappe/public/js/frappe/widgets/widget_dialog.js:156
 msgid "Duplicate Label"
-msgstr ""
+msgstr "تسمية مكررة"
 
 #: frappe/automation_engine/actions/base.py:130
 msgid "Duplicate automation action_type: {0}"
-msgstr ""
+msgstr "نوع إجراء أتمتة مكرر: {0}"
 
 #: frappe/automation_engine/relationships.py:119
 msgid "Duplicate automation relationship name on {0}"
-msgstr ""
+msgstr "اسم علاقة أتمتة مكرر في {0}"
 
 #: frappe/automation_engine/relationships.py:206
 msgid "Duplicate record alias: {0}"
-msgstr ""
+msgstr "اسم مستعار مكرر للسجل: {0}"
 
 #: frappe/desk/doctype/workspace/workspace.py:242
 msgid ""
 "Duplicate {0} labels: {1}. Labels are used to tell widgets apart when a "
 "workspace is saved, so each {0} needs a unique label."
-msgstr ""
+msgstr "تسميات {0} مكررة: {1}. تُستخدم التسميات لتمييز عناصر الواجهة عند "
+"حفظ مساحة العمل، لذا يجب أن تكون تسمية كل {0} فريدة."
 
 #. Label of the duration (Float) field in DocType 'Recorder Event'
 #: frappe/core/doctype/recorder_event/recorder_event.json
 msgid "Duration (ms)"
-msgstr ""
+msgstr "المدة (مللي ثانية)"
 
 #. Description of the 'Map Function' (Data) field in DocType 'MapReduce Job'
 #: frappe/core/doctype/mapreduce_job/mapreduce_job.json
 msgid "Each element of data will be passed to this function"
-msgstr ""
+msgstr "سيُمرر كل عنصر من البيانات إلى هذه الدالة"
 
 #: frappe/automation_engine/relationships.py:204
 msgid "Each relationship needs an alias and relationship name"
-msgstr ""
+msgstr "يجب تحديد اسم مستعار واسم علاقة لكل علاقة"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:697
 msgid "Edit Section"
-msgstr ""
+msgstr "تحرير القسم"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_header.js:58
 msgid "Edit Sidebar"
@@ -39724,91 +39733,91 @@ msgstr "تعديل الشريط الجانبي"
 #: frappe/public/js/print_format_builder/components/editor/FieldChip.vue:149
 #: frappe/public/js/print_format_builder/components/editor/FieldChip.vue:176
 msgid "Edit Typst"
-msgstr ""
+msgstr "تحرير Typst"
 
 #: frappe/rate_limiter.py:171
 msgid "Either key, IP flag, or User flag is required."
-msgstr ""
+msgstr "يجب تحديد مفتاح أو تفعيل خيار عنوان IP أو تفعيل خيار المستخدم."
 
 #: frappe/desk/form/linked_with.py:577
 msgid "Either the documents to process or a root document is required"
-msgstr ""
+msgstr "يجب تحديد المستندات المطلوب معالجتها أو مستند رئيسي"
 
 #. Option for the 'Branch' (Select) field in DocType 'Automation Action'
 #: frappe/automation/doctype/automation_action/automation_action.json
 msgid "Else"
-msgstr ""
+msgstr "وإلا"
 
 #: frappe/email/doctype/notification/notification.py:185
 msgid "Email Template can only be used with the Email channel"
-msgstr ""
+msgstr "لا يمكن استخدام قالب البريد الإلكتروني إلا مع قناة البريد الإلكتروني"
 
 #: frappe/email/doctype/notification/notification.py:190
 #: frappe/email/doctype/notification/notification.py:474
 msgid "Email Template {0} has no content to send"
-msgstr ""
+msgstr "لا يحتوي قالب البريد الإلكتروني {0} على محتوى لإرساله"
 
 #: frappe/automation_engine/actions/core.py:265
 msgid "Emailed {0}"
-msgstr ""
+msgstr "تم إرسال بريد إلكتروني إلى {0}"
 
 #. Description of the 'From Value' (Data) field in DocType 'Automation Flow'
 #. Description of the 'To Value' (Data) field in DocType 'Automation Flow'
 #: frappe/automation/doctype/automation_flow/automation_flow.json
 msgid "Empty = any value."
-msgstr ""
+msgstr "القيمة الفارغة تعني أي قيمة."
 
 #: frappe/public/js/print_format_builder/components/editor/FieldPreview.vue:12
 msgid "Empty Typst block"
-msgstr ""
+msgstr "كتلة Typst فارغة"
 
 #: frappe/public/js/print_format_builder/components/editor/FieldPreview.vue:56
 msgid "Empty text"
-msgstr ""
+msgstr "نص فارغ"
 
 #: frappe/core/doctype/installed_applications/installed_applications.js:92
 msgid "Enable <b>{0}</b> on this site again?"
-msgstr ""
+msgstr "هل تريد إعادة تفعيل <b>{0}</b> على هذا الموقع؟"
 
 #. Label of the enable_application (Button) field in DocType 'Installed
 #. Application'
 #: frappe/core/doctype/installed_application/installed_application.json
 msgid "Enable Application"
-msgstr ""
+msgstr "تفعيل التطبيق"
 
 #: frappe/automation/doctype/automation_flow/automation_flow.py:77
 msgid "Enable an Automation Flow only after adding at least one action"
-msgstr ""
+msgstr "لا تفعّل تدفق الأتمتة إلا بعد إضافة إجراء واحد على الأقل"
 
 #: frappe/desk/doctype/dock/dock.py:496
 msgid ""
 "Enable developer mode to change whether a dock is standard -- it is backed "
 "by a file in its app."
-msgstr ""
+msgstr "فعّل وضع المطور لتغيير ما إذا كان شريط التطبيقات قياسيًا؛ إذ يستند الشريط القياسي إلى ملف في التطبيق."
 
 #: frappe/desk/doctype/sidebar/sidebar.py:646
 msgid ""
 "Enable developer mode to change whether a sidebar is standard -- it is "
 "backed by a file in its app."
-msgstr ""
+msgstr "فعّل وضع المطور لتغيير ما إذا كان الشريط الجانبي قياسيًا؛ إذ يستند الشريط القياسي إلى ملف في التطبيق."
 
 #. Description of the 'Enabled' (Check) field in DocType 'Automation Flow'
 #: frappe/automation/doctype/automation_flow/automation_flow.json
 msgid "Enabling requires at least one action and a valid trigger."
-msgstr ""
+msgstr "يتطلب التفعيل إجراءً واحدًا على الأقل ومشغلًا صالحًا."
 
 #: frappe/templates/emails/verification_code.html:3
 msgid "Enter this code to complete your login."
-msgstr ""
+msgstr "أدخل هذا الرمز لإكمال تسجيل الدخول."
 
 #: frappe/www/qrcode.html:67
 msgid "Enter this setup key manually:"
-msgstr ""
+msgstr "أدخل مفتاح الإعداد هذا يدويًا:"
 
 #: frappe/public/js/frappe/ui/sidebar/dock_manager.js:87
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:248
 msgid "Entries"
-msgstr ""
+msgstr "العناصر"
 
 #. Label of the event_name (Data) field in DocType 'Automation Event
 #. Subscription'
@@ -39823,110 +39832,112 @@ msgstr "إسم الحدث"
 #: frappe/automation/doctype/automation_event_subscription/automation_event_subscription.json
 #: frappe/automation/doctype/automation_trigger_queue/automation_trigger_queue.json
 msgid "Event Payload"
-msgstr ""
+msgstr "بيانات الحدث"
 
 #. Label of the event_payload_limit (Int) field in DocType 'Automation
 #. Settings'
 #: frappe/automation/doctype/automation_settings/automation_settings.json
 msgid "Event Payload Limit"
-msgstr ""
+msgstr "الحد الأقصى لحجم بيانات الحدث"
 
 #: frappe/public/js/frappe/ui/sidebar/dock_manager.js:323
 msgid "Everyone is back on the dock this app ships"
-msgstr ""
+msgstr "عاد الجميع إلى شريط التطبيقات الذي يوفره هذا التطبيق"
 
 #. Description of the 'Callback' (Data) field in DocType 'MapReduce Job'
 #: frappe/core/doctype/mapreduce_job/mapreduce_job.json
 msgid "Executed only once all elements of data is processed. "
-msgstr ""
+msgstr "يُنفذ مرة واحدة فقط بعد معالجة جميع عناصر البيانات. "
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:1033
 msgid "Expand sidebar"
-msgstr ""
+msgstr "توسيع الشريط الجانبي"
 
 #: frappe/public/js/frappe/views/treeview.js:189
 msgid "Expand/Collapse"
-msgstr ""
+msgstr "توسيع/طي"
 
 #. Label of the expires_at (Datetime) field in DocType 'Automation Event
 #. Subscription'
 #: frappe/automation/doctype/automation_event_subscription/automation_event_subscription.json
 msgid "Expires At"
-msgstr ""
+msgstr "تاريخ ووقت انتهاء الصلاحية"
 
 #: frappe/public/js/frappe/ui/sidebar/dock_manager.js:79
 msgid "Export to app"
-msgstr ""
+msgstr "تصدير إلى التطبيق"
 
 #: frappe/public/js/frappe/ui/sidebar/dock_manager.js:47
 msgid "Exported to the app"
-msgstr ""
+msgstr "تم التصدير إلى التطبيق"
 
 #. Label of a number card in the System Workspace
 #: frappe/system/workspace/system/system.json
 msgid "Failed Scheduled Jobs"
-msgstr ""
+msgstr "المهام المجدولة الفاشلة"
 
 #: frappe/core/doctype/role/role.js:342
 msgid "Failed to create user."
-msgstr ""
+msgstr "تعذر إنشاء المستخدم."
 
 #. Label of the failure_threshold (Int) field in DocType 'Automation Settings'
 #: frappe/automation/doctype/automation_settings/automation_settings.json
 msgid "Failure Threshold"
-msgstr ""
+msgstr "حد الإخفاقات"
 
 #: frappe/public/js/print_format_builder/utils.js:127
 msgid "Field Template block"
-msgstr ""
+msgstr "كتلة قالب الحقل"
 
 #. Option for the 'Trigger Type' (Select) field in DocType 'Automation Flow'
 #: frappe/automation/doctype/automation_flow/automation_flow.json
 msgid "Field Value Changed"
-msgstr ""
+msgstr "تغيرت قيمة الحقل"
 
 #: frappe/automation/doctype/automation_flow/automation_flow.py:192
 msgid "Field Value Changed trigger requires a Trigger Field"
-msgstr ""
+msgstr "يتطلب مشغل تغير قيمة الحقل تحديد حقل للمراقبة"
 
 #: frappe/public/js/print_format_builder/components/inspector/SectionPropertiesPanel.vue:73
 msgid "Field borders"
-msgstr ""
+msgstr "حدود الحقول"
 
 #: frappe/automation_engine/actions/core.py:154
 msgid "Field is required"
-msgstr ""
+msgstr "الحقل مطلوب"
 
 #: frappe/custom/doctype/custom_field/custom_field.py:205
 msgid "Fieldtype of {0} in {1} cannot be changed from {2} to {3}"
-msgstr ""
+msgstr "لا يمكن تغيير نوع الحقل {0} في {1} من {2} إلى {3}"
 
 #: frappe/automation_engine/relationships.py:238
 msgid "Filtered relationship queries require one target DocType"
-msgstr ""
+msgstr "تتطلب استعلامات العلاقات المصفاة نوع مستند مستهدفًا واحدًا"
 
 #: frappe/desk/form/load.py:266
 msgid ""
 "Filters must be four-value rows with string doctypes, fields, and operators."
 msgstr ""
+"يجب أن تتكون عوامل التصفية من صفوف بأربع قيم، وأن تكون أنواع "
+"المستندات والحقول والعوامل سلاسل نصية."
 
 #: frappe/public/js/print_format_builder/components/PrintFormatControls.vue:502
 msgid "Fixed text like a title or a note"
-msgstr ""
+msgstr "نص ثابت مثل عنوان أو ملاحظة"
 
 #: frappe/public/js/print_format_builder/components/PrintSettingsPanel.vue:48
 msgid "Font Size (px)"
-msgstr ""
+msgstr "حجم الخط (بالبكسل)"
 
 #: frappe/public/js/frappe/form/controls/text_editor.js:333
 #: frappe/public/js/print_format_builder/components/inspector/field_properties.js:50
 msgid "Font size"
-msgstr ""
+msgstr "حجم الخط"
 
 #: frappe/public/js/frappe/ui/sidebar/dock_manager.js:34
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:39
 msgid "For everyone"
-msgstr ""
+msgstr "للجميع"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:80
 msgid "For {0}"
@@ -39934,16 +39945,16 @@ msgstr "لـ {0}"
 
 #: frappe/core/doctype/mapreduce_job/mapreduce_job.js:17
 msgid "Force Retry"
-msgstr ""
+msgstr "فرض إعادة المحاولة"
 
 #: frappe/automation_engine/runner.py:280
 msgid "Forced the {0} branch"
-msgstr ""
+msgstr "تم فرض اختيار الفرع {0}"
 
 #. Option for the 'Type' (Select) field in DocType 'Page'
 #: frappe/core/doctype/page/page.json
 msgid "Frappe UI"
-msgstr ""
+msgstr "واجهة Frappe"
 
 #. Label of the from_value (Data) field in DocType 'Automation Flow'
 #: frappe/automation/doctype/automation_flow/automation_flow.json
@@ -39952,53 +39963,57 @@ msgstr "من القيمة"
 
 #: frappe/public/js/frappe/microtemplate.js:247
 msgid "Generating PDF..."
-msgstr ""
+msgstr "جارٍ إنشاء ملف PDF..."
 
 #. Title of a Sidebar
 #: frappe/geo/sidebar/geo/geo.json
 msgid "Geo"
-msgstr ""
+msgstr "الجغرافيا"
 
 #: frappe/printing/doctype/print_format/print_format.py:500
 msgid "Give the version a name"
-msgstr ""
+msgstr "أدخل اسمًا للإصدار"
 
 #: frappe/public/js/print_format_builder/components/inspector/SectionPropertiesPanel.vue:79
 msgid "Grid lines"
-msgstr ""
+msgstr "خطوط الشبكة"
 
 #: frappe/public/js/print_format_builder/utils.js:126
 msgid "HTML block"
-msgstr ""
+msgstr "كتلة HTML"
 
 #. Label of the handlers (Small Text) field in DocType 'Recorder Event'
 #: frappe/core/doctype/recorder_event/recorder_event.json
 msgid "Handlers"
-msgstr ""
+msgstr "معالجات الأحداث"
 
 #: frappe/utils/pdf_generator/browser.py:388
 msgid ""
 "Header, footer and margins leave no room for content on a {0}px tall page. "
 "Reduce their height or use a larger page size."
 msgstr ""
+"لا تترك الترويسة والتذييل والهوامش مساحة للمحتوى في صفحة ارتفاعها "
+"{0} بكسل. قلل ارتفاعها أو استخدم حجم صفحة أكبر."
 
 #: frappe/public/js/frappe/form/controls/text_editor.js:248
 msgid "Heading {0}"
-msgstr ""
+msgstr "عنوان {0}"
 
 #: frappe/public/js/print_format_builder/components/inspector/field_properties.js:112
 msgid "Height"
-msgstr ""
+msgstr "الارتفاع"
 
 #: frappe/templates/emails/new_user.html:4
 msgid ""
 "Hi {0}, an account has been created for you at {1}. Before you can log in, "
 "you'll need to set your password."
 msgstr ""
+"مرحبًا {0}، أُنشئ لك حساب في {1}. يجب تعيين كلمة مرور قبل أن تتمكن "
+"من تسجيل الدخول."
 
 #: frappe/public/js/print_format_builder/components/inspector/field_properties.js:231
 msgid "Hide colon"
-msgstr ""
+msgstr "إخفاء النقطتين الرأسيتين"
 
 #. Description of the 'Hidden' (Check) field in DocType 'Sidebar Item'
 #: frappe/desk/doctype/sidebar_item/sidebar_item.json
@@ -40006,10 +40021,12 @@ msgid ""
 "Hide this item. Explicit rather than implied by the row's presence, which is"
 " what lets a user's `hidden: 0` un-hide something the site hid."
 msgstr ""
+"إخفاء هذا العنصر. يُحدد ذلك صراحةً بدلًا من استنتاجه من وجود الصف، "
+"للسماح لقيمة `hidden: 0` لدى المستخدم بإظهار عنصر أخفاه الموقع."
 
 #: frappe/public/js/frappe/ui/sidebar/dock_manager.js:418
 msgid "How it reads on the rail."
-msgstr ""
+msgstr "طريقة ظهور التسمية في شريط التطبيقات."
 
 #. Description of the 'Stale Running Minutes' (Int) field in DocType
 #. 'Automation Settings'
@@ -40017,7 +40034,7 @@ msgstr ""
 msgid ""
 "How long a claimed row may stay Running before it is assumed crashed and "
 "requeued."
-msgstr ""
+msgstr "أقصى مدة يمكن أن يبقى فيها الصف المحجوز قيد التشغيل قبل اعتباره متعطلًا وإعادته إلى قائمة الانتظار."
 
 #. Description of the 'Maximum Attempts' (Int) field in DocType 'Automation
 #. Settings'
@@ -40025,7 +40042,7 @@ msgstr ""
 msgid ""
 "How many times a claimed row is retried when its run fails outside the "
 "flow's own steps, before the row is marked Failed."
-msgstr ""
+msgstr "عدد مرات إعادة محاولة الصف المحجوز عند فشل تشغيله خارج خطوات تدفق الأتمتة، قبل وضع علامة الفشل عليه."
 
 #. Description of the 'Maximum Recursion Depth' (Int) field in DocType
 #. 'Automation Settings'
@@ -40033,7 +40050,7 @@ msgstr ""
 msgid ""
 "How many times an automation may trigger another before the chain is "
 "refused."
-msgstr ""
+msgstr "عدد المرات التي يمكن فيها للأتمتة تشغيل أتمتة أخرى قبل رفض سلسلة التشغيل."
 
 #. Description of the 'Title' (Data) field in DocType 'Dock Item'
 #: frappe/desk/doctype/dock_item/dock_item.json
@@ -40041,65 +40058,65 @@ msgid ""
 "How this entry reads on the rail. Required when the row adds and optional "
 "when it references, exactly as `icon` is -- and outside the row's identity, "
 "so re-labelling can never detach a row from itself."
-msgstr ""
+msgstr "طريقة ظهور هذا العنصر في شريط التطبيقات. يكون العنوان مطلوبًا عند إضافة الصف واختياريًا عند الإشارة إليه، مثل `icon` تمامًا. ولا يدخل العنوان ضمن هوية الصف، لذا لا تؤدي إعادة تسميته إلى فصله عن هويته."
 
 #: frappe/templates/emails/administrator_logged_in.html:4
 msgid "IP address:"
-msgstr ""
+msgstr "عنوان IP:"
 
 #. Label of the icon_name (Data) field in DocType 'Custom Icon'
 #: frappe/core/doctype/custom_icon/custom_icon.json
 msgid "Icon Name"
-msgstr ""
+msgstr "اسم الأيقونة"
 
 #: frappe/core/doctype/custom_icon/custom_icon.py:33
 msgid "Icon Name can only contain letters, numbers, hyphens and underscores"
-msgstr ""
+msgstr "لا يجوز أن يحتوي اسم الأيقونة إلا على أحرف وأرقام وواصلات وشرطات سفلية"
 
 #. Option for the 'Branch' (Select) field in DocType 'Automation Action'
 #: frappe/automation/doctype/automation_action/automation_action.json
 msgid "If"
-msgstr ""
+msgstr "إذا"
 
 #: frappe/templates/emails/administrator_logged_in.html:5
 msgid "If this was you:"
-msgstr ""
+msgstr "إذا كنت أنت من قام بذلك:"
 
 #: frappe/templates/emails/administrator_logged_in.html:6
 msgid "If this wasn't you:"
-msgstr ""
+msgstr "إذا لم تكن أنت من قام بذلك:"
 
 #. Description of the 'Queue' (Select) field in DocType 'Scheduled Job Type'
 #. Description of the 'Queue' (Select) field in DocType 'Server Script'
 #: frappe/core/doctype/scheduled_job_type/scheduled_job_type.json
 #: frappe/core/doctype/server_script/server_script.json
 msgid "If unset, cron jobs run on the default queue."
-msgstr ""
+msgstr "إذا لم تُحدد قائمة انتظار، فستُشغل مهام cron في قائمة الانتظار الافتراضية."
 
 #: frappe/templates/emails/verification_code.html:5
 msgid "If you didn't request this code, you can safely ignore this email."
-msgstr ""
+msgstr "إذا لم تطلب هذا الرمز، يمكنك تجاهل هذا البريد الإلكتروني بأمان."
 
 #: frappe/templates/emails/login_with_email_link.html:11
 msgid ""
 "If you didn't request this, you can safely ignore this email. Your account "
 "is safe."
-msgstr ""
+msgstr "إذا لم تطلب ذلك، يمكنك تجاهل هذا البريد الإلكتروني بأمان. حسابك آمن."
 
 #: frappe/templates/emails/password_reset.html:11
 msgid ""
 "If you didn't request this, you can safely ignore this email. Your password "
 "won't be changed."
-msgstr ""
+msgstr "إذا لم تطلب ذلك، يمكنك تجاهل هذا البريد الإلكتروني بأمان. لن تتغير كلمة مرورك."
 
 #: frappe/templates/emails/new_user.html:13
 msgid ""
 "If you weren't expecting this account, you can safely ignore this email."
-msgstr ""
+msgstr "إذا لم تكن تتوقع إنشاء هذا الحساب، يمكنك تجاهل هذا البريد الإلكتروني بأمان."
 
 #: frappe/templates/emails/user_invitation.html:4
 msgid "If you weren't expecting this, you can safely ignore this email."
-msgstr ""
+msgstr "إذا لم تكن تتوقع هذه الرسالة، يمكنك تجاهل هذا البريد الإلكتروني بأمان."
 
 #. Label of the ignore_versioning (Check) field in DocType 'DocField'
 #. Label of the ignore_versioning (Check) field in DocType 'Custom Field'
@@ -40109,52 +40126,52 @@ msgstr ""
 #: frappe/custom/doctype/custom_field/custom_field.json
 #: frappe/custom/doctype/customize_form_field/customize_form_field.json
 msgid "Ignore Versioning"
-msgstr ""
+msgstr "تجاهل إنشاء الإصدارات"
 
 #: frappe/public/js/print_format_builder/utils.js:138
 #: frappe/utils/typst_emitter.py:226
 msgid "Image loaded from a web address"
-msgstr ""
+msgstr "صورة محملة من عنوان ويب"
 
 #: frappe/public/js/print_format_builder/components/inspector/Stepper.vue:33
 msgid "Increase"
-msgstr ""
+msgstr "زيادة"
 
 #: frappe/public/js/frappe/form/controls/text_editor.js:327
 msgid "Increase indent"
-msgstr ""
+msgstr "زيادة المسافة البادئة"
 
 #: frappe/public/js/frappe/form/controls/text_editor.js:291
 msgid "Insert Column Left"
-msgstr ""
+msgstr "إدراج عمود إلى اليسار"
 
 #: frappe/public/js/frappe/form/controls/text_editor.js:290
 msgid "Insert Column Right"
-msgstr ""
+msgstr "إدراج عمود إلى اليمين"
 
 #: frappe/public/js/frappe/form/controls/text_editor.js:288
 msgid "Insert Row Above"
-msgstr ""
+msgstr "إدراج صف أعلاه"
 
 #: frappe/public/js/frappe/form/controls/text_editor.js:289
 msgid "Insert Row Below"
-msgstr ""
+msgstr "إدراج صف أسفله"
 
 #: frappe/public/js/frappe/form/controls/text_editor.js:287
 msgid "Insert Table"
-msgstr ""
+msgstr "إدراج جدول"
 
 #: frappe/public/js/frappe/form/controls/text_editor.js:322
 msgid "Insert image"
-msgstr ""
+msgstr "إدراج صورة"
 
 #: frappe/public/js/frappe/form/controls/text_editor.js:321
 msgid "Insert link"
-msgstr ""
+msgstr "إدراج رابط"
 
 #: frappe/public/js/frappe/form/controls/text_editor.js:323
 msgid "Insert video"
-msgstr ""
+msgstr "إدراج فيديو"
 
 #: frappe/printing/doctype/print_format/print_format.py:263
 msgid "Invalid Condition"
@@ -40162,40 +40179,40 @@ msgstr "شرط غير صالح"
 
 #: frappe/desk/doctype/sidebar/sidebar.py:994
 msgid "Invalid Route"
-msgstr ""
+msgstr "مسار غير صالح"
 
 #: frappe/utils/typst_emitter.py:890
 msgid "Invalid Typst block"
-msgstr ""
+msgstr "كتلة Typst غير صالحة"
 
 #: frappe/printing/doctype/print_format/print_format.py:225
 #: frappe/printing/doctype/print_format/print_format.py:232
 msgid "Invalid Typst markup"
-msgstr ""
+msgstr "ترميز Typst غير صالح"
 
 #: frappe/utils/file_manager.py:236
 msgid "Invalid Upload"
-msgstr ""
+msgstr "تحميل غير صالح"
 
 #: frappe/desk/reportview.py:248 frappe/desk/reportview.py:251
 msgid "Invalid aggregate function: {0}"
-msgstr ""
+msgstr "دالة تجميع غير صالحة: {0}"
 
 #: frappe/utils/print_format_generator.py:304
 msgid "Invalid arguments"
-msgstr ""
+msgstr "وسائط غير صالحة"
 
 #: frappe/automation_engine/relationships.py:134
 msgid "Invalid automation relationship definition"
-msgstr ""
+msgstr "تعريف علاقة الأتمتة غير صالح"
 
 #: frappe/automation/doctype/automation_flow/automation_flow.py:215
 msgid "Invalid cron expression: {0}"
-msgstr ""
+msgstr "تعبير cron غير صالح: {0}"
 
 #: frappe/utils/file_manager.py:236
 msgid "Invalid file name"
-msgstr ""
+msgstr "اسم ملف غير صالح"
 
 #. Label of the is_app_disabled (Check) field in DocType 'Custom DocPerm'
 #. Label of the is_app_disabled (Check) field in DocType 'Custom Field'
@@ -40204,55 +40221,55 @@ msgstr ""
 #: frappe/custom/doctype/custom_field/custom_field.json
 #: frappe/custom/doctype/property_setter/property_setter.json
 msgid "Is App Disabled"
-msgstr ""
+msgstr "التطبيق معطل"
 
 #. Label of the is_default_module (Check) field in DocType 'Sidebar Item'
 #: frappe/desk/doctype/sidebar_item/sidebar_item.json
 msgid "Is Default Module"
-msgstr ""
+msgstr "الوحدة الافتراضية"
 
 #. Label of the is_mapreduce (Check) field in DocType 'Background Task'
 #: frappe/core/doctype/background_task/background_task.json
 msgid "Is MapReduce"
-msgstr ""
+msgstr "مهمة MapReduce"
 
 #. Label of the island (Data) field in DocType 'Page'
 #: frappe/core/doctype/page/page.json
 msgid "Island"
-msgstr ""
+msgstr "مكوّن مستقل (Island)"
 
 #: frappe/core/doctype/page/page.py:86
 #: frappe/public/js/frappe/ui/island/loader.js:51 frappe/utils/island.py:84
 msgid "Island \"{0}\" is not on this site. Build the app that ships it."
-msgstr ""
+msgstr "المكوّن المستقل \"{0}\" غير موجود على هذا الموقع. أنشئ التطبيق الذي يوفره."
 
 #: frappe/templates/emails/verification_code.html:3
 msgid "It expires in 1 minute."
-msgstr ""
+msgstr "تنتهي صلاحيته خلال دقيقة واحدة."
 
 #: frappe/templates/emails/verification_code.html:3
 msgid "It expires in {0} minutes."
-msgstr ""
+msgstr "تنتهي صلاحيته خلال {0} دقيقة."
 
 #: frappe/public/js/frappe/form/controls/text_editor.js:315
 msgid "Italic"
-msgstr ""
+msgstr "مائل"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:361
 msgid "Item"
-msgstr ""
+msgstr "عنصر"
 
 #: frappe/public/js/frappe/widgets/chart_widget.js:178
 msgid "Its assets are missing. Build the app that ships it."
-msgstr ""
+msgstr "ملفات الموارد الخاصة به مفقودة. أنشئ التطبيق الذي يوفره."
 
 #: frappe/public/js/frappe/views/pageview.js:233
 msgid "Its assets are missing. Build the app that ships this page."
-msgstr ""
+msgstr "ملفات موارد هذه الصفحة مفقودة. أنشئ التطبيق الذي يوفرها."
 
 #: frappe/public/js/frappe/ui/sidebar/dock_manager.js:439
 msgid "Its sidebar is derived from the module that owns it."
-msgstr ""
+msgstr "يُستمد شريطها الجانبي من الوحدة المالكة لها."
 
 #. Label of a Sidebar Item
 #: frappe/system/sidebar/system/system.json
@@ -40262,79 +40279,80 @@ msgstr "وظائف"
 #: frappe/public/js/frappe/ui/sidebar/dock_manager.js:28
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:32
 msgid "Just for me"
-msgstr ""
+msgstr "لي فقط"
 
 #: frappe/public/js/frappe/new_navigation_nudge.js:49
 msgid "Keep the icon grid"
-msgstr ""
+msgstr "الإبقاء على شبكة الأيقونات"
 
 #: frappe/public/js/frappe/new_navigation_nudge.js:26
 msgid "Keeping the icon grid."
-msgstr ""
+msgstr "جارٍ الإبقاء على شبكة الأيقونات."
 
 #. Description of the 'Hidden' (Check) field in DocType 'Dock Item'
 #: frappe/desk/doctype/dock_item/dock_item.json
 msgid ""
 "Kept in the row so an explicitly hidden entry stays hidden when its app "
 "later adds entries, instead of reappearing because it is simply absent."
-msgstr ""
+msgstr "يُحفظ هذا الخيار في الصف لضمان بقاء العنصر مخفيًا صراحةً عند إضافة "
+"التطبيق لعناصر لاحقًا، بدلًا من ظهوره مجددًا لمجرد غيابه عن القائمة."
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:341
 msgid "Kind"
-msgstr ""
+msgstr "النوع"
 
 #: frappe/public/js/print_format_builder/print_format_builder.bundle.js:104
 msgid "Leave anyway"
-msgstr ""
+msgstr "المغادرة على أي حال"
 
 #: frappe/core/doctype/role/role.js:315
 msgid "Leave empty to grant {0} directly."
-msgstr ""
+msgstr "اتركه فارغًا لمنح {0} مباشرةً."
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:684
 msgid "Leave it empty to keep the one it inherits."
-msgstr ""
+msgstr "اتركه فارغًا للاحتفاظ بالقيمة الموروثة."
 
 #: frappe/public/js/frappe/ui/sidebar/dock_manager.js:440
 msgid "Leaves the desk. It has no sidebar."
-msgstr ""
+msgstr "يخرج من سطح المكتب، وليس له شريط جانبي."
 
 #: frappe/public/js/print_format_builder/utils.js:106
 #: frappe/utils/typst_emitter.py:213
 msgid "Letterhead footer with HTML content"
-msgstr ""
+msgstr "تذييل ترويسة يحتوي على محتوى HTML"
 
 #: frappe/utils/typst_emitter.py:216
 msgid "Letterhead image loaded from a web address"
-msgstr ""
+msgstr "صورة ترويسة محملة من عنوان ويب"
 
 #: frappe/public/js/print_format_builder/utils.js:103
 #: frappe/utils/typst_emitter.py:210
 msgid "Letterhead with HTML content"
-msgstr ""
+msgstr "ترويسة تحتوي على محتوى HTML"
 
 #: frappe/public/js/print_format_builder/utils.js:100
 #: frappe/utils/typst_emitter.py:207
 msgid "Letterhead with custom CSS"
-msgstr ""
+msgstr "ترويسة بتنسيق CSS مخصص"
 
 #. Label of the limits_section (Section Break) field in DocType 'Automation
 #. Settings'
 #: frappe/automation/doctype/automation_settings/automation_settings.json
 msgid "Limits"
-msgstr ""
+msgstr "الحدود"
 
 #: frappe/public/js/print_format_builder/components/PrintFormatControls.vue:506
 msgid "Linked Field"
-msgstr ""
+msgstr "حقل مرتبط"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:352
 msgid "Links To"
-msgstr ""
+msgstr "يرتبط بـ"
 
 #: frappe/public/js/frappe/views/treeview.js:478
 msgid "Loading full tree..."
-msgstr ""
+msgstr "جارٍ تحميل الشجرة كاملة..."
 
 #: frappe/templates/emails/login_with_email_link.html:5
 msgid "Login to {0}"
@@ -40342,7 +40360,7 @@ msgstr "سجّل الدخول إلى {0}"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:126
 msgid "Manage {0} Sidebar"
-msgstr ""
+msgstr "إدارة الشريط الجانبي لـ {0}"
 
 #. Option for the 'Trigger Type' (Select) field in DocType 'Automation Flow'
 #: frappe/automation/doctype/automation_flow/automation_flow.json
@@ -40352,85 +40370,85 @@ msgstr "يدوي"
 #. Label of the map (Data) field in DocType 'MapReduce Job'
 #: frappe/core/doctype/mapreduce_job/mapreduce_job.json
 msgid "Map Function"
-msgstr ""
+msgstr "دالة Map"
 
 #. Name of a DocType
 #: frappe/core/doctype/mapreduce_job/mapreduce_job.json
 msgid "MapReduce Job"
-msgstr ""
+msgstr "مهمة MapReduce"
 
 #: frappe/core/doctype/background_task/background_task.py:54
 msgid "MapReduce Job reference is mandatory for log running tasks"
-msgstr ""
+msgstr "مرجع مهمة MapReduce إلزامي للمهام طويلة التشغيل"
 
 #. Name of a DocType
 #: frappe/core/doctype/mapreduce_task/mapreduce_task.json
 msgid "MapReduce Task"
-msgstr ""
+msgstr "مهمة MapReduce فرعية"
 
 #: frappe/public/js/print_format_builder/components/PrintSettingsPanel.vue:77
 msgid "Margins (mm)"
-msgstr ""
+msgstr "الهوامش (ملم)"
 
 #: frappe/desk/doctype/sidebar/sidebar.js:33
 msgid "Mark as Standard"
-msgstr ""
+msgstr "تعيين كقياسي"
 
 #. Description of the 'Deprecated' (Check) field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
 msgid ""
 "Marks this DocType as deprecated. It will continue to work, but users will "
 "be warned against using it."
-msgstr ""
+msgstr "يحدد هذا الخيار نوع المستند على أنه مهمل. سيظل يعمل، لكن سيُحذّر المستخدمون من استخدامه."
 
 #. Label of the filters_editor (HTML) field in DocType 'Automation Flow'
 #: frappe/automation/doctype/automation_flow/automation_flow.js:26
 #: frappe/automation/doctype/automation_flow/automation_flow.json
 msgid "Match Fields"
-msgstr ""
+msgstr "حقول المطابقة"
 
 #. Option for the 'Status' (Select) field in DocType 'Automation Event
 #. Subscription'
 #: frappe/automation/doctype/automation_event_subscription/automation_event_subscription.json
 msgid "Matched"
-msgstr ""
+msgstr "مطابق"
 
 #. Description of the 'Custom Event' (Data) field in DocType 'Automation Flow'
 #: frappe/automation/doctype/automation_flow/automation_flow.json
 msgid "Matches the event name passed to emit()."
-msgstr ""
+msgstr "يطابق اسم الحدث المُمرر إلى emit()."
 
 #. Label of the max_bulk_print_docs (Int) field in DocType 'Print Settings'
 #: frappe/printing/doctype/print_settings/print_settings.json
 msgid "Max Bulk Print Documents"
-msgstr ""
+msgstr "الحد الأقصى لمستندات الطباعة الجماعية"
 
 #. Label of the max_concurrent_bulk_exports (Int) field in DocType 'Print
 #. Settings'
 #: frappe/printing/doctype/print_settings/print_settings.json
 msgid "Max Concurrent Bulk Exports Per User"
-msgstr ""
+msgstr "الحد الأقصى لعمليات التصدير الجماعي المتزامنة لكل مستخدم"
 
 #. Label of the max_zip_extract_size (Int) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Max Zip Extract Size (MB)"
-msgstr ""
+msgstr "الحد الأقصى لحجم فك ضغط ZIP (ميجابايت)"
 
 #. Label of the max_signups_per_minute (Int) field in DocType 'Website
 #. Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
 msgid "Max signups per minute"
-msgstr ""
+msgstr "الحد الأقصى لعمليات التسجيل في الدقيقة"
 
 #. Label of the max_attempts (Int) field in DocType 'Automation Settings'
 #: frappe/automation/doctype/automation_settings/automation_settings.json
 msgid "Maximum Attempts"
-msgstr ""
+msgstr "الحد الأقصى للمحاولات"
 
 #. Label of the max_depth (Int) field in DocType 'Automation Settings'
 #: frappe/automation/doctype/automation_settings/automation_settings.json
 msgid "Maximum Recursion Depth"
-msgstr ""
+msgstr "الحد الأقصى لعمق الاستدعاء التكراري"
 
 #. Description of the 'Max Concurrent Bulk Exports Per User' (Int) field in
 #. DocType 'Print Settings'
@@ -40438,7 +40456,7 @@ msgstr ""
 msgid ""
 "Maximum number of bulk PDF export jobs a single user can have queued or "
 "running at once."
-msgstr ""
+msgstr "الحد الأقصى لعدد مهام تصدير PDF الجماعي التي يمكن لمستخدم واحد وضعها في قائمة الانتظار أو تشغيلها في الوقت نفسه."
 
 #. Description of the 'Max Bulk Print Documents' (Int) field in DocType 'Print
 #. Settings'
@@ -40446,90 +40464,90 @@ msgstr ""
 msgid ""
 "Maximum number of documents that can be combined into a single bulk PDF "
 "export."
-msgstr ""
+msgstr "الحد الأقصى لعدد المستندات التي يمكن دمجها في عملية تصدير PDF جماعي واحدة."
 
 #. Description of the 'Max Zip Extract Size (MB)' (Int) field in DocType
 #. 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid ""
 "Maximum total size a ZIP archive is allowed to expand to when extracted."
-msgstr ""
+msgstr "الحد الأقصى للحجم الإجمالي الذي يُسمح لأرشيف ZIP بالتمدد إليه عند فك ضغطه."
 
 #. Label of the merged_from (Long Text) field in DocType 'Sidebar'
 #: frappe/desk/doctype/sidebar/sidebar.json
 msgid "Merged From"
-msgstr ""
+msgstr "مُدمج من"
 
 #: frappe/public/js/print_format_builder/components/inspector/TableFieldInspector.vue:49
 msgid "Min height"
-msgstr ""
+msgstr "الحد الأدنى للارتفاع"
 
 #: frappe/public/js/print_format_builder/components/inspector/FieldPropertiesPanel.vue:92
 msgid "Mixed"
-msgstr ""
+msgstr "مختلط"
 
 #: frappe/desk/doctype/sidebar/sidebar.py:425
 msgid ""
 "Module {0} has no folder in an app, so a standard sidebar cannot be written "
 "to it."
-msgstr ""
+msgstr "لا يملك الموديول {0} مجلدًا في أي تطبيق، لذا لا يمكن حفظ شريط جانبي قياسي فيه."
 
 #: frappe/installer.py:1013
 msgid ""
 "Module {0} is now shipped by {1}; this site's module of that name is now "
 "{2}."
-msgstr ""
+msgstr "أصبح الموديول {0} تابعًا للتطبيق {1}، وأصبح موديول الموقع الذي يحمل الاسم نفسه هو {2}."
 
 #. Label of the mount_on (Autocomplete) field in DocType 'Dock'
 #: frappe/desk/doctype/dock/dock.json
 msgid "Mount On"
-msgstr ""
+msgstr "يُعرض على"
 
 #: frappe/public/js/frappe/views/treeview.js:550
 msgid "Move to..."
-msgstr ""
+msgstr "نقل إلى..."
 
 #: frappe/public/js/frappe/views/treeview.js:652
 msgid "Move {0}"
-msgstr ""
+msgstr "نقل {0}"
 
 #: frappe/public/js/frappe/views/treeview.js:675
 msgid "Moving {0}"
-msgstr ""
+msgstr "جارٍ نقل {0}"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:649
 msgid "My Space"
-msgstr ""
+msgstr "مساحتي"
 
 #. Description of the 'Target' (Data) field in DocType 'Automation Action'
 #: frappe/automation/doctype/automation_action/automation_action.json
 msgid "Named record alias this action operates on."
-msgstr ""
+msgstr "اسم مستعار للسجل الذي يعمل عليه هذا الإجراء."
 
 #: frappe/public/js/frappe/views/treeview.js:657
 msgid "New Parent"
-msgstr ""
+msgstr "الأصل الجديد"
 
 #: frappe/templates/emails/administrator_logged_in.html:1
 msgid "New login to the Administrator account"
-msgstr ""
+msgstr "تسجيل دخول جديد إلى حساب مدير النظام"
 
 #. Label of the next_run (Datetime) field in DocType 'Automation Flow'
 #: frappe/automation/doctype/automation_flow/automation_flow.json
 msgid "Next Run"
-msgstr ""
+msgstr "موعد التشغيل التالي"
 
 #: frappe/public/js/frappe/ui/notifications/notifications.js:394
 msgid "No New Notifications"
-msgstr ""
+msgstr "لا توجد إشعارات جديدة"
 
 #: frappe/public/js/frappe/form/templates/address_list.html:28
 msgid "No addresses added yet"
-msgstr ""
+msgstr "لم تتم إضافة عناوين بعد"
 
 #: frappe/public/js/frappe/form/templates/contact_list.html:46
 msgid "No contact details"
-msgstr ""
+msgstr "لا توجد تفاصيل اتصال"
 
 #: frappe/public/js/frappe/form/templates/contact_list.html:54
 msgid "No contacts added yet"
@@ -40537,135 +40555,135 @@ msgstr "لم تتم إضافة أي جهات اتصال حتى الآن"
 
 #: frappe/core/page/dashboard_view/dashboard_view.js:83
 msgid "No dashboard named {0}"
-msgstr ""
+msgstr "لا توجد لوحة تحكم باسم {0}"
 
 #: frappe/public/js/print_format_builder/components/PrintFormatControls.vue:67
 msgid "No fields match"
-msgstr ""
+msgstr "لا توجد حقول مطابقة"
 
 #: frappe/public/js/print_format_builder/components/PrintSettingsPanel.vue:239
 msgid "No letter head"
-msgstr ""
+msgstr "لا توجد ترويسة"
 
 #: frappe/public/js/print_format_builder/components/editor/FieldPreviewLinked.vue:24
 msgid "No linked field set"
-msgstr ""
+msgstr "لم يتم تعيين حقل مرتبط"
 
 #: frappe/public/js/print_format_builder/components/inspector/TemplateInput.vue:40
 msgid "No matching field"
-msgstr ""
+msgstr "لا يوجد حقل مطابق"
 
 #: frappe/public/js/frappe/views/treeview.js:467
 msgid "No matching records"
-msgstr ""
+msgstr "لا توجد سجلات مطابقة"
 
 #: frappe/public/js/frappe/views/workspace/workspace.js:654
 msgid "No module"
-msgstr ""
+msgstr "لا توجد وحدة"
 
 #: frappe/public/js/print_format_builder/components/PrintFormatControls.vue:67
 msgid "No printable fields"
-msgstr ""
+msgstr "لا توجد حقول قابلة للطباعة"
 
 #: frappe/public/js/frappe/views/workspace/workspace.js:248
 msgid "No private workspaces yet"
-msgstr ""
+msgstr "لا توجد مساحات عمل خاصة بعد"
 
 #: frappe/automation_engine/actions/core.py:255
 msgid "No recipients to notify"
-msgstr ""
+msgstr "لا يوجد مستلمون لإشعارهم"
 
 #: frappe/public/js/print_format_builder/PrintFormatBuilder.vue:20
 msgid "No records to preview yet"
-msgstr ""
+msgstr "لا توجد سجلات لمعاينتها بعد"
 
 #: frappe/public/js/frappe/ui/awesomplete.js:15
 msgid "No results found"
-msgstr ""
+msgstr "لم يتم العثور على نتائج"
 
 #: frappe/public/js/print_format_builder/components/PrintFormatControls.vue:177
 #: frappe/public/js/print_format_builder/components/PrintFormatControls.vue:357
 msgid "No sections yet"
-msgstr ""
+msgstr "لا توجد أقسام بعد"
 
 #: frappe/public/js/frappe/form/doctype_settings/tabs/user_permissions.js:29
 msgid "No user permissions yet."
-msgstr ""
+msgstr "لا توجد صلاحيات مستخدم بعد."
 
 #: frappe/public/js/frappe/views/workspace/workspace.js:712
 msgid "No workspaces in this module."
-msgstr ""
+msgstr "لا توجد مساحات عمل في هذه الوحدة."
 
 #: frappe/public/js/frappe/views/treeview.js:354
 msgid "No {0} records yet"
-msgstr ""
+msgstr "لا توجد سجلات من نوع {0} بعد"
 
 #: frappe/desk/doctype/dock/dock.py:188 frappe/desk/doctype/dock/dock.py:497
 #: frappe/desk/doctype/sidebar/sidebar.py:381
 #: frappe/desk/doctype/sidebar/sidebar.py:649
 #: frappe/desk/doctype/workspace_sidebar/workspace_sidebar.py:65
 msgid "Not Editable"
-msgstr ""
+msgstr "غير قابل للتحرير"
 
 #: frappe/public/js/print_format_builder/utils.js:92
 #: frappe/utils/typst_emitter.py:135
 msgid "Not a builder format"
-msgstr ""
+msgstr "هذا التنسيق غير مدعوم في أداة التصميم"
 
 #: frappe/desk/doctype/workspace/workspace.py:165
 msgid "Not your workspace"
-msgstr ""
+msgstr "مساحة العمل هذه ليست ملكك"
 
 #: frappe/public/js/frappe/new_navigation_nudge.js:42
 msgid ""
 "Nothing is deleted either way — your icons and their arrangement stay "
 "exactly as they are, and you can switch back from Desktop Settings at any "
 "time."
-msgstr ""
+msgstr "لن يُحذف شيء في كلتا الحالتين؛ ستبقى أيقوناتك وترتيبها كما هما، ويمكنك التبديل مجددًا من إعدادات سطح المكتب في أي وقت."
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:804
 msgid "Nothing left to navigate to"
-msgstr ""
+msgstr "لا توجد وجهات أخرى للتنقل إليها"
 
 #: frappe/public/js/frappe/ui/sidebar/dock_manager.js:94
 msgid "Nothing on the dock"
-msgstr ""
+msgstr "لا توجد عناصر في شريط التطبيقات"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:264
 msgid "Nothing on the sidebar"
-msgstr ""
+msgstr "لا توجد عناصر في الشريط الجانبي"
 
 #: frappe/public/js/print_format_builder/components/editor/PrintFormatSection.vue:390
 msgid "Nothing to paste"
-msgstr ""
+msgstr "لا يوجد شيء للصقه"
 
 #: frappe/public/js/frappe/ui/notifications/notifications.js:164
 msgid "Notification categories"
-msgstr ""
+msgstr "فئات الإشعارات"
 
 #. Label of a chart in the System Workspace
 #: frappe/system/workspace/system/system.json
 msgid "Notifications By Type"
-msgstr ""
+msgstr "الإشعارات حسب النوع"
 
 #: frappe/automation_engine/actions/core.py:295
 msgid "Notified {0}"
-msgstr ""
+msgstr "تم إشعار {0}"
 
 #. Description of the 'Run After' (Datetime) field in DocType 'Automation
 #. Trigger Queue'
 #: frappe/automation/doctype/automation_trigger_queue/automation_trigger_queue.json
 msgid "Null = run as soon as possible. Used by waits and date/cron triggers."
-msgstr ""
+msgstr "القيمة Null تعني التشغيل في أقرب وقت ممكن. يُستخدم ذلك مع فترات الانتظار والمشغلات المعتمدة على التاريخ أو تعبير cron."
 
 #. Label of the number_of_events (Int) field in DocType 'Recorder'
 #: frappe/core/doctype/recorder/recorder.json
 msgid "Number of Events"
-msgstr ""
+msgstr "عدد الأحداث"
 
 #: frappe/public/js/frappe/form/controls/text_editor.js:324
 msgid "Numbered list"
-msgstr ""
+msgstr "قائمة مرقمة"
 
 #. Label of a Sidebar Item
 #: frappe/integrations/sidebar/integrations/integrations.json
@@ -40687,7 +40705,7 @@ msgid ""
 "pointing is not an edit but a different row. The same rows at all three "
 "layers -- the app's own dock, the site's arrangement and one person's -- "
 "told apart by the parent `Dock`, never by the row."
-msgstr ""
+msgstr "عنصر واحد في شريط التطبيقات. يحدد `link_type` نوع العنصر الذي يفتحه، ولكل نوع طريقته في الإجابة عن سؤالَي النقرة: أي صفحة تُفتح، وأي واجهة جانبية تُعرض بجانبها. صف `Sidebar` هو الواجهة الجانبية نفسها؛ إذ يحدد الشريط الجانبي ويفتح مساره الافتراضي. يفتح صف `Workspace` صفحةً ويحدد واجهته الجانبية من الوحدة المالكة لها. أما صف `URL` فيغادر سطح المكتب ولا يرتبط بواجهة جانبية. يحمل كل صف أيضًا `icon` و`title` خاصين به، ليظهر الشريط كما صممه منشئه؛ وتعني القيمة الفارغة في طبقة أعلى وراثة القيمة. يمثل العنصر الذي يشير إليه الصف هويته؛ ولا تُحفظ هوية مستقلة له، لذلك لا تفصله إعادة التسمية عن هدفه، كما أن تغيير الهدف ينشئ صفًا مختلفًا لا يعدّل الصف نفسه. تتطابق الصفوف في الطبقات الثلاث: شريط التطبيق، وترتيب الموقع، وترتيب المستخدم؛ ويحدد المستند الأب `Dock` الطبقة التي ينتمي إليها الصف، لا الصف نفسه."
 
 #. Description of a DocType
 #: frappe/desk/doctype/dock/dock.json
@@ -40701,7 +40719,7 @@ msgid ""
 "plus user rather than by user alone. Same shape at all three, because the "
 "rows are identical and the parent is what says whose they are; see `Custom "
 "Sidebar`, which layers a sidebar the same way in a table of its own."
-msgstr ""
+msgstr "طبقة واحدة من شريط تطبيق واحد. تشترك الطبقات الثلاث في هذا الجدول، ويُميز بينها باستخدام `app` و`user` و`standard`: شريط التطبيق الذي يقدمه التطبيق كمستند مُصدّر ويعده المطور؛ وترتيب الموقع الذي ينظمه مدير مساحة العمل ويُطبق على الجميع؛ وترتيب المستخدم الذي يُطبق أخيرًا وله الأولوية. ينتمي شريط التطبيقات إلى تطبيق محدد، لذا فإن ترتيب شريط ERPNext لا يؤثر في شريط Frappe. وتُحدد الطبقة بالتطبيق والمستخدم معًا، لا بالمستخدم وحده. البنية واحدة في الطبقات الثلاث لأن الصفوف متماثلة، بينما يحدد المستند الأب الجهة المالكة لها. راجع `Custom Sidebar`، إذ تُطبق طبقات مماثلة على الشريط الجانبي في جدول مستقل."
 
 #. Description of the 'Sidebar Items' (Table) field in DocType 'Custom
 #. Sidebar'
@@ -40713,19 +40731,19 @@ msgid ""
 "is the arrangement; base items not named here keep their base order and "
 "follow the ones that are, which is how a newly installed app's items still "
 "reach someone who has already reordered."
-msgstr ""
+msgstr "قائمة مرتبة تضم مراجع إلى العناصر الأساسية (`added` غير محدد؛ تتجاوز الحقول غير الفارغة قيمها الأساسية، بينما تعني الحقول الفارغة عدم تحديد رأي) وإلى العناصر التي أضافتها هذه الطبقة (`added` محدد؛ عناصر كاملة تُعرض كما هي). يحدد ترتيب الصفوف ترتيب العرض؛ وتحتفظ العناصر الأساسية غير المدرجة هنا بترتيبها الأصلي وتأتي بعد العناصر المحددة. بهذه الطريقة تظل عناصر أي تطبيق يُثبّت حديثًا ظاهرة حتى لمن سبق له إعادة الترتيب."
 
 #: frappe/desk/doctype/sidebar/sidebar.py:982
 msgid "Only a Page item has a route inside it. {0} links a {1}."
-msgstr ""
+msgstr "يحتوي عنصر الصفحة فقط على مسار داخلي. يربط {0} بـ {1}."
 
 #: frappe/automation_engine/actions/core.py:467
 msgid "Only a System Manager can write a script step"
-msgstr ""
+msgstr "لا يمكن إنشاء خطوة نص برمجي إلا لمدير النظام"
 
 #: frappe/automation_engine/actions/core.py:452
 msgid "Only an {0} Server Script can be run from a flow"
-msgstr ""
+msgstr "لا يمكن تشغيل سوى Server Script من النوع {0} ضمن تدفق الأتمتة"
 
 #. Description of the 'Trust Email Without Verified Claim' (Check) field in
 #. DocType 'Social Login Key'
@@ -40736,7 +40754,7 @@ msgid ""
 "self-hosted identity provider where email verification isn't enforced). This"
 " does not override a provider that explicitly sends <code>email_verified: "
 "false</code> — that login is always rejected."
-msgstr ""
+msgstr "لا تفعّل هذا الخيار إلا إذا كنت تثق بأن حسابات المستخدمين لدى موفر الخدمة شرعية حتى عندما لا يرسل مطالبة <code>email_verified</code> إطلاقًا، مثل موفر هوية مستضاف ذاتيًا لا يفرض التحقق من البريد الإلكتروني. لا يتجاوز هذا الخيار حالة موفر يرسل صراحةً <code>email_verified: false</code>؛ إذ يُرفض تسجيل الدخول في هذه الحالة دائمًا."
 
 #. Description of the 'Key' (Data) field in DocType 'Sidebar Item'
 #: frappe/desk/doctype/sidebar_item/sidebar_item.json
@@ -40747,7 +40765,7 @@ msgid ""
 "identified by a hash of its type and label, and a linked one by its own link"
 " columns, which is what lets a rename repair the base row and the "
 "customization naming it together."
-msgstr ""
+msgstr "يكون هذا الحقل ذا معنى فقط في صف ضمن `Custom Sidebar` يشير إلى عنصر أساسي بلا رابط، مثل فاصل قسم أو عنصر مسافة، وهو النوع الوحيد من الصفوف الذي لا يوجد وصف آخر لتعريفه. لا يخزن الصف الأساسي مفتاحًا: يُحدد الصف غير المرتبط ببصمة من نوعه وتسميته، أما الصف المرتبط فيُحدد بأعمدة رابطه؛ وهذا ما يسمح لإعادة التسمية بتحديث الصف الأساسي والتخصيص الذي يشير إليه معًا."
 
 #. Description of the 'Customization' (Section Break) field in DocType
 #. 'Sidebar
@@ -40756,59 +40774,59 @@ msgstr ""
 msgid ""
 "Only meaningful on a `Custom Sidebar`, where a row is either a reference to "
 "a base item or an item the site or the user added."
-msgstr ""
+msgstr "يكون هذا الحقل ذا معنى فقط في `Custom Sidebar`، حيث يكون الصف إما مرجعًا إلى عنصر أساسي أو عنصرًا أضافه الموقع أو المستخدم."
 
 #. Description of the 'Allowed Roles' (Table) field in DocType 'SMS Settings'
 #: frappe/core/doctype/sms_settings/sms_settings.json
 msgid ""
 "Only users with one of these roles can send SMS. Leave empty to allow only "
 "System Manager."
-msgstr ""
+msgstr "لا يمكن إرسال الرسائل النصية القصيرة إلا للمستخدمين الذين لديهم أحد هذه الأدوار. اترك الحقل فارغًا للسماح لمدير النظام فقط."
 
 #: frappe/core/page/component_explorer/component_explorer.js:492
 msgid "Only when overflow"
-msgstr ""
+msgstr "عند تجاوز المساحة فقط"
 
 #: frappe/public/js/frappe/ui/user_settings_dialog.js:697
 msgid ""
 "Open a linked document in a side panel instead of navigating away from the "
 "report. Not available on mobile."
-msgstr ""
+msgstr "فتح مستند مرتبط في لوحة جانبية بدلًا من مغادرة التقرير. غير متاح على الأجهزة المحمولة."
 
 #: frappe/public/js/frappe/ui/desktop_icon.html:17
 msgid "Open in Desk"
-msgstr ""
+msgstr "فتح في سطح المكتب"
 
 #: frappe/public/js/frappe/ui/side_panel.js:454
 msgid "Open in full page"
-msgstr ""
+msgstr "فتح في صفحة كاملة"
 
 #. Description of the 'Split view in reports' (Check) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid ""
 "Open linked documents in a side panel instead of navigating away from the "
 "report."
-msgstr ""
+msgstr "فتح المستندات المرتبطة في لوحة جانبية بدلًا من مغادرة التقرير."
 
 #: frappe/public/js/frappe/ui/sidebar/dock.js:176
 msgid "Open the app dock"
-msgstr ""
+msgstr "فتح شريط التطبيقات"
 
 #: frappe/public/js/frappe/ui/sidebar/dock_manager.js:438
 msgid "Opens the module's home and shows its sidebar."
-msgstr ""
+msgstr "يفتح الصفحة الرئيسية للوحدة ويعرض شريطها الجانبي."
 
 #. Description of the 'Output Alias' (Data) field in DocType 'Automation
 #. Action'
 #: frappe/automation/doctype/automation_action/automation_action.json
 msgid "Optional alias for the destination reference returned by this action."
-msgstr ""
+msgstr "اسم مستعار اختياري للمرجع الهدف الذي يعيده هذا الإجراء."
 
 #. Description of the 'Related Record Condition' (JSON) field in DocType
 #. 'Automation Action'
 #: frappe/automation/doctype/automation_action/automation_action.json
 msgid "Optional. Checked against a related record."
-msgstr ""
+msgstr "اختياري. يُتحقق منه بمقارنته بسجل مرتبط."
 
 #. Description of the 'Advanced Expression using Python' (Code) field in
 #. DocType 'Automation Flow'
@@ -40817,37 +40835,36 @@ msgid ""
 "Optional. For logic the match fields cannot express, such as OR groups. The "
 "document is available as <code>doc</code>; the match fields and this "
 "expression must all be true."
-msgstr ""
+msgstr "اختياري. يُستخدم للمنطق الذي لا يمكن التعبير عنه بحقول المطابقة، مثل مجموعات OR. يتوفر المستند باسم <code>doc</code>؛ ويجب أن تتحقق جميع حقول المطابقة وهذا التعبير."
 
 #. Description of the 'Step Condition' (Code) field in DocType 'Automation
 #. Action'
 #: frappe/automation/doctype/automation_action/automation_action.json
 msgid "Optional. The step runs only if this expression is true."
-msgstr ""
+msgstr "اختياري. لا تُنفذ الخطوة إلا إذا كان هذا التعبير صحيحًا."
 
 #: frappe/templates/emails/login_with_email_link.html:8
 #: frappe/templates/emails/new_user.html:10
 #: frappe/templates/emails/password_reset.html:8
-#: frappe/templates/emails/user_invitation.html:9
 msgid "Or copy and paste:"
-msgstr ""
+msgstr "أو انسخه والصقه:"
 
 #. Description of the 'Timeline' (Table) field in DocType 'Recorder'
 #: frappe/core/doctype/recorder/recorder.json
 msgid ""
 "Ordered timeline of document lifecycle methods and doc_events handlers that "
 "ran during this request, attributed to the app(s) that hook them."
-msgstr ""
+msgstr "سجل زمني مرتب لدوال دورة حياة المستند ومعالجات doc_events التي نُفذت أثناء هذا الطلب، مع تحديد التطبيق أو التطبيقات التي ربطتها."
 
 #. Label of the output_alias (Data) field in DocType 'Automation Action'
 #: frappe/automation/doctype/automation_action/automation_action.json
 msgid "Output Alias"
-msgstr ""
+msgstr "الاسم المستعار للمخرجات"
 
 #. Description of the 'Label' (Data) field in DocType 'Custom Sidebar'
 #: frappe/desk/doctype/custom_sidebar/custom_sidebar.json
 msgid "Overrides the dock label for this module."
-msgstr ""
+msgstr "تجاوز تسمية شريط التطبيقات الخاصة بهذه الوحدة."
 
 #. Description of the 'Standard' (Check) field in DocType 'Sidebar'
 #: frappe/desk/doctype/sidebar/sidebar.json
@@ -40857,7 +40874,7 @@ msgid ""
 " as Standard action, not by hand -- a standard sidebar with no exported file"
 " is an orphan and gets deleted on the next migrate. Everything else belongs "
 "to this site, however it got here."
-msgstr ""
+msgstr "تملكه جهة التطبيق: يُصدّر إلى مجلد الوحدة التابعة له، أو إلى مجلد التطبيق نفسه إذا لم تكن له وحدة، ثم يُعاد استيراده عند الترحيل. اضبطه باستخدام إجراء 'تحديد كقياسي' لا يدويًا؛ فالشريط الجانبي القياسي الذي لا يملك ملفًا مُصدّرًا يُعد عنصرًا يتيمًا وسيُحذف عند الترحيل التالي. أما كل ما عدا ذلك فيخص هذا الموقع، بصرف النظر عن طريقة إنشائه."
 
 #. Description of the 'Standard' (Check) field in DocType 'Dock'
 #: frappe/desk/doctype/dock/dock.json
@@ -40867,19 +40884,19 @@ msgid ""
 "over. Ordinarily set via the Export to App action rather than by hand, which"
 " is why it is writable only in developer mode -- a standard dock with no "
 "exported file is an orphan and gets deleted on the next migrate."
-msgstr ""
+msgstr "تملكه جهة التطبيق: يُصدّر إلى `<app>/dock/<app>/<app>.json` ثم يُعاد استيراده عند الترحيل. هذه هي طبقة التطبيق التي تُبنى فوقها الطبقتان الأخريان. يُضبط عادةً بإجراء 'تصدير إلى التطبيق' لا يدويًا، ولذلك لا يمكن الكتابة فيه إلا في وضع المطور. الشريط القياسي الذي لا يملك ملفًا مُصدّرًا يُعد عنصرًا يتيمًا وسيُحذف عند الترحيل التالي."
 
 #: frappe/public/js/print_format_builder/components/PrintSettingsPanel.vue:6
 msgid "PDF Renderer"
-msgstr ""
+msgstr "محرك إنشاء PDF"
 
 #: frappe/utils/print_format.py:232 frappe/utils/print_format_generator.py:561
 msgid "PDF encryption is not supported by the Typst renderer"
-msgstr ""
+msgstr "محرك Typst لا يدعم تشفير ملفات PDF"
 
 #: frappe/public/js/frappe/form/controls/text_editor.js:248
 msgid "Paragraph"
-msgstr ""
+msgstr "فقرة"
 
 #. Label of the params (JSON) field in DocType 'Automation Action'
 #: frappe/automation/doctype/automation_action/automation_action.json
@@ -40889,19 +40906,19 @@ msgstr "المعلمات"
 #. Label of the parent_step (Int) field in DocType 'Automation Action'
 #: frappe/automation/doctype/automation_action/automation_action.json
 msgid "Parent Step"
-msgstr ""
+msgstr "الخطوة الأصل"
 
 #. Label of the map_partial (JSON) field in DocType 'MapReduce Task'
 #: frappe/core/doctype/mapreduce_task/mapreduce_task.json
 msgid "Partial result from map"
-msgstr ""
+msgstr "نتيجة جزئية من عملية Map"
 
 #. Description of the 'Route' (Data) field in DocType 'Sidebar Item'
 #: frappe/desk/doctype/sidebar_item/sidebar_item.json
 msgid ""
 "Path inside the page, e.g. \"payroll\" opens /desk/<page>/payroll. No "
 "leading slash, query or fragment."
-msgstr ""
+msgstr "مسار داخل الصفحة؛ مثلًا، يفتح \"payroll\" المسار /desk/<page>/payroll. لا تضع شرطة مائلة في البداية أو استعلامًا أو جزءًا إضافيًا في المسار."
 
 #. Option for the 'Status' (Select) field in DocType 'MapReduce Task'
 #: frappe/core/doctype/mapreduce_task/mapreduce_task.json
@@ -40912,53 +40929,53 @@ msgstr "توقف مؤقتًا"
 #. Trigger Queue'
 #: frappe/automation/doctype/automation_trigger_queue/automation_trigger_queue.json
 msgid "Payload for custom emit() events."
-msgstr ""
+msgstr "بيانات أحداث emit() المخصصة."
 
 #: frappe/automation_engine/actions/core.py:429
 msgid "Pick a Server Script or write one here, not both"
-msgstr ""
+msgstr "اختر نص Server Script أو اكتبه هنا، ولا تستخدم الخيارين معًا"
 
 #: frappe/automation_engine/actions/core.py:461
 msgid "Pick a Server Script, or write one here"
-msgstr ""
+msgstr "اختر نص Server Script أو اكتبه هنا"
 
 #: frappe/desk/doctype/workspace/workspace.py:182
 msgid "Pick a module"
-msgstr ""
+msgstr "اختر وحدة"
 
 #: frappe/desk/doctype/sidebar/sidebar.py:237
 #: frappe/desk/doctype/sidebar/sidebar.py:272
 #: frappe/desk/doctype/sidebar/sidebar.py:300
 msgid "Pick another title"
-msgstr ""
+msgstr "اختر عنوانًا آخر"
 
 #: frappe/public/js/frappe/ui/sidebar/dock_manager.js:457
 msgid "Pick something for it to open."
-msgstr ""
+msgstr "اختر عنصرًا لفتحه."
 
 #: frappe/core/report/user_doctype_permissions/user_doctype_permissions.js:25
 #: frappe/core/report/user_doctype_permissions/user_doctype_permissions.py:33
 msgid "Please set at least one filter: User or DocType"
-msgstr ""
+msgstr "يرجى تحديد عامل تصفية واحد على الأقل: المستخدم أو نوع المستند"
 
 #. Label of the print_format_builder (Check) field in DocType 'Print Format'
 #: frappe/printing/doctype/print_format/print_format.json
 msgid "Print Format Builder (Classic)"
-msgstr ""
+msgstr "أداة إنشاء تنسيقات الطباعة (الكلاسيكية)"
 
 #: frappe/public/js/print_format_builder/components/inspector/field_properties.js:256
 msgid "Print if empty"
-msgstr ""
+msgstr "اطبع حتى إذا كان الحقل فارغًا"
 
 #. Label of a Sidebar Item
 #: frappe/users/sidebar/users/users.json
 msgid "Profiles"
-msgstr ""
+msgstr "الملفات الشخصية"
 
 #: frappe/public/js/print_format_builder/components/VersionHistory.vue:31
 #: frappe/public/js/print_format_builder/components/VersionHistory.vue:39
 msgid "Published version"
-msgstr ""
+msgstr "الإصدار المنشور"
 
 #. Label of a Sidebar Item
 #: frappe/integrations/sidebar/integrations/integrations.json
@@ -40970,167 +40987,167 @@ msgid ""
 "Put <b>{0}</b> back to the sidebar its app ships? This removes the site's "
 "arrangement and every person's own, so nobody keeps a customization of this "
 "module."
-msgstr ""
+msgstr "هل تريد إعادة <b>{0}</b> إلى الشريط الجانبي الذي يوفره التطبيق؟ سيؤدي ذلك إلى إزالة ترتيب الموقع والترتيبات الشخصية لكل المستخدمين، ولن يحتفظ أحد بتخصيص لهذه الوحدة."
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:230
 msgid ""
 "Put this sidebar back to the site's arrangement? Everything you have "
 "arranged here is dropped."
-msgstr ""
+msgstr "هل تريد إعادة هذا الشريط الجانبي إلى ترتيب الموقع؟ سيُلغى كل ما رتبته هنا."
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:233
 msgid ""
 "Put this sidebar back to what the apps ship? Everything the site has "
 "arranged here is dropped, for everyone."
-msgstr ""
+msgstr "هل تريد إعادة هذا الشريط الجانبي إلى الترتيب الذي توفره التطبيقات؟ سيُلغى ترتيب الموقع للجميع."
 
 #: frappe/core/page/component_explorer/component_explorer.js:496
 msgid "Quarterly Sales Commission Report"
-msgstr ""
+msgstr "تقرير عمولات المبيعات ربع السنوي"
 
 #. Label of the queries (Int) field in DocType 'Recorder Event'
 #: frappe/core/doctype/recorder_event/recorder_event.json
 msgid "Queries"
-msgstr ""
+msgstr "الاستعلامات"
 
 #. Label of the queue_retention_days (Int) field in DocType 'Automation
 #. Settings'
 #: frappe/automation/doctype/automation_settings/automation_settings.json
 msgid "Queue Retention Days"
-msgstr ""
+msgstr "مدة الاحتفاظ بعناصر قائمة الانتظار (بالأيام)"
 
 #: frappe/desk/doctype/workspace/workspace.py:222
 msgid "Quick List"
-msgstr ""
+msgstr "قائمة سريعة"
 
 #: frappe/automation_engine/actions/core.py:487
 msgid "Ran script"
-msgstr ""
+msgstr "تم تشغيل النص البرمجي"
 
 #. Label of the method (Data) field in DocType 'Recorder Event'
 #: frappe/core/doctype/recorder_event/recorder_event.json
 msgid "Raw Method"
-msgstr ""
+msgstr "الدالة الخام"
 
 #: frappe/public/js/print_format_builder/components/PrintFormatControls.vue:429
 msgid "Raw Typst markup"
-msgstr ""
+msgstr "تعليمات Typst البرمجية الخام"
 
 #. Description of the 'Revalidate on Run' (Check) field in DocType 'Automation
 #. Flow'
 #: frappe/automation/doctype/automation_flow/automation_flow.json
 msgid "Re-check filters and condition in the worker before executing."
-msgstr ""
+msgstr "أعِد التحقق من عوامل التصفية والشرط في العامل قبل التنفيذ."
 
 #: frappe/automation_engine/relationships.py:83
 msgid "Record alias could not be resolved"
-msgstr ""
+msgstr "تعذر حل الاسم المستعار للسجل"
 
 #. Name of a DocType
 #: frappe/core/doctype/recorder_event/recorder_event.json
 msgid "Recorder Event"
-msgstr ""
+msgstr "حدث المسجل"
 
 #: frappe/public/js/frappe/views/treeview.js:355
 msgid "Records you add will appear here."
-msgstr ""
+msgstr "ستظهر هنا السجلات التي تضيفها."
 
 #. Label of the depth (Int) field in DocType 'Automation Trigger Queue'
 #: frappe/automation/doctype/automation_trigger_queue/automation_trigger_queue.json
 msgid "Recursion Depth"
-msgstr ""
+msgstr "عمق الاستدعاء التكراري"
 
 #. Label of the reduce (Data) field in DocType 'MapReduce Task'
 #: frappe/core/doctype/mapreduce_task/mapreduce_task.json
 msgid "Reduce"
-msgstr ""
+msgstr "الاختزال"
 
 #. Label of the reduce (Data) field in DocType 'MapReduce Job'
 #: frappe/core/doctype/mapreduce_job/mapreduce_job.json
 msgid "Reduce Function"
-msgstr ""
+msgstr "دالة الاختزال"
 
 #: frappe/core/doctype/background_task/background_task.py:57
 msgid "Reference can only be made to MapReduce Job"
-msgstr ""
+msgstr "لا يمكن إنشاء مرجع إلا إلى مهمة MapReduce"
 
 #. Label of the related_condition (JSON) field in DocType 'Automation Action'
 #: frappe/automation/doctype/automation_action/automation_action.json
 msgid "Related Record Condition"
-msgstr ""
+msgstr "شرط السجل المرتبط"
 
 #: frappe/automation_engine/conditions.py:112
 msgid "Related record condition must be a JSON object"
-msgstr ""
+msgstr "يجب أن يكون شرط السجل المرتبط كائن JSON"
 
 #: frappe/automation_engine/conditions.py:117
 msgid "Related record condition needs a relationship"
-msgstr ""
+msgstr "يتطلب شرط السجل المرتبط تحديد علاقة"
 
 #: frappe/automation_engine/relationships.py:227
 msgid "Related record does not exist: {0} {1}"
-msgstr ""
+msgstr "السجل المرتبط غير موجود: {0} {1}"
 
 #: frappe/automation_engine/relationships.py:225
 msgid "Relationship provider returned an invalid record reference"
-msgstr ""
+msgstr "أعاد موفر العلاقة مرجعًا غير صالح لسجل"
 
 #: frappe/automation_engine/relationships.py:136
 msgid "Relationship source DocType does not match"
-msgstr ""
+msgstr "نوع مستند مصدر العلاقة غير مطابق"
 
 #: frappe/automation_engine/relationships.py:189
 msgid "Relationship target DocType is not allowed"
-msgstr ""
+msgstr "نوع المستند الهدف للعلاقة غير مسموح به"
 
 #: frappe/automation_engine/relationships.py:47
 msgid "Relationship {0} cannot be used as a single record alias"
-msgstr ""
+msgstr "لا يمكن استخدام العلاقة {0} كاسم مستعار لسجل واحد"
 
 #: frappe/automation_engine/relationships.py:69
 msgid "Relationship {0} did not resolve to one record"
-msgstr ""
+msgstr "لم تُرجع العلاقة {0} سجلًا واحدًا"
 
 #: frappe/automation_engine/relationships.py:65
 msgid "Relationship {0} returns multiple records"
-msgstr ""
+msgstr "تُرجع العلاقة {0} سجلات متعددة"
 
 #. Label of the relationships (JSON) field in DocType 'Automation Flow'
 #: frappe/automation/doctype/automation_flow/automation_flow.json
 msgid "Relationships"
-msgstr ""
+msgstr "العلاقات"
 
 #: frappe/automation_engine/relationships.py:198
 msgid "Relationships must be a JSON list"
-msgstr ""
+msgstr "يجب أن تكون العلاقات قائمة JSON"
 
 #. Label of the reliability_section (Section Break) field in DocType
 #. 'Automation Settings'
 #: frappe/automation/doctype/automation_settings/automation_settings.json
 msgid "Reliability"
-msgstr ""
+msgstr "الاعتمادية"
 
 #: frappe/public/js/frappe/views/treeview.js:138
 msgid "Reload Tree"
-msgstr ""
+msgstr "إعادة تحميل الشجرة"
 
 #: frappe/public/js/frappe/form/doctype_settings/tabs/email_template.js:52
 msgid "Remove Default"
-msgstr ""
+msgstr "إزالة القيمة الافتراضية"
 
 #: frappe/public/js/frappe/form/controls/text_editor.js:318
 msgid "Remove formatting"
-msgstr ""
+msgstr "إزالة التنسيق"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:697
 msgid "Rename Entry"
-msgstr ""
+msgstr "إعادة تسمية العنصر"
 
 #: frappe/public/js/print_format_builder/components/VersionHistory.vue:118
 msgid ""
 "Replace your current draft with {0}? Nothing prints differently until you "
 "Save & Apply."
-msgstr ""
+msgstr "هل تريد استبدال مسودتك الحالية بـ {0}؟ لن يتغير ما تتم طباعته حتى تحفظ وتطبق التغييرات."
 
 #: frappe/core/doctype/data_import/data_import.js:400
 msgid "Report Error"
@@ -41140,101 +41157,101 @@ msgstr "الإبلاغ عن خطأ"
 #. 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Report Settings"
-msgstr ""
+msgstr "إعدادات التقارير"
 
 #: frappe/automation_engine/actions/core.py:528
 msgid "Requests to internal network addresses are not permitted"
-msgstr ""
+msgstr "لا يُسمح بإرسال طلبات إلى عناوين الشبكة الداخلية"
 
 #: frappe/public/js/frappe/ui/sidebar/dock_manager.js:262
 msgid "Reset for everyone"
-msgstr ""
+msgstr "إعادة التعيين للجميع"
 
 #: frappe/templates/includes/login/login.js:327
 msgid "Reset link emailed"
-msgstr ""
+msgstr "تم إرسال رابط إعادة التعيين بالبريد الإلكتروني"
 
 #: frappe/templates/emails/password_reset.html:5
 msgid "Reset password"
-msgstr ""
+msgstr "إعادة تعيين كلمة المرور"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:142
 #: frappe/public/js/frappe/views/workspace/workspace.js:333
 msgid "Reset to Standard"
-msgstr ""
+msgstr "إعادة التعيين إلى القياسي"
 
 #: frappe/public/js/print_format_builder/PrintFormatBuilder.vue:75
 msgid "Restore this version"
-msgstr ""
+msgstr "استعادة هذا الإصدار"
 
 #: frappe/public/js/print_format_builder/components/VersionHistory.vue:81
 msgid "Restore this version as your draft"
-msgstr ""
+msgstr "استعادة هذا الإصدار كمسودة"
 
 #: frappe/public/js/print_format_builder/stores/useVersions.js:61
 msgid "Restoring…"
-msgstr ""
+msgstr "جارٍ الاستعادة..."
 
 #. Description of the 'Tenant ID' (Data) field in DocType 'Social Login Key'
 #: frappe/integrations/doctype/social_login_key/social_login_key.json
 msgid ""
 "Restrict Office 365 sign-in to this Entra tenant ID. Required unless \"Trust"
 " Any Tenant\" is checked."
-msgstr ""
+msgstr "قصر تسجيل الدخول إلى Office 365 على معرف مستأجر Entra هذا. يلزم تحديده ما لم يتم تفعيل خيار \"الثقة بجميع المستأجرين\"."
 
 #: frappe/public/js/frappe/form/doctype_settings/tabs/user_permissions.js:5
 msgid "Restrict specific users to specific {0} records."
-msgstr ""
+msgstr "تقييد مستخدمين محددين بسجلات {0} محددة."
 
 #. Description of the 'Reduce Function' (Data) field in DocType 'MapReduce
 #. Job'
 #: frappe/core/doctype/mapreduce_job/mapreduce_job.json
 msgid "Result from Map function will be passed to this function"
-msgstr ""
+msgstr "ستُمرر نتيجة دالة Map إلى هذه الدالة"
 
 #. Label of the resume_from_idx (Int) field in DocType 'Automation Trigger
 #. Queue'
 #: frappe/automation/doctype/automation_trigger_queue/automation_trigger_queue.json
 msgid "Resume From Step"
-msgstr ""
+msgstr "الاستئناف من الخطوة"
 
 #. Label of the resume_queue (Link) field in DocType 'Automation Event
 #. Subscription'
 #: frappe/automation/doctype/automation_event_subscription/automation_event_subscription.json
 msgid "Resume Queue"
-msgstr ""
+msgstr "استئناف قائمة الانتظار"
 
 #. Label of the resume_run (Data) field in DocType 'Automation Trigger Queue'
 #: frappe/automation/doctype/automation_trigger_queue/automation_trigger_queue.json
 msgid "Resume Run"
-msgstr ""
+msgstr "استئناف التنفيذ"
 
 #. Label of the retention_section (Section Break) field in DocType 'Automation
 #. Settings'
 #: frappe/automation/doctype/automation_settings/automation_settings.json
 msgid "Retention"
-msgstr ""
+msgstr "الاحتفاظ بالبيانات"
 
 #. Label of the revalidate_on_run (Check) field in DocType 'Automation Flow'
 #: frappe/automation/doctype/automation_flow/automation_flow.json
 msgid "Revalidate on Run"
-msgstr ""
+msgstr "إعادة التحقق عند التشغيل"
 
 #: frappe/core/doctype/role/role.js:365
 msgid "Role Managed by Role Profile"
-msgstr ""
+msgstr "الدور مُدار بواسطة ملف الأدوار"
 
 #: frappe/public/js/frappe/views/treeview.js:587
 msgid "Root records can't be deleted"
-msgstr ""
+msgstr "لا يمكن حذف السجلات الجذرية"
 
 #: frappe/public/js/frappe/views/treeview.js:568
 msgid "Root records can't be renamed"
-msgstr ""
+msgstr "لا يمكن إعادة تسمية السجلات الجذرية"
 
 #: frappe/desk/doctype/sidebar/sidebar.py:985
 msgid "Route Not Allowed"
-msgstr ""
+msgstr "المسار غير مسموح به"
 
 #: frappe/public/js/frappe/ui/side_panel.js:683
 msgid "Row #{0}"
@@ -41244,135 +41261,135 @@ msgstr "الصف #{0}"
 msgid ""
 "Row #{0}: a dock entry opens a Sidebar, a Workspace or a web address, not a "
 "{1}."
-msgstr ""
+msgstr "السطر #{0}: يفتح عنصر شريط التطبيقات شريطًا جانبيًا أو مساحة عمل أو عنوان ويب، وليس {1}."
 
 #: frappe/desk/doctype/dock/dock.py:266
 msgid "Row #{0}: an entry on this dock needs an icon and a title of its own."
-msgstr ""
+msgstr "السطر #{0}: يحتاج العنصر في شريط التطبيقات إلى أيقونة وعنوان خاصين به."
 
 #: frappe/automation/doctype/automation_flow/automation_flow.py:140
 msgid "Row {0}: Branch is only meaningful inside an If step"
-msgstr ""
+msgstr "السطر {0}: لا يُستخدم الفرع إلا داخل خطوة If"
 
 #: frappe/automation/doctype/automation_flow/automation_flow.py:143
 msgid "Row {0}: Parent Step must be an earlier row"
-msgstr ""
+msgstr "السطر {0}: يجب أن تكون الخطوة الأصل في صف سابق"
 
 #: frappe/automation/doctype/automation_flow/automation_flow.py:145
 msgid "Row {0}: Parent Step {1} is not an If step"
-msgstr ""
+msgstr "السطر {0}: الخطوة الأصل {1} ليست خطوة If"
 
 #: frappe/automation/doctype/automation_flow/automation_flow.py:125
 msgid "Row {0}: Step Key must be unique"
-msgstr ""
+msgstr "السطر {0}: يجب أن يكون مفتاح الخطوة فريدًا"
 
 #: frappe/automation/doctype/automation_flow/automation_flow.py:176
 msgid "Row {0}: Wait unit must be one of {1}"
-msgstr ""
+msgstr "السطر {0}: يجب أن تكون وحدة الانتظار إحدى القيم التالية: {1}"
 
 #: frappe/automation/doctype/automation_flow/automation_flow.py:165
 msgid "Row {0}: an If step needs a Step Condition"
-msgstr ""
+msgstr "السطر {0}: تتطلب خطوة If شرطًا للخطوة"
 
 #: frappe/automation/doctype/automation_flow/automation_flow.py:147
 msgid "Row {0}: choose the If or Else branch"
-msgstr ""
+msgstr "السطر {0}: اختر فرع If أو Else"
 
 #: frappe/automation/doctype/automation_flow/automation_flow.py:120
 msgid "Row {0}: duplicate output alias {1}"
-msgstr ""
+msgstr "السطر {0}: الاسم المستعار للمخرجات {1} مكرر"
 
 #: frappe/automation/doctype/automation_flow/automation_flow.py:117
 msgid "Row {0}: unknown target alias {1}"
-msgstr ""
+msgstr "السطر {0}: الاسم المستعار الهدف {1} غير معروف"
 
 #: frappe/automation/doctype/automation_flow/automation_flow.py:161
 msgid "Row {0}: unsupported Step Type {1}"
-msgstr ""
+msgstr "السطر {0}: نوع الخطوة {1} غير مدعوم"
 
 #: frappe/automation/doctype/automation_flow/automation_flow.py:104
 msgid "Row {0}: {1}"
-msgstr ""
+msgstr "السطر {0}: {1}"
 
 #. Description of the 'Commit Every' (Int) field in DocType 'Automation
 #. Settings'
 #: frappe/automation/doctype/automation_settings/automation_settings.json
 msgid "Rows a drain runs between commits."
-msgstr ""
+msgstr "عدد الصفوف التي يعالجها مسار التصريف بين عمليات تثبيت المعاملات."
 
 #. Label of the run_after (Datetime) field in DocType 'Automation Trigger
 #. Queue'
 #: frappe/automation/doctype/automation_trigger_queue/automation_trigger_queue.json
 msgid "Run After"
-msgstr ""
+msgstr "التشغيل بعد"
 
 #. Label of the run_as (Select) field in DocType 'Automation Flow'
 #: frappe/automation/doctype/automation_flow/automation_flow.json
 msgid "Run As"
-msgstr ""
+msgstr "التشغيل بصفة"
 
 #: frappe/automation/doctype/automation_flow/automation_flow.js:98
 msgid "Run against"
-msgstr ""
+msgstr "التشغيل على"
 
 #: frappe/core/doctype/mapreduce_job/mapreduce_job.js:32
 msgid "Running tasks requeued for processing"
-msgstr ""
+msgstr "أُعيد وضع المهام قيد التشغيل في قائمة الانتظار لمعالجتها"
 
 #: frappe/automation/doctype/automation_flow/automation_flow.js:121
 msgid "Running…"
-msgstr ""
+msgstr "جارٍ التشغيل..."
 
 #. Label of the svg (Code) field in DocType 'Custom Icon'
 #: frappe/core/doctype/custom_icon/custom_icon.json
 msgid "SVG"
-msgstr ""
+msgstr "SVG"
 
 #: frappe/public/js/print_format_builder/components/VersionHistory.vue:16
 msgid "Same as what prints"
-msgstr ""
+msgstr "مطابق لما تتم طباعته"
 
 #: frappe/public/js/print_format_builder/components/VersionHistory.vue:72
 #: frappe/public/js/print_format_builder/print_format_builder.bundle.js:17
 msgid "Save & Apply"
-msgstr ""
+msgstr "حفظ وتطبيق"
 
 #: frappe/public/js/print_format_builder/print_format_builder.bundle.js:24
 msgid "Save & Apply Print Format"
-msgstr ""
+msgstr "حفظ تنسيق الطباعة وتطبيقه"
 
 #: frappe/public/js/frappe/views/workspace/workspace.js:1090
 msgid "Save Layout"
-msgstr ""
+msgstr "حفظ التخطيط"
 
 #: frappe/public/js/print_format_builder/components/inspector/FieldInspector.vue:14
 msgid "Save a named version"
-msgstr ""
+msgstr "حفظ إصدار باسم"
 
 #: frappe/public/js/print_format_builder/components/PrintFormatControls.vue:130
 msgid "Save a section or field as a snippet"
-msgstr ""
+msgstr "حفظ قسم أو حقل كمقتطف"
 
 #: frappe/public/js/print_format_builder/components/inspector/FieldInspector.vue:118
 msgid "Save version"
-msgstr ""
+msgstr "حفظ الإصدار"
 
 #: frappe/public/js/print_format_builder/components/VersionHistory.vue:57
 msgid "Saved versions"
-msgstr ""
+msgstr "الإصدارات المحفوظة"
 
 #. Label of a number card in the System Workspace
 #: frappe/system/workspace/system/system.json
 msgid "Scheduled Jobs"
-msgstr ""
+msgstr "المهام المجدولة"
 
 #: frappe/automation/doctype/automation_trigger_queue/automation_trigger_queue_list.js:14
 msgid "Scheduled for {0}"
-msgstr ""
+msgstr "مجدول في {0}"
 
 #: frappe/automation/doctype/automation_flow/automation_flow.py:213
 msgid "Scheduled trigger requires a Cron Expression"
-msgstr ""
+msgstr "يتطلب المشغل المجدول تعبير Cron"
 
 #. Description of the 'Drain Seconds' (Float) field in DocType 'Automation
 #. Settings'
@@ -41380,26 +41397,26 @@ msgstr ""
 msgid ""
 "Seconds a drain may keep claiming batches. 0 derives it from the queue's own"
 " timeout."
-msgstr ""
+msgstr "عدد الثواني التي يمكن لمسار التصريف خلالها مواصلة استلام الدفعات. إذا كانت القيمة 0، فتُشتق المدة من مهلة قائمة الانتظار نفسها."
 
 #: frappe/automation/doctype/automation_flow/automation_flow.js:24
 msgid "Select a Document Type to add field rules."
-msgstr ""
+msgstr "حدد نوع مستند لإضافة قواعد الحقول."
 
 #: frappe/public/js/print_format_builder/components/inspector/LinkedFieldRows.vue:14
 msgid "Select a field"
-msgstr ""
+msgstr "حدد حقلًا"
 
 #: frappe/public/js/print_format_builder/components/inspector/LinkedFieldRows.vue:6
 msgid "Select a link field"
-msgstr ""
+msgstr "حدد حقل ارتباط"
 
 #. Label of the send_acknowledgement_email (Check) field in DocType 'Contact
 #. Us
 #. Settings'
 #: frappe/website/doctype/contact_us_settings/contact_us_settings.json
 msgid "Send Acknowledgement Email"
-msgstr ""
+msgstr "إرسال بريد إلكتروني للتأكيد"
 
 #. Description of the 'Send Acknowledgement Email' (Check) field in DocType
 #. 'Contact Us Settings'
@@ -41407,12 +41424,12 @@ msgstr ""
 msgid ""
 "Send an acknowledgement email to the email address entered in the contact "
 "form."
-msgstr ""
+msgstr "إرسال بريد تأكيد إلى عنوان البريد الإلكتروني المُدخل في نموذج التواصل."
 
 #. Description of the 'Raw Printing' (Check) field in DocType 'Print Format'
 #: frappe/printing/doctype/print_format/print_format.json
 msgid "Send raw ESC/POS commands to a label or thermal printer."
-msgstr ""
+msgstr "إرسال أوامر ESC/POS خام إلى طابعة ملصقات أو طابعة حرارية."
 
 #. Description of the 'Email Template' (Link) field in DocType 'Notification'
 #: frappe/email/doctype/notification/notification.json
@@ -41421,28 +41438,28 @@ msgid ""
 "Subject/Message. Also used for the bell if Send System Notification is "
 "checked. The template is looked up fresh on every send, so editing it later "
 "changes what gets sent here too."
-msgstr ""
+msgstr "إرسال محتوى هذا الإشعار من قالب بريد إلكتروني بدلًا من حقلي الموضوع والرسالة. يُستخدم القالب أيضًا للتنبيه المنبثق إذا كان خيار إرسال إشعار النظام محددًا. يُعاد جلب القالب عند كل إرسال، لذا فإن تعديله لاحقًا يغيّر المحتوى المرسل هنا أيضًا."
 
 #. Label of the seq (Int) field in DocType 'Recorder Event'
 #: frappe/core/doctype/recorder_event/recorder_event.json
 msgid "Sequence"
-msgstr ""
+msgstr "التسلسل"
 
 #: frappe/automation_engine/actions/core.py:433
 msgid "Server Scripts are disabled. Enable them from the bench configuration."
-msgstr ""
+msgstr "النصوص البرمجية للخادم معطلة. فعّلها من إعدادات bench."
 
 #: frappe/public/js/frappe/utils/address_and_contact.js:178
 msgid "Set as Primary"
-msgstr ""
+msgstr "تعيين كأساسي"
 
 #: frappe/automation_engine/actions/core.py:63
 msgid "Set at least one field"
-msgstr ""
+msgstr "حدد حقلًا واحدًا على الأقل"
 
 #: frappe/templates/emails/two_factor_setup.html:2
 msgid "Set up your authenticator app"
-msgstr ""
+msgstr "إعداد تطبيق المصادقة"
 
 #. Description of the 'Is App Disabled' (Check) field in DocType 'Custom
 #. DocPerm'
@@ -41454,76 +41471,76 @@ msgstr ""
 #: frappe/custom/doctype/custom_field/custom_field.json
 #: frappe/custom/doctype/property_setter/property_setter.json
 msgid "Set while owner app is disabled."
-msgstr ""
+msgstr "يُحدد عندما يكون التطبيق المالك معطلًا."
 
 #: frappe/automation_engine/actions/core.py:79
 msgid "Set {0}"
-msgstr ""
+msgstr "تعيين {0}"
 
 #. Description of a DocType
 #: frappe/core/doctype/doctype_settings_map/doctype_settings_map.json
 msgid ""
 "Settings from Single doctypes applied to a doctype, with one standard and "
 "one custom record shown in DocType Settings → General."
-msgstr ""
+msgstr "تُطبق إعدادات أنواع المستندات المفردة على نوع مستند، ويظهر سجل قياسي واحد وآخر مخصص في إعدادات نوع المستند ← عام."
 
 #: frappe/printing/doctype/print_format/print_format_list.js:81
 msgid "Ship as files in an app, tracked in git."
-msgstr ""
+msgstr "تضمينها كملفات ضمن التطبيق وتتبعها في Git."
 
 #. Description of the 'Standard' (Select) field in DocType 'Print Format'
 #: frappe/printing/doctype/print_format/print_format.json
 msgid ""
 "Ship as files in an app, tracked in git. Developer mode only; duplicate to "
 "edit."
-msgstr ""
+msgstr "تضمينها كملفات ضمن التطبيق وتتبعها في Git. يتطلب وضع المطور؛ انسخ التنسيق لتعديله."
 
 #: frappe/public/js/frappe/ui/sidebar/dock_manager.js:252
 msgid "Ship this off by default"
-msgstr ""
+msgstr "عدم تضمينه افتراضيًا"
 
 #: frappe/public/js/frappe/ui/sidebar/dock_manager.js:45
 msgid "Ship with the app"
-msgstr ""
+msgstr "تضمينه مع التطبيق"
 
 #: frappe/desk/doctype/workspace/workspace.py:220
 msgid "Shortcut"
-msgstr ""
+msgstr "اختصار"
 
 #: frappe/desk/doctype/kanban_board/kanban_board.js:10
 msgid "Show Board"
-msgstr ""
+msgstr "عرض اللوحة"
 
 #. Label of the show_my_space (Check) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 #: frappe/public/js/frappe/ui/user_settings_dialog.js:456
 msgid "Show My Space"
-msgstr ""
+msgstr "إظهار مساحتي الخاصة"
 
 #: frappe/public/js/frappe/views/treeview.js:287
 msgid "Show all (including disabled)"
-msgstr ""
+msgstr "إظهار الكل (بما في ذلك المعطل)"
 
 #: frappe/public/js/frappe/ui/embedded_list.js:229
 msgid "Showing {0}"
-msgstr ""
+msgstr "عرض {0}"
 
 #: frappe/public/js/print_format_builder/components/PrintFormatControls.vue:331
 msgid "Shown only when: {0}"
-msgstr ""
+msgstr "يظهر فقط عند تحقق: {0}"
 
 #. Name of a DocType
 #: frappe/desk/doctype/sidebar_item/sidebar_item.json
 msgid "Sidebar Item"
-msgstr ""
+msgstr "عنصر الشريط الجانبي"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_header.html:8
 msgid "Sidebar Menu"
-msgstr ""
+msgstr "قائمة الشريط الجانبي"
 
 #: frappe/desk/doctype/sidebar/sidebar.py:685
 msgid "Sidebar Moved"
-msgstr ""
+msgstr "تم نقل الشريط الجانبي"
 
 #. Description of a DocType
 #: frappe/desk/doctype/custom_sidebar/custom_sidebar.json
@@ -41536,35 +41553,35 @@ msgid ""
 " this doctype knowingly overloads it: with the layers structurally identical"
 " there is nothing to gain from a second doctype, and `user` makes the layer "
 "unambiguous at a glance. Do not \"fix\" this by splitting it."
-msgstr ""
+msgstr "وصف طبقة الشريط الجانبي لوحدة ما في إحدى طبقتي الموقع. يحدد `user` الطبقة: إذا كان فارغًا فهذا يعني طبقة الموقع التي ينظمها مدير مساحة العمل وتُطبق على الجميع؛ أما إذا احتوى على اسم مستخدم، فهذا يعني ترتيب ذلك المستخدم، ويُطبق فوقها وله الأولوية. تعني البادئة `Custom *` في بقية هذا المستودع تجاوزًا تملكه طبقة الموقع لمحتوى يوفره التطبيق، لكن نوع المستند هذا يستخدم البادئة بمعنى أوسع عن قصد. ولأن الطبقتين متماثلتان بنيويًا، فلا فائدة من نوع مستند ثانٍ؛ ويحدد `user` الطبقة بوضوح. لا تقسّم هذا النوع لتغيير التصميم."
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:244
 msgid "Sidebar is no longer shipped with {0}"
-msgstr ""
+msgstr "لم يعد {0} يوفر الشريط الجانبي"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:243
 msgid "Sidebar reset for everyone"
-msgstr ""
+msgstr "أُعيد تعيين الشريط الجانبي للجميع"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:242
 msgid "Sidebar reset to the site's"
-msgstr ""
+msgstr "أُعيد تعيين الشريط الجانبي إلى ترتيب الموقع"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:57
 msgid "Sidebar saved to its app"
-msgstr ""
+msgstr "حُفظ الشريط الجانبي ضمن تطبيقه"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:33
 msgid "Sidebar updated"
-msgstr ""
+msgstr "تم تحديث الشريط الجانبي"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:41
 msgid "Sidebar updated for everyone"
-msgstr ""
+msgstr "تم تحديث الشريط الجانبي للجميع"
 
 #: frappe/model/rename_doc.py:348
 msgid "Single DocTypes cannot be renamed"
-msgstr ""
+msgstr "لا يمكن إعادة تسمية أنواع المستندات المفردة"
 
 #. Label of the source_name (Dynamic Link) field in DocType 'Notification Log'
 #: frappe/desk/doctype/notification_log/notification_log.json
@@ -41578,41 +41595,41 @@ msgstr "نوع المستند المصدر"
 
 #: frappe/public/js/print_format_builder/components/inspector/field_properties.js:207
 msgid "Split across pages"
-msgstr ""
+msgstr "تقسيم عبر الصفحات"
 
 #: frappe/public/js/frappe/ui/user_settings_dialog.js:696
 msgid "Split view"
-msgstr ""
+msgstr "عرض مقسم"
 
 #. Label of the report_split_view (Check) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Split view in reports"
-msgstr ""
+msgstr "عرض مقسم في التقارير"
 
 #. Label of the stale_running_minutes (Int) field in DocType 'Automation
 #. Settings'
 #: frappe/automation/doctype/automation_settings/automation_settings.json
 msgid "Stale Running Minutes"
-msgstr ""
+msgstr "دقائق اعتبار التشغيل عالقًا"
 
 #. Description of the 'Cron Expression' (Data) field in DocType 'Automation
 #. Flow'
 #: frappe/automation/doctype/automation_flow/automation_flow.json
 msgid "Standard 5-field cron, for example <code>0 9 * * 1</code>."
-msgstr ""
+msgstr "تعبير cron قياسي من 5 حقول، مثل <code>0 9 * * 1</code>."
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:647
 msgid "Start Closed"
-msgstr ""
+msgstr "يبدأ مطويًا"
 
 #: frappe/printing/doctype/print_format/print_format_list.js:63
 msgid "Start with"
-msgstr ""
+msgstr "البدء بـ"
 
 #. Label of the step_condition (Code) field in DocType 'Automation Action'
 #: frappe/automation/doctype/automation_action/automation_action.json
 msgid "Step Condition"
-msgstr ""
+msgstr "شرط الخطوة"
 
 #. Label of the step_key (Data) field in DocType 'Automation Action'
 #. Label of the step_key (Data) field in DocType 'Automation Event
@@ -41620,149 +41637,149 @@ msgstr ""
 #: frappe/automation/doctype/automation_action/automation_action.json
 #: frappe/automation/doctype/automation_event_subscription/automation_event_subscription.json
 msgid "Step Key"
-msgstr ""
+msgstr "مفتاح الخطوة"
 
 #. Label of the step_output_limit (Int) field in DocType 'Automation Settings'
 #: frappe/automation/doctype/automation_settings/automation_settings.json
 msgid "Step Output Limit"
-msgstr ""
+msgstr "الحد الأقصى لمخرجات الخطوة"
 
 #. Label of the step_type (Data) field in DocType 'Automation Action'
 #: frappe/automation/doctype/automation_action/automation_action.json
 msgid "Step Type"
-msgstr ""
+msgstr "نوع الخطوة"
 
 #: frappe/automation_engine/runner.py:406
 msgid "Step condition did not match"
-msgstr ""
+msgstr "لم يتحقق شرط الخطوة"
 
 #: frappe/automation_engine/api.py:277
 msgid "Step {0} is not an If step"
-msgstr ""
+msgstr "الخطوة {0} ليست من نوع If"
 
 #. Description of the 'Disable Automations' (Check) field in DocType
 #. 'Automation Settings'
 #: frappe/automation/doctype/automation_settings/automation_settings.json
 msgid ""
 "Stop dispatching automations site-wide. Queued rows are left untouched."
-msgstr ""
+msgstr "أوقف تشغيل عمليات الأتمتة على مستوى الموقع. تبقى الصفوف الموجودة في قائمة الانتظار دون تغيير."
 
 #. Label of the stop_on_error (Check) field in DocType 'Automation Flow'
 #: frappe/automation/doctype/automation_flow/automation_flow.json
 msgid "Stop on Error"
-msgstr ""
+msgstr "التوقف عند الخطأ"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:238
 msgid ""
 "Stop shipping this sidebar with {0}? Its document and its exported file are "
 "both removed, and the module goes back to the sidebar generated from its "
 "contents."
-msgstr ""
+msgstr "هل تريد إيقاف تضمين هذا الشريط الجانبي مع {0}؟ سيُحذف مستنده وملفه المُصدّر، وستعود الوحدة إلى الشريط الجانبي المُنشأ من محتوياتها."
 
 #: frappe/desk/doctype/sidebar/sidebar.js:19
 msgid ""
 "Stop shipping {0} with its app? Its exported file and this document are "
 "removed, and {1} goes back to the sidebar computed from its contents."
-msgstr ""
+msgstr "هل تريد إيقاف تضمين {0} مع التطبيق؟ سيُحذف ملفه المُصدّر وهذا المستند، وسيعود {1} إلى الشريط الجانبي المُنشأ من محتوياته."
 
 #: frappe/public/js/frappe/form/controls/text_editor.js:317
 msgid "Strikethrough"
-msgstr ""
+msgstr "يتوسطه خط"
 
 #: frappe/public/js/frappe/form/controls/text_editor.js:329
 msgid "Subscript"
-msgstr ""
+msgstr "نص سفلي"
 
 #: frappe/public/js/frappe/form/controls/text_editor.js:330
 msgid "Superscript"
-msgstr ""
+msgstr "نص مرتفع"
 
 #: frappe/public/js/print_format_builder/stores/index.js:387
 msgid "Switched back to Chromium: {0}"
-msgstr ""
+msgstr "تمت العودة إلى Chromium: {0}"
 
 #: frappe/public/js/frappe/new_navigation_nudge.js:20
 msgid "Switched to the new navigation. Reloading…"
-msgstr ""
+msgstr "تم التبديل إلى نظام التنقل الجديد. جارٍ إعادة التحميل..."
 
 #. Label of the sync_from_uid (Int) field in DocType 'IMAP Folder'
 #: frappe/email/doctype/imap_folder/imap_folder.json
 msgid "Sync From UID"
-msgstr ""
+msgstr "المزامنة بدءًا من UID"
 
 #. Label of the sync_in_batch (Check) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Sync In Batches"
-msgstr ""
+msgstr "المزامنة على دفعات"
 
 #: frappe/public/js/print_format_builder/utils.js:721
 msgid "System default"
-msgstr ""
+msgstr "الإعداد الافتراضي للنظام"
 
 #: frappe/automation_engine/actions/core.py:115
 msgid "Target Document Type is required"
-msgstr ""
+msgstr "نوع المستند الهدف مطلوب"
 
 #: frappe/public/js/frappe/form/controls/text_editor.js:326
 msgid "Task list"
-msgstr ""
+msgstr "قائمة مهام"
 
 #. Label of the tenant_id (Data) field in DocType 'Social Login Key'
 #: frappe/integrations/doctype/social_login_key/social_login_key.json
 msgid "Tenant ID"
-msgstr ""
+msgstr "معرف المستأجر"
 
 #: frappe/automation/doctype/automation_flow/automation_flow.js:86
 #: frappe/automation/doctype/automation_flow/automation_flow.js:94
 msgid "Test Run"
-msgstr ""
+msgstr "تشغيل تجريبي"
 
 #: frappe/automation/doctype/automation_flow/automation_flow.js:129
 msgid "Test Run: {0}"
-msgstr ""
+msgstr "تشغيل تجريبي: {0}"
 
 #: frappe/public/js/frappe/form/controls/text_editor.js:334
 msgid "Text color"
-msgstr ""
+msgstr "لون النص"
 
 #: frappe/public/js/frappe/form/controls/text_editor.js:331
 msgid "Text direction"
-msgstr ""
+msgstr "اتجاه النص"
 
 #: frappe/www/contact.py:48
 msgid ""
 "Thank you for reaching out to us. We will get back to you at the earliest."
-msgstr ""
+msgstr "شكرًا لتواصلك معنا. سنرد عليك في أقرب وقت ممكن."
 
 #: frappe/automation_engine/actions/core.py:456
 msgid "That Server Script is disabled"
-msgstr ""
+msgstr "هذا Server Script معطل"
 
 #: frappe/templates/emails/administrator_logged_in.html:6
 msgid ""
 "The Administrator account may be compromised. Change the Administrator "
 "password immediately."
-msgstr ""
+msgstr "قد يكون حساب مدير النظام مخترقًا. غيّر كلمة مرور مدير النظام فورًا."
 
 #: frappe/core/doctype/file/file.py:1052
 msgid "The File URL does not belong to this File record"
-msgstr ""
+msgstr "رابط الملف لا يخص سجل الملف هذا"
 
 #: frappe/utils/typst_emitter.py:889
 msgid "The Typst block could not render its template: {0}"
-msgstr ""
+msgstr "تعذر عرض القالب في كتلة Typst: {0}"
 
 #: frappe/printing/doctype/print_format/print_format.py:231
 msgid "The Typst block in {0} does not compile: {1}"
-msgstr ""
+msgstr "تعذر تجميع كتلة Typst في {0}: {1}"
 
 #: frappe/printing/doctype/print_format/print_format.py:224
 msgid "The Typst block in {0} has a template error: {1}"
-msgstr ""
+msgstr "حدث خطأ في القالب بكتلة Typst في {0}: {1}"
 
 #: frappe/utils/typst_emitter.py:1052
 msgid "The Typst renderer cannot embed this image: {0}"
-msgstr ""
+msgstr "يتعذر على محرك Typst تضمين هذه الصورة: {0}"
 
 #. Description of the 'Mount On' (Autocomplete) field in DocType 'Dock'
 #: frappe/desk/doctype/dock/dock.json
@@ -41774,7 +41791,7 @@ msgid ""
 "layers, which means nothing. App-layer only: `depends_on` hides it elsewhere"
 " and `validate` blanks it, because hiding a field does not stop an API "
 "write."
-msgstr ""
+msgstr "التطبيق الذي يرتبط به هذا التطبيق عند استخدامه كتطبيق مرافق بلا شريط تطبيقات خاص، إذ تظهر عناصره في شريط التطبيق المضيف. اترك الحقل فارغًا في أشرطة التطبيقات العادية. يُستخدم هنا اسم التطبيق بدلًا من رابط إلى `Dock`: تحتاج كل الجهات المستهلكة إلى سلسلة نصية، كما أن التثبيت الذي يشير إلى سجل سيشير إلى إحدى طبقات التطبيق الثلاث، وهذا غير منطقي. ينطبق الحقل على طبقة التطبيق فقط؛ يخفيه `depends_on` في الطبقات الأخرى وتمسح قيمته `validate`، لأن إخفاء الحقل لا يمنع الكتابة عبر API."
 
 #. Description of the 'App' (Autocomplete) field in DocType 'Sidebar'
 #: frappe/desk/doctype/sidebar/sidebar.json
@@ -41783,14 +41800,14 @@ msgid ""
 " -- a module sits in exactly one app. Author-set when there is not: an app-"
 "rooted sidebar has no module to derive it from, and this is then the only "
 "thing that says which app ships the file."
-msgstr ""
+msgstr "التطبيق الذي وُضع فيه هذا الشريط الجانبي. يُستمد من الوحدة إن وُجدت، لأن كل وحدة تتبع تطبيقًا واحدًا بالضبط. وإذا لم توجد وحدة، يحدده المؤلف؛ فالشريط المرتبط بجذر التطبيق لا يملك وحدة يمكن الاستدلال منها، وهذا الحقل هو ما يحدد التطبيق الذي يوفر ملفه."
 
 #. Description of the 'App Name' (Select) field in DocType 'Module Def'
 #: frappe/core/doctype/module_def/module_def.json
 msgid ""
 "The app whose dock lists this module. A custom module may leave it empty and"
 " stand on its own."
-msgstr ""
+msgstr "التطبيق الذي يعرض شريط تطبيقاته هذه الوحدة. يمكن ترك الحقل فارغًا للوحدة المخصصة لتكون مستقلة."
 
 #. Description of the 'App' (Autocomplete) field in DocType 'Dock'
 #: frappe/desk/doctype/dock/dock.json
@@ -41800,51 +41817,51 @@ msgid ""
 " `Autocomplete` over installed apps rather than a Link, because there is no "
 "`App` doctype -- the house spelling, shared with `Sidebar.app` and `Desktop "
 "Icon.app`."
-msgstr ""
+msgstr "التطبيق الذي يرتب هذا الشريط. الحقل مطلوب لأن شريط التطبيقات يتبع تطبيقًا؛ وإذا لم تحدد الطبقة تطبيقًا، فستطبق على جميع الأشرطة. هذا الحقل من نوع `Autocomplete` ويعرض التطبيقات المثبتة بدلًا من كونه رابطًا، إذ لا يوجد نوع مستند باسم `App`. هذه هي التسمية المعتمدة، وتُستخدم أيضًا في `Sidebar.app` و`Desktop Icon.app`."
 
 #: frappe/public/js/frappe/ui/sidebar/dock_manager.js:93
 msgid "The dock as this arrangement leaves it."
-msgstr ""
+msgstr "شريط التطبيقات بعد تطبيق هذا الترتيب."
 
 #: frappe/automation/doctype/automation_flow/automation_flow.js:102
 msgid ""
 "The flow runs for real against this document, then everything it did is "
 "rolled back."
-msgstr ""
+msgstr "ينفّذ التدفق فعليًا على هذا المستند، ثم يتراجع عن جميع التغييرات التي أجراها."
 
 #: frappe/public/js/print_format_builder/print_format_builder.bundle.js:102
 msgid "The latest changes could not be saved and will be lost if you leave."
-msgstr ""
+msgstr "تعذر حفظ أحدث التغييرات؛ وستُفقد إذا غادرت الصفحة."
 
 #: frappe/public/js/print_format_builder/stores/useDraftSave.js:159
 msgid "The latest changes to this print format are not saved."
-msgstr ""
+msgstr "لم تُحفظ أحدث التغييرات على تنسيق الطباعة هذا."
 
 #: frappe/public/js/print_format_builder/print_format_builder.bundle.js:116
 msgid "The latest changes to {0} could not be saved."
-msgstr ""
+msgstr "تعذر حفظ أحدث التغييرات على {0}."
 
 #: frappe/templates/emails/login_with_email_link.html:3
 #: frappe/templates/emails/password_reset.html:3
 msgid "The link expires in 1 minute."
-msgstr ""
+msgstr "تنتهي صلاحية الرابط خلال دقيقة واحدة."
 
 #: frappe/templates/emails/login_with_email_link.html:3
 #: frappe/templates/emails/password_reset.html:3
 msgid "The link expires in {0} minutes."
-msgstr ""
+msgstr "تنتهي صلاحية الرابط خلال {0} دقيقة."
 
 #: frappe/public/js/frappe/form/form.js:1212
 msgid ""
 "The linked documents will be cancelled in the background along with {0}. You"
 " will be notified when it completes."
-msgstr ""
+msgstr "سيُلغى المستند {0} والمستندات المرتبطة به في الخلفية. سيصلك إشعار عند اكتمال العملية."
 
 #: frappe/public/js/frappe/form/form.js:1382
 msgid ""
 "The linked documents will be deleted in the background along with {0}. You "
 "will be notified when it completes."
-msgstr ""
+msgstr "سيُحذف المستند {0} والمستندات المرتبطة به في الخلفية. سيصلك إشعار عند اكتمال العملية."
 
 #. Description of the 'Module' (Link) field in DocType 'Sidebar'
 #: frappe/desk/doctype/sidebar/sidebar.json
@@ -41855,14 +41872,14 @@ msgid ""
 "column here. May also be blank, which means the sidebar belongs to its app "
 "rather than to any one of the app's modules; such a sidebar is exported to "
 "the app's own folder and says which app in `app`."
-msgstr ""
+msgstr "الوحدة التي يتبعها هذا الشريط الجانبي. هذا الحقل غير مطلوب وغير فريد؛ فقد تملك الوحدة عدة أشرطة جانبية، ويحدد الاسم، لا هذا الحقل، أي شريط منها يمثل الوحدة نفسها. يمكن تركه فارغًا أيضًا، وعندئذٍ يتبع الشريط التطبيق بدلًا من إحدى وحداته. يُصدّر هذا الشريط إلى مجلد التطبيق نفسه، ويحدد الحقل `app` التطبيق الذي يوفره."
 
 #. Description of the 'Module' (Link) field in DocType 'Workspace'
 #: frappe/desk/doctype/workspace/workspace.json
 msgid ""
 "The module this workspace belongs to. Decides which module's dock entry and "
 "sidebar it appears under."
-msgstr ""
+msgstr "الوحدة التي تتبعها مساحة العمل هذه. تحدد الوحدة التي يظهر ضمنها عنصر مساحة العمل في شريط التطبيقات والشريط الجانبي."
 
 #. Description of the 'Dock Items' (Table) field in DocType 'Dock'
 #: frappe/desk/doctype/dock/dock.json
@@ -41871,14 +41888,14 @@ msgid ""
 "arrangement; an entry this layer never names keeps its incoming order and "
 "follows the ones it does, which is how a newly installed app's modules still"
 " reach someone who has already arranged their dock."
-msgstr ""
+msgstr "العناصر المرتبة التي تحدد هذه الطبقة رأيها فيها. يحدد ترتيب الصفوف ترتيب العرض؛ ويحتفظ العنصر الذي لم تذكره هذه الطبقة بترتيبه الوارد ويظهر بعد العناصر التي حددتها. وهكذا تظل وحدات التطبيقات المثبتة حديثًا متاحة لمن سبق له ترتيب شريط التطبيقات."
 
 #. Description of the 'User' (Link) field in DocType 'Dock'
 #: frappe/desk/doctype/dock/dock.json
 msgid ""
 "The person whose own arrangement this is. Blank means the app's own dock or "
 "the site's arrangement of it, told apart by `standard`."
-msgstr ""
+msgstr "الشخص الذي يخصه هذا الترتيب. إذا كان الحقل فارغًا، فهذا يعني شريط التطبيق نفسه أو ترتيب الموقع، ويميز بينهما الحقل `standard`."
 
 #. Description of the 'Link To' (Dynamic Link) field in DocType 'Dock Item'
 #: frappe/desk/doctype/dock_item/dock_item.json
@@ -41888,22 +41905,22 @@ msgid ""
 "no `Sidebar` row at all, so a row of that kind names a shell rather than "
 "referencing one, which is why link validation on a `Dock` is a deliberate "
 "no-op."
-msgstr ""
+msgstr "السجل الذي يفتحه هذا العنصر، ضمن نوع المستند الذي يحدده `link_type`. ليس من الضروري أن يكون هدف `Sidebar` مستندًا موجودًا؛ فمعظم الوحدات لها شريط جانبي أساسي محسوب ولا تملك سجل `Sidebar`. لذلك يحدد هذا الصف واجهة جانبية بدلًا من الإشارة إلى سجل، ولهذا لا يجري التحقق من الروابط في `Dock` عمدًا."
 
 #: frappe/public/js/frappe/microtemplate.js:209
 msgid ""
 "The report may be too large to render in a single request. Narrow the "
 "filters and try again, or use Print and save as PDF from your browser."
-msgstr ""
+msgstr "قد يتعذر عرض التقرير كاملًا في طلب واحد. قلّص عوامل التصفية وحاول مرة أخرى، أو اختر 'طباعة' ثم احفظه بصيغة PDF من المتصفح."
 
 #: frappe/public/js/frappe/microtemplate.js:286
 msgid ""
 "The request could not be completed. Check your connection and try again."
-msgstr ""
+msgstr "تعذر إكمال الطلب. تحقق من اتصالك وحاول مرة أخرى."
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:263
 msgid "The sidebar as this arrangement leaves it."
-msgstr ""
+msgstr "الشريط الجانبي بعد تطبيق هذا الترتيب."
 
 #. Description of the 'Content' (Long Text) field in DocType 'Custom
 #. Workspace'
@@ -41913,133 +41930,133 @@ msgid ""
 "set, the app's later changes to this workspace's layout stop reaching the "
 "site; roles, icon and visibility keep updating. Managed by the workspace "
 "editor."
-msgstr ""
+msgstr "تخطيط كتل `editor.js` لمساحة العمل كما حفظه الموقع، ويُعرض كما هو. بعد تعيينه، لن تصل إلى الموقع التغييرات اللاحقة التي يجريها التطبيق على تخطيط مساحة العمل؛ بينما تستمر تحديثات الأدوار والأيقونة وإمكانية الظهور. يديره محرر مساحة العمل."
 
 #: frappe/public/js/frappe/views/workspace/workspace.js:589
 msgid "The workspace list may not load. Please refresh the page."
-msgstr ""
+msgstr "قد يتعذر تحميل قائمة مساحات العمل. يرجى تحديث الصفحة."
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:714
 msgid "There is already a section called {0}."
-msgstr ""
+msgstr "يوجد بالفعل قسم باسم {0}."
 
 #: frappe/templates/emails/administrator_logged_in.html:5
 msgid "There is nothing else you need to do."
-msgstr ""
+msgstr "لا يلزمك اتخاذ أي إجراء آخر."
 
 #: frappe/desk/doctype/dock/dock.py:410
 msgid ""
 "There is nothing to export for {0}. Put some entries on its dock first."
-msgstr ""
+msgstr "لا توجد عناصر لتصديرها من {0}. أضف بعض العناصر إلى شريط التطبيقات أولًا."
 
 #: frappe/public/js/frappe/list/base_list.js:199
 msgid "This DocType is deprecated and may be removed in a future release"
-msgstr ""
+msgstr "نوع المستند هذا مهمل وقد يُزال في إصدار مستقبلي"
 
 #: frappe/utils/oauth.py:76
 msgid "This Microsoft account does not belong to the expected organization."
-msgstr ""
+msgstr "حساب Microsoft هذا لا ينتمي إلى المؤسسة المتوقعة."
 
 #: frappe/utils/oauth.py:68
 msgid ""
 "This Office 365 Social Login Key is not restricted to a specific tenant. Set"
 " a Tenant ID, or enable 'Trust Any Tenant' if you intend to allow sign-in "
 "from any organization."
-msgstr ""
+msgstr "مفتاح تسجيل الدخول الاجتماعي لـ Office 365 هذا غير مقيد بمستأجر محدد. عيّن معرف المستأجر، أو فعّل 'الثقة بجميع المستأجرين' إذا كنت تقصد السماح بتسجيل الدخول من أي مؤسسة."
 
 #: frappe/automation_engine/api.py:174
 msgid "This action does not support the selected trigger"
-msgstr ""
+msgstr "هذا الإجراء لا يدعم المشغل المحدد"
 
 #: frappe/automation_engine/api.py:172
 msgid "This action requires a Document Type"
-msgstr ""
+msgstr "يتطلب هذا الإجراء تحديد نوع مستند"
 
 #: frappe/public/js/frappe/ui/sidebar/dock_manager.js:91
 msgid "This app has nothing to arrange"
-msgstr ""
+msgstr "لا يوجد ما يمكن ترتيبه في هذا التطبيق"
 
 #: frappe/public/js/print_format_builder/stores/index.js:380
 msgid "This can't be saved with a Typst block: {0}"
-msgstr ""
+msgstr "لا يمكن حفظ هذا مع كتلة Typst: {0}"
 
 #: frappe/public/js/frappe/widgets/chart_widget.js:175
 msgid "This chart has not been built"
-msgstr ""
+msgstr "لم يتم إنشاء هذا المخطط"
 
 #: frappe/public/js/print_format_builder/components/PrintFormatControls.vue:71
 msgid "This document type has no fields to print."
-msgstr ""
+msgstr "لا يحتوي نوع المستند هذا على حقول قابلة للطباعة."
 
 #: frappe/public/js/frappe/ui/sidebar/dock_manager.js:317
 msgid ""
 "This drops the dock arrangement of every person on this site for {0}, and "
 "the site's own, back to what the app ships. It cannot be undone."
-msgstr ""
+msgstr "سيؤدي هذا إلى إعادة ترتيب شريط التطبيقات الخاص بكل مستخدم في هذا الموقع لـ {0}، وكذلك ترتيب الموقع، إلى الترتيب الذي يوفره التطبيق. لا يمكن التراجع عن ذلك."
 
 #: frappe/public/js/frappe/form/templates/form_sidebar.html:52
 msgid "This feature is deprecated and may be removed in a future release"
-msgstr ""
+msgstr "هذه الميزة مهملة وقد تُزال في إصدار مستقبلي"
 
 #: frappe/core/doctype/file/file.py:713
 msgid ""
 "This file cannot be deleted as it is set in field {0} in row {1} of {2} {3}."
 " Clear the field first."
-msgstr ""
+msgstr "لا يمكن حذف هذا الملف لأنه محدد في الحقل {0} في الصف {1} من {2} {3}. أفرغ الحقل أولًا."
 
 #: frappe/core/doctype/file/file.py:709
 msgid ""
 "This file cannot be deleted as it is set in field {0} of {1} {2}. Clear the "
 "field first."
-msgstr ""
+msgstr "لا يمكن حذف هذا الملف لأنه محدد في الحقل {0} من {1} {2}. أفرغ الحقل أولًا."
 
 #: frappe/automation/doctype/automation_flow/automation_flow.js:131
 msgid "This flow has no steps to run."
-msgstr ""
+msgstr "لا يحتوي تدفق الأتمتة هذا على خطوات للتنفيذ."
 
 #: frappe/utils/print_format_generator.py:557
 msgid "This format can no longer render through Typst: {0}"
-msgstr ""
+msgstr "لم يعد بالإمكان عرض هذا التنسيق باستخدام Typst: {0}"
 
 #: frappe/printing/doctype/print_format/print_format.py:184
 msgid "This format cannot use the Typst renderer: {0}"
-msgstr ""
+msgstr "لا يمكن عرض هذا التنسيق باستخدام محرك Typst: {0}"
 
 #: frappe/printing/doctype/print_format/print_format.py:177
 msgid "This format uses a Typst block, so its PDF Renderer must be Typst."
-msgstr ""
+msgstr "يستخدم هذا التنسيق كتلة Typst، لذا يجب أن يكون محرك PDF هو Typst."
 
 #: frappe/utils/print_format_generator.py:491
 msgid ""
 "This format uses a Typst block, which only the Typst renderer can print. Set"
 " the PDF Renderer to Typst or remove the block."
-msgstr ""
+msgstr "يستخدم هذا التنسيق كتلة Typst لا يستطيع طباعتها إلا محرك Typst. عيّن محرك PDF إلى Typst أو أزل الكتلة."
 
 #: frappe/templates/emails/user_invitation.html:4
 msgid "This invitation expires in 1 day."
-msgstr ""
+msgstr "تنتهي صلاحية هذه الدعوة خلال يوم واحد."
 
 #: frappe/templates/emails/user_invitation.html:4
 msgid "This invitation expires in {0} days."
-msgstr ""
+msgstr "تنتهي صلاحية هذه الدعوة خلال {0} يومًا."
 
 #: frappe/templates/emails/user_invitation_expired.html:1
 msgid "This invitation has expired"
-msgstr ""
+msgstr "انتهت صلاحية هذه الدعوة"
 
 #: frappe/desk/doctype/workspace_sidebar/workspace_sidebar.js:10
 msgid ""
 "This is an archive of the previous navigation. Customize the module's "
 "sidebar instead."
-msgstr ""
+msgstr "هذا أرشيف لنظام التنقل السابق. خصّص الشريط الجانبي للوحدة بدلًا من ذلك."
 
 #: frappe/public/js/frappe/widgets/widget_dialog.js:177
 msgid "This label is already used by another {0} in this workspace."
-msgstr ""
+msgstr "هذه التسمية مستخدمة بالفعل بواسطة {0} آخر في مساحة العمل هذه."
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:261
 msgid "This module has nothing to arrange"
-msgstr ""
+msgstr "لا يوجد ما يمكن ترتيبه في هذه الوحدة"
 
 #. Description of the 'Is Default Module' (Check) field in DocType 'Sidebar
 #. Item'
@@ -42052,16 +42069,16 @@ msgid ""
 "declarative, so set it on the entities your app is about rather than only "
 "where you expect the default to disagree with you. Only an app-shipped "
 "sidebar may claim."
-msgstr ""
+msgstr "هذه الوحدة هي الصفحة الرئيسية الافتراضية للعنصر المرتبط؛ أي الصفحة التي تُفتح عند عدم وجود خيار آخر، حتى إن عرّفها تطبيق آخر. إذا كان شريط جانبي يعرض العنصر بالفعل، فسيُفتح ضمنه؛ لذا يحدد هذا الخيار الوجهة الافتراضية عند الدخول، ولا يتجاوز المكان الذي تتصفحه حاليًا. حدّد ملكية تطبيقك بوضوح: هذا الخيار تصريحي، لذا فعّله للكيانات التي يتناولها تطبيقك، لا فقط للحالات التي تتوقع فيها اختلاف الوجهة الافتراضية عن اختيارك. لا يمكن إلا لشريط جانبي يوفره التطبيق تعيين هذه الوحدة كوجهة افتراضية."
 
 #: frappe/public/js/frappe/views/pageview.js:230
 msgid "This page has not been built"
-msgstr ""
+msgstr "لم يتم إنشاء هذه الصفحة"
 
 #: frappe/integrations/frappe_providers/cloud_settings.py:291
 #: frappe/integrations/frappe_providers/cloud_settings.py:294
 msgid "This request is not allowed."
-msgstr ""
+msgstr "هذا الطلب غير مسموح به."
 
 #. Description of the 'Added' (Check) field in DocType 'Dock Item'
 #: frappe/desk/doctype/dock_item/dock_item.json
@@ -42071,33 +42088,33 @@ msgid ""
 "partial opinions a reference may carry an icon and no title, so body-"
 "presence stops telling the two apart -- and a reference to a row the app has"
 " since deleted would resurrect as a label-less button."
-msgstr ""
+msgstr "هذا الصف هو العنصر نفسه، وليس مجرد تعديل على عنصر موجود في طبقة أدنى. تُحفظ هذه المعلومة بدل استنتاجها من وجود محتوى في الصف؛ ففي التخصيصات الجزئية قد يحتوي المرجع على أيقونة دون عنوان، فلا يكفي وجود المحتوى للتمييز بين الحالتين. كما أن الإشارة إلى صف حذفه التطبيق لاحقًا ستعيد إنشاءه كزر بلا تسمية."
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:170
 msgid ""
 "This sidebar is customized on this site, and that arrangement is applied on "
 "top of what you save here."
-msgstr ""
+msgstr "هذا الشريط الجانبي مخصص على هذا الموقع، ويُطبق هذا الترتيب فوق الترتيب الذي تحفظه هنا."
 
 #: frappe/www/desk.py:28
 msgid "This site needs a migration"
-msgstr ""
+msgstr "يتطلب هذا الموقع ترحيلًا"
 
 #: frappe/printing/doctype/print_format/print_format.py:562
 msgid "This version does not belong to {0}"
-msgstr ""
+msgstr "هذا الإصدار لا ينتمي إلى {0}"
 
 #: frappe/core/doctype/mapreduce_job/mapreduce_job.js:20
 msgid ""
 "This will force reset status of running tasks to 'queued' and will "
 "reschedule. Are you sure?"
-msgstr ""
+msgstr "سيؤدي هذا إلى إعادة تعيين حالة المهام قيد التشغيل إلى 'في قائمة الانتظار' وإعادة جدولتها. هل أنت متأكد؟"
 
 #: frappe/public/js/frappe/views/workspace/workspace.js:519
 msgid ""
 "This workspace isn't in any module's sidebar yet, so there's no way to "
 "navigate to it. Pick the module it belongs to."
-msgstr ""
+msgstr "مساحة العمل هذه ليست مدرجة بعد في الشريط الجانبي لأي وحدة، لذا لا توجد طريقة للتنقل إليها. اختر الوحدة التي تتبعها."
 
 #: frappe/templates/emails/administrator_logged_in.html:3
 msgid "Time:"
@@ -42108,11 +42125,11 @@ msgstr "زمن:"
 #. Label of the timeline (Table) field in DocType 'Recorder'
 #: frappe/core/doctype/recorder/recorder.json
 msgid "Timeline"
-msgstr ""
+msgstr "الخط الزمني"
 
 #: frappe/automation_engine/actions/core.py:365
 msgid "Timeout must be between 1 and {0} seconds"
-msgstr ""
+msgstr "يجب أن تكون المهلة بين ثانية واحدة و{0} ثانية"
 
 #. Label of the to_value (Data) field in DocType 'Automation Flow'
 #: frappe/automation/doctype/automation_flow/automation_flow.json
@@ -42121,78 +42138,78 @@ msgstr "إلى القيمة"
 
 #: frappe/automation_engine/actions/core.py:550
 msgid "Too many redirects"
-msgstr ""
+msgstr "عدد كبير جدًا من عمليات إعادة التوجيه"
 
 #: frappe/core/doctype/file/utils.py:152
 msgid "Too many redirects while fetching {0}"
-msgstr ""
+msgstr "عدد كبير جدًا من عمليات إعادة التوجيه أثناء جلب {0}"
 
 #. Label of the trigger_section (Section Break) field in DocType 'Automation
 #. Flow'
 #: frappe/automation/doctype/automation_flow/automation_flow.json
 msgid "Trigger"
-msgstr ""
+msgstr "المشغّل"
 
 #. Label of the trigger_field (Select) field in DocType 'Automation Flow'
 #: frappe/automation/doctype/automation_flow/automation_flow.json
 msgid "Trigger Field"
-msgstr ""
+msgstr "حقل المشغّل"
 
 #. Label of the trigger_type (Select) field in DocType 'Automation Flow'
 #: frappe/automation/doctype/automation_flow/automation_flow.json
 msgid "Trigger Type"
-msgstr ""
+msgstr "نوع المشغّل"
 
 #. Label of the triggered_at (Datetime) field in DocType 'Automation Trigger
 #. Queue'
 #: frappe/automation/doctype/automation_trigger_queue/automation_trigger_queue.json
 msgid "Triggered At"
-msgstr ""
+msgstr "وقت التشغيل"
 
 #. Label of the triggered_by (Link) field in DocType 'Automation Trigger
 #. Queue'
 #: frappe/automation/doctype/automation_trigger_queue/automation_trigger_queue.json
 msgid "Triggered By"
-msgstr ""
+msgstr "تم التشغيل بواسطة"
 
 #. Option for the 'Run As' (Select) field in DocType 'Automation Flow'
 #: frappe/automation/doctype/automation_flow/automation_flow.json
 msgid "Triggering User"
-msgstr ""
+msgstr "مستخدم التشغيل"
 
 #. Label of the trust_any_tenant (Check) field in DocType 'Social Login Key'
 #: frappe/integrations/doctype/social_login_key/social_login_key.json
 msgid "Trust Any Tenant (Insecure)"
-msgstr ""
+msgstr "الثقة بأي مستأجر (غير آمن)"
 
 #. Label of the trust_email_without_verified_claim (Check) field in DocType
 #. 'Social Login Key'
 #: frappe/integrations/doctype/social_login_key/social_login_key.json
 msgid "Trust Email Without Verified Claim"
-msgstr ""
+msgstr "الوثوق بالبريد الإلكتروني دون مطالبة تحقق"
 
 #: frappe/public/js/frappe/views/treeview.js:468
 msgid "Try a different search."
-msgstr ""
+msgstr "جرّب بحثًا مختلفًا."
 
 #: frappe/public/js/print_format_builder/components/PrintFormatControls.vue:70
 msgid "Try a different word."
-msgstr ""
+msgstr "جرّب كلمة مختلفة."
 
 #: frappe/public/js/frappe/new_navigation_nudge.js:47
 msgid "Try it"
-msgstr ""
+msgstr "جرّبه"
 
 #: frappe/public/js/frappe/new_navigation_nudge.js:34
 msgid "Try the new navigation"
-msgstr ""
+msgstr "جرّب نظام التنقل الجديد"
 
 #. Description of a DocType
 #: frappe/automation/doctype/automation_settings/automation_settings.json
 msgid ""
 "Tuning for the automation engine: dispatch limits, drain behaviour, "
 "retention and payload limits."
-msgstr ""
+msgstr "إعدادات محرك الأتمتة: حدود الإرسال، وسلوك التصريف، والاحتفاظ بالبيانات، وحدود حجم البيانات."
 
 #: frappe/public/js/frappe/form/controls/text_editor.js:450
 msgid "Type something..."
@@ -42200,246 +42217,246 @@ msgstr "اكتب شيئا..."
 
 #: frappe/public/js/print_format_builder/components/inspector/TemplateInput.vue:20
 msgid "Type text, / for a field"
-msgstr ""
+msgstr "اكتب نصًا، أو اكتب / لإدراج حقل"
 
 #: frappe/public/js/frappe/ui/awesomplete.js:7
 msgid "Type {0} or more characters for results."
-msgstr ""
+msgstr "أدخل {0} من الأحرف أو أكثر لعرض النتائج."
 
 #. Option for the 'PDF Generator' (Select) field in DocType 'Print Format'
 #: frappe/printing/doctype/print_format/print_format.json
 #: frappe/public/js/print_format_builder/components/PrintFormatControls.vue:423
 msgid "Typst"
-msgstr ""
+msgstr "Typst"
 
 #: frappe/public/js/print_format_builder/components/PrintSettingsPanel.vue:23
 msgid "Typst (fast)"
-msgstr ""
+msgstr "Typst (سريع)"
 
 #: frappe/public/js/print_format_builder/components/editor/FieldChip.vue:179
 msgid "Typst Markup"
-msgstr ""
+msgstr "ترميز Typst"
 
 #: frappe/printing/doctype/print_format/print_format.py:178
 msgid "Typst block requires the Typst renderer"
-msgstr ""
+msgstr "تتطلب كتلة Typst استخدام محرك Typst"
 
 #: frappe/templates/print_format/macros/Typst.html:2
 msgid "Typst block — content appears in the PDF"
-msgstr ""
+msgstr "كتلة Typst — يظهر محتواها في ملف PDF"
 
 #: frappe/public/js/print_format_builder/components/PrintSettingsPanel.vue:179
 msgid "Typst cannot render:"
-msgstr ""
+msgstr "يتعذر على Typst العرض:"
 
 #: frappe/printing/doctype/print_format/print_format.py:185
 #: frappe/utils/print_format_generator.py:558
 #: frappe/utils/typst_emitter.py:1053
 msgid "Typst renderer unavailable"
-msgstr ""
+msgstr "محرك Typst غير متاح"
 
 #: frappe/automation_engine/actions/core.py:505
 msgid "URL has no host"
-msgstr ""
+msgstr "عنوان URL بلا اسم مضيف"
 
 #: frappe/automation_engine/actions/core.py:357
 msgid "URL is required"
-msgstr ""
+msgstr "عنوان URL مطلوب"
 
 #: frappe/automation_engine/actions/core.py:503
 msgid "URL must be http or https"
-msgstr ""
+msgstr "يجب أن يبدأ عنوان URL بـ http أو https"
 
 #: frappe/public/js/frappe/form/controls/text_editor.js:316
 msgid "Underline"
-msgstr ""
+msgstr "تسطير"
 
 #: frappe/automation_engine/actions/core.py:117
 msgid "Unknown DocType"
-msgstr ""
+msgstr "نوع مستند غير معروف"
 
 #: frappe/automation_engine/actions/core.py:249
 msgid "Unknown Email Template"
-msgstr ""
+msgstr "قالب بريد إلكتروني غير معروف"
 
 #: frappe/automation_engine/actions/core.py:445
 msgid "Unknown Server Script"
-msgstr ""
+msgstr "نص Server Script غير معروف"
 
 #: frappe/automation_engine/actions/base.py:140
 msgid "Unknown automation action: {0}"
-msgstr ""
+msgstr "إجراء أتمتة غير معروف: {0}"
 
 #: frappe/automation_engine/relationships.py:128
 msgid "Unknown automation relationship: {0}"
-msgstr ""
+msgstr "علاقة أتمتة غير معروفة: {0}"
 
 #: frappe/automation_engine/schema_relationships.py:259
 msgid "Unknown derived relationship: {0}"
-msgstr ""
+msgstr "علاقة مشتقة غير معروفة: {0}"
 
 #: frappe/automation_engine/relationships.py:162
 msgid "Unknown derived relationship: {0} on {1}"
-msgstr ""
+msgstr "علاقة مشتقة غير معروفة: {0} في {1}"
 
 #: frappe/automation_engine/api.py:84
 msgid "Unknown parameter: {0}"
-msgstr ""
+msgstr "معامل غير معروف: {0}"
 
 #: frappe/automation_engine/conditions.py:91
 msgid "Unknown related-condition source alias: {0}"
-msgstr ""
+msgstr "اسم مستعار غير معروف لمصدر شرط السجل المرتبط: {0}"
 
 #: frappe/automation_engine/relationships.py:208
 msgid "Unknown relationship source alias: {0}"
-msgstr ""
+msgstr "اسم مستعار غير معروف لمصدر العلاقة: {0}"
 
 #: frappe/public/js/frappe/utils/address_and_contact.js:190
 msgid "Unlink {0}"
-msgstr ""
+msgstr "إلغاء ربط {0}"
 
 #: frappe/public/js/frappe/utils/address_and_contact.js:260
 msgid "Unlink {0} {1} from {2}?"
-msgstr ""
+msgstr "هل تريد إلغاء ربط {0} {1} بـ {2}؟"
 
 #: frappe/desk/doctype/sidebar/sidebar.js:17
 msgid "Unmark as Standard"
-msgstr ""
+msgstr "إلغاء التعيين كعنصر قياسي"
 
 #: frappe/automation_engine/events.py:135
 msgid "Unregistered automation event: {0}"
-msgstr ""
+msgstr "حدث أتمتة غير مسجل: {0}"
 
 #: frappe/public/js/print_format_builder/print_format_builder.bundle.js:101
 #: frappe/public/js/print_format_builder/print_format_builder.bundle.js:112
 msgid "Unsaved changes"
-msgstr ""
+msgstr "تغييرات غير محفوظة"
 
 #: frappe/public/js/frappe/utils/address_and_contact.js:184
 msgid "Unset as Primary"
-msgstr ""
+msgstr "إلغاء التعيين كأساسي"
 
 #: frappe/automation_engine/actions/core.py:362
 msgid "Unsupported HTTP method"
-msgstr ""
+msgstr "طريقة HTTP غير مدعومة"
 
 #: frappe/automation_engine/conditions.py:135
 msgid "Unsupported count comparison: {0}"
-msgstr ""
+msgstr "مقارنة عددية غير مدعومة: {0}"
 
 #: frappe/automation_engine/conditions.py:115
 msgid "Unsupported related condition: {0}"
-msgstr ""
+msgstr "شرط سجل مرتبط غير مدعوم: {0}"
 
 #: frappe/public/js/frappe/ui/notifications/notifications.js:588
 msgid "Upcoming events"
-msgstr ""
+msgstr "الأحداث القادمة"
 
 #: frappe/public/js/print_format_builder/components/editor/FieldChip.vue:180
 msgid "Use {0} for values from the document."
-msgstr ""
+msgstr "استخدم {0} للقيم المأخوذة من المستند."
 
 #: frappe/core/doctype/role/role.js:337
 msgid "User created."
-msgstr ""
+msgstr "تم إنشاء المستخدم."
 
 #: frappe/public/js/frappe/form/doctype_settings/tabs/user_permissions.js:167
 msgid "User permission added"
-msgstr ""
+msgstr "تمت إضافة صلاحية المستخدم"
 
 #: frappe/public/js/print_format_builder/print_format_builder.bundle.js:31
 msgid "Version History"
-msgstr ""
+msgstr "سجل الإصدارات"
 
 #: frappe/public/js/print_format_builder/stores/useVersions.js:56
 msgid "Version deleted"
-msgstr ""
+msgstr "تم حذف الإصدار"
 
 #: frappe/public/js/print_format_builder/components/inspector/FieldInspector.vue:6
 msgid "Version history"
-msgstr ""
+msgstr "سجل الإصدارات"
 
 #: frappe/public/js/print_format_builder/components/inspector/FieldInspector.vue:116
 msgid "Version name"
-msgstr ""
+msgstr "اسم الإصدار"
 
 #: frappe/public/js/print_format_builder/stores/useVersions.js:64
 msgid "Version restored"
-msgstr ""
+msgstr "تمت استعادة الإصدار"
 
 #: frappe/public/js/print_format_builder/stores/useVersions.js:48
 msgid "Version saved"
-msgstr ""
+msgstr "تم حفظ الإصدار"
 
 #. Label of the section_break_resume (Section Break) field in DocType
 #. 'Automation Trigger Queue'
 #: frappe/automation/doctype/automation_trigger_queue/automation_trigger_queue.json
 msgid "Wait Resume"
-msgstr ""
+msgstr "الانتظار والاستئناف"
 
 #: frappe/automation_engine/events.py:37
 msgid "Wait for Event correlation key rendered empty"
-msgstr ""
+msgstr "كان مفتاح الربط لحدث الانتظار فارغًا عند تقييمه"
 
 #: frappe/automation_engine/events.py:141
 msgid "Wait for Event requires a correlation key"
-msgstr ""
+msgstr "يتطلب الانتظار لحدث تحديد مفتاح ربط"
 
 #: frappe/automation_engine/events.py:143
 msgid "Wait for Event requires a timeout"
-msgstr ""
+msgstr "يتطلب الانتظار لحدث تحديد مهلة زمنية"
 
 #: frappe/automation_engine/events.py:145
 msgid "Wait for Event timeout unit must be one of {0}"
-msgstr ""
+msgstr "يجب أن تكون وحدة مهلة الانتظار لحدث إحدى القيم التالية: {0}"
 
 #: frappe/utils/synchronization.py:48
 msgid ""
 "Wait for it to finish. Deleting the lock file {} will not release the lock."
-msgstr ""
+msgstr "انتظر حتى تنتهي العملية. لن يؤدي حذف ملف القفل {} إلى تحرير القفل."
 
 #: frappe/automation/doctype/automation_flow/automation_flow.py:174
 msgid "Wait steps require a duration value and unit"
-msgstr ""
+msgstr "تتطلب خطوات الانتظار تحديد مدة ووحدة."
 
 #: frappe/automation_engine/runner.py:323
 msgid "Waited for {0} (simulated)"
-msgstr ""
+msgstr "انتظر {0} (محاكاة)"
 
 #: frappe/automation_engine/runner.py:308
 msgid "Waited {0} {1} (simulated)"
-msgstr ""
+msgstr "انتظر {0} {1} (محاكاة)"
 
 #. Option for the 'Status' (Select) field in DocType 'Automation Event
 #. Subscription'
 #: frappe/automation/doctype/automation_event_subscription/automation_event_subscription.json
 msgid "Waiting"
-msgstr ""
+msgstr "بانتظار التنفيذ"
 
 #: frappe/automation_engine/runner.py:319
 msgid "Waiting for {0}"
-msgstr ""
+msgstr "بانتظار {0}"
 
 #: frappe/automation_engine/runner.py:304
 msgid "Waiting {0} seconds"
-msgstr ""
+msgstr "انتظار {0} ثانية"
 
 #: frappe/core/doctype/user/user.py:1206
 msgid "We could not create an account with the provided details."
-msgstr ""
+msgstr "تعذر إنشاء حساب باستخدام البيانات المقدمة."
 
 #: frappe/public/js/frappe/ui/sidebar/dock_manager.js:377
 #: frappe/public/js/frappe/ui/sidebar/dock_manager.js:406
 msgid "Web address"
-msgstr ""
+msgstr "عنوان ويب"
 
 #: frappe/www/portal.html:15
 msgid "Welcome to the Portal"
-msgstr ""
+msgstr "مرحبًا بك في البوابة"
 
 #: frappe/public/js/frappe/ui/sidebar/dock_manager.js:373
 msgid "What it opens"
-msgstr ""
+msgstr "ما الذي يفتحه"
 
 #. Description of the 'Link Type' (Select) field in DocType 'Dock Item'
 #: frappe/desk/doctype/dock_item/dock_item.json
@@ -42449,11 +42466,11 @@ msgid ""
 "unchanged. `Sidebar` is a value here because a module entry is an entry like"
 " any other: it opens the shell, which is the one destination that is not a "
 "page."
-msgstr ""
+msgstr "نوع العنصر الذي يفتحه هذا الصف. تتبع القيم تهجئة `Sidebar Item`، بحيث تتلقى `frappe.ui.sidebar_item.get_route(row)` نوعَي الصفحة دون تغيير. تُستخدم `Sidebar` هنا لأن عنصر الوحدة عنصر تنقل كغيره؛ فهو يفتح الواجهة الجانبية، وهي الوجهة الوحيدة التي ليست صفحة."
 
 #: frappe/public/js/print_format_builder/components/VersionHistory.vue:41
 msgid "What prints now"
-msgstr ""
+msgstr "ما سيُطبع الآن"
 
 #. Description of the 'Icon' (Icon) field in DocType 'Dock Item'
 #: frappe/desk/doctype/dock_item/dock_item.json
@@ -42462,7 +42479,7 @@ msgid ""
 "because nothing below it holds one; optional when it references an entry a "
 "lower layer already has, where blank means inherit and filled is an "
 "override."
-msgstr ""
+msgstr "العنصر الذي يعرضه شريط التطبيقات لهذا الصف. يلزم هذا الحقل عند إضافة صف جديد، لأن الطبقات الأدنى لا تحتوي عليه. وهو اختياري عند الإشارة إلى عنصر موجود في طبقة أدنى؛ تعني القيمة الفارغة عندئذٍ وراثة الأيقونة، وتعني القيمة المحددة تجاوزها."
 
 #. Description of the 'Title' (Data) field in DocType 'Sidebar'
 #: frappe/desk/doctype/sidebar/sidebar.json
@@ -42474,160 +42491,160 @@ msgid ""
 "`unique` on top of that adds one thing the primary key does not: it refuses "
 "a second sidebar claiming the title of a row whose name has drifted away "
 "from it -- a legacy row, or one written straight to the table."
-msgstr ""
+msgstr "الاسم الظاهر لهذا الشريط الجانبي واسم سجله (`autoname: field:title`). يكون افتراضيًا اسم الوحدة، ويُحفظ هذا الاسم؛ لذا يحتفظ الشريط الخاص بالوحدة باسمه المعتاد، ويمكن تمييز شريط ثانٍ ضمن الوحدة نفسها بتسميته باسم آخر. ويضيف القيد `unique` حماية إضافية لا يوفرها المفتاح الأساسي: يمنع إنشاء شريط آخر بعنوان يطابق عنوان صف تغيّر اسمه عن عنوانه، مثل صف قديم أو صف أُضيف مباشرة إلى الجدول."
 
 #. Description of the 'URL' (Data) field in DocType 'Dock Item'
 #: frappe/desk/doctype/dock_item/dock_item.json
 msgid ""
 "Where a web address entry goes. A URL row has no shell and is gated by "
 "nothing."
-msgstr ""
+msgstr "وجهة عنصر عنوان الويب. لا يرتبط صف URL بواجهة جانبية ولا يخضع لأي قيد."
 
 #: frappe/public/js/frappe/views/workspace/workspace.js:530
 #: frappe/public/js/frappe/views/workspace/workspace.js:858
 #: frappe/public/js/frappe/views/workspace/workspace.js:1194
 msgid "Which module's sidebar this workspace appears in"
-msgstr ""
+msgstr "الشريط الجانبي لأي وحدة يعرض مساحة العمل هذه"
 
 #: frappe/public/js/print_format_builder/components/VersionHistory.vue:15
 msgid "Working draft · not applied yet"
-msgstr ""
+msgstr "مسودة قيد العمل · لم تُطبق بعد"
 
 #. Description of the 'Merged From' (Long Text) field in DocType 'Sidebar'
 #: frappe/desk/doctype/sidebar/sidebar.json
 msgid ""
 "Workspaces whose sidebars were merged to build this one. Read by the module-"
 "split tool."
-msgstr ""
+msgstr "مساحات العمل التي دُمجت أشرطتها الجانبية لإنشاء هذا الشريط. تقرأها أداة تقسيم الوحدات."
 
 #: frappe/automation_engine/actions/core.py:381
 msgid "Would {0} {1} (not sent)"
-msgstr ""
+msgstr "كان سيرسل {0} {1} (لم يُرسل)"
 
 #: frappe/public/js/print_format_builder/components/inspector/TypstBlockRow.vue:17
 msgid ""
 "Write Typst here. Use {0} for values from the document. Check the PDF "
 "preview to see the result."
-msgstr ""
+msgstr "اكتب تعليمات Typst هنا. استخدم {0} للقيم المأخوذة من المستند. راجع معاينة PDF لرؤية النتيجة."
 
 #. Description of the 'Custom Format' (Check) field in DocType 'Print Format'
 #: frappe/printing/doctype/print_format/print_format.json
 msgid "Write the format by hand in HTML and Jinja."
-msgstr ""
+msgstr "اكتب التنسيق يدويًا باستخدام HTML وJinja."
 
 #: frappe/public/js/print_format_builder/components/inspector/StaticTextRow.vue:4
 msgid "Write the text to print"
-msgstr ""
+msgstr "اكتب النص المراد طباعته"
 
 #: frappe/desk/doctype/sidebar/sidebar.js:37
 msgid "Write {0} into {1} so the app ships it?"
-msgstr ""
+msgstr "هل تريد كتابة {0} في {1} ليضمه التطبيق؟"
 
 #: frappe/utils/print_format.py:131
 msgid ""
 "You already have the maximum number of bulk PDF exports in progress. Please "
 "wait for one to finish."
-msgstr ""
+msgstr "وصلت إلى الحد الأقصى لعمليات تصدير PDF الجماعية قيد التنفيذ. يرجى الانتظار حتى يكتمل أحدها."
 
 #: frappe/utils/print_format.py:171
 msgid "You are not permitted to print one of the selected documents"
-msgstr ""
+msgstr "لا تملك صلاحية طباعة أحد المستندات المحددة"
 
 #: frappe/core/doctype/sms_settings/sms_settings.py:82
 msgid "You are not permitted to send SMS"
-msgstr ""
+msgstr "لا تملك صلاحية إرسال رسائل SMS"
 
 #: frappe/desk/doctype/workspace/workspace.py:163
 msgid "You can only create a private workspace for yourself."
-msgstr ""
+msgstr "لا يمكنك إنشاء مساحة عمل خاصة إلا لنفسك."
 
 #: frappe/desk/query_report.py:85
 msgid "You don't have permission to print: {0}"
-msgstr ""
+msgstr "لا تملك صلاحية طباعة: {0}"
 
 #: frappe/public/js/frappe/ui/notifications/notifications.js:395
 msgid "You have no new notifications"
-msgstr ""
+msgstr "ليس لديك إشعارات جديدة"
 
 #: frappe/desk/form/activity.py:176
 msgid "You last edited this document"
-msgstr ""
+msgstr "آخر من حرر هذا المستند هو أنت"
 
 #: frappe/desk/doctype/workspace/workspace.py:724
 msgid ""
 "You need the Workspace Manager role to create a workspace others can see."
-msgstr ""
+msgstr "تحتاج إلى دور مدير مساحة العمل لإنشاء مساحة عمل يمكن للآخرين رؤيتها."
 
 #: frappe/desk/doctype/workspace/workspace.py:1288
 msgid "You need the Workspace Manager role to move this workspace."
-msgstr ""
+msgstr "تحتاج إلى دور مدير مساحة العمل لنقل مساحة العمل هذه."
 
 #: frappe/desk/doctype/dock/dock.py:1191
 msgid "You need to be Workspace Manager to change the dock for everyone."
-msgstr ""
+msgstr "تحتاج إلى دور مدير مساحة العمل لتغيير شريط التطبيقات للجميع."
 
 #: frappe/desk/doctype/custom_sidebar/custom_sidebar.py:533
 msgid "You need to be Workspace Manager to change this for everyone."
-msgstr ""
+msgstr "تحتاج إلى دور مدير مساحة العمل لتغيير هذا الإعداد للجميع."
 
 #: frappe/desk/doctype/dock/dock.py:1334
 msgid "You need to be Workspace Manager to reset the dock for everyone."
-msgstr ""
+msgstr "تحتاج إلى دور مدير مساحة العمل لإعادة تعيين شريط التطبيقات للجميع."
 
 #: frappe/desk/doctype/custom_sidebar/custom_sidebar.py:545
 #: frappe/desk/doctype/custom_sidebar/custom_sidebar.py:567
 msgid "You need to be Workspace Manager to reset this for everyone."
-msgstr ""
+msgstr "تحتاج إلى دور مدير مساحة العمل لإعادة تعيين هذا للجميع."
 
 #: frappe/desk/doctype/dock/dock.py:1259
 msgid "You need to be Workspace Manager to see the dock's site layer."
-msgstr ""
+msgstr "تحتاج إلى دور مدير مساحة العمل لعرض طبقة الموقع لشريط التطبيقات."
 
 #: frappe/desk/doctype/custom_sidebar/custom_sidebar.py:492
 msgid "You need to be Workspace Manager to see the sidebar's site layer."
-msgstr ""
+msgstr "تحتاج إلى دور مدير مساحة العمل لعرض طبقة الموقع للشريط الجانبي."
 
 #: frappe/templates/emails/user_invitation.html:1
 msgid "You're invited to join {0}"
-msgstr ""
+msgstr "إذا لم تكن تتوقع هذه الرسالة، يمكنك تجاهل هذا البريد الإلكتروني بأمان."
 
 #: frappe/public/js/frappe/new_navigation_nudge.js:39
 msgid ""
 "Your desktop now has a second form: modules in a dock, each with a sidebar "
 "of its own, instead of a grid of icons."
-msgstr ""
+msgstr "أصبح لسطح المكتب الآن شكل تنقل ثانٍ: وحدات ضمن شريط تطبيقات، لكل منها شريط جانبي خاص، بدلًا من شبكة الأيقونات."
 
 #: frappe/templates/emails/user_invitation_cancelled.html:1
 msgid "Your invitation has been cancelled"
-msgstr ""
+msgstr "تم إلغاء دعوتك"
 
 #: frappe/templates/emails/user_invitation_expired.html:3
 msgid ""
 "Your invitation to join {0} is no longer valid. Ask your team to send a new "
 "invitation if you'd still like to join."
-msgstr ""
+msgstr "لم تعد دعوتك للانضمام إلى {0} صالحة. اطلب من فريقك إرسال دعوة جديدة إذا كنت لا تزال ترغب في الانضمام."
 
 #: frappe/templates/emails/user_invitation_cancelled.html:3
 msgid ""
 "Your invitation to join {0} was cancelled by the site administrator. If this"
 " was a mistake, reach out to your team to request a new invitation."
-msgstr ""
+msgstr "ألغى مدير الموقع دعوتك للانضمام إلى {0}. إذا حدث ذلك عن طريق الخطأ، فتواصل مع فريقك لطلب دعوة جديدة."
 
 #: frappe/templates/emails/verification_code.html:1
 msgid "Your verification code"
-msgstr ""
+msgstr "رمز التحقق الخاص بك"
 
 #: frappe/core/doctype/file/file.py:763 frappe/core/doctype/file/file.py:781
 msgid "Zip file extracts to more than the maximum allowed size of {0} MB"
-msgstr ""
+msgstr "يتجاوز حجم الملفات بعد فك ضغط أرشيف ZIP الحد الأقصى المسموح به، وهو {0} ميغابايت"
 
 #: frappe/public/js/frappe/ui/sidebar/dock_manager.js:288
 msgid "app ships this off"
-msgstr ""
+msgstr "التطبيق لا يضم هذا افتراضيًا"
 
 #: frappe/printing/doctype/print_format/print_format.py:476
 msgid "applied the builder draft"
-msgstr ""
+msgstr "تم تطبيق مسودة أداة التصميم"
 
 #: frappe/public/js/frappe/widgets/widget_dialog.js:99
 msgid "card"
@@ -42647,7 +42664,7 @@ msgstr "حدث"
 
 #: frappe/public/js/frappe/widgets/widget_dialog.js:102
 msgid "number card"
-msgstr ""
+msgstr "بطاقة رقمية"
 
 #: frappe/public/js/frappe/widgets/widget_dialog.js:100
 msgid "onboarding"
@@ -42658,15 +42675,15 @@ msgid ""
 "pg_stat_statements is enabled in this site's database but not loaded on the "
 "server. A PostgreSQL administrator must add 'pg_stat_statements' to "
 "shared_preload_libraries and restart PostgreSQL."
-msgstr ""
+msgstr "الإضافة pg_stat_statements مفعلة في قاعدة بيانات هذا الموقع، لكنها غير محملة على الخادم. يجب على مسؤول PostgreSQL إضافة 'pg_stat_statements' إلى shared_preload_libraries ثم إعادة تشغيل PostgreSQL."
 
 #: frappe/public/js/frappe/widgets/widget_dialog.js:101
 msgid "quick list"
-msgstr ""
+msgstr "قائمة سريعة"
 
 #: frappe/printing/doctype/print_format/print_format.py:476
 msgid "saved version {0}"
-msgstr ""
+msgstr "الإصدار المحفوظ {0}"
 
 #: frappe/public/js/frappe/widgets/widget_dialog.js:98
 msgid "shortcut"
@@ -42674,15 +42691,15 @@ msgstr "الاختصار"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:104
 msgid "the app"
-msgstr ""
+msgstr "التطبيق"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:227
 msgid "the sidebar generated from this module's contents"
-msgstr ""
+msgstr "الشريط الجانبي المُنشأ من محتويات هذه الوحدة"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:225
 msgid "the site's"
-msgstr ""
+msgstr "ترتيب الموقع"
 
 #: frappe/desk/doctype/dock/dock.py:965
 msgid "title"
@@ -42690,46 +42707,46 @@ msgstr "عنوان"
 
 #: frappe/desk/form/activity.py:96
 msgid "visible_types entries must be strings or {type: [fields]} maps"
-msgstr ""
+msgstr "يجب أن تكون عناصر visible_types سلاسل نصية أو خرائط بالصيغة {type: [fields]}"
 
 #: frappe/desk/form/activity.py:91
 msgid "visible_types fields for {0} must be a list"
-msgstr ""
+msgstr "يجب أن تكون حقول visible_types لـ {0} قائمة"
 
 #: frappe/desk/form/activity.py:77
 msgid "visible_types is not valid JSON: {0}"
-msgstr ""
+msgstr "قيمة visible_types ليست بتنسيق JSON صالح: {0}"
 
 #: frappe/desk/form/activity.py:81
 msgid "visible_types must be a list"
-msgstr ""
+msgstr "يجب أن تكون visible_types قائمة"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:226
 msgid "what the apps ship"
-msgstr ""
+msgstr "ما توفره التطبيقات"
 
 #: frappe/public/js/frappe/widgets/widget_dialog.js:104
 msgid "widget"
-msgstr ""
+msgstr "عنصر واجهة"
 
 #: frappe/automation_engine/schema_relationships.py:220
 msgid "{0} (by {1})"
-msgstr ""
+msgstr "{0} (بواسطة {1})"
 
 #: frappe/desk/doctype/sidebar/sidebar.py:297
 msgid "{0} already answers to the URL {1}, and two shells cannot share one."
-msgstr ""
+msgstr "يرتبط {0} بالفعل بعنوان URL {1}، ولا يمكن لشريطين جانبيين مشاركة العنوان نفسه."
 
 #: frappe/public/js/print_format_builder/utils.js:85
 #: frappe/utils/typst_emitter.py:181
 msgid "{0} and {1} more"
-msgstr ""
+msgstr "{0} و{1} إضافية"
 
 #: frappe/desk/doctype/sidebar/sidebar.py:377
 msgid ""
 "{0} belongs to its app and can only be edited in developer mode. Customize "
 "the sidebar instead to change it for this site."
-msgstr ""
+msgstr "ينتمي {0} إلى تطبيقه ولا يمكن تعديله إلا في وضع المطور. خصّص الشريط الجانبي بدلًا من ذلك لتغييره لهذا الموقع."
 
 #: frappe/desk/form/activity.py:483
 msgid "{0} changed {1} to {2}"
@@ -42737,117 +42754,117 @@ msgstr "{0} غيّر {1} إلى {2}"
 
 #: frappe/automation/doctype/automation_flow/automation_flow.py:156
 msgid "{0} does not support {1} triggers"
-msgstr ""
+msgstr "لا يدعم {0} مشغلات {1}"
 
 #: frappe/core/doctype/installed_applications/installed_applications.js:82
 msgid "{0} has been disabled"
-msgstr ""
+msgstr "تم تعطيل {0}"
 
 #: frappe/core/doctype/installed_applications/installed_applications.js:98
 msgid "{0} has been enabled"
-msgstr ""
+msgstr "تم تفعيل {0}"
 
 #: frappe/printing/doctype/print_format/print_format.py:434
 msgid ""
 "{0} has changed since you opened it. Refresh to get the latest version."
-msgstr ""
+msgstr "تغير {0} منذ فتحه. حدّث الصفحة للحصول على أحدث إصدار."
 
 #: frappe/templates/emails/user_invitation.html:3
 msgid "{0} has invited you to join {1}."
-msgstr ""
+msgstr "دعاك {0} للانضمام إلى {1}."
 
 #: frappe/automation_engine/actions/core.py:70
 msgid "{0} has no field {1}"
-msgstr ""
+msgstr "لا يحتوي {0} على الحقل {1}"
 
 #: frappe/custom/__init__.py:55
 msgid "{0} has no is_app_disabled column. Run bench migrate first."
-msgstr ""
+msgstr "لا يحتوي {0} على العمود is_app_disabled. شغّل bench migrate أولًا."
 
 #: frappe/model/delete_doc.py:102
 msgid "{0} is a Virtual DocType and must implement its own delete() method."
-msgstr ""
+msgstr "{0} نوع مستند افتراضي، ويجب أن ينفذ دالة الحذف delete() الخاصة به."
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:439
 msgid "{0} is already on the sidebar"
-msgstr ""
+msgstr "{0} موجود بالفعل في الشريط الجانبي"
 
 #: frappe/desk/doctype/workspace_sidebar/workspace_sidebar.py:61
 msgid ""
 "{0} is an archive of the previous navigation and can no longer be edited. "
 "Customize the module's sidebar instead."
-msgstr ""
+msgstr "{0} أرشيف لنظام التنقل السابق ولا يمكن تعديله بعد الآن. خصّص الشريط الجانبي للوحدة بدلًا من ذلك."
 
 #: frappe/desk/doctype/sidebar/sidebar.py:234
 msgid ""
 "{0} is another module's name, and a sidebar's title is what the desk calls "
 "it by."
-msgstr ""
+msgstr "اسم {0} هو اسم وحدة أخرى، وعنوان الشريط الجانبي هو الاسم الذي يظهر به في سطح المكتب."
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:212
 msgid "{0} is back to standard"
-msgstr ""
+msgstr "عاد {0} إلى الإعداد القياسي"
 
 #: frappe/public/js/print_format_builder/components/letterhead/LetterHeadZoneEditor.vue:43
 msgid "{0} is empty — click to add"
-msgstr ""
+msgstr "{0} فارغ — انقر للإضافة"
 
 #: frappe/desk/doctype/sidebar/sidebar.py:682
 msgid ""
 "{0} is no longer a sidebar of {1}. Reopen the one you meant to arrange."
-msgstr ""
+msgstr "لم يعد {0} شريطًا جانبيًا للوحدة {1}. أعد فتح الشريط الذي كنت تقصد ترتيبه."
 
 #: frappe/desk/doctype/sidebar/sidebar.py:630
 msgid "{0} is no longer standard; its exported file has been removed."
-msgstr ""
+msgstr "لم يعد {0} قياسيًا؛ أُزيل ملفه المُصدّر."
 
 #: frappe/custom/__init__.py:51
 msgid "{0} is not a customization doctype."
-msgstr ""
+msgstr "{0} ليس نوع مستند للتخصيصات."
 
 #: frappe/desk/doctype/workspace/workspace.py:1273
 msgid "{0} is not a module you can assign a workspace to."
-msgstr ""
+msgstr "{0} ليست وحدة يمكن تعيين مساحة عمل لها."
 
 #: frappe/desk/doctype/custom_sidebar/custom_sidebar.py:271
 msgid "{0} is not a module."
-msgstr ""
+msgstr "{0} ليست وحدة."
 
 #: frappe/desk/doctype/sidebar/sidebar.py:991
 msgid ""
 "{0} is not a path inside a page. Give a relative path, with no query or "
 "fragment."
-msgstr ""
+msgstr "{0} ليس مسارًا داخل صفحة. أدخل مسارًا نسبيًا دون استعلام أو جزء إضافي."
 
 #: frappe/printing/doctype/print_format/print_format.py:260
 msgid "{0} is not a valid condition: {1}"
-msgstr ""
+msgstr "{0} ليس شرطًا صالحًا: {1}"
 
 #: frappe/desk/doctype/dock/dock.py:1238
 msgid "{0} is not an app on this site."
-msgstr ""
+msgstr "{0} ليس تطبيقًا على هذا الموقع."
 
 #: frappe/desk/query_report.py:76
 msgid "{0} is not an enabled Print Format for a Report"
-msgstr ""
+msgstr "تنسيق الطباعة {0} غير مفعّل لهذا التقرير"
 
 #: frappe/desk/doctype/sidebar/sidebar.py:578
 msgid "{0} is now standard and exported to {1}."
-msgstr ""
+msgstr "أصبح {0} قياسيًا وتم تصديره إلى {1}."
 
 #: frappe/printing/page/print_format_builder/print_format_builder.js:127
 msgid "{0} is rendered from an HTML file and cannot be edited in the builder."
-msgstr ""
+msgstr "يُعرض {0} من ملف HTML ولا يمكن تحريره في أداة التصميم."
 
 #: frappe/printing/doctype/print_format/print_format.py:394
 msgid ""
 "{0} is rendered from an HTML file, so this format starts from the standard "
 "layout"
-msgstr ""
+msgstr "يُعرض {0} من ملف HTML، لذا يبدأ هذا التنسيق من التخطيط القياسي"
 
 #: frappe/desk/form/activity.py:177
 msgid "{0} last edited this document"
-msgstr ""
+msgstr "آخر من حرر هذا المستند هو {0}"
 
 #: frappe/public/js/frappe/views/calendar/calendar.js:530
 msgid "{0} missing"
@@ -42855,123 +42872,123 @@ msgstr "{0} مفقود"
 
 #: frappe/desk/doctype/sidebar/sidebar.py:1322
 msgid "{0} more not shown"
-msgstr ""
+msgstr "يوجد {0} أخرى غير معروضة"
 
 #: frappe/public/js/frappe/views/treeview.js:693
 msgid "{0} moved under {1}"
-msgstr ""
+msgstr "تم نقل {0} تحت {1}"
 
 #: frappe/automation_engine/actions/core.py:561
 msgid "{0} must be a JSON object"
-msgstr ""
+msgstr "يجب أن يكون {0} كائن JSON"
 
 #: frappe/custom/__init__.py:60
 msgid "{0} must be a doctype name in a {1} filter."
-msgstr ""
+msgstr "يجب أن يكون {0} اسم نوع مستند في عامل التصفية {1}."
 
 #: frappe/printing/doctype/print_format/print_format.py:507
 msgid "{0} must be text"
-msgstr ""
+msgstr "يجب أن يكون {0} نصًا"
 
 #: frappe/desk/doctype/dock/dock.py:474
 msgid "{0} now has no rail; its exported dock has been removed."
-msgstr ""
+msgstr "لم يعد لدى {0} شريط تطبيقات؛ أُزيل شريطه المُصدّر."
 
 #: frappe/public/js/frappe/ui/sidebar/dock_manager.js:278
 msgid "{0} of this app's modules are on no tier at all"
-msgstr ""
+msgstr "لم يُدرج {0} من وحدات هذا التطبيق في أي مستوى"
 
 #: frappe/automation/doctype/automation_flow/automation_flow.py:154
 msgid "{0} requires a Document Type"
-msgstr ""
+msgstr "يتطلب {0} تحديد نوع مستند"
 
 #: frappe/automation_engine/actions/core.py:32
 msgid "{0} requires a target document"
-msgstr ""
+msgstr "يتطلب {0} تحديد مستند هدف"
 
 #: frappe/public/js/frappe/ui/awesomplete.js:14
 msgid "{0} results found"
-msgstr ""
+msgstr "تم العثور على {0} نتيجة"
 
 #: frappe/desk/doctype/dock/dock.py:1280
 msgid "{0} ships no dock yet. Export one to the app first."
-msgstr ""
+msgstr "لم يُصدّر {0} شريط تطبيقات بعد. صدّر شريطًا إلى التطبيق أولًا."
 
 #: frappe/automation/doctype/automation_flow/automation_flow.py:190
 msgid "{0} trigger requires a Document Type"
-msgstr ""
+msgstr "يتطلب المشغّل {0} تحديد نوع مستند"
 
 #: frappe/public/js/frappe/utils/address_and_contact.js:278
 msgid "{0} unlinked"
-msgstr ""
+msgstr "تم إلغاء ربط {0}"
 
 #: frappe/public/js/frappe/ui/sidebar/sidebar_manager.js:442
 msgid "{0} was hidden, and is back on the sidebar"
-msgstr ""
+msgstr "أُظهر {0} مجددًا وأُعيد إلى الشريط الجانبي"
 
 #: frappe/public/js/frappe/views/workspace/workspace.js:700
 msgid ""
 "{0} workspace(s) have no module, so nothing can navigate to them. Give each "
 "one a module below."
-msgstr ""
+msgstr "لا تتبع {0} من مساحات العمل أي وحدة، لذا لا توجد طريقة للتنقل إليها. عيّن لكل منها وحدة أدناه."
 
 #: frappe/public/js/frappe/views/workspace/workspace.js:709
 msgid "{0} workspace(s) in this module, which this site owns."
-msgstr ""
+msgstr "تتبع {0} من مساحات العمل في هذه الوحدة الموقع."
 
 #: frappe/public/js/frappe/views/workspace/workspace.js:707
 msgid "{0} workspace(s) in this module, which {1} ships."
-msgstr ""
+msgstr "تتبع {0} من مساحات العمل في هذه الوحدة التطبيق {1}."
 
 #: frappe/public/js/frappe/views/workspace/workspace.js:695
 msgid ""
 "{0} workspace(s) name the module {1}, which doesn't exist on this site — "
 "nothing can navigate to them. Give each one a module below."
-msgstr ""
+msgstr "تحدد {0} من مساحات العمل الوحدة {1}، وهي غير موجودة على هذا الموقع، لذا لا توجد طريقة للتنقل إليها. عيّن لكل منها وحدة أدناه."
 
 #: frappe/public/js/frappe/form/form.js:1402
 msgid "{0} {1} is linked with the following documents: {2}"
-msgstr ""
+msgstr "المستند {0} {1} مرتبط بالمستندات التالية: {2}"
 
 #: frappe/public/js/frappe/form/form.js:1355
 msgid ""
 "{0} {1} is linked with too many documents to list. Delete all of them in the"
 " background along with {1}? You will be notified when it completes."
-msgstr ""
+msgstr "المستند {0} {1} مرتبط بعدد كبير جدًا من المستندات لعرضها. هل تريد حذفها كلها في الخلفية مع {1}؟ سيصلك إشعار عند اكتمال العملية."
 
 #: frappe/public/js/frappe/form/form.js:1123
 msgid ""
 "{0} {1} is linked with too many submitted documents to list. Cancel all of "
 "them in the background along with {1}? You will be notified when it "
 "completes."
-msgstr ""
+msgstr "المستند {0} {1} مرتبط بعدد كبير جدًا من المستندات المعتمدة لعرضها. هل تريد إلغاءها كلها في الخلفية مع {1}؟ سيصلك إشعار عند اكتمال العملية."
 
 #: frappe/automation_engine/actions/core.py:389
 msgid "{0} {1} returned {2}"
-msgstr ""
+msgstr "أعاد {0} {1} القيمة {2}"
 
 #: frappe/automation_engine/actions/core.py:386
 msgid "{0} {1} returned {2}: {3}"
-msgstr ""
+msgstr "أعاد {0} {1} القيمة {2}: {3}"
 
 #: frappe/desk/doctype/dock/dock.py:184
 msgid ""
 "{0}'s dock belongs to its app and can only be authored in developer mode. "
 "Arrange the dock instead to change it for this site."
-msgstr ""
+msgstr "يتبع شريط تطبيقات {0} التطبيق ولا يمكن تعديله إلا في وضع المطور. رتّب شريط التطبيقات لتغييره لهذا الموقع."
 
 #: frappe/desk/doctype/dock/dock.py:436
 msgid "{0}'s dock is now standard and exported to the app."
-msgstr ""
+msgstr "أصبح شريط تطبيقات {0} قياسيًا وتم تصديره إلى التطبيق."
 
 #: frappe/core/doctype/role/role.js:368
 msgid "{0}'s roles come from the Role Profile {1}. Edit that to change this."
-msgstr ""
+msgstr "تُحدد أدوار {0} بواسطة ملف الأدوار {1}. عدّل الملف لتغييرها."
 
 #: frappe/public/js/frappe/ui/awesomplete.js:22
 msgid "{0}, list item {1} of {2}"
-msgstr ""
+msgstr "{0}، عنصر القائمة {1} من {2}"
 
 #: frappe/core/doctype/page/page.py:100
 msgid "{0}.js will no longer run. A Frappe UI page is drawn by its island."
-msgstr ""
+msgstr "سيتوقف تشغيل {0}.js. تُعرض صفحة Frappe UI بواسطة مكوّن الجزيرة الخاص بها (island)."

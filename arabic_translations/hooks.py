@@ -1,8 +1,8 @@
 app_name = "arabic_translations"
 app_title = "Arabic Translations"
-app_publisher = "ibrahim317"
-app_description = "Arabic Translations for Frappe, ERPNext, HRMS, CRM, and POS Awesome"
-app_email = "i.aboelsoud21@gmail.com"
+app_publisher = "Mohanad Najeeb"
+app_description = "Arabic Translations for Frappe, ERPNext, HRMS and CRM"
+app_email = "mohanad.najeeb@sdsys.net"
 app_license = "mit"
 
 # Apps

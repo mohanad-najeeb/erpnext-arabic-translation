@@ -43,7 +43,7 @@ def copy_locale_files(apps: list[str] | None = None) -> None:
 	Otherwise, detect installed apps on the current site.
 	"""
 	major = _get_frappe_major_version()
-	if major not in (15, 16):
+	if major != 16:
 		_LOGGER.warning("Unsupported Frappe version %s; skipping Arabic locale copy", major)
 		return
 

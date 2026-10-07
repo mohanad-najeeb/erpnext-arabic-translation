@@ -1,33 +1,45 @@
-### Arabic Translations
+# Arabic Translations
 
-Arabic Translations for Frappe, ERPNext, HRMS, CRM, and POS Awesome
+Arabic Translations for Frappe, ERPNext, HRMS and CRM
 
-### What it does
+Arabic translations for Frappe, ERPNext, HRMS, and CRM.
 
-- Provides Arabic translations for Frappe, ERPNext, HRMS, CRM, and POS Awesome.
-- On install, auto-detects the Frappe major version (v15 or v16) and copies the matching Arabic locale bundle for each installed app from `arabic_translations/locale/other-apps/{version}` into the app’s `locale/` or `translations/` folder (`ar.po` or `ar.csv`). Existing files are overwritten to ensure fresh strings. Copied v16 PO files are compiled to MO catalogs so Frappe loads the updated translations without an asset rebuild.
+## Supported version
 
-### Installation
+This project currently supports **Frappe Framework v16**. Its Arabic catalogs are
+maintained for v16 and are not intended for v15 or other major versions. Use
+compatible v16 releases of ERPNext, HRMS, and CRM with these translations.
 
-You can install this app using the [bench](https://github.com/frappe/bench) CLI:
+## What it does
+
+The app copies the bundled Arabic catalogs for Frappe, ERPNext, HRMS, and CRM
+into the matching installed apps. It reapplies them during installation and
+after app installs or migrations, so updates do not remove the translations.
+Frappe v16 catalogs use `.po` files; the app compiles copied catalogs to `.mo`
+files so Frappe can load them without rebuilding assets.
+
+## Installation
+
+From your bench directory, install the app and then add it to your site:
 
 ```bash
-cd $PATH_TO_YOUR_BENCH
-bench get-app https://github.com/ibrahim317/erpnext-arabic-full-translation 
-bench install-app arabic_translations
+cd "$PATH_TO_YOUR_BENCH"
+bench get-app https://github.com/mohanad-najeeb/erpnext-arabic-translation
+bench --site <site-name> install-app arabic_translations
 ```
 
-### Docker / Production Deployment
+## Docker / production deployment
 
-If you are using Docker or deploying in a production environment where frontend assets are pre-compiled:
+For Docker or production deployments that build frontend assets into the image,
+copy the translations before running `bench build`. The app's installation
+hooks run at site/runtime installation, while assets are compiled during the
+image build.
 
-Standard installation hooks only run when installing the app on a site (runtime). However, frontend assets (JS/CSS) are compiled during the image build process. To ensure translations are applied to these assets, you must copy the translation files *before* building the assets.
-
-Add the following step to your custom Dockerfile after installing apps but before running `bench build`:
+Run the translation command after installing the apps and before building assets:
 
 ```dockerfile
 # Install the app
-RUN bench get-app https://github.com/ibrahim317/erpnext-arabic-full-translation
+RUN bench get-app https://github.com/mohanad-najeeb/erpnext-arabic-translation
 
 # Copy translation files for all apps in the environment
 RUN bench install-arabic-translations
@@ -36,7 +48,7 @@ RUN bench install-arabic-translations
 RUN bench build
 ```
 
-### Contributing
+## Contributing
 
 This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
 
@@ -52,6 +64,26 @@ Pre-commit is configured to use the following tools for checking and formatting 
 - prettier
 - pyupgrade
 
-### License
+## Checking for empty v16 translations
+
+Install the locale tooling and run the read-only checker from the repository root:
+
+```bash
+python -m pip install -e ".[locale]"
+python scripts/check_empty_translations.py
+```
+
+The checker recursively scans PO catalogs in `arabic_translations/locale/other-apps/v16`
+and reports the catalog path, entry line number, source text, context (when present),
+and empty translation fields, followed by per-file and overall counts. It parses
+multiline strings correctly, treats whitespace-only translations as empty, checks
+each existing plural translation field, and skips metadata headers and obsolete entries.
+It does not modify translation files.
+
+Use `--target-dir PATH` to scan a different directory. Exit codes are `0` when no
+empty translations are found, `1` when any are found, and `2` for errors (including
+missing directories, no PO catalogs, or unreadable/malformed catalogs).
+
+## License
 
 mit

@@ -31,7 +31,7 @@ Follow these steps carefully:
     You can either clone this repository or download the `.po` files directly.
 
     ```bash
-    git clone https://github.com/ibrahim317/erpnext-arabic-full-translation
+    git clone https://github.com/mohanad-najeeb/erpnext-arabic-translation
     ```
 
 2.  **Locate your Frappe and ERPNext app directories:**

@@ -1384,7 +1384,7 @@ msgstr "تفاصيل واجهة برمجة التطبيقات (API)"
 #. Label of a Workspace Sidebar Item
 #: erpnext/workspace_sidebar/financial_reports.json
 msgid "AR Summary"
-msgstr "ملخص الواقع المعزز"
+msgstr "ملخص الحسابات المدينة"
 
 #. Label of the awb_number (Data) field in DocType 'Shipment'
 #: erpnext/stock/doctype/shipment/shipment.json
@@ -1408,7 +1408,7 @@ msgstr "اسم مختصر"
 
 #: erpnext/setup/doctype/company/company.py:351
 msgid "Abbreviation already used for another company"
-msgstr "الاختصار مستخدم بالفعل لـ الشركة آخر"
+msgstr "الاختصار مستخدم بالفعل لشركة أخرى"
 
 #: erpnext/setup/doctype/company/company.py:348
 msgid "Abbreviation is mandatory"
@@ -1466,7 +1466,7 @@ msgstr "قيمة معايير القبول"
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 msgid "Accepted Qty"
-msgstr "الكمية المطلوبة"
+msgstr "الكمية المقبولة"
 
 #. Label of the stock_qty (Float) field in DocType 'Purchase Invoice Item'
 #. Label of the stock_qty (Float) field in DocType 'Purchase Receipt Item'
@@ -1479,7 +1479,7 @@ msgstr "الكمية المقبولة بوحدة قياس المخزون"
 #: erpnext/public/js/controllers/transaction.js:2955
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 msgid "Accepted Quantity"
-msgstr "كمية مقبولة"
+msgstr "الكمية المقبولة"
 
 #. Label of the warehouse (Link) field in DocType 'Purchase Invoice Item'
 #. Label of the set_warehouse (Link) field in DocType 'Purchase Receipt'
@@ -1492,11 +1492,11 @@ msgstr "كمية مقبولة"
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 msgid "Accepted Warehouse"
-msgstr "مستودع مقبول"
+msgstr "مستودع الأصناف المقبولة"
 
 #: banking/src/components/features/BankReconciliation/TransferModalContent.tsx:485
 msgid "Accepting the suggestion will reconcile both transactions."
-msgstr "سيؤدي قبول الاقتراح إلى التوفيق بين كلا المعاملتين."
+msgstr "سيؤدي قبول الاقتراح إلى تسوية المعاملتين."
 
 #. Label of the access_key (Data) field in DocType 'Currency Exchange Settings'
 #: erpnext/accounts/doctype/currency_exchange_settings/currency_exchange_settings.json
@@ -1526,13 +1526,13 @@ msgstr "وفقًا لقائمة المواد {0}، الصنف '{1}' مفقود �
 #: erpnext/buying/doctype/supplier/supplier.json
 msgid "Account / customer numbers assigned to your companies by this supplier (for reconciliation on their statements)"
 msgstr ""
-"الحساب / العميل الأرقام المخصصة لشركاتكم من قبل هذا المورد (للتسوية على "
-"كشوفاتهم)"
+"أرقام الحسابات / العملاء التي يخصصها هذا المورد لشركاتكم (للمطابقة مع "
+"كشوف حساباته)"
 
 #. Name of a report
 #: erpnext/accounts/report/account_balance/account_balance.json
 msgid "Account Balance"
-msgstr "رصيد حسابك"
+msgstr "رصيد الحساب"
 
 #. Label of the account_category (Link) field in DocType 'Account'
 #. Name of a DocType
@@ -1609,7 +1609,7 @@ msgstr "بيانات الحسابات"
 #: erpnext/accounts/report/custom_financial_statement/custom_financial_statement.js:21
 #: erpnext/accounts/report/profit_and_loss_statement/profit_and_loss_statement.js:27
 msgid "Account Detail Level"
-msgstr "تفاصيل الحساب"
+msgstr "مستوى تفصيل الحسابات"
 
 #. Label of the account_details_section (Section Break) field in DocType 'Bank
 #. Account'
@@ -1634,12 +1634,12 @@ msgstr "تفاصيل الحساب"
 #: erpnext/accounts/doctype/purchase_taxes_and_charges/purchase_taxes_and_charges.json
 #: erpnext/accounts/doctype/sales_taxes_and_charges/sales_taxes_and_charges.json
 msgid "Account Head"
-msgstr "رئيس حساب"
+msgstr "الحساب المحاسبي"
 
 #. Label of the account_manager (Link) field in DocType 'Customer'
 #: erpnext/selling/doctype/customer/customer.json
 msgid "Account Manager"
-msgstr "إدارة حساب المستخدم"
+msgstr "مدير حساب العميل"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:760
 #: erpnext/controllers/accounts_controller.py:1236
@@ -1686,12 +1686,12 @@ msgstr "رصيد افتتاح الحساب"
 #. Label of the paid_from (Link) field in DocType 'Payment Entry'
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 msgid "Account Paid From"
-msgstr "حساب مدفوع من"
+msgstr "الحساب المدفوع منه"
 
 #. Label of the paid_to (Link) field in DocType 'Payment Entry'
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
 msgid "Account Paid To"
-msgstr "حساب مدفوع ل"
+msgstr "الحساب المدفوع إليه"
 
 #: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.py:120
 msgid "Account Pay Only"
@@ -1731,17 +1731,17 @@ msgstr "قيمة الحساب"
 #: erpnext/accounts/doctype/account/account.py:363
 msgid "Account balance already in Credit, you are not allowed to set 'Balance Must Be' as 'Debit'"
 msgstr ""
-"الحساب الرصيد موجود بالفعل في الائتمان، لا يُسمح لك بتعيين \"الرصيد يجب "
-"أن يكون\" كـ \"دين\""
+"رصيد الحساب دائن بالفعل، لذا لا يمكنك تعيين \"الرصيد يجب أن يكون\" "
+"على \"مدين\""
 
 #: erpnext/accounts/doctype/account/account.py:357
 msgid "Account balance already in Debit, you are not allowed to set 'Balance Must Be' as 'Credit'"
-msgstr "رصيد الحساب رصيد مدين، لا يسمح لك بتغييره 'الرصيد يجب أن يكون دائن'"
+msgstr "رصيد الحساب مدين بالفعل، لذا لا يمكنك تعيين 'الرصيد يجب أن يكون' على 'دائن'"
 
 #: erpnext/accounts/doctype/bank_transaction_rule/bank_transaction_rule.py:148
 #: erpnext/accounts/doctype/bank_transaction_rule/bank_transaction_rule.py:154
 msgid "Account company does not match with the rule company."
-msgstr "الحساب الشركة لا يتطابق مع القاعدة الشركة."
+msgstr "الشركة المرتبطة بالحساب لا تطابق الشركة المحددة في القاعدة."
 
 #: erpnext/accounts/dashboard_chart_source/account_balance_timeline/account_balance_timeline.py:47
 msgid "Account filter not set!"
@@ -1755,11 +1755,11 @@ msgstr "الحساب لم يتم ضبط الفلتر!"
 #: erpnext/accounts/doctype/pos_profile/pos_profile.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 msgid "Account for Change Amount"
-msgstr "حساب لتغيير المبلغ"
+msgstr "حساب المبلغ المتبقي المعاد للعميل"
 
 #: erpnext/accounts/doctype/budget/budget.py:153
 msgid "Account is mandatory"
-msgstr "الكمية الفعلية هي إلزامية"
+msgstr "الحساب إلزامي"
 
 #: erpnext/accounts/doctype/bank_clearance/bank_clearance.py:48
 msgid "Account is mandatory to get payment entries"
@@ -1818,7 +1818,7 @@ msgstr "لا يمكن تحويل حساب جرت عليه أي عملية إلى
 
 #: erpnext/accounts/doctype/account/account.py:498
 msgid "Account with existing transaction can not be deleted"
-msgstr "الحساب لا يمكن حذف المعاملة الحالية"
+msgstr "لا يمكن حذف حساب توجد عليه معاملات"
 
 #: erpnext/accounts/doctype/account/account.py:308
 #: erpnext/accounts/doctype/account/account.py:464
@@ -1895,7 +1895,7 @@ msgstr "الحساب {0}: الحساب الرئيسي {1} لا ينتمي إلى
 
 #: erpnext/accounts/doctype/account/account.py:148
 msgid "Account {0}: Parent account {1} does not exist"
-msgstr "الحساب {0}: الحسابه الأب {1} غير موجود"
+msgstr "الحساب {0}: الحساب الرئيسي {1} غير موجود"
 
 #: erpnext/accounts/doctype/account/account.py:151
 msgid "Account {0}: You can not assign itself as parent account"
@@ -2022,7 +2022,7 @@ msgstr "البعد المحاسبي <b>{0}</b> مطلوب لحساب &quot;ال�
 #. Name of a DocType
 #: erpnext/accounts/doctype/accounting_dimension_detail/accounting_dimension_detail.json
 msgid "Accounting Dimension Detail"
-msgstr "البعد المحاسبي التفاصيل"
+msgstr "تفاصيل البعد المحاسبي"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/accounting_dimension_filter/accounting_dimension_filter.json
@@ -2191,7 +2191,7 @@ msgstr "فلتر الأبعاد المحاسبية"
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
 #: erpnext/accounts/doctype/journal_entry_template/journal_entry_template.json
 msgid "Accounting Entries"
-msgstr "القيود المحاسبة"
+msgstr "القيود المحاسبية"
 
 #: erpnext/assets/doctype/asset/asset.py:953
 #: erpnext/assets/doctype/asset/asset.py:968
@@ -2248,7 +2248,7 @@ msgstr "الإدخال المحاسبي لـ {0}: {1} لا يمكن إجراؤه
 #: erpnext/selling/doctype/customer/customer.js:182
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.js:51
 msgid "Accounting Ledger"
-msgstr "موازنة دفتر الأستاذ"
+msgstr "دفتر الأستاذ المحاسبي"
 
 #. Label of a Card Break in the Invoicing Workspace
 #: erpnext/accounts/workspace/invoicing/invoicing.json
@@ -2453,7 +2453,7 @@ msgstr "الحسابات المراد دمجها"
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:162
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:270
 msgid "Accrued Expenses"
-msgstr "المصروف الفعلي"
+msgstr "المصروفات المستحقة"
 
 #. Option for the 'Account Type' (Select) field in DocType 'Account'
 #: erpnext/accounts/doctype/account/account.json
@@ -2734,7 +2734,7 @@ msgstr "تاريخ التسليم الفعلي"
 #. Production Schedule'
 #: erpnext/manufacturing/doctype/master_production_schedule/master_production_schedule.json
 msgid "Actual Demand"
-msgstr "التاريخ الفعلي"
+msgstr "الطلب الفعلي"
 
 #. Label of the actual_end_date (Datetime) field in DocType 'Job Card'
 #. Label of the actual_end_date (Datetime) field in DocType 'Work Order'
@@ -66328,3 +66328,3034 @@ msgstr "المواد المطلوب تحويلها"
 
 msgid "Items To Be Received"
 msgstr "الأصناف المطلوب استلامها"
+
+#. Label of the cost_allocation_per (Percent) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "% Cost allocation for Finished Good"
+msgstr "٪ تخصيص التكلفة للمنتج النهائي"
+
+#. Label of the process_loss_percentage (Percent) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "% Process loss"
+msgstr "٪ فاقد التصنيع"
+
+#. Option for the 'Valuation Type' (Select) field in DocType 'BOM Secondary
+#. Item'
+#. Option for the 'Valuation Type' (Select) field in DocType 'Stock Entry
+#. Detail'
+#. Option for the 'Valuation Type' (Select) field in DocType 'Subcontracting
+#. Receipt Item'
+#: erpnext/manufacturing/doctype/bom_secondary_item/bom_secondary_item.json
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+#, python-format
+msgid "% of Component Cost"
+msgstr "٪ من تكلفة المكونات"
+
+#: erpnext/manufacturing/doctype/bom/bom.py:767
+msgid ""
+"'Set Component Quantities Based On Percentage' cannot be used together with "
+"'Track Semi Finished Goods', as the component rows are derived from the "
+"operation BOMs."
+msgstr ""
+"لا يمكن استخدام 'تحديد كميات المكونات بناءً على النسبة المئوية' مع "
+"'تتبع المنتجات نصف المصنعة'، لأن صفوف المكونات تُستمد من قوائم مواد "
+"العمليات."
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:181
+msgid "'{0}' is a reserved name and cannot be used as a line reference"
+msgstr "'{0}' اسم محجوز ولا يمكن استخدامه كمرجع لسطر التقرير"
+
+#: erpnext/public/js/utils/serial_no_batch_selector.js:691
+msgid ""
+"<strong>Total qty</strong> of the rows (<strong>{0}</strong>) does not match"
+" the <strong>Qty to Fetch</strong> (<strong>{1}</strong>). Qty of the item "
+"will be changed to <strong>{0}</strong>. Are you sure want to proceed?"
+msgstr ""
+"<strong>إجمالي كمية</strong> الصفوف (<strong>{0}</strong>) لا يطابق "
+"<strong>الكمية المطلوب جلبها</strong> (<strong>{1}</strong>). ستُغير كمية "
+"الصنف إلى <strong>{0}</strong>. هل أنت متأكد من رغبتك في المتابعة؟"
+
+#: erpnext/stock/doctype/stock_entry/services/manufacturing.py:1074
+msgid ""
+"A finished good conversion entry must consume the production item {0} of the"
+" Work Order {1}."
+msgstr ""
+"يجب أن يستهلك قيد تحويل المنتج النهائي صنف الإنتاج {0} المحدد في أمر "
+"العمل {1}."
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:334
+msgid "A finished good conversion entry must have the purpose 'Repack'."
+msgstr "يجب أن يكون الغرض من قيد تحويل المنتج النهائي 'إعادة التعبئة'."
+
+#: erpnext/selling/doctype/quotation/quotation.py:220
+msgid "A revision must be for the same {0} as Quotation {1}."
+msgstr "يجب أن تكون النسخة المعدلة لنفس {0} المحدد في عرض السعر {1}."
+
+#: erpnext/selling/doctype/quotation/quotation.py:215
+msgid "A revision must have the same company as Quotation {0}."
+msgstr "يجب أن تكون النسخة المعدلة للشركة نفسها المحددة في عرض السعر {0}."
+
+#. Description of the 'Do not explode' (Check) field in DocType 'BOM Item'
+#: erpnext/manufacturing/doctype/bom_item/bom_item.json
+msgid ""
+"A sub-assembly is a component with its own BOM. By default it's broken down "
+"into its own raw materials; enable this to keep it as a single finished "
+"part."
+msgstr ""
+"التجميع الفرعي مكون له قائمة مواد خاصة به. يُفصل افتراضيًا إلى مواده "
+"الخام؛ فعّل هذا الخيار للإبقاء عليه كجزء مصنع واحد."
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_template.js:294
+#: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:49
+msgid "API Method Path"
+msgstr "مسار دالة واجهة برمجة التطبيقات"
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_template.js:293
+#: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:48
+msgid "Account Filter"
+msgstr "عامل تصفية الحسابات"
+
+#: erpnext/stock/doctype/warehouse/warehouse.py:83
+msgid "Account {0} does not belong to Company {1}"
+msgstr "الحساب {0} لا ينتمي إلى الشركة {1}"
+
+#. Label of the accounts_receivable_payable_tuning_section (Section Break)
+#. field in DocType 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Accounts Receivable / Payable Report"
+msgstr "تقرير الحسابات المدينة / الدائنة"
+
+#: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.py:506
+msgid ""
+"Accounts cannot be removed, as user doesn't have access to all the accounts "
+"of {0}"
+msgstr ""
+"لا يمكن إزالة الحسابات لأن المستخدم لا يملك صلاحية الوصول إلى جميع "
+"حسابات {0}"
+
+#. Label of a number card in the ERPNext Settings Workspace
+#: erpnext/setup/workspace/erpnext_settings/erpnext_settings.json
+msgid "Active Customers"
+msgstr "العملاء النشطون"
+
+#. Label of a number card in the ERPNext Settings Workspace
+#: erpnext/setup/workspace/erpnext_settings/erpnext_settings.json
+msgid "Active Suppliers"
+msgstr "الموردون النشطون"
+
+#: erpnext/manufacturing/report/work_order_summary/work_order_summary.py:272
+msgid "Actual Finished Goods"
+msgstr "المنتجات النهائية الفعلية"
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:378
+msgid "Actual Finished Item"
+msgstr "الصنف النهائي الفعلي"
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:1287
+msgid "Actual quantity of the finished good that will be manufactured."
+msgstr "الكمية الفعلية من المنتج النهائي التي ستُصنع."
+
+#: erpnext/accounts/doctype/account/account_tree.js:271
+msgid "Add Account"
+msgstr "إضافة حساب"
+
+#: erpnext/stock/doctype/item/item.js:884
+msgid "Add Price"
+msgstr "أضف السعر"
+
+#: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:130
+msgid "Add Raw Material"
+msgstr "إضافة مادة خام"
+
+#: erpnext/stock/doctype/pick_list/pick_list.js:348
+msgid "Add items with a warehouse in the Item Locations table"
+msgstr "أضف أصنافًا مع تحديد مستودع لكل منها في جدول مواقع الأصناف"
+
+#: erpnext/manufacturing/doctype/work_order/mapper.py:662
+#: erpnext/manufacturing/doctype/work_order/work_order.js:1348
+#: erpnext/manufacturing/doctype/work_order/work_order.js:1368
+msgid "All required items have already been transferred, requested or picked."
+msgstr "تم بالفعل نقل جميع الأصناف المطلوبة أو طلبها أو انتقاؤها."
+
+#. Label of the allow_alternative_finished_goods (Check) field in DocType
+#. 'Manufacturing Settings'
+#: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
+msgid "Allow Alternative Finished Goods"
+msgstr "السماح بمنتجات نهائية بديلة"
+
+#. Label of the allow_alternative_item (Check) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Allow alternative raw material"
+msgstr "السماح بمواد خام بديلة"
+
+#. Description of the 'Allow Alternative Item' (Check) field in DocType 'BOM
+#. Item'
+#: erpnext/manufacturing/doctype/bom_item/bom_item.json
+msgid ""
+"Allow this component to be swapped for a defined alternative during "
+"production. Copied from the item's setting, works only when the BOM's "
+"\"Allow alternative raw materials\" is on."
+msgstr ""
+"السماح باستبدال هذا المكون ببديل محدد أثناء الإنتاج. يُنسخ هذا الخيار "
+"من إعدادات الصنف، ولا يعمل إلا عند تفعيل \"السماح بمواد خام بديلة\" "
+"في قائمة المواد."
+
+#: erpnext/accounts/bulk_payment.py:94
+msgid "Already Paid"
+msgstr "مدفوع بالفعل"
+
+#. Label of a number card in the Buying Workspace
+#. Label of a number card in the Home Workspace
+#: erpnext/buying/workspace/buying/buying.json
+#: erpnext/setup/workspace/home/home.json
+msgid "Annual Purchase"
+msgstr "المشتريات السنوية"
+
+#. Label of a number card in the Selling Workspace
+#. Label of a number card in the Home Workspace
+#: erpnext/selling/workspace/selling/selling.json
+#: erpnext/setup/workspace/home/home.json
+msgid "Annual Sales"
+msgstr "المبيعات السنوية"
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:415
+msgid "Apply Schedule"
+msgstr "تطبيق الجدول الزمني"
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:581
+msgid "Applying Schedule..."
+msgstr "جارٍ تطبيق الجدول الزمني..."
+
+#: erpnext/stock/doctype/pick_list/pick_list.js:532
+msgid "Availability"
+msgstr "التوفر"
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:394
+msgid "Available produced qty of the item {0} is {1}."
+msgstr "الكمية المنتجة المتاحة من الصنف {0} هي {1}."
+
+#. Label of the backflush_from_wip_warehouse (Check) field in DocType 'Job
+#. Card'
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+msgid "Backflush Materials from WIP Warehouse"
+msgstr "الصرف التلقائي للمواد من مستودع الإنتاج قيد التنفيذ"
+
+#. Label of the backflush_from_wip_warehouse (Check) field in DocType 'BOM
+#. Operation'
+#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
+msgid "Backflush materials from WIP Warehouse"
+msgstr "الصرف التلقائي للمواد من مستودع الإنتاج قيد التنفيذ"
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:208
+msgid "Balance Type is required for Account Data"
+msgstr "نوع الرصيد مطلوب لبيانات الحسابات"
+
+#: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:604
+msgid "Bank Transaction {0} added as {1}"
+msgstr "تمت إضافة المعاملة البنكية {0} كـ {1}"
+
+#. Label of a Sidebar Item
+#: erpnext/accounts/sidebar/accounts/accounts.json
+msgid "Banking Setup"
+msgstr "إعداد العمليات البنكية"
+
+#. Label of the base_cost_per_unit (Float) field in DocType 'BOM Operation'
+#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
+msgid "Base Cost per Unit"
+msgstr "تكلفة الوحدة بعملة الشركة"
+
+#. Label of the base_hour_rate (Currency) field in DocType 'BOM Operation'
+#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
+msgid "Base hour rate(Company Currency)"
+msgstr "سعر الساعة الأساسي (بعملة الشركة)"
+
+#. Label of the batch_split (Check) field in DocType 'Job Card'
+#. Label of the batch_split (Check) field in DocType 'Work Order Operation'
+#. Label of the batch_split (Check) field in DocType 'Stock Entry Type'
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+#: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
+#: erpnext/setup/setup_wizard/operations/install_fixtures.py:104
+#: erpnext/stock/doctype/stock_entry_type/stock_entry_type.json
+msgid "Batch Split"
+msgstr "تقسيم الدفعة"
+
+#. Name of a report
+#: erpnext/stock/doctype/batch/batch.js:59
+#: erpnext/stock/report/batch_split_tree/batch_split_tree.json
+msgid "Batch Split Tree"
+msgstr "شجرة تقسيم الدفعات"
+
+#. Label of the batch_size (Float) field in DocType 'BOM Operation'
+#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
+msgid "Batch size"
+msgstr "حجم الدفعة"
+
+#. Label of the batch_split (Check) field in DocType 'BOM Operation'
+#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
+msgid "Batch split"
+msgstr "تقسيم الدفعة"
+
+#: erpnext/manufacturing/doctype/blanket_order/blanket_order.py:138
+msgid "Blanket Order Expired"
+msgstr "انتهت صلاحية أمر التوريد المفتوح"
+
+#: erpnext/manufacturing/doctype/blanket_order/blanket_order.py:135
+msgid "Blanket Order {0} expired on {1}"
+msgstr "انتهت صلاحية أمر التوريد المفتوح {0} بتاريخ {1}"
+
+#: erpnext/manufacturing/doctype/blanket_order/blanket_order.py:90
+msgid "Blanket Order {0} is closed"
+msgstr "أمر التوريد المفتوح {0} مغلق"
+
+#. Label of the block_customer_section (Section Break) field in DocType
+#. 'Customer'
+#. Label of the on_hold (Check) field in DocType 'Customer'
+#: erpnext/selling/doctype/customer/customer.json
+msgid "Block Customer"
+msgstr "حظر العميل"
+
+#. Description of the 'Is Frozen' (Check) field in DocType 'Customer'
+#: erpnext/selling/doctype/customer/customer.json
+msgid ""
+"Blocks new transactions and further accounting entries on this customer's "
+"account. Only users with the role set in Company's \"Roles Allowed to Set "
+"and Edit Frozen Account Entries\" can transact."
+msgstr ""
+"يمنع إنشاء معاملات جديدة وقيود محاسبية إضافية على حساب هذا العميل. "
+"لا يُسمح بإجراء المعاملات إلا للمستخدمين الذين لديهم الدور المحدد "
+"في إعدادات الشركة ضمن \"الأدوار المسموح لها بإنشاء وتعديل قيود "
+"الحسابات المجمدة\"."
+
+#. Description of the 'Block Customer' (Check) field in DocType 'Customer'
+#: erpnext/selling/doctype/customer/customer.json
+msgid ""
+"Blocks saving or submitting Sales Orders, Delivery Notes, Sales Invoices and"
+" POS Invoices for this customer."
+msgstr ""
+"يمنع حفظ أو اعتماد أوامر البيع وإشعارات التسليم وفواتير المبيعات "
+"وفواتير نقاط البيع لهذا العميل."
+
+#. Label of the body (Text Editor) field in DocType 'Process Statement Of
+#. Accounts'
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.json
+msgid "Body"
+msgstr "نص الرسالة"
+
+#. Label of a Sidebar Item
+#: erpnext/accounts/sidebar/accounts/accounts.json
+msgid "Budgeting"
+msgstr "إعداد الموازنات"
+
+#. Label of the buffer_time (Int) field in DocType 'Item Lead Time Supplier'
+#: erpnext/stock/doctype/item_lead_time_supplier/item_lead_time_supplier.json
+msgid "Buffer Time (Days)"
+msgstr "المدة الاحتياطية (بالأيام)"
+
+#. Label of a Sidebar Item
+#: erpnext/utilities/sidebar/utilities/utilities.json
+msgid "Bulk Transaction"
+msgstr "المعاملات الجماعية"
+
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:1064
+msgid "By Item"
+msgstr "حسب الصنف"
+
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:1065
+msgid "By Workstation"
+msgstr "حسب محطة العمل"
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:380
+msgid "Calculating Schedule..."
+msgstr "جارٍ احتساب الجدول الزمني..."
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_template.js:300
+#: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:51
+msgid "Calculation Formula"
+msgstr "صيغة الحساب"
+
+#: erpnext/stock/doctype/pick_list/pick_list.js:553
+msgid "Cancel or delete these documents to release the stock."
+msgstr "ألغِ هذه المستندات أو احذفها لتحرير المخزون المحجوز."
+
+#: erpnext/manufacturing/scheduling/plan_adapter.py:68
+msgid ""
+"Cannot apply an incomplete schedule. {0} task(s) could not be placed:<br>{1}"
+msgstr "لا يمكن تطبيق جدول زمني غير مكتمل. تعذر جدولة {0} من المهام:<br>{1}"
+
+#: erpnext/public/js/utils/party.js:238 erpnext/public/js/utils/party.js:247
+#: erpnext/public/js/utils/party.js:259
+msgid "Cannot apply taxes"
+msgstr "لا يمكن تطبيق الضرائب"
+
+#: erpnext/public/js/utils/party.js:188 erpnext/public/js/utils/party.js:200
+msgid "Cannot apply taxes from this address"
+msgstr "لا يمكن تطبيق الضرائب بناءً على هذا العنوان"
+
+#: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:592
+msgid "Cannot create {0} from a Bank Transaction"
+msgstr "لا يمكن إنشاء {0} من معاملة بنكية"
+
+#: erpnext/accounts/doctype/payment_entry/payment_entry.js:1869
+msgid "Cannot delete a system-generated deduction row"
+msgstr "لا يمكن حذف صف استقطاع أنشأه النظام"
+
+#: erpnext/accounts/services/child_item_update.py:417
+msgid ""
+"Cannot find a default warehouse for item {0}. Please select one in the "
+"Update Items dialog, or set a default in the Item Master or in the Company."
+msgstr ""
+"تعذر العثور على مستودع افتراضي للصنف {0}. يرجى اختياره في نافذة تحديث "
+"الأصناف، أو تحديد مستودع افتراضي في سجل الصنف أو إعدادات الشركة."
+
+#: erpnext/public/js/utils/party.js:87 erpnext/public/js/utils/party.js:96
+msgid "Cannot load {0} details"
+msgstr "تعذر تحميل تفاصيل {0}"
+
+#: erpnext/selling/doctype/quotation/quotation.py:445
+msgid "Cannot revise a Quotation with status {0}."
+msgstr "لا يمكن إنشاء نسخة معدلة من عرض سعر حالته {0}."
+
+#: erpnext/manufacturing/scheduling/plan_adapter.py:79
+msgid "Cannot schedule a Production Plan with status {0}"
+msgstr "لا يمكن جدولة خطة إنتاج حالتها {0}"
+
+#: erpnext/manufacturing/scheduling/plan_adapter.py:76
+msgid "Cannot schedule a cancelled Production Plan"
+msgstr "لا يمكن جدولة خطة إنتاج ملغاة"
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:337
+#: erpnext/manufacturing/doctype/work_order/work_order.js:373
+msgid "Change Finished Item"
+msgstr "تغيير الصنف النهائي"
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:281
+msgid "Circular dependency detected: {0}"
+msgstr "تم اكتشاف تبعية دائرية: {0}"
+
+#: banking/src/pages/BankReconciliation.tsx:111
+msgid "Clearance Summary"
+msgstr "ملخص المقاصة"
+
+#: banking/src/components/features/BankReconciliation/BankBalance.tsx:179
+msgid "Click to change the closing balance as per statement"
+msgstr "انقر لتغيير الرصيد الختامي وفقًا لكشف الحساب"
+
+#: erpnext/public/js/utils/item_close.js:11
+#: erpnext/public/js/utils/item_close.js:32
+msgid "Close Items"
+msgstr "إغلاق البنود"
+
+#: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.py:145
+msgid "Closed Period"
+msgstr "فترة مقفلة"
+
+#: erpnext/manufacturing/doctype/blanket_order/blanket_order.js:270
+msgid ""
+"Closed rows can no longer be ordered. They are skipped when creating an "
+"order from this Blanket Order."
+msgstr ""
+"لا يمكن طلب البنود المغلقة مرة أخرى. تُستثنى هذه البنود عند إنشاء أمر "
+"من أمر التوريد المفتوح هذا."
+
+#: erpnext/buying/doctype/purchase_order/purchase_order.js:710
+msgid ""
+"Closed rows stop being expected. Their pending quantity is written off and "
+"they are skipped when creating a Purchase Receipt or Purchase Invoice."
+msgstr ""
+"لا يُتوقع استلام البنود المغلقة. تُسقط كمياتها المتبقية، وتُستثنى عند "
+"إنشاء إيصال شراء أو فاتورة شراء."
+
+#: erpnext/selling/doctype/sales_order/sales_order.js:1895
+msgid ""
+"Closed rows stop being expected. Their pending quantity is written off, "
+"stock is no longer reserved for them, and they are skipped when creating a "
+"Delivery Note or Sales Invoice."
+msgstr ""
+"لا يُتوقع تسليم البنود المغلقة. تُسقط كمياتها المتبقية، ويُلغى حجز "
+"المخزون لها، وتُستثنى عند إنشاء إشعار تسليم أو فاتورة مبيعات."
+
+#: erpnext/public/js/utils/item_close.js:109
+msgid ""
+"Closed rows stop being expected. Their unbilled amount is written off and "
+"they are skipped when creating a {0}."
+msgstr ""
+"لا تُحتسب البنود المغلقة ضمن البنود المتبقية. يُسقط مبلغها غير المفوتر، "
+"وتُستثنى عند إنشاء {0}."
+
+#: banking/src/components/features/BankReconciliation/BankBalance.tsx:184
+msgid "Closing (statement)"
+msgstr "الرصيد الختامي (كشف الحساب)"
+
+#: banking/src/components/features/BankReconciliation/BankBalance.tsx:127
+msgid "Closing (system)"
+msgstr "الرصيد الختامي (النظام)"
+
+#: erpnext/support/doctype/issue/issue.py:161
+msgid "Communication {0} is not on the timeline of Issue {1}"
+msgstr "المراسلة {0} غير موجودة في السجل الزمني للمشكلة {1}"
+
+#: erpnext/public/js/utils/party.js:239
+msgid ""
+"Company is required to apply taxes. Set Company, then select {0} again."
+msgstr "يجب تحديد الشركة لتطبيق الضرائب. حدد الشركة، ثم اختر {0} مرة أخرى."
+
+#: erpnext/public/js/utils/party.js:97
+msgid ""
+"Company is required to load address, taxes, and payment terms. Set Company, "
+"then select {0} again."
+msgstr ""
+"يجب تحديد الشركة لتحميل العنوان والضرائب وشروط الدفع. حدد الشركة، "
+"ثم اختر {0} مرة أخرى."
+
+#: erpnext/manufacturing/doctype/job_card/job_card.js:427
+msgid "Completed Quantity cannot be negative"
+msgstr "لا يمكن أن تكون الكمية المنجزة سالبة"
+
+#: erpnext/manufacturing/doctype/job_card/job_card.py:1777
+msgid "Completed quantity cannot be negative."
+msgstr "لا يمكن أن تكون الكمية المنجزة سالبة."
+
+#: erpnext/manufacturing/doctype/job_card/job_card.py:212
+msgid ""
+"Completed, Process Loss or Pending Qty is required for Job Card {0}, please "
+"start and complete the job card before submission"
+msgstr ""
+"يجب تحديد الكمية المنجزة أو فاقد التصنيع أو الكمية المتبقية لبطاقة "
+"العمل {0}. يرجى بدء بطاقة العمل وإكمالها قبل اعتمادها"
+
+#. Description of the 'Set component quantities based on percentage' (Check)
+#. field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid ""
+"Component quantities are derived from their percentage of the Output Qty. "
+"One component row can be marked as Balance Item to absorb the remaining "
+"percentage."
+msgstr ""
+"تُحسب كميات المكونات بناءً على نسبتها من كمية الناتج. يمكن تحديد "
+"صف مكون واحد كصنف لاستكمال النسبة، ليغطي النسبة المئوية المتبقية."
+
+#: erpnext/manufacturing/doctype/bom/bom.js:1062
+#: erpnext/manufacturing/doctype/bom/bom.js:1070
+msgid "Components total 100%."
+msgstr "مجموع نسب المكونات يساوي 100%."
+
+#: erpnext/manufacturing/doctype/bom/bom.js:1072
+msgid ""
+"Components total {0}%. Mark a Balance Item or adjust the percentages to "
+"reach 100%."
+msgstr ""
+"مجموع نسب المكونات يساوي {0}%. حدد صنفًا لاستكمال النسبة أو عدّل "
+"النسب لتصل إلى 100%."
+
+#. Name of a report
+#: erpnext/accounts/report/consolidated_accounts_payable/consolidated_accounts_payable.json
+#: erpnext/accounts/report/consolidated_accounts_payable_summary/consolidated_accounts_payable_summary.js:108
+msgid "Consolidated Accounts Payable"
+msgstr "الحسابات الدائنة المجمعة"
+
+#. Name of a report
+#: erpnext/accounts/report/consolidated_accounts_payable/consolidated_accounts_payable.js:128
+#: erpnext/accounts/report/consolidated_accounts_payable_summary/consolidated_accounts_payable_summary.json
+msgid "Consolidated Accounts Payable Summary"
+msgstr "ملخص الحسابات الدائنة المجمعة"
+
+#. Name of a report
+#: erpnext/accounts/report/consolidated_accounts_receivable/consolidated_accounts_receivable.json
+#: erpnext/accounts/report/consolidated_accounts_receivable_summary/consolidated_accounts_receivable_summary.js:134
+msgid "Consolidated Accounts Receivable"
+msgstr "الحسابات المدينة المجمعة"
+
+#. Name of a report
+#: erpnext/accounts/report/consolidated_accounts_receivable/consolidated_accounts_receivable.js:159
+#: erpnext/accounts/report/consolidated_accounts_receivable_summary/consolidated_accounts_receivable_summary.json
+msgid "Consolidated Accounts Receivable Summary"
+msgstr "ملخص الحسابات المدينة المجمعة"
+
+#. Label of the conversion_rate (Float) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Conversion rate"
+msgstr "سعر التحويل"
+
+#: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:191
+msgid "Convert to Phantom Item"
+msgstr "تحويل إلى صنف افتراضي"
+
+#: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:180
+msgid "Convert to Sub Assembly"
+msgstr "تحويل إلى تجميع فرعي"
+
+#: erpnext/manufacturing/doctype/job_card/mapper.py:180
+msgid ""
+"Corrective Job Cards cannot be created for Work Orders that track semi-"
+"finished goods"
+msgstr ""
+"لا يمكن إنشاء بطاقات عمل تصحيحية لأوامر العمل التي تتبع المنتجات "
+"نصف المصنعة"
+
+#: erpnext/manufacturing/doctype/job_card/mapper.py:172
+msgid "Corrective Operation is required"
+msgstr "يجب تحديد العملية التصحيحية"
+
+#. Label of the cost_allocation (Currency) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Cost allocation for Finished Good"
+msgstr "التكلفة المخصصة للمنتج النهائي"
+
+#. Label of the cost_per_unit (Float) field in DocType 'BOM Operation'
+#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
+msgid "Cost per Unit"
+msgstr "تكلفة الوحدة"
+
+#. Description of the 'Set rate based on sub-assembly BOM' (Check) field in
+#. DocType 'BOM Item'
+#: erpnext/manufacturing/doctype/bom_item/bom_item.json
+msgid ""
+"Cost this sub-assembly by rolling up its BOM cost instead of the item's own "
+"valuation or price-list rate. Applies only to this component."
+msgstr ""
+"احتساب تكلفة هذا التجميع الفرعي بجمع تكاليف قائمة مواده، بدلًا من "
+"استخدام معدل تقييم الصنف أو سعره في قائمة الأسعار. ينطبق هذا "
+"الخيار على هذا المكون فقط."
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:395
+msgid "Could not schedule {0} task(s), so this proposal cannot be applied"
+msgstr "تعذر جدولة {0} من المهام، لذا لا يمكن تطبيق مقترح الجدولة هذا"
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:535
+msgid "Could not validate {0}: {1}"
+msgstr "تعذر التحقق من صحة {0}: {1}"
+
+#: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.js:67
+#: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.js:98
+msgid "Create GL Reposting Entries"
+msgstr "إنشاء قيود إعادة ترحيل دفتر الأستاذ العام"
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:1596
+msgid "Create Material Request"
+msgstr "إنشاء طلب مواد"
+
+#: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.py:242
+msgid ""
+"Create a Stock Closing Entry for the entire company with To Date as {0} "
+"before submitting the Period Closing Voucher."
+msgstr ""
+"أنشئ قيد إقفال مخزون للشركة بأكملها مع تحديد 'إلى تاريخ' بالقيمة {0} "
+"قبل اعتماد سند إقفال الفترة."
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:1593
+msgid "Create your first Material Request to get started."
+msgstr "أنشئ أول طلب مواد للبدء."
+
+#: erpnext/stock/report/batch_split_tree/batch_split_tree.py:155
+msgid "Created Via"
+msgstr "أُنشئ عبر"
+
+#: erpnext/accounts/bulk_payment.py:39
+msgid "Created {0} draft Payment Entries"
+msgstr "تم إنشاء {0} من قيود الدفع في حالة مسودة"
+
+#: erpnext/templates/emails/appointment_confirmed.html:1
+#: erpnext/templates/emails/confirm_appointment.html:1
+msgid "Dear"
+msgstr "العزيز"
+
+#: erpnext/stock/reorder_item.py:374
+msgid "Dear System Manager,"
+msgstr "عزيزي مدير النظام،"
+
+#: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:1369
+msgid "Default Supplier for {0} not found"
+msgstr "لم يُعثر على مورد افتراضي للصنف {0}"
+
+#: erpnext/stock/doctype/stock_entry/services/material_transfer.py:52
+msgid ""
+"Default Target Warehouse {0} must be a Transit warehouse when Add to Transit"
+" is enabled."
+msgstr ""
+"يجب أن يكون المستودع المستهدف الافتراضي {0} مستودعًا للبضائع قيد "
+"النقل عند تفعيل 'إضافة إلى البضائع قيد النقل'."
+
+#. Label of the source_warehouse (Link) field in DocType 'Work Order'
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+msgid "Default source Warehouse"
+msgstr "المستودع المصدر الافتراضي"
+
+#: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:202
+msgid "Delete Item"
+msgstr "حذف الصنف"
+
+#. Label of the disable_include_dimensions (Check) field in DocType 'Accounts
+#. Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Disable \"Consider Accounting Dimension\" Filter"
+msgstr "تعطيل عامل التصفية \"مراعاة البعد المحاسبي\""
+
+#: erpnext/manufacturing/doctype/bom/bom.py:912
+msgid "Disabled Item {0} cannot be used in BOMs."
+msgstr "لا يمكن استخدام الصنف المعطل {0} في قوائم المواد."
+
+#: erpnext/controllers/accounts_controller.py:385
+msgid "Disabled Price List"
+msgstr "قائمة أسعار معطلة"
+
+#. Label of the do_not_explode (Check) field in DocType 'BOM Item'
+#: erpnext/manufacturing/doctype/bom_item/bom_item.json
+msgid "Do not explode"
+msgstr "عدم التفصيل إلى المكونات"
+
+#: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.py:166
+msgid "Due to period closing, you cannot repost item valuation before {0}"
+msgstr "لا يمكنك إعادة ترحيل تقييم الأصناف قبل {0} بسبب إقفال الفترة"
+
+#: erpnext/accounts/doctype/pos_settings/pos_settings.py:128
+msgid "Duplicate POS Search Fields"
+msgstr "حقول بحث مكررة في نقاط البيع"
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:192
+msgid "Duplicate line reference: '{0}'"
+msgstr "مرجع سطر مكرر: '{0}'"
+
+#. Label of the duration_mins (Float) field in DocType 'Production Plan
+#. Schedule'
+#: erpnext/manufacturing/doctype/production_plan_schedule/production_plan_schedule.json
+msgid "Duration (Mins)"
+msgstr "المدة (بالدقائق)"
+
+#. Label of a Sidebar Item
+#: erpnext/utilities/sidebar/utilities/utilities.json
+msgid "EDI"
+msgstr "تبادل البيانات إلكترونيًا (EDI)"
+
+#. Title of a Sidebar
+#: erpnext/erpnext_integrations/sidebar/erpnext_integrations/erpnext_integrations.json
+msgid "ERPNext Integrations"
+msgstr "تكاملات ERPNext"
+
+#. Description of the 'column_break_fnun' (Column Break) field in DocType 'BOM
+#. Operation'
+#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
+msgid ""
+"Each operation produces its own semi-finished output. Supply its raw "
+"materials either by linking that output's BOM in BOM No, or by adding them "
+"manually."
+msgstr ""
+"تنتج كل عملية منتجًا نصف مصنع خاصًا بها. حدد المواد الخام اللازمة له "
+"إما بربط قائمة مواده في حقل 'رقم قائمة المواد'، أو بإضافتها يدويًا."
+
+#: erpnext/stock/doctype/stock_entry/services/manufacturing.py:1034
+msgid ""
+"Enable 'Allow Alternative Finished Goods' in Manufacturing Settings to make "
+"a finished good conversion entry."
+msgstr ""
+"فعّل 'السماح بمنتجات نهائية بديلة' في إعدادات التصنيع لإنشاء قيد "
+"تحويل منتج نهائي."
+
+#. Label of the enable_item_search_index (Check) field in DocType 'Global
+#. Defaults'
+#: erpnext/setup/doctype/global_defaults/global_defaults.json
+msgid "Enable Item Search Index"
+msgstr "تفعيل فهرس البحث عن الأصناف"
+
+#. Description of the 'Set as Phantom BOM' (Check) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid ""
+"Enable this to define the BOM as a logical grouping of raw materials without"
+" producing an item. The Production Item must be non-stock and will be "
+"automatically exploded when used as a raw material in another BOM."
+msgstr ""
+"فعّل هذا الخيار لتعريف قائمة المواد كتجميع منطقي للمواد الخام دون "
+"إنتاج صنف. يجب أن يكون صنف الإنتاج غير مخزني، وسيُفصل تلقائيًا إلى "
+"مكوناته عند استخدامه كمادة خام في قائمة مواد أخرى."
+
+#. Description of the 'Allow alternative raw material' (Check) field in
+#. DocType
+#. 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid ""
+"Enable this to select an alternative material when the required item is "
+"unavailable.\n"
+msgstr ""
+"فعّل هذا الخيار لاختيار مادة بديلة عندما يكون الصنف المطلوب غير متاح.\n"
+
+#. Description of the 'Prevent Sales Invoice when Customer is Overdue' (Check)
+#. field in DocType 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid ""
+"Enabling this option prevents the creation of a new Sales Invoice when the "
+"customer has an overdue limit set and their outstanding overdue amount "
+"exceeds that limit."
+msgstr ""
+"يمنع تفعيل هذا الخيار إنشاء فاتورة مبيعات جديدة إذا كان للعميل حد "
+"محدد للمبالغ المتأخرة وتجاوز إجمالي مبالغه المتأخرة غير المسددة "
+"ذلك الحد."
+
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:342
+msgid "Every row has a document"
+msgstr "يوجد مستند لكل صف"
+
+#: erpnext/controllers/item_close.py:146
+msgid ""
+"Every row of {0} is closed. Reopen the rows you need instead, using {1}."
+msgstr "جميع صفوف {0} مغلقة. أعد فتح الصفوف التي تحتاجها باستخدام {1}."
+
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:331
+msgid "Everything requested or in stock"
+msgstr "تم طلب جميع المواد أو أنها متاحة في المخزون"
+
+#: erpnext/manufacturing/doctype/work_order/services/required_items.py:246
+msgid "Exceeds Pending Qty"
+msgstr "يتجاوز الكمية المتبقية"
+
+#: erpnext/stock/doctype/pick_list/pick_list.py:277
+msgid "Exceeds Requested Qty"
+msgstr "يتجاوز الكمية المطلوبة"
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:153
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:254
+#: erpnext/setup/doctype/company/company.py:811
+msgid "Exchange Gain"
+msgstr "أرباح فروق الصرف"
+
+#. Label of the exchange_gain_account (Link) field in DocType 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Exchange Gain Account"
+msgstr "حساب أرباح فروق الصرف"
+
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:141
+#: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:236
+#: erpnext/setup/doctype/company/company.py:818
+msgid "Exchange Loss"
+msgstr "خسائر فروق الصرف"
+
+#. Label of the exchange_loss_account (Link) field in DocType 'Company'
+#: erpnext/setup/doctype/company/company.json
+msgid "Exchange Loss Account"
+msgstr "حساب خسائر فروق الصرف"
+
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:359
+msgid ""
+"Exchange rate {0} does not match the exchange rate of Purchase Receipt {1}. "
+"Use the same exchange rate as the Purchase Receipt or enable {2} in {3} to "
+"adjust the landed cost based on this invoice."
+msgstr ""
+"سعر الصرف {0} لا يطابق سعر الصرف في إيصال الشراء {1}. استخدم سعر "
+"الصرف نفسه المحدد في إيصال الشراء، أو فعّل {2} في {3} لتعديل "
+"التكلفة الواصلة بناءً على هذه الفاتورة."
+
+#: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:163
+#: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:216
+msgid "Expand / Collapse All"
+msgstr "توسيع / طي الكل"
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:531
+msgid "Expected Completion"
+msgstr "الإكمال المتوقع"
+
+#: banking/src/components/features/BankReconciliation/BankRecDateFilter.tsx:119
+msgid "FY"
+msgstr "السنة المالية"
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:449
+msgid "Field '{0}' is not a valid Account field"
+msgstr "الحقل '{0}' ليس حقلًا صالحًا في الحساب"
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:446
+msgid "Field and operator must be strings"
+msgstr "يجب أن يكون الحقل وعامل المقارنة سلسلتين نصيتين"
+
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:476
+msgid "Filter items..."
+msgstr "تصفية الأصناف..."
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:441
+msgid "Filter must be [field, operator, value]"
+msgstr "يجب أن يكون عامل التصفية بالصيغة [field, operator, value]"
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:478
+msgid "Filter must be a list or dict"
+msgstr "يجب أن يكون عامل التصفية قائمة (list) أو قاموسًا (dict)"
+
+#. Label of the finished_items_tab (Tab Break) field in DocType 'Production
+#. Plan'
+#: erpnext/manufacturing/doctype/production_plan/production_plan.json
+msgid "Finished Items"
+msgstr "الأصناف النهائية"
+
+#. Label of the fg_based_operating_cost (Check) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Finished goods based operating cost"
+msgstr "تكلفة التشغيل بناءً على المنتجات النهائية"
+
+#. Label of the fixed_time (Check) field in DocType 'BOM Operation'
+#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
+msgid "Fixed time"
+msgstr "وقت ثابت"
+
+#: erpnext/manufacturing/doctype/job_card/mapper.py:175
+msgid "For Operation is required"
+msgstr "يجب تحديد العملية المستهدفة"
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:1575
+msgid "For Qty"
+msgstr "للكمية"
+
+#: erpnext/stock/doctype/stock_entry/services/manufacturing.py:413
+msgid "For Quantity (Manufactured Qty) is mandatory"
+msgstr "حقل 'للكمية (الكمية المصنعة)' إلزامي"
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:345
+msgid "Formula evaluation error: {0}"
+msgstr "خطأ في تقييم الصيغة: {0}"
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:323
+msgid "Formula has unbalanced parentheses"
+msgstr "تحتوي الصيغة على أقواس غير متطابقة"
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:370
+msgid "Formula must return a numeric value, got {0}"
+msgstr "يجب أن تُرجع الصيغة قيمة رقمية، لكنها أرجعت {0}"
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:335
+msgid "Formula references itself ('{0}')"
+msgstr "تشير الصيغة إلى نفسها ('{0}')"
+
+#: erpnext/stock/doctype/pick_list/pick_list.js:511
+msgid "Free to Pick"
+msgstr "متاح للانتقاء"
+
+#: erpnext/accounts/doctype/bank_reconciliation_tool/bank_reconciliation_tool.js:120
+#: erpnext/accounts/doctype/bank_reconciliation_tool/bank_reconciliation_tool.py:1145
+msgid "From Reference Date cannot be greater than To Reference Date"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan_schedule/production_plan_schedule.py:50
+msgid "From Time must be before To Time"
+msgstr ""
+
+#: erpnext/accounts/doctype/account/account_tree.js:83
+msgid "Frozen - entries restricted"
+msgstr ""
+
+#. Description of the 'Is Frozen' (Check) field in DocType 'Supplier'
+#: erpnext/buying/doctype/supplier/supplier.json
+msgid ""
+"Frozen suppliers block new transactions and ledger entries until unfrozen. "
+"Only users with the role set in Company's \"Roles Allowed to Set and Edit "
+"Frozen Account Entries\" can transact."
+msgstr ""
+
+#: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.js:68
+msgid "GL Reposting Entries"
+msgstr ""
+
+#: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.py:376
+msgid "GL reposting entries created: {0}"
+msgstr ""
+
+#: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.py:124
+msgid "GL reposting is not allowed against the voucher type {0}."
+msgstr ""
+
+#. Label of the remarks_section (Section Break) field in DocType 'Accounts
+#. Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "General Ledger Report"
+msgstr ""
+
+#: erpnext/accounts/report/consolidated_accounts_payable/consolidated_accounts_payable.js:82
+#: erpnext/accounts/report/consolidated_accounts_receivable/consolidated_accounts_receivable.js:103
+msgid "Group By Company"
+msgstr ""
+
+#: erpnext/selling/report/sales_order_analysis/sales_order_analysis.js:104
+msgid "Group by Item"
+msgstr "تجميع حسب البند"
+
+#: erpnext/selling/report/sales_order_analysis/sales_order_analysis.py:49
+msgid "Group the report by Sales Order or by Item, not both."
+msgstr ""
+
+#. Label of the has_variants (Check) field in DocType 'BOM'
+#. Label of the has_variants (Check) field in DocType 'BOM Item'
+#: erpnext/manufacturing/doctype/bom/bom.json
+#: erpnext/manufacturing/doctype/bom_item/bom_item.json
+msgid "Has variants"
+msgstr ""
+
+#: erpnext/stock/doctype/pick_list/pick_list.js:479
+msgid "Held by Other Documents"
+msgstr ""
+
+#: erpnext/stock/doctype/pick_list/pick_list.js:509
+msgid "Held by Pick Lists"
+msgstr ""
+
+#. Label of the hour_rate (Currency) field in DocType 'BOM Operation'
+#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
+msgid "Hour rate"
+msgstr ""
+
+#. Description of the 'Bill for rejected quantity in Purchase Invoice' (Check)
+#. field in DocType 'Buying Settings'
+#: erpnext/buying/doctype/buying_settings/buying_settings.json
+msgid ""
+"If checked, the rejected quantity is billed anywhere in the purchase cycle."
+msgstr ""
+
+#. Description of the 'Consider Projected Qty in Calculation' (Check) field in
+#. DocType 'Production Plan'
+#: erpnext/manufacturing/doctype/production_plan/production_plan.json
+msgid ""
+"If enabled, formula for <b>Qty to Order</b>: <br>\n"
+"Required Qty (BOM) - <a href=\"https://docs.frappe.io/erpnext/user/manual/en/projected-quantity\" rel=\"noopener noreferrer\">Projected Qty</a>. <br> This helps avoid over-ordering."
+msgstr ""
+"في حالة التمكين، صيغة <b>Qty إلى Order</b>: <br>\n"
+"الكمية المطلوبة (BOM) - <a href=\"https://docs.frappe.io/erpnext/user/manual/en/projected-quantity\" rel=\"noopener noreferrer\">الكمية المتوقعة </a>. <br> يساعد هذا على تجنب الإفراط في الطلب."
+
+#. Description of the 'Consider Projected Qty in Calculation (RM)' (Check)
+#. field in DocType 'Production Plan'
+#: erpnext/manufacturing/doctype/production_plan/production_plan.json
+msgid ""
+"If enabled, formula for <b>Required Qty</b>: <br>\n"
+"Required Qty (BOM) - <a href=\"https://docs.frappe.io/erpnext/user/manual/en/projected-quantity\" rel=\"noopener noreferrer\">Projected Qty</a>. <br> This helps avoid over-ordering."
+msgstr ""
+"في حالة التمكين، صيغة <b>مطلوبة Qty</b>: <br>\n"
+"الكمية المطلوبة (BOM) - <a href=\"https://docs.frappe.io/erpnext/user/manual/en/projected-quantity\" rel=\"noopener noreferrer\">الكمية المتوقعة </a>. <br> يساعد هذا على تجنب الإفراط في الطلب."
+
+#. Description of the 'Allow Alternative Finished Goods' (Check) field in
+#. DocType 'Manufacturing Settings'
+#: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json
+msgid ""
+"If enabled, the produced item of a Work Order can be converted into one of "
+"its alternative items (defined via Item Alternative) using the 'Change "
+"Finished Item' action. The conversion creates a Repack entry linked to the "
+"Work Order."
+msgstr ""
+
+#. Description of the 'Set valuation rate for rejected Materials' (Check)
+#. field
+#. in DocType 'Buying Settings'
+#: erpnext/buying/doctype/buying_settings/buying_settings.json
+msgid ""
+"If enabled, the system will generate an accounting entry for material "
+"rejected anywhere in the purchase cycle."
+msgstr ""
+
+#: banking/src/components/features/BankStatementImporter/CSV/StatementDetails.tsx:119
+msgid "Import 1 transaction"
+msgstr ""
+
+#: banking/src/components/features/BankStatementImporter/CSV/StatementDetails.tsx:138
+msgid "Importing 1 transaction"
+msgstr ""
+
+#: banking/src/components/features/BankStatementImporter/CSV/StatementDetails.tsx:139
+msgid "Importing {0} of {1} transactions"
+msgstr ""
+
+#. Description of the 'Is final Finished Good' (Check) field in DocType 'BOM
+#. Operation'
+#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
+msgid ""
+"In a multi-operation BOM, marks the operation that produces this BOM's final"
+" item, the others produce intermediate semi-finished goods. Its FG item is "
+"set to the BOM's item automatically and must match it."
+msgstr ""
+
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:551
+msgid "In progress"
+msgstr ""
+
+#: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.js:71
+msgid "Include Disabled"
+msgstr "يشمل ذوي الاحتياجات الخاصة"
+
+#. Label of the include_item_in_manufacturing (Check) field in DocType 'BOM
+#. Item'
+#: erpnext/manufacturing/doctype/bom_item/bom_item.json
+msgid "Include Item in manufacturing"
+msgstr ""
+
+#: erpnext/accounts/report/accounts_payable/accounts_payable.js:159
+#: erpnext/accounts/report/accounts_payable_summary/accounts_payable_summary.js:116
+#: erpnext/accounts/report/accounts_receivable/accounts_receivable.js:186
+#: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.js:144
+msgid "Include Revaluation Journals"
+msgstr ""
+
+#: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.py:215
+msgid "Incorrect Inventory Dimension"
+msgstr ""
+
+#: banking/src/pages/BankReconciliation.tsx:112
+msgid "Incorrectly Cleared"
+msgstr ""
+
+#: erpnext/selling/doctype/customer/customer.py:283
+msgid "Internal Customer Already Exists"
+msgstr ""
+
+#: erpnext/selling/doctype/customer/customer.py:277
+msgid ""
+"Internal Customer {0} already exists for {1}. Disable it to make this "
+"Customer internal."
+msgstr ""
+
+#: erpnext/buying/doctype/supplier/supplier.py:196
+msgid "Internal Supplier Already Exists"
+msgstr ""
+
+#: erpnext/buying/doctype/supplier/supplier.py:190
+msgid ""
+"Internal Supplier {0} already exists for {1}. Disable it to make this "
+"Supplier internal."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/bom/bom.py:770
+#: erpnext/manufacturing/doctype/bom/bom.py:780
+#: erpnext/manufacturing/doctype/bom/bom.py:802
+#: erpnext/manufacturing/doctype/bom/bom.py:819
+msgid "Invalid Formulation"
+msgstr ""
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:424
+msgid "Invalid JSON format: {0}"
+msgstr ""
+
+#: erpnext/accounts/doctype/pos_settings/pos_settings.py:111
+msgid "Invalid POS Field"
+msgstr ""
+
+#: erpnext/accounts/doctype/pos_settings/pos_settings.js:55
+msgid "Invalid POS Fields"
+msgstr ""
+
+#: erpnext/accounts/doctype/pos_settings/pos_settings.py:140
+#: erpnext/accounts/doctype/pos_settings/pos_settings.py:148
+msgid "Invalid POS Search Field"
+msgstr ""
+
+#: erpnext/controllers/accounts_controller.py:395
+msgid "Invalid Price List"
+msgstr ""
+
+#: erpnext/stock/doctype/quality_inspection/quality_inspection.py:333
+msgid "Invalid Reading"
+msgstr ""
+
+#: erpnext/stock/doctype/quality_inspection/quality_inspection.py:163
+msgid "Invalid Sample Size"
+msgstr ""
+
+#: erpnext/accounts/doctype/shipping_rule/shipping_rule.py:69
+msgid "Invalid Shipping Account"
+msgstr ""
+
+#: erpnext/stock/doctype/item/item.py:1212
+msgid "Invalid Valuation Method"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/work_order/mapper.py:300
+msgid "Invalid Work Order"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/work_order/mapper.py:317
+msgid "Invalid Work Order or Item"
+msgstr ""
+
+#: erpnext/accounts/doctype/tax_rule/tax_rule.py:152
+msgid "Invalid address"
+msgstr ""
+
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.py:399
+msgid "Invalid doctype"
+msgstr ""
+
+#: erpnext/accounts/doctype/sales_invoice/mapper.py:386
+msgid "Invalid doctype {0}"
+msgstr ""
+
+#: erpnext/assets/doctype/asset/asset.py:1220
+#: erpnext/controllers/sales_and_purchase_return.py:1330
+#: erpnext/controllers/sales_and_purchase_return.py:1340
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.py:559
+msgid "Invalid document type"
+msgstr ""
+
+#: erpnext/accounts/doctype/sales_invoice/mapper.py:398
+msgid "Invalid field {0}"
+msgstr ""
+
+#: erpnext/accounts/doctype/journal_entry/journal_entry.py:1100
+msgid "Invalid filter"
+msgstr ""
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:172
+msgid ""
+"Invalid line reference format: '{0}'. Must start with a letter and contain "
+"only letters, numbers and underscores"
+msgstr ""
+
+#: erpnext/buying/doctype/purchase_order/purchase_order.py:622
+#: erpnext/selling/doctype/sales_order/sales_order.py:772
+#: erpnext/support/doctype/issue/issue.py:267
+#: erpnext/utilities/bulk_transaction.py:30
+msgid "Invalid name"
+msgstr ""
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:454
+msgid "Invalid operator '{0}'"
+msgstr ""
+
+#: erpnext/controllers/queries.py:228
+msgid "Invalid party type: {0}"
+msgstr ""
+
+#: erpnext/controllers/queries.py:1277
+msgid "Invalid reference"
+msgstr ""
+
+#: erpnext/setup/doctype/company/company.py:1179
+msgid "Invalid sort key"
+msgstr ""
+
+#: erpnext/accounts/services/taxes.py:190
+msgid "Invalid tax master doctype"
+msgstr ""
+
+#: erpnext/buying/doctype/supplier/supplier.py:250
+#: erpnext/selling/doctype/customer/customer.py:864
+msgid "Invalid type"
+msgstr ""
+
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:896
+msgid "Invoice is not blocked. Block the invoice to change the release date."
+msgstr ""
+
+#. Label of a Sidebar Item
+#: erpnext/subcontracting/sidebar/subcontracting/subcontracting.json
+msgid "Inward Order Summary"
+msgstr ""
+
+#: erpnext/selling/doctype/quotation/quotation.py:371
+msgid "Is Active cannot be changed on a Lost Quotation."
+msgstr ""
+
+#. Label of the is_balance_item (Check) field in DocType 'BOM Item'
+#: erpnext/manufacturing/doctype/bom_item/bom_item.json
+msgid "Is Balance Item"
+msgstr ""
+
+#. Label of the is_fg_conversion (Check) field in DocType 'Stock Entry'
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+msgid "Is Finished Good Conversion"
+msgstr ""
+
+#. Label of the is_latest_revision (Check) field in DocType 'Quotation'
+#: erpnext/selling/doctype/quotation/quotation.json
+msgid "Is Latest Revision"
+msgstr ""
+
+#. Label of the is_active (Check) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Is active"
+msgstr ""
+
+#. Label of the is_final_finished_good (Check) field in DocType 'BOM
+#. Operation'
+#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
+msgid "Is final Finished Good"
+msgstr ""
+
+#. Label of the is_stock_item (Check) field in DocType 'BOM Item'
+#: erpnext/manufacturing/doctype/bom_item/bom_item.json
+msgid "Is stock Item"
+msgstr ""
+
+#. Label of the is_sub_assembly_item (Check) field in DocType 'BOM Item'
+#: erpnext/manufacturing/doctype/bom_item/bom_item.json
+msgid "Is sub assembly Item"
+msgstr ""
+
+#. Label of a chart in the Support Workspace
+#: erpnext/support/workspace/support/support.json
+msgid "Issues Opened"
+msgstr ""
+
+#. Label of the item_section (Section Break) field in DocType 'Production Plan
+#. Schedule'
+#: erpnext/manufacturing/doctype/production_plan_schedule/production_plan_schedule.json
+msgid "Item & Operation"
+msgstr ""
+
+#: erpnext/stock/doctype/pick_list/pick_list.js:542
+msgid "Item / Document"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/stock/doctype/item_lead_time_supplier/item_lead_time_supplier.json
+msgid "Item Lead Time Supplier"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:304
+msgid "Item Wise Start Dates"
+msgstr ""
+
+#. Label of the item (Link) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Item to manufacture"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/blanket_order/blanket_order.py:97
+msgid "Item {0} is closed in Blanket Order {1}"
+msgstr ""
+
+#: erpnext/buying/doctype/purchase_order/purchase_order.py:353
+msgid ""
+"Item {0}: Ordered qty {1} {2} exceeds the minimum order qty {3} {2} by {4} "
+"{2} due to purchase UOM rounding."
+msgstr ""
+
+#. Label of a Sidebar Item
+#: erpnext/subcontracting/sidebar/subcontracting/subcontracting.json
+msgid "Items To Be Delivered"
+msgstr ""
+
+#: erpnext/selling/doctype/quotation/quotation.py:534
+msgid "Items must be a list of DocType names."
+msgstr ""
+
+#: erpnext/buying/utils.py:137 erpnext/buying/utils.py:143
+msgid "Items must be a list of Item codes"
+msgstr ""
+
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:586
+msgid "Items to Manufacture"
+msgstr ""
+
+#. Label of the job_card_tab (Tab Break) field in DocType 'Work Order'
+#. Label of the job_card_list_html (HTML) field in DocType 'Work Order'
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+msgid "Job Cards"
+msgstr ""
+
+#. Description of the 'Release Date' (Date) field in DocType 'Customer'
+#: erpnext/selling/doctype/customer/customer.json
+msgid "Leave blank if the Customer is blocked indefinitely"
+msgstr ""
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:462
+msgid "Logical condition must have exactly one operator"
+msgstr ""
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:470
+msgid "Logical conditions need at least 1 sub-condition"
+msgstr ""
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:466
+msgid "Logical operators must be 'and' or 'or'"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/work_order/services/status.py:224
+msgid "Manufactured Qty (including Process Loss)"
+msgstr ""
+
+#: banking/src/components/features/BankReconciliation/BankRecDateFilter.tsx:231
+msgid "Matched date"
+msgstr ""
+
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:326
+msgid "Material Readiness"
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/services/manufacturing.py:1677
+msgid "Maximum Samples - {0} can be retained for Item {1}."
+msgstr ""
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:532
+msgid "Method '{0}' must be whitelisted and permit GET requests"
+msgstr ""
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:37
+msgid "Method {0} must permit GET requests"
+msgstr ""
+
+#: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:274
+msgid "Missing Accounting Dimension"
+msgstr ""
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_engine.py:1054
+msgid "Missing Company"
+msgstr ""
+
+#. Label of a number card in the Manufacturing Workspace
+#: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
+msgid "Monthly Completed Work Order"
+msgstr ""
+
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:839
+msgid ""
+"Needed by {0}. Quantities are the plan totals, as on the Production Plan."
+msgstr ""
+
+#. Label of a number card in the Assets Workspace
+#: erpnext/assets/workspace/assets/assets.json
+msgid "New Assets (This Year)"
+msgstr "الأصول الجديدة (هذا العام)"
+
+#: erpnext/selling/doctype/quotation/quotation.js:171
+msgid ""
+"Newer versions of this Quotation already exist. Create a new version anyway?"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:1592
+msgid "No Material Request created"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/work_order/mapper.py:663
+msgid "No Pending Materials"
+msgstr ""
+
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:645
+msgid "No items to manufacture in this plan"
+msgstr ""
+
+#: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.py:378
+msgid "No new GL reposting entries were created for the selected rows."
+msgstr ""
+
+#. Label of the no_of_shifts (Int) field in DocType 'Production Plan'
+#: erpnext/manufacturing/doctype/production_plan/production_plan.json
+msgid "No of Shifts"
+msgstr ""
+
+#: erpnext/accounts/bulk_payment.py:127
+msgid "No outstanding amount for the selected invoice(s)."
+msgstr ""
+
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:733
+msgid "No raw materials planned for this plan yet"
+msgstr ""
+
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:1036
+msgid ""
+"No schedule yet — use Schedule Items on the Production Plan to build one"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:1695
+msgid "No {0} linked to this Work Order."
+msgstr ""
+
+#. Description of the 'Skip Delivery Note Creation for Service Items' (Check)
+#. field in DocType 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid ""
+"Non-stock items will not require a Delivery Note. Sales Orders will be "
+"marked as Completed once all stock items are delivered and the order is "
+"fully billed"
+msgstr ""
+
+#: erpnext/accounts/bulk_payment.py:22
+#: erpnext/accounts/report/accounts_payable/accounts_payable.js:249
+msgid "None of the selected invoices are payable"
+msgstr ""
+
+#: erpnext/stock/doctype/pick_list/pick_list.js:484
+msgid "Not Free to Pick"
+msgstr ""
+
+#: erpnext/buying/report/supplier_quotation_comparison/supplier_quotation_comparison.js:105
+msgid "Not Ordered"
+msgstr ""
+
+#: erpnext/accounts/bulk_payment.py:109
+msgid "Not available"
+msgstr ""
+
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:750
+msgid "Not linked to a finished good"
+msgstr ""
+
+#: erpnext/accounts/custom/address.py:71
+#: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.py:84
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:925
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.py:934
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.py:414
+#: erpnext/accounts/services/taxes.py:202
+#: erpnext/assets/doctype/asset/asset.py:1197
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.py:529
+#: erpnext/assets/doctype/asset_repair/asset_repair.py:365
+#: erpnext/manufacturing/doctype/production_plan/services/material_request.py:209
+#: erpnext/setup/doctype/company/company.py:1190
+#: erpnext/stock/doctype/item/item.py:1578
+#: erpnext/stock/doctype/item_standard_cost/item_standard_cost.py:399
+#: erpnext/stock/doctype/pick_list/pick_list.py:1663
+#: erpnext/stock/utils.py:111
+msgid "Not permitted for {0}"
+msgstr ""
+
+#: erpnext/stock/report/stock_qty_vs_serial_no_count/stock_qty_vs_serial_no_count.py:120
+msgid "Not permitted to update Serial No"
+msgstr ""
+
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:420
+msgid "Not scheduled yet"
+msgstr ""
+
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:549
+msgid "Not started"
+msgstr ""
+
+#: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:1375
+msgid "Nothing to order from the selected rows"
+msgstr ""
+
+#: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.py:1373
+msgid ""
+"Nothing to order, the selected rows are already covered by stock or existing"
+" orders"
+msgstr ""
+
+#. Description of the 'Batch split' (Check) field in DocType 'BOM Operation'
+#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
+msgid ""
+"On completion of the Job Card, split the consumed batch into one child batch"
+" per finished piece"
+msgstr ""
+
+#. Description of the 'Batch Split' (Check) field in DocType 'Stock Entry
+#. Type'
+#: erpnext/stock/doctype/stock_entry_type/stock_entry_type.json
+msgid ""
+"On submission of the stock entry, the consumed batch is split into one child"
+" batch per finished piece"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/bom/bom.js:1058
+#: erpnext/manufacturing/doctype/bom/bom.py:811
+msgid "Only one component can be marked as Balance Item."
+msgstr ""
+
+#: erpnext/stock/doctype/item_lead_time/item_lead_time.py:56
+msgid ""
+"Only one supplier can be marked as default in the Supplier Lead Times table"
+msgstr ""
+
+#: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.js:82
+msgid ""
+"Only the accounting ledgers (General Ledger and Payment Ledger) will be "
+"reposted, and only for the selected rows posted on or after the From Date. "
+"Selected rows posted before it are ignored. Stock Ledger Entries and item "
+"valuation rates are left untouched."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/work_order/services/required_items.py:243
+msgid "Only {0} {1} of {2} is pending in Work Order {3}."
+msgstr ""
+
+#. Label of a number card in the Quality Workspace
+#: erpnext/quality_management/workspace/quality/quality.json
+msgid "Open Non Conformances"
+msgstr ""
+
+#. Label of a number card in the Quality Workspace
+#: erpnext/quality_management/workspace/quality/quality.json
+msgid "Open Quality Actions"
+msgstr ""
+
+#. Label of a number card in the Quality Workspace
+#: erpnext/quality_management/workspace/quality/quality.json
+msgid "Open Quality Reviews"
+msgstr ""
+
+#. Label of the operating_cost (Currency) field in DocType 'BOM Operation'
+#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
+msgid "Operating cost"
+msgstr ""
+
+#. Label of the operating_cost_per_bom_quantity (Currency) field in DocType
+#. 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Operating cost per BOM quantity"
+msgstr ""
+
+#. Label of the base_operating_cost (Currency) field in DocType 'BOM
+#. Operation'
+#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
+msgid "Operating cost(Company Currency)"
+msgstr ""
+
+#. Label of the time_in_mins (Float) field in DocType 'BOM Operation'
+#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
+msgid "Operation time"
+msgstr ""
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:457
+msgid "Operator '{0}' requires a list value"
+msgstr ""
+
+#. Label of a number card in the Support Workspace
+#: erpnext/support/workspace/support/support.json
+msgid "Overdue Issues"
+msgstr ""
+
+#. Description of the 'Supplier Lead Times' (Table) field in DocType 'Item
+#. Lead
+#. Time'
+#: erpnext/stock/doctype/item_lead_time/item_lead_time.json
+msgid ""
+"Overrides the Purchase Time above for the selected supplier. The row marked "
+"as default is used when no supplier is selected."
+msgstr ""
+
+#: erpnext/accounts/doctype/payment_entry/payment_entry.py:640
+msgid ""
+"Paid From and Paid To accounts must be different for an Internal Transfer."
+msgstr ""
+
+#: erpnext/controllers/queries.py:1311
+msgid "Parent document is required to search child rows"
+msgstr ""
+
+#: erpnext/controllers/queries.py:232
+msgid "Party query filters must be a dictionary"
+msgstr ""
+
+#: erpnext/accounts/report/accounts_payable/accounts_payable.js:372
+msgid "Payment Entries are created as drafts for your review"
+msgstr ""
+
+#. Label of the pending_qty (Float) field in DocType 'Job Card'
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+msgid "Pending qty"
+msgstr ""
+
+#: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher_list.js:16
+msgid "Period Closing Failed"
+msgstr ""
+
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:81
+msgid "Pick a Production Plan"
+msgstr ""
+
+#. Label of the plan_row (Data) field in DocType 'Production Plan Schedule'
+#: erpnext/manufacturing/doctype/production_plan_schedule/production_plan_schedule.json
+msgid "Plan Row"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:155
+msgid "Plan Visualizer"
+msgstr ""
+
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:972
+msgid "Planned End"
+msgstr ""
+
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:971
+msgid "Planned Start"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:351
+#: erpnext/stock/doctype/stock_entry/services/manufacturing.py:1051
+msgid ""
+"Please create Item Alternative records for the item {0} to change the "
+"finished item."
+msgstr ""
+
+#: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.js:250
+msgid "Please select a BOM for {0}"
+msgstr ""
+
+#: erpnext/stock/report/stock_qty_vs_serial_no_count/stock_qty_vs_serial_no_count.js:9
+msgid "Please select a warehouse first."
+msgstr ""
+
+#: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.py:306
+msgid "Please select rows to create GL Reposting Entries"
+msgstr ""
+
+#: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.js:110
+msgid "Please select rows to create {0}"
+msgstr ""
+
+#: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.py:309
+msgid "Please select the date to repost the accounting ledgers from"
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:1552
+msgid "Please set Finished Good Quantity before fetching items from the BOM."
+msgstr ""
+
+#: erpnext/crm/doctype/email_campaign/email_campaign.py:70
+msgid "Please set a primary email ID for the Contact {0}"
+msgstr ""
+
+#: erpnext/accounts/doctype/invoice_discounting/invoice_discounting.py:324
+msgid "Please set company on the Document before requesting for invoices."
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/services/batch_split.py:81
+msgid ""
+"Please set the Weight Per Piece to split the produced quantity into batches "
+"in the Stock Entry {0}."
+msgstr ""
+
+#. Label of the enable_overdue_billing_threshold (Check) field in DocType
+#. 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid "Prevent Sales Invoice when Customer is Overdue"
+msgstr ""
+
+#: erpnext/controllers/accounts_controller.py:391
+msgid "Price List {0} cannot be used on a buying transaction"
+msgstr ""
+
+#: erpnext/controllers/accounts_controller.py:389
+msgid "Price List {0} cannot be used on a selling transaction"
+msgstr ""
+
+#: erpnext/controllers/accounts_controller.py:384
+msgid "Price List {0} is disabled"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/blanket_order/blanket_order_pricing.py:72
+msgid "Price List {0} is not enabled for {1}"
+msgstr ""
+
+#: erpnext/accounts/doctype/coupon_code/coupon_code.py:64
+msgid "Pricing Rule {0} is disabled"
+msgstr ""
+
+#. Label of the supplier_primary_address (Link) field in DocType 'Supplier'
+#. Label of the primary_address (Text Editor) field in DocType 'Customer'
+#: erpnext/buying/doctype/supplier/supplier.json
+#: erpnext/selling/doctype/customer/customer.json
+msgid "Primary Address"
+msgstr "عنوان أساسي"
+
+#. Label of the supplier_primary_contact (Link) field in DocType 'Supplier'
+#. Label of the primary_contact_section (Section Break) field in DocType
+#. 'Opportunity'
+#: erpnext/buying/doctype/supplier/supplier.json
+#: erpnext/crm/doctype/opportunity/opportunity.json
+msgid "Primary Contact"
+msgstr "جهة الاتصال الرئيسية"
+
+#. Label of the process_loss_qty (Float) field in DocType 'Job Card'
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+msgid "Process Loss qty"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:1279
+msgid "Process loss booked against the operations of this work order."
+msgstr ""
+
+#. Label of the process_loss_qty (Float) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Process loss qty"
+msgstr ""
+
+#: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher_list.js:14
+msgid "Processing GL Entries"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:506
+msgid "Procurement ({0})"
+msgstr ""
+
+#. Description of the 'Weight per piece' (Float) field in DocType 'BOM
+#. Operation'
+#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
+msgid ""
+"Produced quantity is split into one batch per this many units of the "
+"finished good"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan/services/work_order_quantities.py:46
+msgid "Production Plan Quantity Exceeded"
+msgstr ""
+
+#. Name of a DocType
+#: erpnext/manufacturing/doctype/production_plan_schedule/production_plan_schedule.json
+msgid "Production Plan Schedule"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan_schedule/production_plan_schedule.py:43
+msgid ""
+"Production Plan Schedule entries cannot be created manually. Use the "
+"Schedule Items action on the Production Plan."
+msgstr ""
+
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:4
+msgid "Production Plan Visualizer"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:146
+msgid "Production Schedule"
+msgstr ""
+
+#. Label of the proforma_email_template (Link) field in DocType 'Selling
+#. Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Proforma Email Template"
+msgstr ""
+
+#: erpnext/stock/report/items_to_be_requested/items_to_be_requested.py:31
+msgid "Projected"
+msgstr ""
+
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:374
+msgid "Purchase Invoice can be held after submitting."
+msgstr ""
+
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:906
+msgid "Purchase Invoice without any outstanding amount cannot be held."
+msgstr ""
+
+#. Label of the purchase_time (Int) field in DocType 'Item Lead Time Supplier'
+#: erpnext/stock/doctype/item_lead_time_supplier/item_lead_time_supplier.json
+msgid "Purchase Time (Days)"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/job_card/job_card.js:105
+msgid "Qty To Correct"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:389
+msgid "Qty to Convert"
+msgstr ""
+
+#. Label of the for_quantity (Float) field in DocType 'Job Card'
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:968
+msgid "Qty to Manufacture"
+msgstr "الكمية للتصنيع"
+
+#. Label of the finished_good_qty (Float) field in DocType 'BOM Operation'
+#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
+msgid "Qty to produce"
+msgstr ""
+
+#. Label of the inspection_required (Check) field in DocType 'BOM'
+#. Label of the quality_inspection_required (Check) field in DocType 'BOM
+#. Operation'
+#: erpnext/manufacturing/doctype/bom/bom.json
+#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
+msgid "Quality Inspection required"
+msgstr ""
+
+#: erpnext/selling/doctype/sales_order/sales_order.py:508
+msgid "Quotation {0} is Lost"
+msgstr ""
+
+#: erpnext/selling/doctype/quotation/quotation.py:199
+msgid "Quotation {0} is Lost and cannot be revised."
+msgstr ""
+
+#: erpnext/selling/doctype/sales_order/sales_order.py:511
+msgid "Quotation {0} is inactive"
+msgstr ""
+
+#. Description of the 'Price List Exchange Rate' (Float) field in DocType
+#. 'Blanket Order'
+#: erpnext/manufacturing/doctype/blanket_order/blanket_order.json
+msgid "Rate at which Price List Currency is converted to Company Currency"
+msgstr ""
+
+#. Description of the 'Exchange Rate' (Float) field in DocType 'Blanket Order'
+#: erpnext/manufacturing/doctype/blanket_order/blanket_order.json
+msgid "Rate at which document currency is converted to company currency"
+msgstr ""
+
+#. Label of the rm_cost_as_per (Select) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Rate of Materials based on"
+msgstr ""
+
+#. Label of a Sidebar Item
+#: erpnext/subcontracting/sidebar/subcontracting/subcontracting.json
+msgid "Raw Materials To Be Received"
+msgstr ""
+
+#. Label of the receipt_email_template (Link) field in DocType 'POS Profile'
+#: erpnext/accounts/doctype/pos_profile/pos_profile.json
+msgid "Receipt Email Template"
+msgstr ""
+
+#: erpnext/selling/page/point_of_sale/point_of_sale.py:570
+msgid "Receipts can only be emailed for a POS Invoice or a Sales Invoice."
+msgstr ""
+
+#: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:689
+msgid "Reconciliation Failed"
+msgstr ""
+
+#: erpnext/controllers/item_close.py:147
+#: erpnext/public/js/utils/item_close.js:19
+#: erpnext/public/js/utils/item_close.js:32
+msgid "Reopen Items"
+msgstr ""
+
+#: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.js:54
+msgid "Reposting Entries"
+msgstr ""
+
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:814
+msgid "Request {0}"
+msgstr ""
+
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:745
+msgid "Requests"
+msgstr ""
+
+#: erpnext/stock/report/batch_wise_balance_history/batch_wise_balance_history.py:90
+msgid "Reserved Stock (Current)"
+msgstr ""
+
+#: erpnext/stock/doctype/pick_list/pick_list.js:591
+msgid "Reserved for {0}"
+msgstr ""
+
+#. Label of a number card in the Support Workspace
+#: erpnext/support/workspace/support/support.json
+msgid "Resolved Issues"
+msgstr ""
+
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:371
+msgid "Return Purchase Invoice cannot be held."
+msgstr ""
+
+#: erpnext/subcontracting/report/subcontracting_inward_order_summary/subcontracting_inward_order_summary.py:96
+msgid "Returned by Customer"
+msgstr ""
+
+#: erpnext/subcontracting/report/subcontracting_inward_order_summary/subcontracting_inward_order_summary.py:113
+msgid "Returned to Customer"
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:838
+#, python-format
+msgid ""
+"Row #{0}: % of Component Cost needs a BOM secondary item. Choose Valuation "
+"Rate or Manual for {1}."
+msgstr ""
+
+#: erpnext/accounts/doctype/pos_settings/pos_settings.py:141
+msgid "Row #{0}: '{1}' cannot be used to search items."
+msgstr ""
+
+#: erpnext/accounts/doctype/pos_settings/pos_settings.py:149
+msgid "Row #{0}: '{1}' does not match {2}."
+msgstr ""
+
+#: erpnext/accounts/doctype/pos_settings/pos_settings.py:112
+msgid "Row #{0}: '{1}' is not a valid field of {2}."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/bom/bom.py:777
+msgid ""
+"Row #{0}: A Percentage is required for the Item {1} as 'Set Component "
+"Quantities Based On Percentage' is enabled."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/bom/bom.py:404
+msgid ""
+"Row #{0}: Batch Split is only supported when 'Track Semi Finished Goods' is "
+"enabled."
+msgstr ""
+
+#: erpnext/accounts/services/child_item_update.py:89
+msgid ""
+"Row #{0}: Cannot change item {1} because it is closed. Reopen the row first."
+msgstr ""
+
+#: erpnext/accounts/services/child_item_update.py:517
+msgid "Row #{0}: Cannot delete item {1} which has an issued Proforma Invoice."
+msgstr ""
+
+#: erpnext/stock/services/serial_batch_bundle_service.py:56
+msgid ""
+"Row #{0}: Company {1} does not match with the company {2} in Serial and "
+"Batch Bundle {3}."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/bom/bom.py:366
+msgid ""
+"Row #{0}: FG / Semi FG Item is required for the operation {1} as 'Track Semi"
+" Finished Goods' is enabled."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/bom/bom.py:435
+msgid ""
+"Row #{0}: Item {1} is already added with the same Type in the Secondary "
+"Items table."
+msgstr ""
+
+#: erpnext/controllers/status_updater.py:257
+msgid ""
+"Row #{0}: Item {1} is closed in {2} {3} and cannot be processed further"
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/services/manufacturing.py:1059
+msgid ""
+"Row #{0}: Item {1} is not an alternative item of the production item {2}."
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/services/manufacturing.py:447
+msgid ""
+"Row #{0}: Operation {1} is not completed for {2} qty of finished goods in "
+"Work Order {3}. Please update operation status via Job Card {4}."
+msgstr ""
+
+#: erpnext/crm/doctype/opportunity/opportunity.py:153
+msgid "Row #{0}: Quantity must be greater than 0 for Item {1}"
+msgstr ""
+
+#: erpnext/stock/doctype/quality_inspection/quality_inspection.py:324
+msgid ""
+"Row #{0}: Reading {1} {2} is not a valid number in the {3} number format. "
+"Use {4} as the decimal separator."
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/services/batch_split.py:61
+msgid ""
+"Row #{0}: Remove the Serial and Batch Bundle as the batches for the Batch "
+"Split item {1} are created automatically."
+msgstr ""
+
+#: erpnext/stock/doctype/item_lead_time/item_lead_time.py:48
+msgid ""
+"Row #{0}: Supplier {1} is already added in the Supplier Lead Times table"
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/services/material_transfer.py:60
+msgid ""
+"Row #{0}: Target Warehouse {1} must be a Transit warehouse when Add to "
+"Transit is enabled."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/bom/bom.py:422
+msgid ""
+"Row #{0}: The item {1} must have 'Has Batch No' and 'Automatically Create "
+"New Batch' enabled as the operation {2} is marked as Batch Split."
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/services/batch_split.py:71
+msgid ""
+"Row #{0}: The item {1} must have 'Has Batch No' and 'Automatically Create "
+"New Batch' enabled for the Batch Split operation."
+msgstr ""
+
+#: erpnext/selling/doctype/proforma_invoice/proforma_invoice.py:71
+msgid "Row #{0}: The line does not belong to Sales Order {1}"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/bom/bom.py:376
+msgid ""
+"Row #{0}: The operation {1} has 'Is Final Finished Good' checked, so its FG "
+"/ Semi FG Item must be {2}."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/bom/bom.py:830
+msgid ""
+"Row #{0}: The quantity of the Item {1} cannot be derived from its percentage"
+" because there is no UOM Conversion Factor from {2} to {3}."
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/services/batch_split.py:89
+msgid ""
+"Row #{0}: The quantity {1} of the Batch Split item {2} must be a multiple of"
+" the Weight Per Piece {3}."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/bom/bom.py:411
+msgid ""
+"Row #{0}: Weight Per Piece is required for the Batch Split operation {1}."
+msgstr ""
+
+#: erpnext/stock/doctype/pick_list/pick_list.py:274
+msgid ""
+"Row #{0}: picked qty {1} {2} exceeds the pending qty in Material Request "
+"{3}."
+msgstr ""
+
+#: erpnext/selling/doctype/sales_order/sales_order.py:626
+msgid "Row #{0}: {1} has reserved stock. Unreserve it before closing the row."
+msgstr ""
+
+#: erpnext/controllers/item_close.py:68
+msgid ""
+"Row #{0}: {1} is already completed in full, so there is nothing to close"
+msgstr ""
+
+#. Label of the row_type (Select) field in DocType 'Production Plan Schedule'
+#: erpnext/manufacturing/doctype/production_plan_schedule/production_plan_schedule.json
+msgid "Row Type"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan/services/work_order_quantities.py:36
+msgid ""
+"Row {0} in {1} {2}: Work Order quantity after process loss {3} exceeds the "
+"remaining allowed quantity {4}."
+msgstr ""
+
+#: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:264
+msgid ""
+"Row {0}: Accounting Dimension {1} is mandatory for account {2}. Set it on "
+"this Taxes and Charges row, or on Item Row {3} ({4})."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/blanket_order/blanket_order.py:212
+msgid "Row {0}: Quantity must be greater than zero."
+msgstr ""
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:68
+msgctxt "Financial Report Template"
+msgid "Row {0}: {1}"
+msgstr ""
+
+#: erpnext/controllers/item_close.py:49
+msgid "Rows of {0} cannot be closed individually"
+msgstr ""
+
+#: erpnext/patches/v16_0/add_transaction_roles_to_sms_settings.py:22
+msgid ""
+"SMS Settings.allowed_roles not found. Update the Frappe Framework app to a "
+"version that includes this field, then re-run bench migrate."
+msgstr ""
+
+#: erpnext/stock/doctype/quality_inspection/quality_inspection.py:163
+msgid "Sample Size must be greater than zero"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:1655
+msgid "Save the Work Order to view linked documents."
+msgstr ""
+
+#. Label of the schedule_end_date (Datetime) field in DocType 'Production Plan
+#. Sub Assembly Item'
+#: erpnext/manufacturing/doctype/production_plan_sub_assembly_item/production_plan_sub_assembly_item.json
+msgid "Schedule End Date"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:164
+msgid "Schedule Items"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:410
+msgid "Schedule Preview"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:284
+msgid "Schedule Production Plan"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:586
+msgid "Schedule applied. Expected completion on {0}"
+msgstr ""
+
+#. Label of the work_order_configuration (Tab Break) field in DocType 'Work
+#. Order'
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+msgid "Scheduling & Costing"
+msgstr ""
+
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:605
+msgid "Search item or document..."
+msgstr ""
+
+#: erpnext/controllers/item_close.py:54
+#: erpnext/public/js/utils/item_close.js:57
+msgid "Select at least one row"
+msgstr ""
+
+#. Label of the semi_finished_goods_section (Section Break) field in DocType
+#. 'BOM Operation'
+#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
+msgid "Semi finished goods"
+msgstr ""
+
+#: erpnext/stock/doctype/item/item.py:1183
+msgid ""
+"Serial No Wise Valuation cannot be enabled for Item {0} because Serial Nos "
+"already exist for it. Valuation for those Serial Nos was not tracked, so "
+"enabling it now would value outward entries incorrectly."
+msgstr ""
+
+#: erpnext/stock/report/stock_qty_vs_serial_no_count/stock_qty_vs_serial_no_count.py:137
+msgid ""
+"Serial No status sync has been queued. Reload the report after a few "
+"minutes."
+msgstr ""
+
+#: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.py:212
+msgid ""
+"Serial No {0} is not available in the selected inventory dimensions: {1}"
+msgstr ""
+
+#: erpnext/stock/doctype/item/item.py:1186
+msgid "Serial Nos Exist"
+msgstr ""
+
+#. Name of a report
+#: erpnext/stock/report/serial_and_batch_wise_stock_balance/serial_and_batch_wise_stock_balance.json
+msgid "Serial and Batch Wise Stock Balance"
+msgstr ""
+
+#. Description of the 'Valuation Method' (Select) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid ""
+"Serialized items are valued at Moving Average once stock transactions exist "
+"and Serial No Wise Valuation is disabled."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:299
+msgid ""
+"Set a start date per assembly item below; its sub-assemblies are scheduled "
+"from the same date. The Start Date above is the earliest limit. Rows with a "
+"date here keep it as entered; clear a date to let the system schedule that "
+"item freely and write back the computed start."
+msgstr ""
+
+#. Label of the is_phantom_bom (Check) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Set as Phantom BOM"
+msgstr ""
+
+#. Description of the 'Is sub assembly Item' (Check) field in DocType 'BOM
+#. Item'
+#: erpnext/manufacturing/doctype/bom_item/bom_item.json
+msgid ""
+"Set automatically when this component is a semi-finished good produced by an"
+" operation in this BOM. It's made in-house during the process, so it's "
+"excluded from raw-material requirement and explosion calculations to avoid "
+"double-counting."
+msgstr ""
+
+#. Label of the set_qty_based_on_percentage (Check) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Set component quantities based on percentage"
+msgstr ""
+
+#. Label of the set_cost_based_on_bom_qty (Check) field in DocType 'BOM
+#. Operation'
+#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
+msgid "Set operating cost based on BOM Quantity"
+msgstr ""
+
+#. Label of the set_rate_of_sub_assembly_item_based_on_bom (Check) field in
+#. DocType 'BOM Item'
+#: erpnext/manufacturing/doctype/bom_item/bom_item.json
+msgid "Set rate based on sub-assembly BOM"
+msgstr ""
+
+#: erpnext/accounts/doctype/shipping_rule/shipping_rule.py:66
+msgid "Shipping Account {0} does not belong to Company {1}"
+msgstr ""
+
+#. Option for the 'Determine Address Tax Category from' (Select) field in
+#. DocType 'Accounts Settings'
+#. Label of the shipping_address (Text Editor) field in DocType 'POS Invoice'
+#. Label of the shipping_address_display (Text Editor) field in DocType
+#. 'Purchase Invoice'
+#. Label of the company_shipping_address_section (Section Break) field in
+#. DocType 'Purchase Invoice'
+#. Label of the shipping_address (Text Editor) field in DocType 'Sales
+#. Invoice'
+#. Label of the shipping_address_section (Section Break) field in DocType
+#. 'Sales Invoice'
+#. Label of the shipping_address (Link) field in DocType 'Purchase Order'
+#. Label of the shipping_address_section (Section Break) field in DocType
+#. 'Purchase Order'
+#. Label of the shipping_address (Link) field in DocType 'Supplier Quotation'
+#. Label of the shipping_address_section (Section Break) field in DocType
+#. 'Supplier Quotation'
+#. Label of the shipping_address_name (Link) field in DocType 'Quotation'
+#. Label of the shipping_address (Text Editor) field in DocType 'Quotation'
+#. Label of the shipping_address_section (Section Break) field in DocType
+#. 'Quotation'
+#. Label of the shipping_address (Text Editor) field in DocType 'Sales Order'
+#. Label of the shipping_address_column (Section Break) field in DocType
+#. 'Sales
+#. Order'
+#. Label of the shipping_address_name (Link) field in DocType 'Delivery Note'
+#. Label of the shipping_address (Text Editor) field in DocType 'Delivery
+#. Note'
+#. Label of the shipping_address_section (Section Break) field in DocType
+#. 'Delivery Note'
+#. Label of the shipping_address_display (Text Editor) field in DocType
+#. 'Purchase Receipt'
+#. Label of the section_break_98 (Section Break) field in DocType 'Purchase
+#. Receipt'
+#. Label of the shipping_address_display (Text Editor) field in DocType
+#. 'Subcontracting Receipt'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/selling/doctype/quotation/quotation.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+#: erpnext/stock/report/delayed_item_report/delayed_item_report.py:128
+#: erpnext/stock/report/delayed_order_report/delayed_order_report.py:53
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
+msgid "Shipping Address"
+msgstr "عنوان الشحن"
+
+#. Label of the shipping_contact_display (Small Text) field in DocType 'Sales
+#. Invoice'
+#. Label of the shipping_contact_display (Small Text) field in DocType 'Sales
+#. Order'
+#. Label of the shipping_contact_display (Small Text) field in DocType
+#. 'Delivery Note'
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+msgid "Shipping Contact"
+msgstr ""
+
+#. Label of the shipping_contact_email (Data) field in DocType 'Sales Invoice'
+#. Label of the shipping_contact_email (Data) field in DocType 'Sales Order'
+#. Label of the shipping_contact_email (Data) field in DocType 'Delivery Note'
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+msgid "Shipping Contact Email"
+msgstr ""
+
+#. Label of the shipping_contact_mobile (Small Text) field in DocType 'Sales
+#. Invoice'
+#. Label of the shipping_contact_mobile (Small Text) field in DocType 'Sales
+#. Order'
+#. Label of the shipping_contact_mobile (Small Text) field in DocType
+#. 'Delivery
+#. Note'
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+msgid "Shipping Contact Mobile No"
+msgstr ""
+
+#. Label of the shipping_contact_person (Link) field in DocType 'Sales
+#. Invoice'
+#. Label of the shipping_contact_person (Link) field in DocType 'Sales Order'
+#. Label of the shipping_contact_person (Link) field in DocType 'Delivery
+#. Note'
+#: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/selling/doctype/sales_order/sales_order.json
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+msgid "Shipping Contact Person"
+msgstr ""
+
+#. Label of the skip_delivery (Check) field in DocType 'Sales Order Item'
+#: erpnext/selling/doctype/sales_order_item/sales_order_item.json
+msgid "Skip Delivery"
+msgstr ""
+
+#. Label of the skip_delivery_note_for_service_items (Check) field in DocType
+#. 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "Skip Delivery Note Creation for Service Items"
+msgstr ""
+
+#. Label of the section_break_zpik (Section Break) field in DocType 'BOM Item'
+#: erpnext/manufacturing/doctype/bom_item/bom_item.json
+msgid "Source details"
+msgstr ""
+
+#. Description of the 'Enable Item Search Index' (Check) field in DocType
+#. 'Global Defaults'
+#: erpnext/setup/doctype/global_defaults/global_defaults.json
+msgid ""
+"Speeds up Item search on large catalogues. Requires a single app server: the"
+" index is a file on that server's disk, and several servers would each "
+"answer from a different copy. Building it takes about 20 minutes for 3 "
+"million items, and runs in the background."
+msgstr ""
+
+#. Description of the 'Weight Per Piece' (Float) field in DocType 'Stock
+#. Entry'
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+msgid "Splits the produced quantity into one batch per this many units"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:436
+msgid "Starts In"
+msgstr ""
+
+#: erpnext/stock/doctype/pick_list/pick_list.js:128
+#: erpnext/stock/doctype/pick_list/pick_list.js:362
+msgid "Stock Availability"
+msgstr ""
+
+#: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.py:253
+msgid "Stock Closing Entry In Progress"
+msgstr ""
+
+#: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.py:271
+msgid "Stock Closing Entry Outdated"
+msgstr ""
+
+#: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.py:245
+msgid "Stock Closing Entry Required"
+msgstr ""
+
+#: erpnext/stock/report/serial_and_batch_wise_stock_balance/serial_and_batch_wise_stock_balance.js:16
+msgid ""
+"Stock Closing Entry is ignored in this report. Balances are computed from "
+"the full stock ledger."
+msgstr ""
+
+#: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.py:142
+msgid ""
+"Stock Closing Entry {0} belongs to a closed accounting period. Cancel the "
+"Period Closing Voucher {1} first."
+msgstr ""
+
+#. Label of the stock_entry_tab (Tab Break) field in DocType 'Work Order'
+#. Label of the stock_entry_list_html (HTML) field in DocType 'Work Order'
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+msgid "Stock Entries"
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/services/manufacturing.py:483
+msgid "Stock Entries already created for Work Order {0}: {1}"
+msgstr "تم إنشاء إدخالات المخزون بالفعل لأمر العمل {0}: {1}"
+
+#: erpnext/stock/stock_ledger.py:143
+msgid "Stock Frozen"
+msgstr ""
+
+#: erpnext/stock/doctype/pick_list/pick_list.js:551
+msgid "Stock Held By"
+msgstr ""
+
+#: erpnext/stock/doctype/pick_list/pick_list.py:1434
+msgid "Stock Held by Other Pick Lists"
+msgstr ""
+
+#: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.py:200
+msgid "Stock Value Mismatch"
+msgstr ""
+
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:1269
+msgid "Stock for this warehouse is not visible to you"
+msgstr ""
+
+#: erpnext/stock/stock_ledger.py:137
+msgid ""
+"Stock transactions dated on or before {0} are frozen because the period is "
+"closed and the Stock Closing Entry {1} has been generated. To make changes, "
+"cancel the Period Closing Voucher first."
+msgstr ""
+
+#: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.py:268
+msgid ""
+"Stock transactions were created or modified after the Stock Closing Entry "
+"{0} was generated. Regenerate it before submitting the Period Closing "
+"Voucher."
+msgstr ""
+
+#. Option for the 'Row Type' (Select) field in DocType 'Production Plan
+#. Schedule'
+#: erpnext/manufacturing/doctype/production_plan_schedule/production_plan_schedule.json
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:1087
+msgid "Sub Assembly"
+msgstr "التجميع الفرعي"
+
+#. Label of the column_break_3 (Column Break) field in DocType 'BOM Item'
+#: erpnext/manufacturing/doctype/bom_item/bom_item.json
+msgid "Sub assembly"
+msgstr ""
+
+#. Name of a report
+#: erpnext/subcontracting/report/subcontracted_items_to_be_delivered/subcontracted_items_to_be_delivered.json
+msgid "Subcontracted Items To Be Delivered"
+msgstr ""
+
+#. Name of a report
+#: erpnext/subcontracting/report/subcontracted_raw_materials_to_be_received/subcontracted_raw_materials_to_be_received.json
+msgid "Subcontracted Raw Materials To Be Received"
+msgstr ""
+
+#. Name of a report
+#: erpnext/subcontracting/report/subcontracting_inward_order_summary/subcontracting_inward_order_summary.json
+msgid "Subcontracting Inward Order Summary"
+msgstr ""
+
+#. Description of the 'Receipt Email Template' (Link) field in DocType 'POS
+#. Profile'
+#: erpnext/accounts/doctype/pos_profile/pos_profile.json
+msgid ""
+"Subject and message for receipts emailed from the POS. The template gets the"
+" invoice as doc. A message typed by the cashier replaces the template "
+"message. Leave empty to send the default email."
+msgstr ""
+
+#. Description of the 'Proforma Email Template' (Link) field in DocType
+#. 'Selling Settings'
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid ""
+"Subject and message used when emailing a Proforma Invoice. The template gets"
+" the Proforma Invoice as doc, e.g. {{ doc.customer_name }}. Leave empty to "
+"send the default text."
+msgstr ""
+
+#. Label of the supplier_lead_times (Table) field in DocType 'Item Lead Time'
+#: erpnext/stock/doctype/item_lead_time/item_lead_time.json
+msgid "Supplier Lead Times"
+msgstr ""
+
+#: erpnext/buying/doctype/request_for_quotation/mapper.py:120
+msgid ""
+"Supplier Quotation {0} already exists against Request for Quotation {1}"
+msgstr ""
+
+#: erpnext/buying/doctype/purchase_order/purchase_order.py:431
+msgid "Supplier Quotation {0} is cancelled"
+msgstr ""
+
+#. Label of the supplier_lead_time_section (Section Break) field in DocType
+#. 'Item Lead Time'
+#: erpnext/stock/doctype/item_lead_time/item_lead_time.json
+msgid "Supplier Wise Purchase Time"
+msgstr ""
+
+#: erpnext/stock/report/stock_qty_vs_serial_no_count/stock_qty_vs_serial_no_count.js:6
+msgid "Sync Serial No Status"
+msgstr ""
+
+#. Label of the is_exchange_gain_loss (Check) field in DocType 'Payment Entry
+#. Deduction'
+#: erpnext/accounts/doctype/payment_entry_deduction/payment_entry_deduction.json
+msgid "System Generated"
+msgstr ""
+
+#. Description of the 'Allow Stale Exchange Rates' (Check) field in DocType
+#. 'Accounts Settings'
+#: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
+msgid ""
+"System will use the latest saved Currency Exchange rate on or before the transaction date, however old it is. <br>\n"
+"Uncheck to ignore rates older than Stale Days and fetch a fresh rate from the exchange rate provider instead."
+msgstr ""
+
+#. Label of the task_key (Data) field in DocType 'Production Plan Schedule'
+#: erpnext/manufacturing/doctype/production_plan_schedule/production_plan_schedule.json
+msgid "Task Key"
+msgstr ""
+
+#. Label of a Sidebar Item
+#: erpnext/erpnext_integrations/sidebar/erpnext_integrations/erpnext_integrations.json
+msgid "Telephony"
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/services/batch_split.py:109
+msgid ""
+"The Batch Split entry {0} must consume exactly one batch tracked raw "
+"material, found {1} ({2})."
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/services/batch_split.py:55
+msgid "The Batch Split entry {0} must have exactly one finished good row."
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/services/batch_split.py:101
+#: erpnext/stock/doctype/stock_entry/services/batch_split.py:120
+msgid ""
+"The Batch Split operation requires a batch tracked raw material to be "
+"consumed in the Stock Entry {0}."
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/stock_entry.py:1620
+msgid ""
+"The Job Card {0} has only {1} left to produce, but this entry books {2} ({3}"
+" finished goods and {4} process loss). Cancel or update its other "
+"manufacture entries first."
+msgstr ""
+
+#: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.py:250
+msgid ""
+"The Stock Closing Entry for {0} is not completed yet. Wait for it to "
+"complete before submitting the Period Closing Voucher."
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/services/batch_split.py:185
+msgid ""
+"The batches consumed in the Stock Entry {0} can supply only {1} whole pieces"
+" of {2} units each, but {3} pieces are required. Reduce the finished "
+"quantity or consume larger batches."
+msgstr ""
+
+#: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.py:193
+msgid ""
+"The closing balance {0} of the Stock Asset accounts does not match the "
+"closing value {1} of the Stock Balance report as on {2}. Resolve the "
+"difference using the Stock Ledger Variance report before closing the period."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/job_card/job_card.py:1588
+msgid ""
+"The completed quantity {0} of an operation {1} cannot be greater than the "
+"manufactured quantity {2} of a previous operation {3}, as {4} was booked as "
+"process loss there."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/bom/bom.py:547
+msgid ""
+"The cost of the secondary items cannot exceed the raw material cost of {0}."
+msgstr ""
+
+#: erpnext/accounts/doctype/pos_settings/pos_settings.js:59
+msgid ""
+"The following rows are not valid fields of {0} and have to be removed: {1}"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/bom/bom.py:816
+msgid ""
+"The other components already total {0}%, so no percentage remains for the "
+"Balance Item {1}."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/bom/bom.js:1065
+msgid ""
+"The other components already total {0}%, so no percentage remains for the "
+"Balance Item."
+msgstr ""
+
+#: erpnext/selling/doctype/quotation/quotation.js:155
+msgid ""
+"The other versions of this Quotation will also be set as Lost. Continue?"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/bom/bom.py:799
+msgid ""
+"The percentages of the components must total 100%. The current total is "
+"{0}%. To fill the remaining percentage automatically, mark one component as "
+"Balance Item."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/work_order/work_order.js:360
+msgid "The produced qty of the item {0} has already been converted in full."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/work_order/mapper.py:321
+msgid "The qty to convert must be greater than zero."
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/services/manufacturing.py:1090
+msgid ""
+"The qty {0} of the item {1} to convert cannot be more than the available "
+"produced qty {2} against the Work Order {3}."
+msgstr ""
+
+#: erpnext/stock/doctype/pick_list/pick_list.py:1433
+msgid "The stock is held by the following Pick Lists:"
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/services/manufacturing.py:1106
+msgid ""
+"The total qty {0} of the alternative finished goods must be equal to the "
+"converted qty {1} of the production item {2}."
+msgstr ""
+
+#: erpnext/manufacturing/report/material_requirements_planning_report/material_requirements_planning_report.js:204
+msgid "These items have no default BOM. Select one to create Work Orders."
+msgstr ""
+
+#. Description of the 'Set as default' (Check) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid ""
+"This BOM will be selected by default in Work Orders etc. when the Item is "
+"selected."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/job_card/mapper.py:106
+#: erpnext/manufacturing/doctype/workstation/workstation.py:291
+msgid "This Job Card has no raw materials to transfer."
+msgstr ""
+
+#. Description of the 'Is Balance Item' (Check) field in DocType 'BOM Item'
+#: erpnext/manufacturing/doctype/bom_item/bom_item.json
+msgid ""
+"This component absorbs the percentage remaining after all other percentage "
+"rows"
+msgstr ""
+
+#. Description of the 'Secondary Items' (Section Break) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid ""
+"This section can be used to record the co-products, by-products, scrap, or "
+"additional finished goods that come out of the same production run alongside"
+" the main item, and to set how much of the total cost is allocated to each "
+"of them."
+msgstr ""
+
+#: erpnext/stock/report/stock_qty_vs_serial_no_count/stock_qty_vs_serial_no_count.js:16
+msgid ""
+"This will update the warehouse and status of Serial Nos counted in {0} to "
+"match the stock ledger. Continue?"
+msgstr ""
+
+#. Label of the scheduled_time_tab (Tab Break) field in DocType 'Job Card'
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+msgid "Time logs"
+msgstr ""
+
+#. Label of a number card in the Projects Workspace
+#: erpnext/projects/workspace/projects/projects.json
+msgid "Timesheet Working Hours"
+msgstr ""
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_template.js:195
+msgid "Tip"
+msgstr ""
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_template.js:198
+msgid "Tip: Select report lines to view their accounts"
+msgstr ""
+
+#. Label of a chart in the ERPNext Settings Workspace
+#: erpnext/setup/workspace/erpnext_settings/erpnext_settings.json
+msgid "Top Customers"
+msgstr ""
+
+#. Label of a number card in the Assets Workspace
+#: erpnext/assets/workspace/assets/assets.json
+msgid "Total Assets"
+msgstr "إجمالي الأصول"
+
+#. Label of the total_completed_qty (Float) field in DocType 'Job Card'
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+msgid "Total Completed qty"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/job_card/job_card.js:110
+msgid "Total Corrected Qty"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:535
+msgid "Total Duration"
+msgstr ""
+
+#. Label of the total_invoice_amount (Currency) field in DocType 'Payment
+#. Reconciliation'
+#: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
+msgid "Total Invoice Amount"
+msgstr ""
+
+#. Label of the total_payment_amount (Currency) field in DocType 'Payment
+#. Reconciliation'
+#: erpnext/accounts/doctype/payment_reconciliation/payment_reconciliation.json
+msgid "Total Payment Amount"
+msgstr ""
+
+#: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.js:97
+msgid "Total {0} of all items is zero, charges cannot be distributed on it."
+msgstr ""
+
+#: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.py:320
+msgid ""
+"Total {0} of all items is zero. Set 'Distribute Charges Based On' to {1}."
+msgstr ""
+
+#: erpnext/accounts/report/consolidated_accounts_payable/consolidated_accounts_payable.js:14
+#: erpnext/accounts/report/consolidated_accounts_payable_summary/consolidated_accounts_payable_summary.js:14
+#: erpnext/accounts/report/consolidated_accounts_receivable/consolidated_accounts_receivable.js:14
+#: erpnext/accounts/report/consolidated_accounts_receivable_summary/consolidated_accounts_receivable_summary.js:14
+msgid "Totals are dropped when the companies use different currencies"
+msgstr ""
+
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:82
+msgid ""
+"Track readiness, shortages, work orders and the shop floor schedule on one "
+"screen."
+msgstr ""
+
+#. Label of the track_semi_finished_goods (Check) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Track semi finished goods"
+msgstr ""
+
+#: erpnext/selling/doctype/quotation/quotation.py:204
+msgid ""
+"Transaction Date must be after {0}, the date of the latest version of this "
+"Quotation."
+msgstr ""
+
+#. Label of the transfer_material_against (Select) field in DocType 'BOM'
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "Transfer material against"
+msgstr ""
+
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:1160
+msgid "Unassigned"
+msgstr ""
+
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:674
+msgid "Unlinked Sub Assemblies"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:295
+msgid "Use Item Wise Start Dates"
+msgstr ""
+
+#. Label of the use_serial_no_wise_valuation (Check) field in DocType 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid "Use Serial No Wise Valuation"
+msgstr ""
+
+#. Description of the 'No of Shifts' (Int) field in DocType 'Production Plan'
+#: erpnext/manufacturing/doctype/production_plan/production_plan.json
+msgid ""
+"Used by scheduling when an item has no BOM operations: scales the Item Lead "
+"Time daily capacity to this many shifts."
+msgstr ""
+
+#. Title of a Sidebar
+#: erpnext/utilities/sidebar/utilities/utilities.json
+msgid "Utilities"
+msgstr ""
+
+#: erpnext/stock/doctype/item/item.py:1209
+msgid ""
+"Valuation Method for Item {0} must be Moving Average because Serial No Wise "
+"Valuation is disabled. Enable Serial No Wise Valuation to use FIFO, LIFO or "
+"Standard Cost."
+msgstr ""
+
+#. Description of the 'Valuation Type' (Select) field in DocType 'BOM
+#. Secondary
+#. Item'
+#: erpnext/manufacturing/doctype/bom_secondary_item/bom_secondary_item.json
+#, python-format
+msgid ""
+"Valuation Rate and Manual value this item on its own and deduct that cost "
+"from the raw material cost, like the pre-v16 scrap items. % of Component "
+"Cost allocates a percentage of the remaining raw material cost."
+msgstr ""
+
+#. Label of the valuation_type (Select) field in DocType 'BOM Secondary Item'
+#. Label of the valuation_type (Select) field in DocType 'Stock Entry Detail'
+#. Label of the valuation_type (Select) field in DocType 'Subcontracting
+#. Receipt Item'
+#: erpnext/manufacturing/doctype/bom_secondary_item/bom_secondary_item.json
+#: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
+#: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
+msgid "Valuation Type"
+msgstr ""
+
+#. Description of the 'Use Serial No Wise Valuation' (Check) field in DocType
+#. 'Item'
+#: erpnext/stock/doctype/item/item.json
+msgid ""
+"Value every outward movement at each Serial No's own incoming rate. If "
+"unchecked, the item is valued at Moving Average once stock transactions "
+"exist. Cannot be enabled once Serial Nos exist for this item."
+msgstr ""
+
+#: erpnext/selling/doctype/quotation/quotation_dashboard.py:15
+msgid "Versions"
+msgstr ""
+
+#. Label of the weight_per_piece (Float) field in DocType 'Job Card'
+#. Label of the weight_per_piece (Float) field in DocType 'Work Order
+#. Operation'
+#. Label of the weight_per_piece (Float) field in DocType 'Stock Entry'
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+#: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+msgid "Weight Per Piece"
+msgstr ""
+
+#. Label of the weight_per_piece (Float) field in DocType 'BOM Operation'
+#: erpnext/manufacturing/doctype/bom_operation/bom_operation.json
+msgid "Weight per piece"
+msgstr ""
+
+#. Description of the 'Is Phantom Item' (Check) field in DocType 'BOM Item'
+#: erpnext/manufacturing/doctype/bom_item/bom_item.json
+msgid ""
+"When this is enabled it defines the BOM as a logical grouping of raw "
+"materials without producing an item. The Production Item must be non-stock "
+"and will be automatically exploded when used as a raw material in another "
+"BOM."
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/services/manufacturing.py:1040
+msgid "Work Order is mandatory for a finished good conversion entry."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan/services/work_order_quantities.py:75
+msgid "Work Order must reference a row in Production Plan {0}."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan/services/work_order_quantities.py:51
+msgid "Work Order must reference only one Production Plan row."
+msgstr ""
+
+#: erpnext/stock/doctype/stock_entry/services/manufacturing.py:441
+msgid "Work Order {0}: Job Card not found for the operation {1}"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:404
+msgid ""
+"Work Orders / Purchase Orders already exist against this plan, so the "
+"schedule is locked. Cancel them to re-schedule."
+msgstr ""
+
+#: erpnext/manufacturing/scheduling/plan_adapter.py:83
+msgid ""
+"Work Orders / Purchase Orders have already been created against this "
+"Production Plan. Cancel them before re-scheduling."
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan_schedule/production_plan_schedule.py:68
+msgid ""
+"Workstation {0} has no free capacity between {1} and {2}: overlaps with {3}"
+msgstr ""
+
+#: erpnext/projects/doctype/task/task.py:346
+msgid "You are not permitted to create a Task for Project {0}"
+msgstr ""
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:412
+#: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:422
+#: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:530
+msgctxt "Financial Report Template"
+msgid "[{0}] {1}"
+msgstr ""
+
+#: banking/src/components/features/BankReconciliation/BankRecDateFilter.tsx:228
+msgid "e.g. Last 3 weeks, Q1, May 2025"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:1153
+msgid "in {0}"
+msgstr ""
+
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:364
+msgid "produced"
+msgstr "المنتجة"
+
+#: erpnext/accounts/report/accounts_payable/accounts_payable.js:373
+msgid "{0} Payment Entries"
+msgstr ""
+
+#: erpnext/accounts/doctype/accounting_dimension/accounting_dimension.py:66
+msgid ""
+"{0} cannot be used as an accounting dimension as it is not a standalone "
+"document type."
+msgstr ""
+
+#: erpnext/accounts/doctype/account/account_tree.js:426
+#: erpnext/accounts/doctype/cost_center/cost_center_tree.js:144
+msgid "{0} converted"
+msgstr ""
+
+#: erpnext/accounts/bulk_payment.py:41
+msgid "{0} excluded (not payable)"
+msgstr ""
+
+#: erpnext/accounts/bulk_payment.py:43
+msgid "{0} failed (see Error Log)"
+msgstr ""
+
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:506
+msgid "{0} finished goods · {1} sub assemblies"
+msgstr ""
+
+#: erpnext/accounts/report/accounts_payable/accounts_payable.js:394
+msgid "{0} invoice(s) excluded"
+msgstr ""
+
+#: erpnext/accounts/doctype/journal_entry/mapper.py:238
+msgid ""
+"{0} is already a Reverse Journal Entry of {1}. Cancel it instead of "
+"reversing it."
+msgstr ""
+
+#: erpnext/controllers/queries.py:1316
+msgid "{0} is not a child table"
+msgstr ""
+
+#: erpnext/utilities/transaction_base.py:391
+msgid "{0} is not a child table of {1}"
+msgstr "الجدول {0} ليس جدولًا فرعيًا للجدول {1}"
+
+#: erpnext/public/js/utils/party.js:88 erpnext/public/js/utils/party.js:190
+#: erpnext/public/js/utils/party.js:202 erpnext/public/js/utils/party.js:249
+#: erpnext/public/js/utils/party.js:261
+msgid "{0} is required to apply taxes. Set {0}, then select {1} again."
+msgstr ""
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:218
+msgid "{0} is required when {1} is {2}"
+msgstr ""
+
+#: erpnext/setup/doctype/company/company.py:904
+msgid ""
+"{0} is the site's Demo Company and cannot be deleted directly. Use {1} "
+"instead."
+msgstr ""
+
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:544
+msgid "{0} materials short"
+msgstr ""
+
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:330
+msgid "{0} materials still to request"
+msgstr ""
+
+#: erpnext/stock/doctype/item/item.py:418
+msgid "{0} must be greater than zero."
+msgstr ""
+
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:408
+msgid "{0} requests · {1} orders"
+msgstr ""
+
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:341
+msgid "{0} rows not started"
+msgstr ""
+
+#: erpnext/accounts/doctype/financial_report_template/financial_report_validation.py:514
+msgid "{0} should be in format: app.module.method"
+msgstr ""
+
+#: erpnext/manufacturing/page/production_plan_visualizer/production_plan_visualizer.js:431
+msgid "{0} workstations"
+msgstr ""
+
+#: erpnext/accounts/doctype/journal_entry/services/reference_validator.py:209
+msgid "{0} {1} is blocked and on hold until {2}."
+msgstr ""
+
+#: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:693
+msgid ""
+"{0} {1} was submitted but could not be reconciled against Bank Transaction "
+"{2}. Match it manually from the Bank Reconciliation Tool."
+msgstr ""
+
+#: erpnext/projects/doctype/task/task.py:147
+msgid "{0}'s {1} cannot be before {2}'s Expected Start Date."
+msgstr ""
+
+#: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.py:203
+msgid "{0}: expected \"{1}\", got \"{2}\""
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:1139
+msgid "{0}d"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:1140
+msgid "{0}h"
+msgstr ""
+
+#: erpnext/manufacturing/doctype/production_plan/production_plan.js:1141
+msgid "{0}m"
+msgstr ""

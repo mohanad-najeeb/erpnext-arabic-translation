@@ -6338,12 +6338,12 @@ msgstr "خط العرض: {0}°"
 #: hrms/overrides/dashboard_overrides.py:12
 #: hrms/payroll/doctype/payroll_settings/payroll_settings.json
 msgid "Leave"
-msgstr "غادر"
+msgstr "إجازة"
 
 #. Name of a DocType
 #: hrms/hr/doctype/leave_adjustment/leave_adjustment.json
 msgid "Leave Adjustment"
-msgstr "ترك التعديل"
+msgstr "تعديل الإجازة"
 
 #: hrms/hr/doctype/leave_adjustment/leave_adjustment.py:67
 msgid ""
@@ -6372,7 +6372,7 @@ msgstr "تخصيص الإجازة موجود"
 #. 'Leave Policy'
 #: hrms/hr/doctype/leave_policy/leave_policy.json
 msgid "Leave Allocations"
-msgstr "اترك المخصصات"
+msgstr "تخصيصات الإجازات"
 
 #. Label of the leave_application (Link) field in DocType 'Attendance'
 #. Name of a DocType
@@ -6396,13 +6396,13 @@ msgstr ""
 
 #: hrms/setup.py:438 hrms/setup.py:440 hrms/setup.py:500
 msgid "Leave Approval Notification"
-msgstr "اترك إشعار الموافقة"
+msgstr "إشعار الموافقة على الإجازة"
 
 #. Label of the leave_approval_notification_template (Link) field in DocType
 #. 'HR Settings'
 #: hrms/hr/doctype/hr_settings/hr_settings.json
 msgid "Leave Approval Notification Template"
-msgstr "اترك قالب إعلام الموافقة"
+msgstr "نموذج إشعار الموافقة على الإجازة"
 
 #. Label of the leave_approver (Link) field in DocType 'Leave Application'
 #. Name of a role
@@ -6417,11 +6417,11 @@ msgstr "معتمد الإجازة"
 #. DocType 'HR Settings'
 #: hrms/hr/doctype/hr_settings/hr_settings.json
 msgid "Leave Approver Mandatory In Leave Application"
-msgstr "إجازة الموافقة إلزامية في طلب الإجازة"
+msgstr "يجب تحديد معتمد الإجازة في طلب الإجازة"
 
 #: hrms/hr/doctype/leave_application/leave_application_calendar.js:493
 msgid "Leave Approver Missing"
-msgstr "ترك المعتمد مفقودًا"
+msgstr "معتمد الإجازة غير محدد"
 
 #. Label of the leave_approver_name (Data) field in DocType 'Leave Application'
 #: hrms/hr/doctype/leave_application/leave_application.json
@@ -6514,7 +6514,7 @@ msgstr "الإجازات مدفوعة"
 #: hrms/payroll/doctype/salary_structure/salary_structure.json
 #: hrms/payroll/doctype/salary_structure_assignment/salary_structure_assignment.json
 msgid "Leave Encashment Amount Per Day"
-msgstr "ترك Encshment المبلغ لكل يوم"
+msgstr "قيمة بدل الإجازة لليوم الواحد"
 
 #: frontend/src/views/leave/List.vue:5
 msgid "Leave History"
@@ -6529,7 +6529,7 @@ msgstr "دفتر أستاذ الإجازات"
 #: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.json
 #: hrms/hr/report/leave_ledger/leave_ledger.py:21
 msgid "Leave Ledger Entry"
-msgstr "ترك دخول دفتر الأستاذ"
+msgstr "قيد دفتر أستاذ الإجازات"
 
 #: hrms/hr/doctype/leave_ledger_entry/leave_ledger_entry.py:43
 msgid ""
@@ -6557,7 +6557,7 @@ msgstr ""
 #: hrms/hr/doctype/leave_policy_assignment/leave_policy_assignment.json
 #: hrms/hr/workspace/leaves/leaves.json hrms/workspace_sidebar/leaves.json
 msgid "Leave Period"
-msgstr "اترك فترة"
+msgstr "فترة الإجازة"
 
 #. Label of the leave_policy (Link) field in DocType 'Leave Allocation'
 #. Label of the leave_policy (Link) field in DocType 'Leave Control Panel'
@@ -6594,12 +6594,12 @@ msgstr "تداخل في تعيين سياسة الإجازات"
 #. Name of a DocType
 #: hrms/hr/doctype/leave_policy_detail/leave_policy_detail.json
 msgid "Leave Policy Detail"
-msgstr "ترك سياسة التفاصيل"
+msgstr "تفاصيل سياسة الإجازة"
 
 #. Label of the leave_policy_details (Table) field in DocType 'Leave Policy'
 #: hrms/hr/doctype/leave_policy/leave_policy.json
 msgid "Leave Policy Details"
-msgstr "اترك تفاصيل السياسة"
+msgstr "تفاصيل سياسة الإجازة"
 
 #: hrms/hr/doctype/leave_policy_assignment/leave_policy_assignment.py:85
 msgid "Leave Policy: {0} already assigned for Employee {1} for period {2} to {3}"
@@ -6609,17 +6609,17 @@ msgstr "سياسة الإجازات: {0} تم تعيينها بالفعل للم
 #. Settings'
 #: hrms/hr/doctype/hr_settings/hr_settings.json
 msgid "Leave Settings"
-msgstr "اترك الإعدادات"
+msgstr "إعدادات الإجازات"
 
 #: hrms/setup.py:447 hrms/setup.py:449 hrms/setup.py:501
 msgid "Leave Status Notification"
-msgstr "ترك إخطار الحالة"
+msgstr "إشعار حالة الإجازة"
 
 #. Label of the leave_status_notification_template (Link) field in DocType 'HR
 #. Settings'
 #: hrms/hr/doctype/hr_settings/hr_settings.json
 msgid "Leave Status Notification Template"
-msgstr "ترك قالب إعلام الحالة"
+msgstr "نموذج إشعار حالة الإجازة"
 
 #. Label of the leave_type (Link) field in DocType 'Attendance'
 #. Label of the leave_type (Link) field in DocType 'Compensatory Leave Request'
@@ -6791,7 +6791,7 @@ msgstr "الإجازات والعطلات"
 #. Adjustment'
 #: hrms/hr/doctype/leave_adjustment/leave_adjustment.json
 msgid "Leaves After Adjustment"
-msgstr "يترك بعد التعديل"
+msgstr "رصيد الإجازات بعد التعديل"
 
 #. Label of the leaves_allocated (Check) field in DocType 'Leave Policy
 #. Assignment'
@@ -6820,7 +6820,7 @@ msgstr "الأجزات في السنة"
 #. Label of the leaves_to_adjust (Float) field in DocType 'Leave Adjustment'
 #: hrms/hr/doctype/leave_adjustment/leave_adjustment.json
 msgid "Leaves to Adjust"
-msgstr "يترك لضبط"
+msgstr "عدد الإجازات المطلوب تعديلها"
 
 #: hrms/hr/doctype/leave_type/leave_type.js:42
 msgid ""
@@ -6836,7 +6836,7 @@ msgstr ""
 #: hrms/hr/report/leave_ledger/leave_ledger.js:41
 msgctxt "Employee"
 msgid "Left"
-msgstr "ترك"
+msgstr "المتبقي"
 
 #: hrms/overrides/dashboard_overrides.py:16
 msgid "Lifecycle"
@@ -8827,7 +8827,7 @@ msgstr "يرجى تحديث حالتك لهذا الحدث التدريبي"
 #. Label of the posting_date (Date) field in DocType 'Gratuity'
 #: hrms/payroll/doctype/gratuity/gratuity.json
 msgid "Posting date"
-msgstr "تاريخ الترحيل"
+msgstr "تاريخ النشر"
 
 #. Label of the preferred_area_for_lodging (Data) field in DocType 'Travel
 #. Itinerary'
@@ -12427,7 +12427,7 @@ msgstr ""
 
 #: hrms/hr/doctype/leave_encashment/leave_encashment.py:75
 msgid "You can only submit Leave Encashment for a valid encashment amount"
-msgstr "يمكنك فقط إرسال ترك الإلغاء لمبلغ سداد صالح"
+msgstr "لا يمكنك تقديم طلب صرف بدل الإجازة إلا إذا كان المبلغ صالحًا للصرف"
 
 #: hrms/api/__init__.py:752
 msgid "You can only upload JPG, PNG, PDF, TXT or Microsoft documents."

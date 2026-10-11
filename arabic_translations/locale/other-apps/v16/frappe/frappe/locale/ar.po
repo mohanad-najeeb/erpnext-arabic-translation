@@ -1205,7 +1205,7 @@ msgstr "مقبولة في"
 #: frappe/public/js/frappe/views/workspace/workspace.js:639
 #: frappe/public/js/frappe/views/workspace/workspace.js:902
 msgid "Access"
-msgstr "وصول"
+msgstr "الصلاحيات"
 
 #. Label of the access_control_section (Section Break) field in DocType 'Web
 #. Form'
@@ -1797,12 +1797,12 @@ msgstr "أضف إلى هذا النشاط عن طريق إرسال بريد إل
 
 #: frappe/public/js/frappe/views/kanban/kanban_column.html:21
 msgid "Add {0}"
-msgstr "أضِف {0}"
+msgstr "أضف {0}"
 
 #: frappe/public/js/frappe/list/list_view.js:334
 msgctxt "Primary action in list view"
 msgid "Add {0}"
-msgstr "أضِف {0}"
+msgstr "أضف {0}"
 
 #: frappe/core/doctype/role/role.js:526
 msgid "Add {0} Access to {1}"
@@ -2556,7 +2556,7 @@ msgstr "مسموح به: {0}"
 
 #: frappe/public/js/frappe/form/form.js:1454
 msgid "Allowing DocType, DocType. Be careful!"
-msgstr "السماح DOCTYPE ، DOCTYPE . كن حذرا!"
+msgstr "السماح بنوع المستند، نوع المستند. توخَّ الحذر!"
 
 #. Description of the 'Show Auth Server Metadata' (Check) field in DocType
 #. 'OAuth Settings'
@@ -2961,7 +2961,7 @@ msgstr "الأدوار التي يتم شحنها بواسطة التطبيق و
 #: frappe/public/js/frappe/ui/user_settings_dialog.js:325
 #: frappe/public/js/frappe/ui/user_settings_dialog.js:327
 msgid "Appearance"
-msgstr "مظهر"
+msgstr "المظهر"
 
 #. Label of the append_emails_to_sent_folder (Check) field in DocType 'Email
 #. Account'
@@ -4357,6 +4357,9 @@ msgstr "تاريخ الميلاد"
 #: frappe/public/js/frappe/data_import/data_exporter.js:54
 msgid "Blank Template"
 msgstr "نموذج فارغ"
+
+msgid "Sample Template"
+msgstr "نموذج عينة تجريبية"
 
 #. Name of a DocType
 #: frappe/core/doctype/block_module/block_module.json
@@ -6322,7 +6325,7 @@ msgstr "التكوين"
 #. Login Key'
 #: frappe/integrations/doctype/social_login_key/social_login_key.json
 msgid "Configuration"
-msgstr "إعدادات"
+msgstr "الإعدادات"
 
 #. Label of the configure (Button) field in DocType 'Global Search DocType'
 #: frappe/desk/doctype/global_search_doctype/global_search_doctype.json
@@ -7011,7 +7014,7 @@ msgstr "إنشاء نوع مستند جديد"
 
 #: frappe/public/js/frappe/list/list_view_select.js:586
 msgid "Create New Kanban Board"
-msgstr "إنشاء لوحة كانبان جديدة"
+msgstr "إنشاء لوح كانبان جديد"
 
 #: frappe/core/doctype/user/user.js:297
 msgid "Create User Email"
@@ -8308,7 +8311,7 @@ msgstr "حذف عناوين URL الخاصة بـ Gravatar"
 
 #: frappe/public/js/frappe/views/kanban/kanban_view.js:140
 msgid "Delete Kanban Board"
-msgstr "حذف لوحة كانبان"
+msgstr "حذف لوح كانبان"
 
 #: frappe/public/js/form_builder/components/Section.vue:129
 msgctxt "Title of confirmation dialog"
@@ -8628,7 +8631,7 @@ msgstr "تجاوز الوصف"
 #. 'Onboarding Step'
 #: frappe/desk/doctype/onboarding_step/onboarding_step.json
 msgid "Description to inform the user about any action that is going to be performed"
-msgstr "وصف لإعلام المستخدم بأي إجراء سيتم تنفيذه"
+msgstr "وصف لإعلام المستخدم بأي إجراء سيتم تنفيذه."
 
 #. Label of the designation (Data) field in DocType 'Contact'
 #: frappe/contacts/doctype/contact/contact.json
@@ -9262,11 +9265,11 @@ msgstr "طريقة عرض DocType"
 
 #: frappe/core/doctype/doctype/doctype.py:697
 msgid "DocType can not be merged"
-msgstr "لا يمكن دمج DOCTYPE"
+msgstr "لا يمكن دمج المستند"
 
 #: frappe/core/doctype/doctype/doctype.py:691
 msgid "DocType can only be renamed by Administrator"
-msgstr "DOCTYPE لا يمكن تسميتها من قبل المسؤول"
+msgstr "المستند لا يمكن تغيير إسمه إلا من قبل المدير"
 
 #. Description of a DocType
 #: frappe/core/doctype/doctype/doctype.json
@@ -9288,7 +9291,7 @@ msgstr "نوع المستند غير مدعوم من قبل إعدادات ال�
 #. Description of the 'Document Type' (Link) field in DocType 'Workflow'
 #: frappe/workflow/doctype/workflow/workflow.json
 msgid "DocType on which this Workflow is applicable."
-msgstr "DOCTYPE على سير العمل هذا الذي ينطبق."
+msgstr "نوع المستند الذي ينطبق عليه سير العمل هذا."
 
 #: frappe/public/js/frappe/views/kanban/kanban_settings.js:4
 msgid "DocType required"
@@ -9336,7 +9339,7 @@ msgstr "تم تحديث الرصيف"
 #: frappe/email/doctype/document_follow/document_follow.json
 #: frappe/public/js/frappe/widgets/widget_dialog.js:682
 msgid "Doctype"
-msgstr "DOCTYPE"
+msgstr "المستند"
 
 #. Name of a DocType
 #. Label of the doctype_to_sync (Table) field in DocType 'Report'
@@ -9446,7 +9449,7 @@ msgstr "يجب ألا يكون اسم المستند فارغًا"
 
 #: frappe/public/js/frappe/ui/naming_series.js:7
 msgid "Document Naming"
-msgstr "المستند التسمية"
+msgstr "تسمية المستندات"
 
 #. Name of a DocType
 #: frappe/core/doctype/document_naming_rule/document_naming_rule.json
@@ -10129,22 +10132,22 @@ msgstr "يقوم كل صف بتعيين حقل على نوع مستند واحد
 #: frappe/workflow/page/workflow_builder/workflow_builder.js:46
 #: frappe/workflow/page/workflow_builder/workflow_builder.js:84
 msgid "Edit"
-msgstr "تصحيح"
+msgstr "تعديل"
 
 #: frappe/public/js/frappe/list/list_view.js:2942
 msgctxt "Button in list view actions menu"
 msgid "Edit"
-msgstr "تصحيح"
+msgstr "تعديل"
 
 #: frappe/website/doctype/web_form/templates/web_form.html:33
 msgctxt "Button in web form"
 msgid "Edit"
-msgstr "تصحيح"
+msgstr "تعديل"
 
 #: frappe/public/js/frappe/form/grid_row.js:339
 msgctxt "Edit grid row"
 msgid "Edit"
-msgstr "تصحيح"
+msgstr "تعديل"
 
 #: frappe/public/js/frappe/ui/address_autocomplete/autocomplete_dialog.js:64
 msgid "Edit Address in Form"
@@ -10190,7 +10193,7 @@ msgstr "تحرير تنسيق"
 
 #: frappe/public/js/frappe/form/quick_entry.js:356
 msgid "Edit Full Form"
-msgstr "تعديل النموذج الكامل"
+msgstr "النموذج الكامل"
 
 #: frappe/public/js/print_format_builder/components/editor/Field.vue:223
 #: frappe/public/js/print_format_builder/components/editor/Field.vue:511
@@ -10438,7 +10441,7 @@ msgstr "عناوين البريد الإلكتروني"
 #. Name of a DocType
 #: frappe/email/doctype/email_domain/email_domain.json
 msgid "Email Domain"
-msgstr "المجال البريد الإلكتروني"
+msgstr "دومين البريد الإلكتروني"
 
 #. Name of a DocType
 #: frappe/email/doctype/email_flag_queue/email_flag_queue.json
@@ -10844,7 +10847,7 @@ msgstr "تفعيل تسجيل الدخول الاجتماعي"
 #. Label of the enabled (Check) field in DocType 'Notification Settings'
 #: frappe/desk/doctype/notification_settings/notification_settings.json
 msgid "Enable System Notification"
-msgstr "تفعيل إعلام النظام"
+msgstr "تفعيل إشعارات النظام"
 
 #: frappe/website/doctype/website_settings/website_settings.js:168
 msgid "Enable Tracking Page Views"
@@ -11350,7 +11353,7 @@ msgstr "كل شخص"
 
 #: frappe/public/js/frappe/ui/sidebar/dock_manager.js:142
 msgid "Everything is on the dock"
-msgstr "كل شيء على قفص الاتهام"
+msgstr "كل شيء على شريط المهام"
 
 #. Description of the 'Custom Options' (Code) field in DocType 'Dashboard
 #. Chart'
@@ -11404,7 +11407,7 @@ msgstr "أمثلة:"
 #. Option for the 'File Type' (Select) field in DocType 'Data Export'
 #: frappe/core/doctype/data_export/data_export.json
 msgid "Excel"
-msgstr "تفوق"
+msgstr "ملف إكسل"
 
 #: frappe/public/js/frappe/form/controls/password.js:90
 msgid "Excellent"
@@ -11520,7 +11523,7 @@ msgstr "وقت انتهاء الصلاحية"
 #. Label of the expire_notification_on (Datetime) field in DocType 'Note'
 #: frappe/desk/doctype/note/note.json
 msgid "Expire Notification On"
-msgstr "تنتهي الإعلام على"
+msgstr "تنبيه انتهاء الصلاحية في"
 
 #. Option for the 'Delivery Status' (Select) field in DocType 'Communication'
 #. Option for the 'Status' (Select) field in DocType 'User Invitation'
@@ -11851,7 +11854,7 @@ msgstr "فشل استيراد نوع المستند الافتراضي {}، هل
 
 #: frappe/public/js/frappe/views/kanban/kanban_view.js:222
 msgid "Failed to load Kanban board"
-msgstr "فشل تحميل لوحة كانبان"
+msgstr "فشل تحميل لوح كانبان"
 
 #: frappe/public/js/frappe/ui/embedded_list.js:18
 msgid "Failed to load data."
@@ -12172,7 +12175,7 @@ msgstr "اسم الحقل في الإعدادات نوع المستند الذي
 
 #: frappe/custom/doctype/custom_field/custom_field.js:107
 msgid "Fieldname which will be the DocType for this link field."
-msgstr "أسم الحقل الذي سيكون DOCTYPE لهذا الحقل الارتباط."
+msgstr "أسم الحقل الذي سيكون المستند لهذا الحقل الارتباط."
 
 #: frappe/public/js/form_builder/store.js:303
 msgid "Fieldname {0} appears multiple times"
@@ -12382,7 +12385,7 @@ msgstr "الملفات"
 #: frappe/website/doctype/web_form/web_form.js:248
 #: frappe/website/doctype/web_form/web_form.js:322
 msgid "Filter"
-msgstr "منقي"
+msgstr "فلتر"
 
 #. Label of the filter_area (HTML) field in DocType 'Workspace Sidebar Item'
 #: frappe/desk/doctype/workspace_sidebar_item/workspace_sidebar_item.json
@@ -17518,7 +17521,7 @@ msgstr "نوع الترخيص"
 #: frappe/core/doctype/user/user.json
 #: frappe/public/js/frappe/ui/theme_switcher.js:65
 msgid "Light"
-msgstr "ضوء"
+msgstr "فاتح"
 
 #. Option for the 'Color' (Select) field in DocType 'DocType State'
 #. Option for the 'Indicator' (Select) field in DocType 'Kanban Board Column'
@@ -17811,7 +17814,7 @@ msgstr "إعدادات القائمة"
 
 #: frappe/public/js/frappe/list/base_list.js:204
 msgid "List View"
-msgstr "عرض منسدل"
+msgstr "عرض قائمة"
 
 #. Name of a DocType
 #: frappe/desk/doctype/list_view_settings/list_view_settings.json
@@ -17849,7 +17852,7 @@ msgstr "فشل تحميل قائمة المحاكاة الافتراضية. تق
 #: frappe/public/js/frappe/ui/user_settings_dialog.js:563
 #: frappe/public/js/frappe/ui/user_settings_dialog.js:565
 msgid "Lists"
-msgstr "قوائم"
+msgstr "القوائم"
 
 #: frappe/core/page/component_explorer/component_explorer.js:812
 msgid "Live (updates via set_value)"
@@ -18312,7 +18315,7 @@ msgstr "رأس عنوان تالف"
 
 #: frappe/public/js/print_format_builder/components/PrintFormatControls.vue:191
 msgid "Manage"
-msgstr "يدير"
+msgstr "إدارة"
 
 #: frappe/www/me.html:56
 msgid "Manage 3rd party apps"
@@ -18326,7 +18329,7 @@ msgstr "إدارة الفواتير"
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:551
 #: frappe/public/js/frappe/ui/sidebar/sidebar_header.js:22
 msgid "Manage Dock"
-msgstr "إدارة قفص الاتهام"
+msgstr "إدارة شريط المهام"
 
 #: frappe/public/js/frappe/list/list_filter/list_filter_menu.js:61
 #: frappe/public/js/frappe/list/list_filter/manage_layouts_dialog.js:11
@@ -18347,7 +18350,7 @@ msgstr "إدارة معلومات ملفك الشخصي وعرض الصورة."
 
 #: frappe/public/js/frappe/ui/sidebar/dock_manager.js:25
 msgid "Manage {0} Dock"
-msgstr "إدارة {0} قفص الاتهام"
+msgstr "إدارة {0} شريط المهام"
 
 #. Label of the reqd (Check) field in DocType 'DocField'
 #. Label of the mandatory (Check) field in DocType 'Report Filter'
@@ -19513,7 +19516,7 @@ msgstr "الإسم لا يمكن أن يحتوي على أحرف خاصة مثل
 
 #: frappe/custom/doctype/custom_field/custom_field.js:91
 msgid "Name of the Document Type (DocType) you want this field to be linked to. e.g. Customer"
-msgstr "اسم نوع المستند (DOCTYPE) تريد هذا الحقل لتكون مرتبطة. على سبيل المثال العملاء"
+msgstr "اسم نوع المستند الذي تريد هذا الحقل مرتبطاً به. على سبيل المثال عميل"
 
 #: frappe/model/naming.py:532
 msgid "Name of {0} cannot be {1}"
@@ -19735,7 +19738,7 @@ msgstr "ملف جديد"
 
 #: frappe/public/js/frappe/views/kanban/kanban_view.js:634
 msgid "New Kanban Board"
-msgstr "مجلس كانبان جديدة"
+msgstr "لوح كانبان جديد"
 
 #: frappe/public/js/frappe/widgets/widget_dialog.js:62
 msgid "New Links"
@@ -20494,7 +20497,7 @@ msgstr "لا توجد إشعارات جديدة"
 
 #: frappe/public/js/frappe/form/doctype_settings/tabs/notification.js:94
 msgid "No notifications configured"
-msgstr "لم يتم تكوين أي إخطارات"
+msgstr "لم يتم تكوين أي إشعارات"
 
 #. Label of the no_of_requested_sms (Int) field in DocType 'SMS Log'
 #: frappe/core/doctype/sms_log/sms_log.json
@@ -20671,13 +20674,13 @@ msgstr "لا {0} الإلكتروني"
 
 #: frappe/public/js/frappe/ui/embedded_list.js:208
 msgid "No."
-msgstr "لا."
+msgstr "رقم"
 
 #: frappe/public/js/form_builder/utils.js:117
 #: frappe/public/js/frappe/form/grid_row.js:242
 msgctxt "Title of the 'row number' column"
 msgid "No."
-msgstr "لا."
+msgstr "رقم"
 
 #. Label of the no_of_rows (Data) field in DocType 'Data Import Value Mapping'
 #: frappe/core/doctype/data_import_value_mapping/data_import_value_mapping.json
@@ -20883,7 +20886,7 @@ msgstr "ليس في وضع مطور البرامج"
 
 #: frappe/core/doctype/doctype/doctype.py:336
 msgid "Not in Developer Mode! Set in site_config.json or make 'Custom' DocType."
-msgstr "ليس في وضع المطور! يقع في site_config.json أو جعل DOCTYPE \"مخصص\"."
+msgstr "لست في وضع المطور! قم بتعيينها في ملف site_config.json أو قم بإنشاء نوع مستند مخصص."
 
 #: frappe/public/js/frappe/views/workspace/workspace.js:413
 #: frappe/public/js/frappe/views/workspace/workspace.js:506
@@ -20892,7 +20895,7 @@ msgstr "ليس في أي تطبيق"
 
 #: frappe/public/js/frappe/ui/sidebar/dock_manager.js:77
 msgid "Not on the dock"
-msgstr "ليس على قفص الاتهام"
+msgstr "ليس على شريط المهام"
 
 #: frappe/core/doctype/background_task/background_task.py:176
 #: frappe/core/doctype/background_task/background_task.py:220
@@ -20982,7 +20985,7 @@ msgstr "لم يتبق شيء للتراجع عنه"
 #: frappe/templates/includes/list/list.html:14
 #: frappe/website/doctype/help_article/templates/help_article_list.html:21
 msgid "Nothing to show"
-msgstr "لا شيء لإظهار"
+msgstr "لا شيء للعرض"
 
 #: frappe/core/doctype/user_permission/user_permission_list.js:129
 msgid "Nothing to update"
@@ -21000,7 +21003,7 @@ msgstr "لا شيء للتحديث"
 #: frappe/email/doctype/notification/notification.json
 #: frappe/public/js/frappe/ui/sidebar/sidebar.js:728
 msgid "Notification"
-msgstr "إعلام"
+msgstr "إشعارات"
 
 #. Name of a DocType
 #: frappe/desk/doctype/notification_log/notification_log.json
@@ -21016,7 +21019,7 @@ msgstr "رسالة الإخطار"
 #. Name of a DocType
 #: frappe/email/doctype/notification_recipient/notification_recipient.json
 msgid "Notification Recipient"
-msgstr "مستلم الإعلام"
+msgstr "مستلم الإشعار"
 
 #. Name of a DocType
 #: frappe/desk/doctype/notification_settings/notification_settings.json
@@ -21075,7 +21078,7 @@ msgstr "إشعار: المستخدم {0} ليس لديه رقم جوال مُس�
 #: frappe/public/js/frappe/ui/notifications/notifications.js:216
 #: frappe/public/js/frappe/ui/sidebar/workspace_dock.js:88
 msgid "Notifications"
-msgstr "إخطارات"
+msgstr "إشعارات"
 
 #: frappe/public/js/frappe/ui/notifications/notifications.js:329
 msgid "Notifications Disabled"
@@ -21085,7 +21088,7 @@ msgstr "تم تعطيل الإشعارات"
 #. Account'
 #: frappe/email/doctype/email_account/email_account.json
 msgid "Notifications and bulk mails will be sent from this outgoing server."
-msgstr "سيتم إرسال إخطارات ورسائل السائبة من هذا الخادم المنتهية ولايته."
+msgstr "سيتم إرسال إشعارات ورسائل السائبة من هذا الخادم المنتهية ولايته."
 
 #. Label of the notify_on_every_login (Check) field in DocType 'Note'
 #: frappe/desk/doctype/note/note.json
@@ -21115,7 +21118,7 @@ msgstr "يخطر إذا لا تحوي على ردود ل (في دقيقة)"
 #. Label of the notify_on_login (Check) field in DocType 'Note'
 #: frappe/desk/doctype/note/note.json
 msgid "Notify users with a popup when they log in"
-msgstr "إعلام المستخدمين مع منبثقة عندما يقومون بتسجيل الدخول"
+msgstr "إشعار المستخدمين عبر نافذة منبثقة عند تسجيل الدخول"
 
 #: frappe/public/js/frappe/form/controls/datetime.js:60
 #: frappe/public/js/frappe/form/controls/time.js:37
@@ -21900,7 +21903,7 @@ msgstr "خيارات"
 
 #: frappe/core/doctype/doctype/doctype.py:1477
 msgid "Options 'Dynamic Link' type of field must point to another Link Field with options as 'DocType'"
-msgstr "'الارتباط الحيوي \"نوع من الخيارات الميدانية يجب أن يشير إلى رابط حقل آخر مع خيارات باسم' DOCTYPE '"
+msgstr "يجب أن يشير نوع حقل الرابط الديناميكي إلى حقل رابط آخر يحتوي على خيارات مثل نوع المستند."
 
 #. Label of the options_help (HTML) field in DocType 'Custom Field'
 #: frappe/custom/doctype/custom_field/custom_field.json
@@ -22949,6 +22952,8 @@ msgstr "لون القرنفل"
 #: frappe/public/js/frappe/ui/toolbar/search.js:718
 msgid "Pinned"
 msgstr "مثبت"
+msgid "Floating"
+msgstr "منزلق"
 
 #. Label of the placeholder (Data) field in DocType 'DocField'
 #. Label of the placeholder (Data) field in DocType 'Custom Field'
@@ -23086,7 +23091,7 @@ msgstr "يرجى النقر على الرابط التالي واتباع الت
 
 #: frappe/public/js/frappe/views/gantt/gantt_view.js:89
 msgid "Please configure the start field for this Doctype in the controller file."
-msgstr "يرجى تكوين حقل البداية لهذا الـ DOCTYPE في ملف المتحكم."
+msgstr "يرجى ضبط حقل البداية لهذا النوع من المستندات في ملف وحدة التحكم."
 
 #: frappe/www/confirm_workflow_action.html:4
 msgid "Please confirm your action to {0} this document."
@@ -23262,7 +23267,7 @@ msgstr "يرجى الحفظ لتعديل القالب."
 
 #: frappe/printing/doctype/print_format/print_format.js:36
 msgid "Please select DocType first"
-msgstr "يرجى تحديد DOCTYPE أولا"
+msgstr "يرجى تحديد المستند أولا"
 
 #: frappe/desk/doctype/global_search_settings/global_search_settings.js:113
 msgid "Please select Document Type first."
@@ -24102,7 +24107,7 @@ msgstr "أستاذ"
 #: frappe/public/js/frappe/ui/user_settings_dialog.js:149
 #: frappe/public/js/frappe/ui/user_settings_dialog.js:151
 msgid "Profile"
-msgstr "حساب تعريفي"
+msgstr "الملف الشخصي"
 
 #. Label of a field in the edit-profile Web Form
 #: frappe/core/web_form/edit_profile/edit_profile.json
@@ -24923,7 +24928,7 @@ msgstr "أعد تنفيذ الإجراء الأخير"
 #. Label of the ref_doctype (Link) field in DocType 'Report'
 #: frappe/core/doctype/report/report.json
 msgid "Ref DocType"
-msgstr "المرجع DOCTYPE"
+msgstr "مرجع المستند"
 
 #: frappe/desk/doctype/form_tour/form_tour.js:38
 msgid "Referance Doctype and Dashboard Name both can't be used at the same time."
@@ -24974,7 +24979,7 @@ msgstr "المستند المرجعي"
 #: frappe/core/doctype/background_task/background_task.json
 #: frappe/email/doctype/email_queue/email_queue.json
 msgid "Reference DocName"
-msgstr "مرجع DocName"
+msgstr "إسم المرجع"
 
 #. Label of the ref_doctype (Link) field in DocType 'Background Task'
 #. Label of the reference_doctype (Link) field in DocType 'Error Log'
@@ -24985,7 +24990,7 @@ msgstr "مرجع DocName"
 #: frappe/core/doctype/submission_queue/submission_queue.json
 #: frappe/email/doctype/email_template/email_template.json
 msgid "Reference DocType"
-msgstr "مرجع DOCTYPE"
+msgstr "مرجع المستند"
 
 #: frappe/email/doctype/email_unsubscribe/email_unsubscribe.py:28
 msgid "Reference DocType and Reference Name are required"
@@ -25166,7 +25171,7 @@ msgstr "تحديث"
 
 #: frappe/core/page/dashboard_view/dashboard_view.js:174
 msgid "Refresh All"
-msgstr "تحديث كافة"
+msgstr "تحديث الجميع"
 
 #. Label of the refresh_google_sheet (Button) field in DocType 'Data Import'
 #: frappe/core/doctype/data_import/data_import.json
@@ -25325,7 +25330,7 @@ msgstr "إزالة المهام الفاشلة"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:512
 msgid "Remove Filter"
-msgstr "إزالة المنقي"
+msgstr "إزالة الفلتر"
 
 #: frappe/public/js/frappe/ui/permission_dialog.js:333
 msgid "Remove Permission"
@@ -25347,6 +25352,9 @@ msgstr "قم بإزالة جميع الحقول في العمود"
 #: frappe/public/js/print_format_builder/components/inspector/TableFieldInspector.vue:121
 msgid "Remove column"
 msgstr "إزالة العمود"
+
+msgid "freeze"
+msgstr "تجميد"
 
 #: frappe/public/js/form_builder/components/Field.vue:258
 #: frappe/public/js/print_format_builder/components/editor/Field.vue:167
@@ -25693,7 +25701,7 @@ msgstr "نوع التقرير"
 
 #: frappe/public/js/frappe/list/base_list.js:205
 msgid "Report View"
-msgstr "عرض التقرير"
+msgstr "عرض تقرير"
 
 #: frappe/public/js/frappe/form/form.js:1425
 msgid "Report bug"
@@ -25981,6 +25989,12 @@ msgstr "إعادة الضبط إلى الإعدادات الافتراضية"
 #: frappe/public/js/frappe/utils/datatable.js:8
 msgid "Reset sorting"
 msgstr "إعادة ترتيب الفرز"
+
+msgid "Freeze"
+msgstr "تجميد"
+
+msgid "Unfreeze"
+msgstr "فك التجميد"
 
 #: frappe/public/js/frappe/form/doctype_settings/tabs/permissions.js:224
 #: frappe/public/js/frappe/form/grid_row.js:416
@@ -27844,6 +27858,12 @@ msgstr "إرسال الرابط"
 msgid "Send Me A Copy of Outgoing Emails"
 msgstr "أرسل لي نسخة من رسائل البريد الإلكتروني الصادرة"
 
+msgid "Request read receipts for outgoing emails"
+msgstr "اطلب إشعارات قراءة رسائل البريد الإلكتروني الصادرة"
+
+msgid "Get notified when a recipient opens an email you send."
+msgstr "احصل على إشعار عندما يفتح المستلم رسالة بريد إلكتروني أرسلتها."
+
 #. Label of the send_notification_to (Small Text) field in DocType 'Email
 #. Account'
 #: frappe/email/doctype/email_account/email_account.json
@@ -27853,12 +27873,12 @@ msgstr "إرسال إشعار إلى"
 #. Label of the document_follow_notify (Check) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Send Notifications For Documents Followed By Me"
-msgstr "إرسال إخطارات للمستندات التي اتبعتها"
+msgstr "إرسال إشعارات للمستندات التي اتبعتها"
 
 #. Label of the thread_notify (Check) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Send Notifications For Email Threads"
-msgstr "إرسال إخطارات لمواضيع البريد الإلكتروني"
+msgstr "إرسال إشعارات لمواضيع البريد الإلكتروني"
 
 #: frappe/email/doctype/auto_email_report/auto_email_report.js:21
 msgid "Send Now"
@@ -28504,7 +28524,7 @@ msgstr "إعداد النظام الخاص بك"
 #: frappe/website/doctype/web_form/web_form.json
 #: frappe/website/doctype/web_page/web_page.json frappe/www/me.html:20
 msgid "Settings"
-msgstr "إعدادات"
+msgstr "الإعدادات"
 
 #. Label of the settings_doctype (Link) field in DocType 'DocType Settings Map
 #. Item'
@@ -30870,7 +30890,7 @@ msgstr "يلزم الحصول على صلاحيات مدير النظام."
 #. Option for the 'Channel' (Select) field in DocType 'Notification'
 #: frappe/email/doctype/notification/notification.json
 msgid "System Notification"
-msgstr "إعلام النظام"
+msgstr "إشعار النظام"
 
 #. Label of the system_page (Check) field in DocType 'Page'
 #: frappe/core/doctype/page/page.json
@@ -31619,7 +31639,7 @@ msgstr "عنوان URL الموضوع"
 
 #: frappe/public/js/frappe/ui/user_settings_dialog.js:328
 msgid "Theme and layout preferences."
-msgstr "تفضيلات الموضوع والتخطيط."
+msgstr "تفضيلات العرض و الترتيب."
 
 #: frappe/core/page/component_explorer/component_explorer.js:1077
 #: frappe/core/page/component_explorer/component_explorer.js:1355
@@ -31746,7 +31766,7 @@ msgstr "تم تحديث نوع المستند هذا. احفظ تغييراتك 
 
 #: frappe/public/js/frappe/views/kanban/kanban_view.js:681
 msgid "This Kanban Board will be private"
-msgstr "وهذا المجلس كانبان يكون القطاع الخاص"
+msgstr "لوح كانبان سيكون خاص"
 
 #: frappe/public/js/frappe/ui/filters/filter.js:789
 msgid "This Month"
@@ -32223,7 +32243,7 @@ msgstr "انتهت مهلة الجلسة"
 #. Label of the timeline_doctype (Link) field in DocType 'Activity Log'
 #: frappe/core/doctype/activity_log/activity_log.json
 msgid "Timeline DocType"
-msgstr "DOCTYPE الزمني"
+msgstr "مستند النشاط"
 
 #. Label of the timeline_field (Data) field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
@@ -36595,7 +36615,7 @@ msgstr "تم التغيير {0}"
 #: frappe/printing/doctype/print_format/print_format.json
 #: frappe/printing/doctype/print_settings/print_settings.json
 msgid "chrome"
-msgstr "الكروم"
+msgstr "كروم"
 
 #: frappe/desk/form/activity.py:436
 msgid "cleared {0}"
@@ -37461,7 +37481,7 @@ msgstr "{0} أعجبني"
 #: frappe/public/js/frappe/ui/toolbar/search_utils.js:279
 #: frappe/public/js/frappe/widgets/chart_widget.js:363 frappe/www/portal.html:8
 msgid "{0} List"
-msgstr "قائمة {0}"
+msgstr "سجلات {0}"
 
 #: frappe/public/js/frappe/list/list_settings.js:36
 msgid "{0} List View Settings"
@@ -39606,6 +39626,11 @@ msgstr "تحديث المستند"
 #: frappe/desk/doctype/dock/dock.json
 msgid "Dock"
 msgstr "شريط التطبيقات"
+
+#. Name of a DocType
+#: frappe/desk/doctype/dock/dock.json
+msgid "Keep the app dock beside the sidebar, or let it slide in from the left edge."
+msgstr "أبقِ شريط التطبيقات بجانب الشريط الجانبي، أو دعه ينزلق من الحافة اليمنى."
 
 #. Name of a DocType
 #: frappe/desk/doctype/dock_item/dock_item.json
@@ -42660,7 +42685,7 @@ msgstr "يتجاوز حجم الملفات بعد فك ضغط أرشيف ZIP ا�
 
 #: frappe/public/js/frappe/ui/sidebar/dock_manager.js:288
 msgid "app ships this off"
-msgstr "التطبيق لا يضم هذا افتراضيًا"
+msgstr "النظام لا يضم هذا التطبيق"
 
 #: frappe/printing/doctype/print_format/print_format.py:476
 msgid "applied the builder draft"

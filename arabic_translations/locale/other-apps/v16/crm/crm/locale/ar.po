@@ -554,7 +554,7 @@ msgstr "اسم التطبيق"
 
 #: frontend/src/components/Settings/PreferencesSettings.vue:16
 msgid "Appearance"
-msgstr "مظهر"
+msgstr "المظهر"
 #: frontend/src/components/Settings/BrandSettings.vue:65
 msgid "Appears in the left sidebar. Recommended size is 32x32 px in PNG or SVG"
 msgstr "يظهر في الشريط الجانبي الأيسر. الحجم الموصى به هو 32 × 32 بكسل بتنسيق PNG أو SVG"
@@ -862,7 +862,7 @@ msgstr "خلف"
 
 #: frontend/src/components/Settings/LeadSyncing/FailureLogs.vue:9
 msgid "Back to All Logs"
-msgstr "العودة إلى كافة السجلات"
+msgstr "العودة إلى الجميع السجلات"
 #: frontend/src/components/FilesUploader/FilesUploader.vue:25
 msgid "Back to File Upload"
 msgstr "العودة إلى تحميل الملف"
@@ -2319,7 +2319,7 @@ msgstr "لم يتم دمج ERPNext مع CRM"
 #: frontend/src/components/ViewControls.vue:1090
 #: frontend/src/pages/Dashboard.vue:16
 msgid "Edit"
-msgstr "تصحيح"
+msgstr "تعديل"
 
 #: frontend/src/components/Modals/CallLogDetailModal.vue:40
 msgid "Edit Call Log"
@@ -2706,7 +2706,7 @@ msgstr "مطابقة تامة"
 #: frontend/src/components/ViewControls.vue:282
 #: frontend/src/components/ViewControls.vue:290
 msgid "Excel"
-msgstr "تفوق"
+msgstr "ملف إكسل"
 
 #. Label of the exchange_rate (Float) field in DocType 'CRM Deal'
 #. Label of the exchange_rate (Float) field in DocType 'CRM Organization'
@@ -2970,7 +2970,7 @@ msgid "File \"{0}\" was skipped because only {1} uploads are allowed for DocType
 msgstr "تم تخطي الملف \"{0}\" لأنه يُسمح فقط بتحميلات {1} لـ DocType \"{2}\""
 #: frontend/src/components/Filter.vue:6
 msgid "Filter"
-msgstr "منقي"
+msgstr "فلتر"
 
 #. Label of the filters (Code) field in DocType 'CRM View Settings'
 #. Label of the filters_tab (Tab Break) field in DocType 'CRM View Settings'
@@ -3876,7 +3876,7 @@ msgstr "ﺔﺒﺘﻜﻣ"
 
 #: frontend/src/components/Settings/ThemeSwitcher.vue:41
 msgid "Light"
-msgstr "ضوء"
+msgstr "فاتح"
 
 #: frontend/src/components/Filter.vue:275
 #: frontend/src/components/Filter.vue:286
@@ -4514,7 +4514,7 @@ msgstr "لم يتم العثور على {0}"
 
 #: frontend/src/components/Controls/Grid.vue:27
 msgid "No."
-msgstr "لا."
+msgstr "رقم"
 
 #. Label of the no_of_employees (Select) field in DocType 'CRM Deal'
 #. Label of the no_of_employees (Select) field in DocType 'CRM Lead'
@@ -4633,7 +4633,7 @@ msgstr "ملاحظات عرض"
 #: frontend/src/components/Settings/CalendarSettings.vue:184
 #: frontend/src/components/Settings/CalendarSettings.vue:192
 msgid "Notification"
-msgstr "إعلام"
+msgstr "إشعارات"
 
 #. Label of the notification_text (Text) field in DocType 'CRM Notification'
 #: crm/fcrm/doctype/crm_notification/crm_notification.json
@@ -4655,7 +4655,7 @@ msgstr "نوع الإخطار Doctype"
 #: frontend/src/components/Notifications.vue:17
 #: frontend/src/pages/MobileNotification.vue:7
 msgid "Notifications"
-msgstr "إخطارات"
+msgstr "إشعارات"
 
 #. Label of the number (Data) field in DocType 'CRM Telephony Phone'
 #: crm/fcrm/doctype/crm_telephony_phone/crm_telephony_phone.json
@@ -4855,7 +4855,7 @@ msgstr "ميزات أخرى"
 #. Label of the organization_tab (Tab Break) field in DocType 'CRM Lead'
 #: crm/fcrm/doctype/crm_lead/crm_lead.json
 msgid "Others"
-msgstr "بدلات أخرى"
+msgstr "أخرى"
 
 #: frontend/src/components/Activities/CallArea.vue:31
 msgid "Outbound Call"
@@ -5170,7 +5170,7 @@ msgstr "المنتجات"
 #: frontend/src/components/Settings/Profile/ProfileSettings.vue:4
 #: frontend/src/components/Settings/Settings.vue:102
 msgid "Profile"
-msgstr "حساب تعريفي"
+msgstr "الملف الشخصي"
 
 #: frontend/src/components/Settings/Profile/ProfileSettings.vue:194
 msgid "Profile Updated Successfully"
@@ -6016,7 +6016,7 @@ msgstr "تم تحديث الإعداد بنجاح"
 #: crm/fcrm/doctype/fcrm_settings/fcrm_settings.json
 #: frontend/src/components/Layouts/AppSidebar.vue:567
 msgid "Settings"
-msgstr "إعدادات"
+msgstr "الإعدادات"
 
 #: frontend/src/components/Settings/ERPNextSettings.vue:339
 msgid "Settings saved"

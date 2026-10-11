@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+
+:root {
+  --font-stack: "Almarai", sans-serif;
+}
+
+body {
+  font-family: var(--font-stack);
+}
+
+[dir=rtl] .body-sidebar .standard-sidebar-item .drop-icon {
+  margin-left: 0!important;
+  margin-right: 5px!important;
+}
+
+[dir=rtl] .body-sidebar .standard-sidebar-item .drop-icon .icon, [dir=rtl] .collapse-indicator .icon {
+  transform: scaleX(-1);
+}
+
+[dir=rtl] .es-menu__item, [dir=rtl] .body-sidebar .standard-sidebar-item .sidebar-item-label {
+	line-height: 1.4 !important;
+}

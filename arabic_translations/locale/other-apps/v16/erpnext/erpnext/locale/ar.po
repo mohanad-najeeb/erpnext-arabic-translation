@@ -781,7 +781,7 @@ msgid "<h3>Currency Exchange Settings Help</h3>\n"
 "<p>Exchange rate between {from_currency} and {to_currency} on {transaction_date} is fetched by the API.</p>\n"
 "<p>Example: If your endpoint is exchange.com/2021-08-01, then, you will have to input exchange.com/{transaction_date}</p>"
 msgstr ""
-"<h3>تعليمات إعدادات صرف العملات</h3>\n"
+"<h3>تعليمات إعدادات سعر الصرف</h3>\n"
 "<p>هناك 3 متغيرات يمكن استخدامها داخل نقطة النهاية ومفتاح النتيجة وقيم "
 "المعلمة.</p>\n"
 "<p>سعر الصرف بين {from_currency} و {to_currency} على {transaction_date} "
@@ -998,7 +998,7 @@ msgstr "<p>يرجى تصحيح الصفوف التالية:</p><ul>"
 
 #: erpnext/controllers/buying_controller.py:124
 msgid "<p>Posting Date {0} cannot be before Purchase Order date for the following:</p><ul>"
-msgstr "<p>تاريخ الترحيل {0} لا يمكن أن يكون قبل تاريخ أمر الشراء للتالي:</p><ul>"
+msgstr "<p>تاريخ النشر {0} لا يمكن أن يكون قبل تاريخ أمر الشراء للتالي:</p><ul>"
 
 #: erpnext/stock/doctype/stock_settings/stock_settings.js:105
 msgid "<p>Price List Rate has not been set as editable in Selling Settings. In this scenario, setting <strong>Update Price List Based On</strong> to <strong>Price List Rate</strong> will prevent auto-updation of Item Price.</p>Are you sure you want to continue?"
@@ -3463,7 +3463,7 @@ msgstr "{0} وحدات من  {1} لازمة في {2} لإكمال هذه الم�
 #: erpnext/stock/doctype/delivery_note/delivery_note.json
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
 msgid "Address & Contact"
-msgstr "معلومات الاتصال والعنوان"
+msgstr "معلومات الاتصال و العنوان"
 
 #. Label of the address_section (Section Break) field in DocType 'Lead'
 #. Label of the contact_details (Tab Break) field in DocType 'Employee'
@@ -3473,7 +3473,7 @@ msgstr "معلومات الاتصال والعنوان"
 #: erpnext/setup/doctype/employee/employee.json
 #: erpnext/setup/doctype/sales_partner/sales_partner.json
 msgid "Address & Contacts"
-msgstr "معلومات الاتصال والعنوان"
+msgstr "معلومات الاتصال و العنوان"
 
 #. Label of a Link in the Financial Reports Workspace
 #. Name of a report
@@ -4439,7 +4439,7 @@ msgstr "السماح بالقيم السالبة للمخزون"
 #. Label of the allow_negative_stock_for_batch (Check) field in DocType 'Batch'
 #: erpnext/stock/doctype/batch/batch.json
 msgid "Allow Negative Stock for Batch"
-msgstr "السماح بمخزون سالب للدُفعة"
+msgstr "السماح بمخزون سالب للدفعة"
 
 #. Label of the allow_or_restrict (Select) field in DocType 'Accounting
 #. Dimension Filter'
@@ -6053,6 +6053,9 @@ msgstr "نشاط الأصل"
 msgid "Asset Capitalization"
 msgstr "رسملة الأصول"
 
+msgid "Value Changes"
+msgstr "تغيرات القيمة"
+
 #. Name of a DocType
 #: erpnext/assets/doctype/asset_capitalization_asset_item/asset_capitalization_asset_item.json
 msgid "Asset Capitalization Asset Item"
@@ -6596,7 +6599,7 @@ msgstr ""
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:1501
 msgid "At Row {0}: In Serial and Batch Bundle {1} must have docstatus as 1 and not 0"
-msgstr "في الصف {0}: يجب أن تكون حالة المستند لحزمة الرقم التسلسلي والدُفعة {1} هي 1 وليست 0."
+msgstr "في الصف {0}: يجب أن تكون حالة المستند لحزمة رقم متسلسل {1} هي 1 وليست 0."
 
 #: erpnext/accounts/services/internal_transfer.py:98
 msgid "At Row {0}: The field {1} is mandatory for internal transfer"
@@ -6605,7 +6608,7 @@ msgstr "في الصف {0}: الحقل {1} إلزامي للتحويل الداخ
 #: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.py:85
 msgid "At least one account with exchange gain or loss is required"
 msgstr ""
-"يشترط وجود حساب واحد على الأقل يتضمن أرباحًا أو خسائر في صرف العملات "
+"يشترط وجود حساب واحد على الأقل يتضمن أرباحًا أو خسائر في سعر الصرف "
 "الأجنبية"
 
 #: erpnext/assets/doctype/asset/mapper.py:168
@@ -6661,7 +6664,7 @@ msgstr "في الصف # {0}: لقد حددت الفرق الحساب {1}..."
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:1249
 msgid "At row {0}: Batch No is mandatory for Item {1}"
-msgstr "في الصف {0}: رقم الدُفعة إلزامي للصنف {1}."
+msgstr "في الصف {0}: رقم الدفعة إلزامي للصنف {1}."
 
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.py:129
 msgid "At row {0}: Parent Row No cannot be set for item {1}"
@@ -6679,7 +6682,7 @@ msgstr "في الصف {0}: الرقم التسلسلي إلزامي للصنف {
 msgid "At row {0}: Serial and Batch Bundle {1} has already been created. Please remove the values from the serial no or batch no fields."
 msgstr ""
 "في الصف {0}: تم إنشاء الحزمة التسلسلية والدُفعية {1} بالفعل. الرجاء إزالة"
-" القيم من حقول الرقم التسلسلي أو رقم الدُفعة."
+" القيم من حقول الرقم التسلسلي أو رقم الدفعة."
 
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.py:123
 msgid "At row {0}: set Parent Row No for item {1}"
@@ -6838,7 +6841,7 @@ msgstr "تم الإنشاء تلقائيًا (إعادة ترتيب)"
 #. 'Stock Ledger Entry'
 #: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.json
 msgid "Auto Created Serial and Batch Bundle"
-msgstr "حزمة رقم تسلسلي ودُفعة منشأة تلقائيًا"
+msgstr "حزمة رقم تسلسلي ودفعة منشأة تلقائيًا"
 
 #. Label of the auto_creation_of_contact (Check) field in DocType 'CRM
 #. Settings'
@@ -6944,7 +6947,7 @@ msgstr "إنشاء إيصال الشراء تلقائيًا"
 #. in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Auto create Serial and Batch Bundle for outward"
-msgstr "إنشاء حزمة رقم تسلسلي ودُفعة تلقائيًا للصادر"
+msgstr "إنشاء حزمة رقم تسلسلي ودفعة تلقائيًا للصادر"
 
 #. Label of the auto_create_subcontracting_order (Check) field in DocType
 #. 'Buying Settings'
@@ -7081,7 +7084,7 @@ msgstr "تفعيل المخزون"
 #. Label of the actual_batch_qty (Float) field in DocType 'Delivery Note Item'
 #: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
 msgid "Available Batch Qty at From Warehouse"
-msgstr "كمية الدُفعة المتاحة في مستودع المصدر"
+msgstr "كمية الدفعة المتاحة في مستودع المصدر"
 
 #. Label of the actual_batch_qty (Float) field in DocType 'POS Invoice Item'
 #. Label of the actual_batch_qty (Float) field in DocType 'Sales Invoice Item'
@@ -8401,12 +8404,12 @@ msgstr "السعر الأساسي (وفقًا لوحدة قياس المخزون
 #: erpnext/stock/report/stock_qty_vs_batch_qty/stock_qty_vs_batch_qty.py:32
 #: erpnext/stock/workspace/stock/stock.json
 msgid "Batch"
-msgstr "الدُفعة"
+msgstr "الدفعة"
 
 #. Label of the description (Small Text) field in DocType 'Batch'
 #: erpnext/stock/doctype/batch/batch.json
 msgid "Batch Description"
-msgstr "وصف الدُفعة"
+msgstr "وصف الدفعة"
 
 #. Label of the sb_batch (Section Break) field in DocType 'Batch'
 #: erpnext/stock/doctype/batch/batch.json
@@ -8421,11 +8424,11 @@ msgstr "تاريخ انتهاء صلاحية الدفعة"
 #. Label of the batch_id (Data) field in DocType 'Batch'
 #: erpnext/stock/doctype/batch/batch.json
 msgid "Batch ID"
-msgstr "معرّف الدُفعة"
+msgstr "معرّف الدفعة"
 
 #: erpnext/stock/doctype/batch/batch.py:129
 msgid "Batch ID is mandatory"
-msgstr "معرف الدُفعة إلزامي"
+msgstr "معرف الدفعة إلزامي"
 
 #. Name of a report
 #. Label of a Link in the Stock Workspace
@@ -8517,11 +8520,11 @@ msgstr "الدفعة رقم {0} غير موجودة"
 
 #: erpnext/stock/utils.py:625
 msgid "Batch No {0} is linked with Item {1} which has serial no. Please scan serial no instead."
-msgstr "رقم الدُفعة {0} مرتبط بالصنف {1} الذي له رقم تسلسلي. يرجى مسح الرقم التسلسلي ضوئيًا بدلًا من ذلك."
+msgstr "رقم الدفعة {0} مرتبط بالصنف {1} الذي له رقم تسلسلي. يرجى مسح الرقم التسلسلي ضوئيًا بدلًا من ذلك."
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:491
 msgid "Batch No {0} is not present in the original {1} {2}, hence you can't return it against the {1} {2}"
-msgstr "رقم الدُفعة {0} غير موجود في {1} {2} الأصلي، لذلك لا يمكنك إرجاعه مقابل {1} {2}."
+msgstr "رقم الدفعة {0} غير موجود في {1} {2} الأصلي، لذلك لا يمكنك إرجاعه مقابل {1} {2}."
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:724
 msgid "Batch No {0} of Item {1} has negative stock of quantity {2} in the warehouse {3}"
@@ -8584,7 +8587,7 @@ msgstr "حجم الدفعة"
 #. Label of the stock_uom (Link) field in DocType 'Batch'
 #: erpnext/stock/doctype/batch/batch.json
 msgid "Batch UOM"
-msgstr "وحدة قياس الدُفعة"
+msgstr "وحدة قياس الدفعة"
 
 #. Label of the batch_and_serial_no_section (Section Break) field in DocType
 #. 'Asset Capitalization Stock Item'
@@ -8607,7 +8610,7 @@ msgstr ""
 #. Description of the 'Has Expiry Date' (Check) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
 msgid "Batch number will be created based on expiry date. Expiry dates can be set in the Batch master."
-msgstr "سيُنشأ رقم الدُفعة بناءً على تاريخ انتهاء الصلاحية. يمكن تعيين تواريخ انتهاء الصلاحية في سجل الدُفعة."
+msgstr "سيُنشأ رقم الدفعة بناءً على تاريخ انتهاء الصلاحية. يمكن تعيين تواريخ انتهاء الصلاحية في سجل الدفعة."
 
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:384
 msgid "Batch {0} and Warehouse"
@@ -8855,7 +8858,7 @@ msgstr "إقليم الفواتير"
 #: erpnext/buying/doctype/supplier/supplier.json
 #: erpnext/selling/doctype/customer/customer.json
 msgid "Billing Currency"
-msgstr "الفواتير العملات"
+msgstr "عملة الفواتير"
 
 #: erpnext/public/js/purchase_trends_filters.js:39
 msgid "Billing Date"
@@ -10176,7 +10179,7 @@ msgstr "لا يمكن تغيير السمات بعد إجراء معاملة م�
 
 #: erpnext/stock/doctype/item/item.py:1150
 msgid "Cannot change Item {0} from serialized to non-serialized because a Serial and Batch Bundle exists for it. Please delete or cancel the Serial and Batch Bundle first."
-msgstr "لا يمكن تغيير الصنف {0} من متسلسل إلى غير متسلسل لوجود حزمة رقم تسلسلي ودُفعة مرتبطة به. يرجى حذف الحزمة أو إلغاؤها أولًا."
+msgstr "لا يمكن تغيير الصنف {0} من متسلسل إلى غير متسلسل لوجود حزمة رقم تسلسلي ودفعة مرتبطة به. يرجى حذف الحزمة أو إلغاؤها أولًا."
 
 #: erpnext/accounts/doctype/accounting_dimension/accounting_dimension.py:74
 msgid "Cannot change Reference Document Type."
@@ -10287,7 +10290,7 @@ msgstr ""
 
 #: erpnext/stock/doctype/stock_settings/stock_settings.py:144
 msgid "Cannot disable Serial and Batch No for Item, as there are existing records for serial / batch."
-msgstr "لا يمكن تعطيل الرقم التسلسلي ورقم الدُفعة للصنف لوجود سجلات للرقم التسلسلي أو الدُفعة."
+msgstr "لا يمكن تعطيل الرقم التسلسلي ورقم الدفعة للصنف لوجود سجلات للرقم التسلسلي أو الدفعة."
 
 #: erpnext/setup/doctype/company/company.py:676
 msgid "Cannot disable perpetual inventory, as there are existing Stock Ledger Entries for the company {0}. Please cancel the stock transactions first and try again."
@@ -10929,7 +10932,7 @@ msgstr ""
 #. Label of the chart_of_accounts (Select) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Chart Of Accounts Template"
-msgstr "نمودج  دليل الحسابات"
+msgstr "نمودج  الشجرة المحاسبية"
 
 #. Label of the chart_preview (Section Break) field in DocType 'Chart of
 #. Accounts Importer'
@@ -10968,7 +10971,7 @@ msgstr "الشجرة المحاسبية"
 #: erpnext/accounts/workspace/invoicing/invoicing.json
 #: erpnext/setup/workspace/home/home.json
 msgid "Chart of Accounts Importer"
-msgstr "مخطط حسابات المستورد"
+msgstr "مستورد الشجرة المحاسبية"
 
 #. Label of a Link in the Invoicing Workspace
 #: erpnext/accounts/doctype/account/account_tree.js:191
@@ -12797,12 +12800,12 @@ msgstr "النظر في ضريبة أو رسم ل"
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 #: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
 msgid "Consider for Tax Withholding"
-msgstr "ضع في اعتبارك اقتطاع الضرائب"
+msgstr "ضع في الإعتبار اقتطاع الضرائب"
 
 #. Label of the apply_tds (Check) field in DocType 'Journal Entry'
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
 msgid "Consider for Tax Withholding "
-msgstr "ضع في اعتبارك اقتطاع الضرائب "
+msgstr "ضع في الإعتبار اقتطاع الضرائب "
 
 #. Label of the included_in_paid_amount (Check) field in DocType 'Advance Taxes
 #. and Charges'
@@ -13214,7 +13217,7 @@ msgstr "كمية المساهمة"
 #. Label of the allocated_amount (Currency) field in DocType 'Sales Team'
 #: erpnext/selling/doctype/sales_team/sales_team.json
 msgid "Contribution to Net Total"
-msgstr "المساهمة في صافي إجمالي"
+msgstr "المساهمة في صافي الإجمالي"
 
 #. Label of the section_break_6 (Section Break) field in DocType 'Budget'
 #: erpnext/accounts/doctype/budget/budget.json
@@ -13953,7 +13956,7 @@ msgstr "نوع الكوبون"
 #: erpnext/accounts/doctype/bank_clearance/bank_clearance.py:84
 #: erpnext/templates/form_grid/bank_reconciliation_grid.html:16
 msgid "Cr"
-msgstr "Cr"
+msgstr "دائن"
 
 #. Title of an Onboarding Step
 #. Label of an action in the Onboarding Step 'Create Asset Category'
@@ -13988,7 +13991,7 @@ msgstr "إنشاء فاتورة المواد"
 #. 'Company'
 #: erpnext/setup/doctype/company/company.json
 msgid "Create Chart Of Accounts Based On"
-msgstr "إنشاء دليل الحسابات استنادا إلى"
+msgstr "إنشاء الشجرة المحاسبية استنادا إلى"
 
 #. Title of an Onboarding Step
 #. Label of an action in the Onboarding Step 'Create Customer'
@@ -14900,7 +14903,7 @@ msgstr "كوب"
 #: erpnext/accounts/workspace/invoicing/invoicing.json
 #: erpnext/setup/doctype/currency_exchange/currency_exchange.json
 msgid "Currency Exchange"
-msgstr "تصريف العملات"
+msgstr "سعر صرف"
 
 #. Label of the currency_exchange_section (Section Break) field in DocType
 #. 'Accounts Settings'
@@ -14910,21 +14913,21 @@ msgstr "تصريف العملات"
 #: erpnext/accounts/doctype/currency_exchange_settings/currency_exchange_settings.json
 #: erpnext/workspace_sidebar/erpnext_settings.json
 msgid "Currency Exchange Settings"
-msgstr "إعدادات صرف العملات"
+msgstr "إعدادات سعر الصرف"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/currency_exchange_settings_details/currency_exchange_settings_details.json
 msgid "Currency Exchange Settings Details"
-msgstr "تفاصيل إعدادات صرف العملات"
+msgstr "تفاصيل إعدادات سعر الصرف"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/currency_exchange_settings_result/currency_exchange_settings_result.json
 msgid "Currency Exchange Settings Result"
-msgstr "نتائج إعدادات صرف العملات"
+msgstr "نتائج إعدادات سعر الصرف"
 
 #: erpnext/setup/doctype/currency_exchange/currency_exchange.py:55
 msgid "Currency Exchange must be applicable for Buying or for Selling."
-msgstr "يجب أن يكون صرف العملات ساريًا للشراء أو البيع."
+msgstr "يجب أن يكون سعر الصرف ساريًا للشراء أو البيع."
 
 #. Label of the currency_and_price_list (Section Break) field in DocType 'POS
 #. Invoice'
@@ -15082,7 +15085,7 @@ msgstr "نسبة التيار"
 #. Reconciliation Item'
 #: erpnext/stock/doctype/stock_reconciliation_item/stock_reconciliation_item.json
 msgid "Current Serial / Batch Bundle"
-msgstr "حزمة الرقم التسلسلي والدُفعة الحالية"
+msgstr "حزمة رقم متسلسل الحالية"
 
 #. Label of the current_serial_no (Long Text) field in DocType 'Stock
 #. Reconciliation Item'
@@ -15616,7 +15619,7 @@ msgstr "العميل دفتر الأستاذ"
 #: erpnext/accounts/report/customer_ledger_summary/customer_ledger_summary.json
 #: erpnext/accounts/workspace/financial_reports/financial_reports.json
 msgid "Customer Ledger Summary"
-msgstr "ملخص دفتر الأستاذ"
+msgstr "ملخص دفتر أستاذ العملاء"
 
 #. Label of the customer_contact_mobile (Small Text) field in DocType 'Purchase
 #. Order'
@@ -17440,7 +17443,7 @@ msgstr "تم مسح بيانات العرض التوضيحي"
 
 #: erpnext/setup/demo.py:42
 msgid "Demo data creation failed. Check notifications for more info."
-msgstr "فشل إنشاء بيانات العرض التوضيحي. تحقق من الإخطارات لمزيد من المعلومات."
+msgstr "فشل إنشاء بيانات العرض التوضيحي. تحقق من الإشعارات لمزيد من المعلومات."
 
 #: erpnext/setup/setup_wizard/data/industry_type.txt:18
 msgid "Department Stores"
@@ -18416,17 +18419,17 @@ msgstr "معلومات الإرسال"
 #: erpnext/setup/setup_wizard/operations/defaults_setup.py:57
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:343
 msgid "Dispatch Notification"
-msgstr "إعلام الإرسال"
+msgstr "إرسال إشعار"
 
 #. Label of the dispatch_attachment (Link) field in DocType 'Delivery Settings'
 #: erpnext/stock/doctype/delivery_settings/delivery_settings.json
 msgid "Dispatch Notification Attachment"
-msgstr "مرفق إعلام الإرسال"
+msgstr "إرسال مرفق إشعار"
 
 #. Label of the dispatch_template (Link) field in DocType 'Delivery Settings'
 #: erpnext/stock/doctype/delivery_settings/delivery_settings.json
 msgid "Dispatch Notification Template"
-msgstr "قالب إعلام الإرسال"
+msgstr "إرسال قالب إشعار"
 
 #. Label of the sb_dispatch (Section Break) field in DocType 'Delivery
 #. Settings'
@@ -18438,7 +18441,7 @@ msgstr "إعدادات الإرسال"
 #. DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Display & Data Formatting"
-msgstr "عرض وتنسيق البيانات"
+msgstr "عرض و تنسيق البيانات"
 
 #. Label of the display_name (Data) field in DocType 'Financial Report Row'
 #: erpnext/accounts/doctype/financial_report_row/financial_report_row.json
@@ -18457,7 +18460,7 @@ msgstr "لا يمكن أن يكون تاريخ التخلص {0} قبل تاري�
 #. Label of the distance (Float) field in DocType 'Delivery Stop'
 #: erpnext/stock/doctype/delivery_stop/delivery_stop.json
 msgid "Distance"
-msgstr "مسافه: بعد"
+msgstr "المسافة"
 
 #. Label of the uom (Link) field in DocType 'Delivery Trip'
 #: erpnext/stock/doctype/delivery_trip/delivery_trip.json
@@ -18613,7 +18616,7 @@ msgstr "لا تظهر أي رمز مثل $  بجانب العملات."
 #. field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Do not update Serial / Batch on creation of auto bundle"
-msgstr "عدم تحديث الرقم التسلسلي أو الدُفعة عند إنشاء الحزمة التلقائية"
+msgstr "عدم تحديث الرقم التسلسلي أو الدفعة عند إنشاء الحزمة التلقائية"
 
 #. Label of the do_not_update_variants (Check) field in DocType 'Item Variant
 #. Settings'
@@ -19204,7 +19207,7 @@ msgstr "ملاحظة تحريرية"
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
 msgid "Edit Posting Date and Time"
-msgstr "تحرير تاريخ النشر والوقت"
+msgstr "تعديل تاريخ ووقت النشر"
 
 #: erpnext/selling/page/point_of_sale/pos_past_order_summary.js:290
 msgid "Edit Receipt"
@@ -19781,7 +19784,7 @@ msgstr "تفعيل إعادة الترحيل المنفصلة لدفتر الأ�
 
 #: erpnext/stock/report/stock_ledger/stock_ledger.js:122
 msgid "Enable Serial / Batch Bundle"
-msgstr "تفعيل حزمة الرقم التسلسلي والدُفعة"
+msgstr "تفعيل حزمة رقم متسلسل"
 
 #. Label of the enable_stock_delivered_but_not_billed (Check) field in DocType
 #. 'Company'
@@ -20400,7 +20403,7 @@ msgstr ""
 #. Description of the 'Batch Number Series' (Data) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
 msgid "Example: ABCD.#####. If series is set and Batch No is not mentioned in transactions, then automatic batch number will be created based on this series. If you always want to explicitly mention Batch No for this item, leave this blank. Note: this setting will take priority over the Naming Series Prefix in Stock Settings."
-msgstr "مثال: ABCD.#####. إذا عُيّنت سلسلة ولم يُذكر رقم الدُفعة في المعاملات، فسيُنشأ رقم دُفعة تلقائيًا بناءً على هذه السلسلة. إذا كنت ترغب دائمًا في إدخال رقم الدُفعة لهذا الصنف صراحةً، فاترك هذا الحقل فارغًا. ملاحظة: تكون لهذا الإعداد الأولوية على بادئة سلسلة التسمية في إعدادات المخزون."
+msgstr "مثال: ABCD.#####. إذا عُيّنت سلسلة ولم يُذكر رقم الدفعة في المعاملات، فسيُنشأ رقم دفعة تلقائيًا بناءً على هذه السلسلة. إذا كنت ترغب دائمًا في إدخال رقم الدفعة لهذا الصنف صراحةً، فاترك هذا الحقل فارغًا. ملاحظة: تكون لهذا الإعداد الأولوية على بادئة سلسلة التسمية في إعدادات المخزون."
 
 #: banking/src/components/features/BankReconciliation/Rules/RuleForm.tsx:468
 msgid "Example: If the transaction amount is 200, then this will be calculated as {} = {}"
@@ -22246,7 +22249,7 @@ msgstr "قسيمة مسح القوة"
 
 #: banking/src/components/features/Settings/Rules/RuleList.tsx:85
 msgid "Force evaluate all"
-msgstr "فرض تقييم كافة"
+msgstr "فرض تقييم الجميع"
 
 #: banking/src/components/features/Settings/Rules/RuleList.tsx:83
 msgid "Force re-evaluate all unreconciled transactions, even if they were previously evaluated"
@@ -24713,7 +24716,7 @@ msgstr "عند التفعيل، يجب أن يختلف مستودع المصدر
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "If enabled, the system will allow negative stock entries for the batch. But, this may lead to incorrect valuation rates, so it is recommended to avoid using this option. The system will permit negative stock only when it is caused by backdated entries and will validate and block negative stock in all other cases."
 msgstr ""
-"في حالة تفعيله، سيسمح النظام بإدخالات المخزون السلبية للدُفعة. لكن هذا قد"
+"في حالة تفعيله، سيسمح النظام بإدخالات المخزون السلبية للدفعة. لكن هذا قد"
 " يؤدي إلى معدلات تقييم غير صحيحة، لذا يوصى بتجنب استخدام هذا الخيار. "
 "سيسمح النظام بالمخزون السلبي فقط عندما يكون سببه إدخالات ذات تاريخ قديم "
 "وسيقوم بالتحقق من صحة المخزون السلبي وحظره في جميع الحالات الأخرى."
@@ -24766,7 +24769,7 @@ msgstr ""
 #. DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "If enabled, the system will use the moving average valuation method to calculate the valuation rate for the batched items and will not consider the individual batch-wise incoming rate."
-msgstr "عند التفعيل، سيستخدم النظام طريقة المتوسط المتحرك لحساب معدل تقييم الأصناف ذات الدُفعات، ولن يأخذ في الحسبان معدل الوارد لكل دُفعة على حدة."
+msgstr "عند التفعيل، سيستخدم النظام طريقة المتوسط المتحرك لحساب معدل تقييم الأصناف ذات الدُفعات، ولن يأخذ في الحسبان معدل الوارد لكل دفعة على حدة."
 
 #. Description of the 'Enable Stock Delivered But Not Billed' (Check) field in
 #. DocType 'Company'
@@ -24805,7 +24808,7 @@ msgstr ""
 #. DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "If enabled, users must enter Serial No. / Batch data manually instead of using the selector dialog."
-msgstr "عند التفعيل، يجب على المستخدمين إدخال بيانات الرقم التسلسلي أو الدُفعة يدويًا بدلًا من استخدام مربع حوار التحديد."
+msgstr "عند التفعيل، يجب على المستخدمين إدخال بيانات الرقم التسلسلي أو الدفعة يدويًا بدلًا من استخدام مربع حوار التحديد."
 
 #. Description of the 'Variant Of' (Link) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
@@ -25241,7 +25244,7 @@ msgstr "كشف حساب بنك الاستيراد"
 #. Description of a DocType
 #: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.json
 msgid "Import Chart of Accounts from a csv file"
-msgstr "استيراد دليل الحسابات من ملف CSV"
+msgstr "استيراد الشجرة المحاسبية من ملف CSV"
 
 #. Label of a Link in the ERPNext Settings Workspace
 #. Label of a Link in the Home Workspace
@@ -25608,7 +25611,7 @@ msgstr "تضمين الطلبات المغلقة"
 #: erpnext/accounts/report/asset_depreciation_ledger/asset_depreciation_ledger.js:54
 #: erpnext/assets/report/fixed_asset_register/fixed_asset_register.js:54
 msgid "Include Default FB Assets"
-msgstr "تضمين أصول فيسبوك الافتراضية"
+msgstr "تضمين أصول دفتر المالية الافتراضية"
 
 #: erpnext/accounts/report/balance_sheet/balance_sheet.js:52
 #: erpnext/accounts/report/cash_flow/cash_flow.js:44
@@ -25619,7 +25622,7 @@ msgstr "تضمين أصول فيسبوك الافتراضية"
 #: erpnext/accounts/report/profit_and_loss_statement/profit_and_loss_statement.js:53
 #: erpnext/accounts/report/trial_balance/trial_balance.js:105
 msgid "Include Default FB Entries"
-msgstr "تضمين إدخالات دفتر افتراضي"
+msgstr "تضمين قيود دفتر المالية الافتراضية"
 
 #: erpnext/buying/report/supplier_quotation_comparison/supplier_quotation_comparison.js:90
 msgid "Include Expired"
@@ -25923,7 +25926,7 @@ msgstr "تم استهلاك رقم تسلسلي غير صحيح"
 #. Name of a report
 #: erpnext/stock/report/incorrect_serial_and_batch_bundle/incorrect_serial_and_batch_bundle.json
 msgid "Incorrect Serial and Batch Bundle"
-msgstr "حزمة رقم تسلسلي ودُفعة غير صحيحة"
+msgstr "حزمة رقم تسلسلي ودفعة غير صحيحة"
 
 #: erpnext/stock/doctype/stock_reposting_settings/stock_reposting_settings.py:301
 msgid "Incorrect Stock Asset Account in {0}"
@@ -26689,7 +26692,7 @@ msgstr "سعر البيع غير صالح"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:1015
 msgid "Invalid Serial and Batch Bundle"
-msgstr "حزمة رقم تسلسلي ودُفعة غير صالحة"
+msgstr "حزمة رقم تسلسلي ودفعة غير صالحة"
 
 #: erpnext/stock/doctype/stock_entry/services/material_transfer.py:43
 #: erpnext/stock/doctype/stock_entry/services/material_transfer.py:65
@@ -27504,7 +27507,7 @@ msgstr "هو العودة (ملاحظة الائتمان)"
 #. Label of the is_return (Check) field in DocType 'Purchase Invoice'
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 msgid "Is Return (Debit Note)"
-msgstr "هو العودة (ملاحظة الخصم)"
+msgstr "هل هو مرتجع (إشعار مدين)؟"
 
 #. Label of the is_rule_evaluated (Check) field in DocType 'Bank Transaction'
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.json
@@ -27554,7 +27557,7 @@ msgstr "عنصر تجميعي"
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
 msgid "Is Subcontracted"
-msgstr "وتعاقد"
+msgstr "يتم تنفيذه من خلال مقاول من الباطن"
 
 #. Label of the is_sub_contracted_item (Check) field in DocType 'Item'
 #: erpnext/stock/doctype/item/item.json
@@ -29911,7 +29914,7 @@ msgstr "فاتورة المورّد للتكلفة الواصلة"
 #: erpnext/stock/workspace/stock/stock.json
 #: erpnext/workspace_sidebar/stock.json
 msgid "Landed Cost Voucher"
-msgstr "التكلفة الواصلة قسيمة"
+msgstr "قسيمة التكلفة الواصلة"
 
 #. Label of the landed_cost_voucher_amount (Currency) field in DocType
 #. 'Purchase Invoice Item'
@@ -29926,7 +29929,7 @@ msgstr "التكلفة الواصلة قسيمة"
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 msgid "Landed Cost Voucher Amount"
-msgstr "التكلفة هبطت قيمة قسيمة"
+msgstr "قيمة قسيمة التكلفة الواصلة"
 
 #. Option for the 'Fulfilment Status' (Select) field in DocType 'Contract'
 #: erpnext/crm/doctype/contract/contract.json
@@ -35249,13 +35252,13 @@ msgstr "الافتتاح والإغلاق"
 #: erpnext/accounts/report/trial_balance/trial_balance.py:526
 #: erpnext/accounts/report/trial_balance_for_party/trial_balance_for_party.py:198
 msgid "Opening (Cr)"
-msgstr "افتتاحي (Cr)"
+msgstr "افتتاحي (دائن)"
 
 #: erpnext/accounts/report/consolidated_trial_balance/consolidated_trial_balance.py:420
 #: erpnext/accounts/report/trial_balance/trial_balance.py:519
 #: erpnext/accounts/report/trial_balance_for_party/trial_balance_for_party.py:191
 msgid "Opening (Dr)"
-msgstr "افتتاحي  (Dr)"
+msgstr "افتتاحي  (مدين)"
 
 #. Label of the opening_accumulated_depreciation (Currency) field in DocType
 #. 'Asset'
@@ -36017,7 +36020,7 @@ msgstr "اعدادات اخرى"
 #. Label of the tab_break_dpet (Tab Break) field in DocType 'Accounts Settings'
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 msgid "Others"
-msgstr "بدلات أخرى"
+msgstr "أخرى"
 
 #. Name of a UOM
 #: erpnext/setup/setup_wizard/data/uom_data.json
@@ -36800,7 +36803,7 @@ msgstr "قائمة التعبئة"
 #: erpnext/stock/workspace/stock/stock.json
 #: erpnext/workspace_sidebar/stock.json
 msgid "Packing Slip"
-msgstr "قائمة بمحتويات الشحنة"
+msgstr "قائمة التعبئة"
 
 #. Name of a DocType
 #: erpnext/stock/doctype/packing_slip_item/packing_slip_item.json
@@ -36809,7 +36812,7 @@ msgstr "صنف قائمة التعبئة"
 
 #: erpnext/stock/doctype/delivery_note/services/packing.py:61
 msgid "Packing Slip(s) cancelled"
-msgstr "تم إلغاء قائمة الشحنة"
+msgstr "تم إلغاء قائمة التعبئة"
 
 #. Label of the packing_unit (Int) field in DocType 'Item Price'
 #: erpnext/stock/doctype/item_price/item_price.json
@@ -37085,7 +37088,7 @@ msgstr "لم يتم العثور على رقم الصف الأب لـ {0}"
 #. Label of the parent_sales_person (Link) field in DocType 'Sales Person'
 #: erpnext/setup/doctype/sales_person/sales_person.json
 msgid "Parent Sales Person"
-msgstr "رجل المبيعات الرئيسي"
+msgstr "مندوب المبيعات الرئيسي"
 
 #. Label of the parent_supplier_group (Link) field in DocType 'Supplier Group'
 #: erpnext/setup/doctype/supplier_group/supplier_group.json
@@ -39434,7 +39437,7 @@ msgstr ""
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:150
 msgid "Please check the 'Activate Serial and Batch No for Item' checkbox in the {0} to make Serial and Batch Bundle for the item."
-msgstr "يرجى تحديد خانة «تفعيل الرقم التسلسلي ورقم الدُفعة للصنف» في {0} لإنشاء حزمة رقم تسلسلي ودُفعة للصنف."
+msgstr "يرجى تحديد خانة «تفعيل الرقم التسلسلي ورقم الدفعة للصنف» في {0} لإنشاء حزمة رقم تسلسلي ودفعة للصنف."
 
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.py:770
 msgid "Please check the error message and take necessary actions to fix the error and then restart the reposting again."
@@ -39540,7 +39543,7 @@ msgstr "يرجى تفعيل Applicable على أمر الشراء والتطبي
 
 #: erpnext/stock/doctype/pick_list/pick_list.py:321
 msgid "Please enable Use Old Serial / Batch Fields to make_bundle"
-msgstr "يرجى تفعيل «استخدام حقول الرقم التسلسلي / الدُفعة القديمة» لإنشاء make_bundle."
+msgstr "يرجى تفعيل «استخدام حقول الرقم التسلسلي / الدفعة القديمة» لإنشاء make_bundle."
 
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.js:24
 msgid "Please enable only if the understand the effects of enabling this."
@@ -39591,7 +39594,7 @@ msgstr "الرجاء إدخال صلاحية المخول بالتصديق أو 
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:809
 msgid "Please enter Batch No"
-msgstr "يرجى إدخال رقم الدُفعة."
+msgstr "يرجى إدخال رقم الدفعة."
 
 #: erpnext/stock/doctype/stock_reconciliation/services/gl_composer.py:26
 msgid "Please enter Cost Center"
@@ -39915,7 +39918,7 @@ msgstr "يرجى اختيار العميل أولا"
 
 #: erpnext/setup/doctype/company/company.py:650
 msgid "Please select Existing Company for creating Chart of Accounts"
-msgstr "الرجاء اختيار الشركة الحالية لإنشاء دليل الحسابات"
+msgstr "الرجاء اختيار الشركة الحالية لإنشاء الشجرة المحاسبية"
 
 #: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.py:211
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.py:289
@@ -40640,7 +40643,7 @@ msgstr "مستخدم البوابة"
 #: erpnext/buying/doctype/supplier/supplier.json
 #: erpnext/selling/doctype/customer/customer.json
 msgid "Portal Users"
-msgstr "مستخدمو البوابة"
+msgstr "إستخدام البوابة"
 
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.js:407
 msgid "Possible Supplier"
@@ -40814,7 +40817,7 @@ msgstr "تم النشر في"
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:36
 #: erpnext/templates/form_grid/bank_reconciliation_grid.html:6
 msgid "Posting Date"
-msgstr "تاريخ الترحيل"
+msgstr "تاريخ النشر"
 
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.py:263
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.py:146
@@ -40890,11 +40893,11 @@ msgstr "تاريخ ووقت النشر"
 #: erpnext/stock/report/stock_ledger_variance/stock_ledger_variance.py:41
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
 msgid "Posting Time"
-msgstr "نشر التوقيت"
+msgstr "وقت النشر"
 
 #: banking/src/components/features/BankReconciliation/MatchAndReconcile.tsx:901
 msgid "Posting date does not match the selected transaction"
-msgstr "تاريخ الترحيل لا يتطابق مع المعاملة المحددة"
+msgstr "تاريخ النشر لا يتطابق مع المعاملة المحددة"
 
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.py:109
 msgid "Posting date is required"
@@ -40902,7 +40905,7 @@ msgstr "تاريخ النشر مطلوب"
 
 #: banking/src/components/features/BankReconciliation/MatchAndReconcile.tsx:901
 msgid "Posting date matches the selected transaction"
-msgstr "تاريخ الترحيل يطابق المعاملة المحددة"
+msgstr "تاريخ النشر يطابق المعاملة المحددة"
 
 #: erpnext/controllers/sales_and_purchase_return.py:66
 msgid "Posting timestamp must be after {0}"
@@ -43258,6 +43261,9 @@ msgstr "مطلوب إيصال الشراء لـ الصنف {0}"
 msgid "Purchase Receipt Trends"
 msgstr "حركة إيصالات الشراء"
 
+msgid "What you receive from suppliers each month."
+msgstr "ما تتستلم من الموردين كل شهر."
+
 #. Label of a Workspace Sidebar Item
 #: erpnext/workspace_sidebar/buying.json
 msgid "Purchase Receipt Trends "
@@ -43334,7 +43340,7 @@ msgstr "الضرائب والرسوم الشراء"
 #: erpnext/buying/workspace/buying/buying.json
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
 msgid "Purchase Taxes and Charges Template"
-msgstr "قالب الضرائب والرسوم على المشتريات"
+msgstr "قالب الضرائب و الرسوم على المشتريات"
 
 #. Label of the purchase_time (Int) field in DocType 'Item Lead Time'
 #. Label of the purchase_lead_time_tab (Tab Break) field in DocType 'Item Lead
@@ -45964,7 +45970,7 @@ msgstr "رقم تسلسلي مرفوض"
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 msgid "Rejected Serial and Batch Bundle"
-msgstr "رُفضت حزمة الرقم التسلسلي والدُفعة"
+msgstr "رُفضت حزمة رقم متسلسل"
 
 #. Label of the rejected_warehouse (Link) field in DocType 'Purchase Invoice'
 #. Label of the rejected_warehouse (Link) field in DocType 'Purchase Invoice
@@ -46315,7 +46321,7 @@ msgstr "عملة الإبلاغ"
 #: erpnext/accounts/doctype/account_closing_balance/account_closing_balance.py:164
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:312
 msgid "Reporting Currency Exchange Not Found"
-msgstr "تقرير: لم يتم العثور على صرف العملات"
+msgstr "تقرير سعر الصرف لم يتم العثور عليه"
 
 #. Label of the reporting_currency_exchange_rate (Float) field in DocType
 #. 'Account Closing Balance'
@@ -47928,7 +47934,7 @@ msgstr "الصف # {0}: لا يمكن الارجاع أكثر من {1} للبن�
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:308
 msgid "Row # {0}: Please add Serial and Batch Bundle for Item {1}"
-msgstr "الصف رقم {0}: يرجى إضافة حزمة الرقم التسلسلي والدُفعة للصنف {1}."
+msgstr "الصف رقم {0}: يرجى إضافة حزمة رقم متسلسل للصنف {1}."
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:327
 msgid "Row # {0}: Please enter quantity for Item {1} as it is not zero."
@@ -48019,7 +48025,7 @@ msgstr "الصف #{0}: تم تحديد رقم الدفعة {1} بالفعل."
 #: erpnext/controllers/subcontracting_inward_controller.py:443
 msgid "Row #{0}: Batch No(s) {1} are not a part of the linked Subcontracting Inward Order. Please select valid Batch No(s)."
 msgstr ""
-"الصف رقم {0}: رقم (أرقام) الدُفعة {1} ليست جزءًا من الأمر الداخلي للتعاقد"
+"الصف رقم {0}: رقم (أرقام) الدفعة {1} ليست جزءًا من الأمر الداخلي للتعاقد"
 " المرتبط. الرجاء تحديد رقم (أرقام) الدفعة الصحيحة."
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:882
@@ -48322,7 +48328,7 @@ msgstr "الصف #{0}: العنصر {1} ليس عنصرًا مقدمًا من ا
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:897
 msgid "Row #{0}: Item {1} is not a Serialized/Batched Item. It cannot have a Serial No/Batch No against it."
-msgstr "الصف #{0}: الصنف {1} ليس صنفًا ذا رقم تسلسلي أو رقم دُفعة. لا يمكن ربطه برقم تسلسلي أو رقم دُفعة."
+msgstr "الصف #{0}: الصنف {1} ليس صنفًا ذا رقم تسلسلي أو رقم دفعة. لا يمكن ربطه برقم تسلسلي أو رقم دفعة."
 
 #: erpnext/controllers/subcontracting_inward_controller.py:116
 #: erpnext/controllers/subcontracting_inward_controller.py:504
@@ -48591,7 +48597,7 @@ msgstr ""
 
 #: erpnext/stock/services/serial_batch_bundle_service.py:125
 msgid "Row #{0}: Serial No {1} does not belong to Batch {2}"
-msgstr "الصف #{0}: الرقم التسلسلي {1} لا ينتمي إلى الدُفعة {2}."
+msgstr "الصف #{0}: الرقم التسلسلي {1} لا ينتمي إلى الدفعة {2}."
 
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:378
 msgid "Row #{0}: Serial No {1} for Item {2} is not available in {3} {4} or might be reserved in another {5}."
@@ -48755,7 +48761,7 @@ msgstr ""
 
 #: erpnext/stock/services/serial_batch_bundle_service.py:59
 msgid "Row #{0}: Warehouse {1} does not match with the warehouse {2} in Serial and Batch Bundle {3}."
-msgstr "الصف #{0}: المستودع {1} لا يتطابق مع المستودع {2} في حزمة الرقم التسلسلي والدُفعة {3}."
+msgstr "الصف #{0}: المستودع {1} لا يتطابق مع المستودع {2} في حزمة رقم متسلسل {3}."
 
 #: erpnext/accounts/doctype/tax_withholding_entry/tax_withholding_entry.py:94
 msgid "Row #{0}: Withholding Amount {1} does not match calculated amount {2}."
@@ -49173,7 +49179,7 @@ msgstr "الصف {0}: تم إنشاء فاتورة المبيعات {1} بالف
 
 #: erpnext/stock/doctype/stock_entry/services/manufacturing.py:301
 msgid "Row {0}: Serial/Batch has been reset to values linked with Work Order {1} because the previously selected serial/batch does not belong to this Work Order."
-msgstr "الصف {0}: أُعيد تعيين الرقم التسلسلي أو الدُفعة إلى القيم المرتبطة بأمر العمل {1} لأن الرقم التسلسلي أو الدُفعة المحددة سابقًا لا تنتمي إلى أمر العمل هذا."
+msgstr "الصف {0}: أُعيد تعيين الرقم التسلسلي أو الدفعة إلى القيم المرتبطة بأمر العمل {1} لأن الرقم التسلسلي أو الدفعة المحددة سابقًا لا تنتمي إلى أمر العمل هذا."
 
 #: erpnext/assets/doctype/asset_shift_allocation/asset_shift_allocation.py:57
 msgid "Row {0}: Shift cannot be changed since the depreciation has already been processed"
@@ -50183,7 +50189,7 @@ msgstr "ملخص مندوب مبيعات الشخص"
 #. Label of the sales_person_name (Data) field in DocType 'Sales Person'
 #: erpnext/setup/doctype/sales_person/sales_person.json
 msgid "Sales Person Name"
-msgstr "اسم رجل المبيعات"
+msgstr "اسم مندوب المبيعات"
 
 #. Name of a report
 #. Label of a Link in the Selling Workspace
@@ -50198,7 +50204,7 @@ msgstr "شخص المبيعات التباين المستهدف بناء على 
 #. 'Sales Person'
 #: erpnext/setup/doctype/sales_person/sales_person.json
 msgid "Sales Person Targets"
-msgstr "اهداف رجل المبيعات"
+msgstr "اهداف مندوب المبيعات"
 
 #. Name of a report
 #. Label of a Link in the Selling Workspace
@@ -50207,7 +50213,19 @@ msgstr "اهداف رجل المبيعات"
 #: erpnext/selling/workspace/selling/selling.json
 #: erpnext/workspace_sidebar/selling.json
 msgid "Sales Person-wise Transaction Summary"
-msgstr "ملخص المبيعات بناء على رجل المبيعات"
+msgstr "ملخص المبيعات بناء على مندوب المبيعات"
+
+msgid "Sales orders still waiting to be delivered or billed."
+msgstr "أوامر المبيعات التي لا تزال بانتظار التسليم أو الفوترة."
+
+msgid "Sales Team Reports"
+msgstr "تقارير فريق المبيعات"
+
+msgid "Customer Reports"
+msgstr "تقارير العملاء"
+
+msgid "Sales Reports"
+msgstr "تقارير المبيعات"
 
 #. Label of a Card Break in the CRM Workspace
 #. Label of a Workspace Sidebar Item
@@ -51304,7 +51322,7 @@ msgstr "تنسيق الطباعة المحدد غير موجود."
 
 #: erpnext/stock/report/incorrect_serial_and_batch_bundle/incorrect_serial_and_batch_bundle.py:166
 msgid "Selected Serial and Batch Bundle entries have been fixed."
-msgstr "أُصلحت قيود حزمة الرقم التسلسلي والدُفعة المحددة."
+msgstr "أُصلحت قيود حزمة رقم متسلسل المحددة."
 
 #. Label of the repost_vouchers (Table) field in DocType 'Repost Payment
 #. Ledger'
@@ -51539,7 +51557,7 @@ msgstr "تسلسلي"
 #. 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Serial & Batch Item"
-msgstr "صنف ذو رقم تسلسلي ودُفعة"
+msgstr "صنف ذو رقم تسلسلي ودفعة"
 
 #. Label of the section_break_jcmx (Section Break) field in DocType 'Job Card'
 #: erpnext/manufacturing/doctype/job_card/job_card.json
@@ -51599,7 +51617,7 @@ msgstr "حزمة البيانات التسلسلية/الدفعية مفقودة
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_supplied_item/subcontracting_receipt_supplied_item.json
 msgid "Serial / Batch Entries"
-msgstr "قيود الرقم التسلسلي والدُفعة"
+msgstr "قيود الرقم التسلسلي والدفعة"
 
 #. Label of the serial_no_and_batch_no_tab (Section Break) field in DocType
 #. 'Serial and Batch Bundle'
@@ -51705,7 +51723,7 @@ msgstr "الرقم التسلسلي (داخل/خارج)"
 #. Detail'
 #: erpnext/stock/doctype/stock_entry_detail/stock_entry_detail.json
 msgid "Serial No / Batch"
-msgstr "الرقم التسلسلي / الدُفعة"
+msgstr "الرقم التسلسلي / الدفعة"
 
 #: erpnext/controllers/selling_controller.py:108
 msgid "Serial No Already Assigned"
@@ -51779,7 +51797,7 @@ msgstr "الرقم التسلسلي والدفعة"
 
 #: erpnext/stock/doctype/stock_settings/stock_settings.js:82
 msgid "Serial No and Batch Selector cannot be used when Use Serial / Batch Fields is enabled."
-msgstr "لا يمكن استخدام محدِّد الرقم التسلسلي والدُفعة عند تفعيل استخدام حقول الرقم التسلسلي أو الدُفعة."
+msgstr "لا يمكن استخدام محدِّد الرقم التسلسلي والدفعة عند تفعيل استخدام حقول الرقم التسلسلي أو الدفعة."
 
 #. Name of a report
 #. Label of a Link in the Stock Workspace
@@ -51964,32 +51982,32 @@ msgstr "التسلسل والدفعة"
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
 #: erpnext/workspace_sidebar/stock.json
 msgid "Serial and Batch Bundle"
-msgstr "حزمة التسلسل والدفعة"
+msgstr "حزمة رقم متسلسل"
 
 #: erpnext/stock/doctype/item/item.py:1153
 msgid "Serial and Batch Bundle Exists"
-msgstr "توجد حزمة رقم تسلسلي ودُفعة"
+msgstr "حزمة الرقم متسلسل موجودة اصلاً"
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:2282
 msgid "Serial and Batch Bundle created"
-msgstr "تم إنشاء حزمة التسلسل والدفعة"
+msgstr "تم إنشاء حزمة رقم متسلسل"
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:2378
 msgid "Serial and Batch Bundle updated"
-msgstr "تم تحديث حزمة التسلسل والدفعة"
+msgstr "تم تحديث حزمة رقم متسلسل"
 
 #: erpnext/stock/services/serial_batch_bundle_service.py:101
 msgid "Serial and Batch Bundle {0} is already used in {1} {2}."
-msgstr "تُستخدم حزمة الرقم التسلسلي والدُفعة {0} بالفعل في {1} {2}."
+msgstr "تُستخدم حزمة رقم متسلسل {0} بالفعل في {1} {2}."
 
 #: erpnext/stock/serial_batch_bundle.py:394
 msgid "Serial and Batch Bundle {0} is not submitted"
-msgstr "لم تُرسل حزمة الرقم التسلسلي والدُفعة {0}."
+msgstr "لم تُرسل حزمة رقم متسلسل {0}."
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/inline_editor.py:173
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:2352
 msgid "Serial and Batch Bundle {0} is submitted and its entries cannot be modified."
-msgstr "أُرسلت حزمة الرقم التسلسلي والدُفعة {0} ولا يمكن تعديل قيودها."
+msgstr "أرسلت حزمة رقم متسلسل {0} ولا يمكن تعديل قيودها."
 
 #: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.py:299
 msgid "Serial and Batch Bundle {0} should have voucher type as 'Maintenance Schedule'"
@@ -52006,7 +52024,7 @@ msgstr "تفاصيل الرقم التسلسلي والدفعة"
 #. Name of a DocType
 #: erpnext/stock/doctype/serial_and_batch_entry/serial_and_batch_entry.json
 msgid "Serial and Batch Entry"
-msgstr "قيد الرقم التسلسلي والدُفعة"
+msgstr "قيد الرقم التسلسلي والدفعة"
 
 #. Label of the section_break_40 (Section Break) field in DocType 'Delivery
 #. Note Item'
@@ -52040,7 +52058,7 @@ msgstr ""
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Serial and Batch Reservation"
-msgstr "حجز الرقم التسلسلي والدُفعة"
+msgstr "حجز الرقم التسلسلي والدفعة"
 
 #. Name of a report
 #: erpnext/stock/report/serial_and_batch_summary/serial_and_batch_summary.json
@@ -52395,7 +52413,7 @@ msgstr "قم بتعيين وقت الاستجابة للأولوية {0} في ا
 #. (Check) field in DocType 'Stock Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Set Serial and Batch Bundle Naming Based on Naming Series"
-msgstr "تعيين تسمية حزمة الرقم التسلسلي والدُفعة وفقًا لسلسلة التسمية"
+msgstr "تعيين تسمية حزمة رقم متسلسل وفقًا لسلسلة التسمية"
 
 #. Label of the set_warehouse (Link) field in DocType 'Sales Order'
 #. Label of the set_warehouse (Link) field in DocType 'Delivery Note'
@@ -52509,7 +52527,7 @@ msgstr "تعيين معدل عنصر التجميع الفرعي استنادا 
 #. 'Sales Person'
 #: erpnext/setup/doctype/sales_person/sales_person.json
 msgid "Set targets Item Group-wise for this Sales Person."
-msgstr "تحديد أهداف المجموعة السلعة الحكيم لهذا الشخص المبيعات."
+msgstr "حدد الأهداف حسب مجموعة الأصناف لمندوب المبيعات."
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:1299
 msgid "Set the Planned Start Date (an Estimated Date at which you want the Production to begin)"
@@ -53285,7 +53303,7 @@ msgstr "أظهر هذه المساعدة"
 #: erpnext/accounts/report/consolidated_trial_balance/consolidated_trial_balance.js:80
 #: erpnext/accounts/report/trial_balance/trial_balance.js:100
 msgid "Show unclosed fiscal year's P&L balances"
-msgstr "تظهر P &amp; L أرصدة السنة المالية غير مغلق ل"
+msgstr "عرض أرصدة الأرباح و الخسائر للسنة المالية غير المقفلة"
 
 #: erpnext/accounts/report/deferred_revenue_and_expense/deferred_revenue_and_expense.js:96
 msgid "Show with upcoming revenue/expense"
@@ -53409,7 +53427,7 @@ msgstr ""
 
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.py:142
 msgid "Since {0} are Serial No/Batch No items, you cannot enable 'Recreate Stock Ledgers' in Repost Item Valuation."
-msgstr "نظرًا إلى أن {0} أصناف ذات رقم تسلسلي أو رقم دُفعة، فلا يمكنك تفعيل «إعادة إنشاء دفاتر أستاذ المخزون» في إعادة ترحيل تقييم الصنف."
+msgstr "نظرًا إلى أن {0} أصناف ذات رقم تسلسلي أو رقم دفعة، فلا يمكنك تفعيل «إعادة إنشاء دفاتر أستاذ المخزون» في إعادة ترحيل تقييم الصنف."
 
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.py:122
 msgid "Since {0} has 'Update Stock' disabled, you cannot create repost item valuation against it"
@@ -54924,7 +54942,7 @@ msgstr "المخزون الحساب حيث سيتم تتبع قيمة المخز
 #. Name of a report
 #: erpnext/stock/report/stock_and_account_value_comparison/stock_and_account_value_comparison.json
 msgid "Stock and Account Value Comparison"
-msgstr "مقارنة قيمة المخزون والحسابات"
+msgstr "مقارنة قيمة المخزون و الحسابات"
 
 #. Label of the stock_tab (Tab Break) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
@@ -55951,7 +55969,7 @@ msgstr "فاتورة المورد"
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 #: erpnext/accounts/report/tax_withholding_details/tax_withholding_details.py:230
 msgid "Supplier Invoice Date"
-msgstr "المورد فاتورة التسجيل"
+msgstr "تاريخ فاتورة المورد"
 
 #. Label of the bill_no (Data) field in DocType 'Payment Entry Reference'
 #. Label of the bill_no (Data) field in DocType 'Purchase Invoice'
@@ -55966,7 +55984,7 @@ msgstr "رقم فاتورة المورد"
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:815
 msgid "Supplier Invoice No exists in Purchase Invoice {0}"
-msgstr "المورد فاتورة لا يوجد في شراء الفاتورة {0}"
+msgstr "رقم فاتورة المورد موجود في فاتورة الشراء {0}"
 
 #. Name of a DocType
 #: erpnext/accounts/doctype/supplier_item/supplier_item.json
@@ -55988,7 +56006,7 @@ msgstr "دفتر حسابات الموردين"
 #: erpnext/accounts/report/supplier_ledger_summary/supplier_ledger_summary.json
 #: erpnext/accounts/workspace/financial_reports/financial_reports.json
 msgid "Supplier Ledger Summary"
-msgstr "ملخص دفتر الأستاذ"
+msgstr "ملخص دفتر أستاذ الموردين"
 
 #. Label of the supplier_name (Data) field in DocType 'Purchase Invoice'
 #. Option for the 'Supplier Naming By' (Select) field in DocType 'Buying
@@ -56371,7 +56389,7 @@ msgid "System will do an implicit conversion using the pegged currency. <br>\n"
 "Ex: Instead of AED -&gt; INR, system will do AED -&gt; USD -&gt; INR using the pegged exchange rate of AED against USD."
 msgstr ""
 "سيقوم النظام بإجراء تحويل ضمني باستخدام العملة المرتبطة. <br>\n"
-"على سبيل المثال: بدلاً من AED -> INR، سيعمل النظام على AED -> USD -> INR "
+"على سبيل المثال: بدلاً من AED -> SDG، سيعمل النظام على AED -> USD -> SDG "
 "باستخدام سعر الصرف المرتبط بالدرهم الإماراتي مقابل الدولار الأمريكي."
 
 #. Description of the 'Invoice Limit' (Int) field in DocType 'Payment
@@ -56535,7 +56553,7 @@ msgstr "الهدف في"
 #. Label of the target_qty (Float) field in DocType 'Target Detail'
 #: erpnext/setup/doctype/target_detail/target_detail.json
 msgid "Target Qty"
-msgstr "الهدف الكمية"
+msgstr "هدف الكمية"
 
 #. Label of the target_warehouse (Link) field in DocType 'Sales Invoice Item'
 #. Label of the warehouse (Link) field in DocType 'Purchase Order Item'
@@ -57686,7 +57704,7 @@ msgstr "لم يتم توفير الأرقام التسلسلية {0} مقابل 
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:1012
 msgid "The Serial and Batch Bundle {0} is not valid for this transaction. The 'Type of Transaction' should be 'Outward' instead of 'Inward' in Serial and Batch Bundle {0}"
-msgstr "حزمة الرقم التسلسلي والدُفعة {0} غير صالحة لهذه المعاملة. يجب أن يكون «نوع المعاملة» «صادر» بدلًا من «وارد» في الحزمة {0}."
+msgstr "حزمة رقم متسلسل {0} غير صالحة لهذه المعاملة. يجب أن يكون «نوع المعاملة» «صادر» بدلًا من «وارد» في الحزمة {0}."
 
 #: erpnext/manufacturing/doctype/manufacturing_settings/manufacturing_settings.js:17
 msgid "The Stock Entry of type 'Manufacture' is known as backflush. Raw materials being consumed to manufacture finished goods is known as backflushing. <br><br> When creating Manufacture Entry, raw-material items are backflushed based on BOM of production item. If you want raw-material items to be backflushed based on Material Transfer entry made against that Work Order instead, then you can set it under this field."
@@ -58094,7 +58112,7 @@ msgstr "التغيير المحدد الحساب {0} لا ينتمي إلى ال
 
 #: erpnext/stock/doctype/batch/batch.py:157
 msgid "The selected item cannot have Batch"
-msgstr "لا يمكن أن يحتوي الصنف المحدد على دُفعة."
+msgstr "لا يمكن أن يحتوي الصنف المحدد على دفعة."
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/inline_editor.py:151
 msgid "The selected row does not belong to the {0}"
@@ -58113,7 +58131,7 @@ msgstr "البائع والمشتري لا يمكن أن يكون هو نفسه"
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:187
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.py:199
 msgid "The serial and batch bundle {0} is not linked to {1} {2}"
-msgstr "حزمة الرقم التسلسلي والدُفعة {0} غير مرتبطة بـ {1} {2}."
+msgstr "حزمة رقم متسلسل {0} غير مرتبطة بـ {1} {2}."
 
 #: erpnext/stock/doctype/batch/batch.py:386
 msgid "The serial no {0} does not belong to item {1}"
@@ -58201,7 +58219,7 @@ msgstr "الملف الذي تم تحميله لا يتطابق مع قائمة 
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.js:10
 msgid "The user cannot submit the Serial and Batch Bundle manually"
-msgstr "لا يمكن للمستخدم إرسال حزمة الرقم التسلسلي والدفعة يدويًا"
+msgstr "لا يمكن للمستخدم إرسال حزمة رقم متسلسل يدويًا"
 
 #. Description of the 'Transfer Extra Raw Materials to WIP (%)' (Percent) field
 #. in DocType 'Manufacturing Settings'
@@ -58315,7 +58333,7 @@ msgstr "لا توجد سنوات مالية نشطة يمكن إنشاء بيا�
 
 #: banking/src/components/features/BankReconciliation/IncorrectlyClearedEntries.tsx:220
 msgid "There are no entries in the system where the clearance date is before the posting date."
-msgstr "لا توجد إدخالات في النظام يكون تاريخ التخليص فيها قبل تاريخ الترحيل."
+msgstr "لا توجد إدخالات في النظام يكون تاريخ التخليص فيها قبل تاريخ النشر."
 
 #: erpnext/stock/report/item_variant_details/item_variant_details.py:25
 msgid "There are no item variants for the selected item"
@@ -58722,7 +58740,7 @@ msgstr "يفيد هذا الخيار في ضمان إمداد مستمر بال�
 msgid "This report shows all entries in the system where the <strong>clearance date is before the posting date</strong> which is incorrect."
 msgstr ""
 "يعرض هذا التقرير جميع الإدخالات في النظام حيث يكون تاريخ التخليص <strong>"
-" قبل تاريخ الترحيل</strong> وهو غير صحيح."
+" قبل تاريخ النشر</strong> وهو غير صحيح."
 
 #: erpnext/assets/doctype/asset_value_adjustment/asset_value_adjustment.py:212
 msgid "This schedule was created when Asset {0} was adjusted through Asset Value Adjustment {1}."
@@ -60717,7 +60735,7 @@ msgstr "تاريخ المعاملات السنوية"
 #: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.js:117
 msgid "Transactions against the Company already exist! Chart of Accounts can only be imported for a Company with no transactions."
 msgstr ""
-"توجد بالفعل معاملات مسجلة على الشركة! لا يمكن استيراد دليل الحسابات إلا "
+"توجد بالفعل معاملات مسجلة على الشركة! لا يمكن استيراد الشجرة المحاسبية إلا "
 "لشركة ليس لديها أي معاملات."
 
 #. Description of the 'Credit & Overdue Limits' (Table) field in DocType
@@ -61366,14 +61384,14 @@ msgstr "تعذر جلب تفاصيل نوع المستند. يرجى الاتص�
 msgid "Unable to find exchange rate for {0} to {1} for key date {2}. Please create a Currency Exchange record manually"
 msgstr ""
 "تعذر العثور على سعر الصرف من {0} إلى {1} لتاريخ المفتاح {2}. يرجى إنشاء "
-"سجل صرف العملات يدويا"
+"سجل سعر الصرف يدويا"
 
 #: erpnext/accounts/doctype/account_closing_balance/account_closing_balance.py:165
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:313
 msgid "Unable to find exchange rate for {0} to {1} for key date {2}. Please create a Currency Exchange record manually."
 msgstr ""
 "تعذر العثور على سعر الصرف من {0} إلى {1} لتاريخ المفتاح {2}. يرجى إنشاء "
-"سجل صرف العملات يدويا."
+"سجل سعر الصرف يدويا."
 
 #: erpnext/manufacturing/doctype/work_order/services/operations.py:125
 msgid "Unable to find the time slot in the next {0} days for the operation {1}. Please increase the 'Capacity Planning For (Days)' in the {2}."
@@ -62035,7 +62053,7 @@ msgstr "استخدم عوامل تصفية <strong>Python</strong> للحصول 
 #. Label of the use_batchwise_valuation (Check) field in DocType 'Batch'
 #: erpnext/stock/doctype/batch/batch.json
 msgid "Use Batch-wise Valuation"
-msgstr "استخدام التقييم حسب الدُفعة"
+msgstr "استخدام التقييم حسب الدفعة"
 
 #. Label of the use_csv_sniffer (Check) field in DocType 'Bank Statement
 #. Import'
@@ -62082,7 +62100,7 @@ msgstr "استخدم بروتوكول HTTP"
 #. Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Use Inline Serial / Batch Editor"
-msgstr "استخدام محرر الرقم التسلسلي والدُفعة المضمّن"
+msgstr "استخدام محرر الرقم التسلسلي والدفعة المضمّن"
 
 #. Label of the item_based_reposting (Check) field in DocType 'Stock Reposting
 #. Settings'
@@ -62114,7 +62132,7 @@ msgstr "استخدم تاريخ النشر لتسمية المستندات"
 #. Settings'
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 msgid "Use Serial / Batch fields"
-msgstr "استخدام حقول الرقم التسلسلي والدُفعة"
+msgstr "استخدام حقول الرقم التسلسلي والدفعة"
 
 #. Label of the use_serial_batch_fields (Check) field in DocType 'POS Invoice
 #. Item'
@@ -65433,7 +65451,7 @@ msgstr "{0} طلب {1}"
 
 #: erpnext/stock/doctype/item/item.py:396
 msgid "{0} Retain Sample is based on batch, please check Has Batch No to retain sample of item"
-msgstr "يعتمد الاحتفاظ بالعينة {0} على الدُفعة؛ يرجى تحديد «له رقم دُفعة» للاحتفاظ بعينة من الصنف."
+msgstr "يعتمد الاحتفاظ بالعينة {0} على الدفعة؛ يرجى تحديد «له رقم دفعة» للاحتفاظ بعينة من الصنف."
 
 #: erpnext/public/js/utils/serial_batch_inline_editor.js:798
 msgid "{0} Serial Nos added. They will be saved with the document."
@@ -65696,7 +65714,7 @@ msgstr "{0} إلزامي للحساب {1}"
 
 #: erpnext/public/js/controllers/taxes_and_totals.js:137
 msgid "{0} is mandatory. Maybe Currency Exchange record is not created for {1} to {2}"
-msgstr "{0} إلزامي. ربما لم يتم إنشاء سجل صرف العملات من {1} إلى {2}"
+msgstr "{0} إلزامي. ربما لم يتم إنشاء سجل سعر الصرف من {1} إلى {2}"
 
 #: erpnext/accounts/services/taxes.py:233
 msgid "{0} is mandatory. Maybe Currency Exchange record is not created for {1} to {2}."
@@ -65752,7 +65770,7 @@ msgstr "{0} لا يعمل. لا يمكن تشغيل الأحداث لهذا ال
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/inline_editor.py:147
 msgid "{0} is not supported for the inline Serial / Batch editor"
-msgstr "{0} غير مدعوم في محرر الرقم التسلسلي والدُفعة المضمّن."
+msgstr "{0} غير مدعوم في محرر الرقم التسلسلي والدفعة المضمّن."
 
 #: erpnext/stock/doctype/material_request/material_request.py:517
 msgid "{0} is not the default supplier for any items."
@@ -66280,7 +66298,7 @@ msgid "Outgoing Bills (Sales Invoice)"
 msgstr "الفواتير الصادرة (فاتورة مبيعات)"
 
 msgid "COA Importer"
-msgstr "مستورد دليل الحسابات (COA)"
+msgstr "مستورد الشجرة المحاسبية"
 
 msgid "Opening Invoice Tool"
 msgstr "أداة الفواتير الافتتاحية"
@@ -66645,7 +66663,7 @@ msgstr "نص الرسالة"
 #. Label of a Sidebar Item
 #: erpnext/accounts/sidebar/accounts/accounts.json
 msgid "Budgeting"
-msgstr "إعداد الموازنات"
+msgstr "الميزانيات"
 
 #. Label of the buffer_time (Int) field in DocType 'Item Lead Time Supplier'
 #: erpnext/stock/doctype/item_lead_time_supplier/item_lead_time_supplier.json
@@ -69382,3 +69400,1527 @@ msgstr "{0} ساعة"
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:1141
 msgid "{0}m"
 msgstr "{0} دقيقة"
+
+msgid "Your income and expenses over the year, and what's left as profit."
+msgstr "دخلك ونفقاتك على مدار العام، وما يتبقى كربح."
+
+msgid "A branch of your company."
+msgstr "فروع لشركتك"
+
+msgid "Receivables & Payables"
+msgstr "حسابات القبض و الدفع"
+
+msgid "Registers & Profitability"
+msgstr "السجلات و الربحية"
+
+msgid "Tax & Compliance"
+msgstr "الضرائب و الإمتثال"
+
+msgid "Invoicing & Payments"
+msgstr "الفوترة و المدفوعات"
+
+msgid "Reconciliation"
+msgstr "المستويات"
+
+msgid "Ledger Tools"
+msgstr "أدوات الدفاتر"
+
+msgid "What your suppliers bill you each month."
+msgstr "المبالغ التي يطالبك بها موردوك شهرياً."
+
+msgid "What you bill your customers each month."
+msgstr "ما تطالب به عملاءك شهرياً."
+
+msgid "How long your unpaid supplier bills have been due."
+msgstr "المدة التي انقضت منذ حلول موعد سداد فواتير الموردين غير المدفوعة."
+
+msgid "How long your customers' unpaid invoices have been due."
+msgstr "المدة التي انقضت منذ حلول موعد سداد فواتير عملائك غير المدفوعة."
+
+msgid "Your budgets against what you actually spent."
+msgstr "ميزانياتك مقابل ما أنفقته فعلياً."
+
+msgid "Choose a bank account in this chart's filters, or set a default bank account on {0}, to see its balance."
+msgstr "اختر حساباً مصرفياً من فلتر هذا المخطط، أو عيّن حساباً مصرفياً افتراضياً في {0}، للاطلاع على رصيده."
+
+msgid "A bank account of yours or of a customer or supplier."
+msgstr "حساب مصرفي خاص بك أو بأحد العملاء أو الموردين."
+
+msgid "Rates and thresholds for tax withheld on payments, like TDS."
+msgstr "معدلات وحدود الضريبة المقتطعة من المدفوعات، مثل ضريبة الدخل المقتطعة من المصدر."
+
+msgid "The rate to convert one currency into another."
+msgstr "سعر صرف العملة مقابل العملة الأخرى."
+
+msgid "A bill to a customer for what you sold."
+msgstr "فاتورة للعميل مقابل ما قمت ببيعه."
+
+
+msgid "Warehouse wise Stock Value"
+msgstr "قيمة المخزون حسب المستودع"
+
+msgid "What your stock is worth in each warehouse."
+msgstr "قيمة مخزونك في كل مستودع."
+
+msgid "Delivery Trends"
+msgstr "حركات التوصيل"
+
+msgid "What you deliver to your customers each month."
+msgstr "ما توصل لعملائك كل شهر."
+
+msgid "Item Shortage Summary"
+msgstr "ملخص نقص الأصناف"
+
+msgid "Items you're about to run short of."
+msgstr "الأصناف التي توشك مخزوناتها على النفاد."
+
+msgid "Oldest Items"
+msgstr "الأصناف القديمة"
+
+msgid "The stock that has sat longest in your warehouses."
+msgstr "المخزون الذي ظل في مستودعاتك لأطول فترة."
+
+msgid "Serial & Batch"
+msgstr "الأرقام المسلسلة و الدفعات"
+
+
+msgid "Purchase Reports"
+msgstr "تقارير المشتريات"
+
+msgid "Order Status Reports"
+msgstr "تقارير حالة الطلبات"
+
+msgid "Supplier Reports"
+msgstr "تقارير الموردين"
+
+msgid "Subcontracting Reports"
+msgstr "تقارير التعاقدات"
+
+msgid "Where your purchase orders stand: to receive, to bill, or done."
+msgstr "حالة أوامر الشراء الخاصة بك: بانتظار الاستلام، أو بانتظار الفوترة، أو مكتملة."
+
+msgid "What your stock is worth, by item group."
+msgstr "قيمة مخزونك، حسب مجموعة الأصناف."
+
+msgid "Serial & Batch Reports"
+msgstr "تقارير الأرقام التسلسلية"
+
+msgid "Movement Reports"
+msgstr "تقارير حركات المخزون"
+
+msgid "Item Reports"
+msgstr "تقارير الأصناف"
+
+msgid "Audit Reports"
+msgstr "تقارير الجرد"
+
+msgid "Your work orders by status, from planned to completed."
+msgstr "أوامر العمل الخاصة بك مصنفة حسب الحالة، من المخطط لها وحتى المكتملة."
+
+msgid "Production Reports"
+msgstr "تقارير الإنتاج"
+
+msgid "Planning Reports"
+msgstr "تقارير التخطيط"
+
+msgid "BOM Reports"
+msgstr "تقارير قائمة المواد (BOM)"
+
+msgid "Visual Plant Floor"
+msgstr "التمثيل المرئي لأرضية المصنع"
+
+msgid "How far along your open projects are."
+msgstr "مدى التقدم المحرز في مشاريعك المفتوحة."
+
+msgid "Project Reports"
+msgstr "تقارير المشاريع"
+
+msgid "What your assets are worth, year by year."
+msgstr "قيمة أصولك، عاماً بعد عام."
+
+msgid "Asset Reports"
+msgstr "تقارير الأصول"
+
+msgid "Asset Maintenance Report"
+msgstr "تقرير صيانة الأصول"
+
+msgid "Meetings & Feedback"
+msgstr "الاجتماعات والملاحظات"
+
+msgid "How many inspections you run each month."
+msgstr "كم عدد عمليات التفتيش التي تجريها كل شهر"
+
+#: erpnext/manufacturing/dashboard_chart/pending_work_order/pending_work_order.json
+msgid "How long your open work orders have been waiting."
+msgstr "المدة التي ظلت فيها أوامر العمل المفتوحة بانتظار التنفيذ."
+
+
+#: erpnext/manufacturing/dashboard_chart/last_month_downtime_analysis/last_month_downtime_analysis.json
+msgid "How long your workstations were down last month."
+msgstr "المدة التي ظلت فيها محطات العمل لديك متوقفة عن العمل خلال الشهر الماضي."
+
+
+#: erpnext/manufacturing/dashboard_chart/quality_inspection_analysis/quality_inspection_analysis.json
+msgid "How many of your inspections pass or fail."
+msgstr "كم عدد عمليات التفتيش التي تجتاز الاختبار أو تفشل فيه."
+
+
+#: erpnext/crm/dashboard_chart/territory_wise_opportunity_count/territory_wise_opportunity_count.json
+msgid "How many opportunities each territory brings in."
+msgstr "عدد الفرص التي توفرها كل منطقة."
+
+
+#: erpnext/accounts/dashboard_chart/bank_balance/bank_balance.json
+msgid "How much money sits in your bank accounts, month by month."
+msgstr "ما مقدار المال الموجود في حساباتك المصرفية، شهراً تلو الآخر."
+
+
+#: erpnext/buying/dashboard_chart/purchase_order_trends/purchase_order_trends.json
+msgid "How much you order from suppliers each month."
+msgstr ""
+
+
+#: erpnext/manufacturing/dashboard_chart/produced_quantity/produced_quantity.json
+msgid "How much you produce each month."
+msgstr "حجم الطلبات التي تطلبها من الموردين شهرياً."
+
+
+#: erpnext/selling/dashboard_chart/sales_order_trends/sales_order_trends.json
+msgid "How much your customers order each month."
+msgstr "حجم طلبات عملائك شهرياً."
+
+
+#: erpnext/crm/dashboard_chart/incoming_leads/incoming_leads.json
+msgid "New leads coming in each week."
+msgstr "عملاء محتملون جدد كل أسبوع."
+
+
+#: erpnext/crm/dashboard_chart/opportunity_trends/opportunity_trends.json
+msgid "New opportunities coming in each week."
+msgstr "الفرص الجديدة كل أسبوع."
+
+
+#: erpnext/manufacturing/dashboard_chart/completed_operation/completed_operation.json
+msgid "Operations completed on your work orders each quarter."
+msgstr "العمليات المنجزة ضمن أوامر العمل الخاصة بك في كل ربع سنة."
+
+
+#: erpnext/support/dashboard_chart/issues_opened/issues_opened.json
+msgid "Support issues opened each month."
+msgstr "مشكلات الدعم المفتوحة شهرياً."
+
+
+#: erpnext/crm/dashboard_chart/won_opportunities/won_opportunities.json
+msgid "The opportunities you win each month."
+msgstr "الفرص التي تفوز بها كل شهر."
+
+
+#: erpnext/projects/dashboard_chart/completed_projects/completed_projects.json
+msgid "The projects you finish each month."
+msgstr "المشاريع التي تنجزها كل شهر."
+
+
+#: erpnext/crm/dashboard_chart/territory_wise_sales/territory_wise_sales.json
+msgid "The value of opportunities you win in each territory."
+msgstr "قيمة الفرص التي تفوز بها في كل منطقة."
+
+
+#: erpnext/subcontracting/dashboard_chart/subcontracting_order/subcontracting_order.json
+msgid "What you send out for subcontracting each month."
+msgstr "ما ترسله للتعاقد من الباطن كل شهر."
+
+
+#: erpnext/assets/dashboard_chart/category_wise_asset_value/category_wise_asset_value.json
+msgid "What your assets are worth, by category."
+msgstr "قيمة أصولك، مصنفةً حسب الفئة."
+
+
+#: erpnext/assets/dashboard_chart/location_wise_asset_value/location_wise_asset_value.json
+msgid "What your assets are worth, by location."
+msgstr "قيمة أصولك حسب الموقع."
+
+
+#: erpnext/manufacturing/dashboard_chart/work_order_qty_analysis/work_order_qty_analysis.json
+msgid "What your work orders planned against what they produced."
+msgstr "مقارنة ما تم التخطيط له في أوامر العمل بما تم إنتاجه فعلياً."
+
+
+#: erpnext/crm/dashboard_chart/lead_source/lead_source.json
+msgid "Where your leads come from."
+msgstr "من أين تأتي العملاء المحتملون."
+
+
+#: erpnext/crm/dashboard_chart/opportunities_via_campaigns/opportunities_via_campaigns.json
+msgid "Which campaigns bring in your opportunities."
+msgstr "ما هي الحملات التي تجلب لك الفرص؟"
+
+
+#: erpnext/selling/dashboard_chart/item_wise_annual_sales/item_wise_annual_sales.json
+msgid "Your best-selling items over the year."
+msgstr "المنتجات الأكثر مبيعاً لديك على مدار العام."
+
+
+#: erpnext/selling/dashboard_chart/top_customers/top_customers.json
+msgid "Your customers, ranked by what you deliver to them."
+msgstr "عملاؤك، مصنفين وفقاً لما تقدمه لهم."
+
+
+#: erpnext/manufacturing/dashboard_chart/job_card_analysis/job_card_analysis.json
+msgid "Your job cards each month, by status."
+msgstr "بطاقات المهام الخاصة بك كل شهر، مصنفة حسب الحالة."
+
+
+#: erpnext/buying/dashboard_chart/material_request_analysis/material_request_analysis.json
+msgid "Your material requests by status, from pending to ordered."
+msgstr "طلبات المواد الخاصة بك مصنفة حسب الحالة، من قيد الانتظار إلى تم الطلب."
+
+
+#: erpnext/buying/dashboard_chart/top_suppliers/top_suppliers.json
+msgid "Your suppliers, ranked by what they deliver to you."
+msgstr "موردوك، مصنفين حسب ما يوردونه لك."
+
+# Description of a DocType
+#: erpnext/buying/doctype/supplier_scorecard_standing/supplier_scorecard_standing.json
+msgid "A band of scores, and what happens to suppliers in it."
+msgstr "نطاق من الدرجات وما يترتب على كل نطاق للموردين."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/bank/bank.json
+msgid "A bank you or your customers and suppliers hold accounts with."
+msgstr "بنك تحتفظ فيه أنت أو عملاؤك أو موردوك بحساباتكم."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/payment_order/payment_order.json
+msgid "A batch of payments to send to your bank."
+msgstr "مجموعة من المدفوعات لإرسالها إلى البنك."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
+msgid "A bill from a supplier for what you bought."
+msgstr "فاتورة من المورد مقابل ما اشتريته."
+
+
+# Description of a DocType
+#: erpnext/setup/doctype/brand/brand.json
+msgid "A brand your items are sold under."
+msgstr "علامة تجارية تُباع أصنافك تحت اسمها."
+
+
+# Description of a DocType
+#: erpnext/regional/doctype/lower_deduction_certificate/lower_deduction_certificate.json
+msgid "A certificate that lets you withhold less tax from a supplier."
+msgstr "شهادة تتيح لك اقتطاع ضريبة أقل من مستحقات المورد."
+
+
+# Description of a DocType
+#: erpnext/communication/doctype/communication_medium/communication_medium.json
+msgid "A channel customers reach you on, like a phone line."
+msgstr "قناة يتواصل العملاء معك عبرها، مثل خط الهاتف."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/share_type/share_type.json
+msgid "A class of shares, like equity or preference."
+msgstr "فئة من الأسهم، مثل الأسهم العادية أو الممتازة."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/coupon_code/coupon_code.json
+msgid "A code customers enter to get a discount from a pricing rule."
+msgstr "رمز يدخله العملاء للحصول على خصم بموجب قاعدة تسعير."
+
+
+# Description of a DocType
+#: erpnext/edi/doctype/common_code/common_code.json
+msgid "A code from a code list and what it maps to."
+msgstr "رمز من قائمة رموز وما يقابله."
+
+
+# Description of a DocType
+#: erpnext/buying/doctype/supplier/supplier.json
+msgid "A company or person you buy goods or services from."
+msgstr "شركة أو شخص تشتري منه السلع أو الخدمات."
+
+
+# Description of a DocType
+#: erpnext/selling/doctype/customer/customer.json
+msgid "A company or person you sell goods or services to."
+msgstr "شركة أو شخص تبيع له السلع أو الخدمات."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/manufacturer/manufacturer.json
+msgid "A company that makes the items you buy or sell."
+msgstr "شركة تصنع الأصناف التي تشتريها أو تبيعها."
+
+
+# Description of a DocType
+#: erpnext/crm/doctype/prospect/prospect.json
+msgid "A company you are trying to win as a customer, with its leads."
+msgstr "شركة تسعى إلى كسبها كعميل، مع العملاء المحتملين التابعين لها."
+
+
+# Description of a DocType
+#: erpnext/support/doctype/warranty_claim/warranty_claim.json
+msgid "A customer's claim to repair or replace an item under warranty."
+msgstr "مطالبة عميل بإصلاح صنف أو استبداله بموجب الضمان."
+
+
+# Description of a DocType
+#: erpnext/selling/doctype/sales_order/sales_order.json
+msgid "A customer's confirmed order."
+msgstr "طلب مؤكد من العميل."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/accounting_period/accounting_period.json
+msgid "A date range you can close so no one posts into it."
+msgstr "نطاق زمني يمكنك إقفاله لمنع ترحيل قيود إليه."
+
+
+# Description of a DocType
+#: erpnext/setup/doctype/department/department.json
+msgid "A department of your company."
+msgstr "قسم في شركتك."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/journal_entry/journal_entry.json
+msgid "A direct entry in your books, for anything without its own form."
+msgstr "قيد مباشر في دفاترك لأي معاملة لا تملك مستندًا خاصًا بها."
+
+
+# Description of a DocType
+#: erpnext/setup/doctype/sales_partner/sales_partner.json
+msgid "A distributor, dealer or reseller who sells for you on commission."
+msgstr "موزع أو تاجر أو بائع يعيد بيع منتجاتك مقابل عمولة."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/bank_account_subtype/bank_account_subtype.json
+msgid "A finer grouping of bank accounts, like savings or current."
+msgstr "تصنيف فرعي للحسابات المصرفية، مثل حساب التوفير أو الحساب الجاري."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/tax_withholding_group/tax_withholding_group.json
+msgid "A group of tax withholding categories that apply together."
+msgstr "مجموعة من فئات الاستقطاع الضريبي التي تُطبق معًا."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/batch/batch.json
+msgid "A group of units of an item made or received together."
+msgstr "مجموعة من وحدات الصنف صُنعت أو استُلمت معًا."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/bank_account_type/bank_account_type.json
+msgid "A grouping of bank accounts, like checking or credit card."
+msgstr "تصنيف للحسابات المصرفية، مثل الحساب الجاري أو حساب بطاقة الائتمان."
+
+
+# Description of a DocType
+#: erpnext/telephony/doctype/telephony_call_type/telephony_call_type.json
+msgid "A grouping of calls, like sales or support."
+msgstr "تصنيف للمكالمات، مثل المبيعات أو الدعم."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/quality_inspection_parameter_group/quality_inspection_parameter_group.json
+msgid "A grouping of inspection parameters."
+msgstr "مجموعة من معايير الفحص."
+
+
+# Description of a DocType
+#: erpnext/support/doctype/issue_type/issue_type.json
+msgid "A grouping of issues, like billing or technical."
+msgstr "تصنيف للمشكلات، مثل مشكلات الفوترة أو المشكلات التقنية."
+
+
+# Description of a DocType
+#: erpnext/projects/doctype/project_type/project_type.json
+msgid "A grouping of projects, like internal or external."
+msgstr "تصنيف للمشاريع، مثل المشاريع الداخلية أو الخارجية."
+
+
+# Description of a DocType
+#: erpnext/projects/doctype/task_type/task_type.json
+msgid "A grouping of tasks, like bug or feature."
+msgstr "تصنيف للمهام، مثل إصلاح خطأ أو إضافة ميزة."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/uom_category/uom_category.json
+msgid "A grouping of units, like weight or length."
+msgstr "تصنيف لوحدات القياس، مثل الوزن أو الطول."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/warehouse_type/warehouse_type.json
+msgid "A grouping of warehouses, like transit or store."
+msgstr "تصنيف للمستودعات، مثل مستودع العبور أو التخزين."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.json
+msgid ""
+"A guarantee a bank gives on your behalf, or on a customer's or supplier's."
+msgstr "ضمان يقدمه البنك نيابةً عنك أو عن عميل أو مورد."
+
+
+# Description of a DocType
+#: erpnext/setup/doctype/designation/designation.json
+msgid "A job title, like manager or accountant."
+msgstr "مسمى وظيفي، مثل مدير أو محاسب."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/stock_entry_type/stock_entry_type.json
+msgid "A kind of stock entry, like material transfer or manufacture."
+msgstr "نوع من قيود المخزون، مثل تحويل المواد أو التصنيع."
+
+
+# Description of a DocType
+#: erpnext/projects/doctype/activity_type/activity_type.json
+msgid "A kind of work you track time against, like design or support."
+msgstr "نوع من العمل تسجل الوقت المستغرق فيه، مثل التصميم أو الدعم."
+
+
+# Description of a DocType
+#: erpnext/manufacturing/doctype/workstation_type/workstation_type.json
+msgid "A kind of workstation, with its costs."
+msgstr "نوع من محطات العمل وتكاليفه."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/account/account.json
+msgid "A ledger in your chart of accounts that entries are posted to."
+msgstr "دفتر أستاذ في الشجرة المحاسبية تُرحّل إليه القيود."
+
+
+# Description of a DocType
+#: erpnext/setup/doctype/company/company.json
+msgid "A legal entity with its own books, like your business or a subsidiary."
+msgstr "كيان قانوني له دفاتره الخاصة، مثل شركتك أو شركة تابعة لها."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/bank_transaction/bank_transaction.json
+msgid "A line from your bank statement, ready to be matched with a payment."
+msgstr "بند من كشف حسابك المصرفي جاهز للمطابقة مع دفعة."
+
+
+# Description of a DocType
+#: erpnext/manufacturing/doctype/workstation/workstation.json
+msgid "A machine or place where operations are done."
+msgstr "آلة أو مكان تُنفذ فيه العمليات."
+
+
+# Description of a DocType
+#: erpnext/crm/doctype/campaign/campaign.json
+msgid "A marketing campaign, to see which leads and sales it brought in."
+msgstr "حملة تسويقية لمعرفة العملاء المحتملين والمبيعات التي حققتها."
+
+
+# Description of a DocType
+#: erpnext/crm/doctype/appointment/appointment.json
+msgid "A meeting booked with a lead or customer."
+msgstr "اجتماع محدد مع عميل محتمل أو عميل."
+
+
+# Description of a DocType
+#: erpnext/quality_management/doctype/quality_meeting/quality_meeting.json
+msgid "A meeting to review quality, with its agenda and minutes."
+msgstr "اجتماع لمراجعة الجودة، مع جدول أعماله ومحضره."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/shipment_parcel_template/shipment_parcel_template.json
+msgid "A parcel size you ship often."
+msgstr "حجم طرد تشحنه كثيرًا."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/shipment/shipment.json
+msgid "A parcel you send through a carrier."
+msgstr "طرد ترسله عبر شركة شحن."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/cost_center/cost_center.json
+msgid ""
+"A part of your business you track income and expenses for, like a branch or "
+"product line."
+msgstr "جزء من نشاطك التجاري تتابع إيراداته ومصروفاته، مثل فرع أو خط إنتاج."
+
+
+# Description of a DocType
+#: erpnext/quality_management/doctype/quality_review/quality_review.json
+msgid "A periodic check of how a quality goal is going."
+msgstr "مراجعة دورية لمتابعة التقدم نحو هدف الجودة."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/shareholder/shareholder.json
+msgid "A person or company that owns shares in your company."
+msgstr "شخص أو شركة يمتلك أسهمًا في شركتك."
+
+
+# Description of a DocType
+#: erpnext/telephony/doctype/call_log/call_log.json
+msgid "A phone call made or received."
+msgstr "مكالمة هاتفية صادرة أو واردة."
+
+
+# Description of a DocType
+#: erpnext/projects/doctype/task/task.json
+msgid "A piece of work to be done, often part of a project."
+msgstr "عمل مطلوب إنجازه، وغالبًا ما يكون جزءًا من مشروع."
+
+
+# Description of a DocType
+#: erpnext/projects/doctype/project/project.json
+msgid "A piece of work with tasks, time and costs."
+msgstr "عمل يضم مهامًا ووقتًا وتكاليف."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/warehouse/warehouse.json
+msgid "A place where you keep stock."
+msgstr "مكان تحتفظ فيه بالمخزون."
+
+
+# Description of a DocType
+#: erpnext/assets/doctype/location/location.json
+msgid "A place where your assets are kept."
+msgstr "مكان تُحفظ فيه أصولك."
+
+
+# Description of a DocType
+#: erpnext/crm/doctype/opportunity/opportunity.json
+msgid "A potential sale to a lead or customer."
+msgstr "فرصة بيع محتملة لعميل محتمل أو عميل."
+
+
+# Description of a DocType
+#: erpnext/support/doctype/issue/issue.json
+msgid "A problem or question raised by a customer."
+msgstr "مشكلة أو استفسار يطرحه أحد العملاء."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/item/item.json
+msgid "A product or service you buy, sell or keep in stock."
+msgstr "منتج أو خدمة تشتريها أو تبيعها أو تحتفظ بها في المخزون."
+
+
+# Description of a DocType
+#: erpnext/projects/doctype/project_update/project_update.json
+msgid "A progress update collected from the project team."
+msgstr "تحديث عن التقدم يقدمه فريق المشروع."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/item_attribute/item_attribute.json
+msgid "A property item variants differ by, like size or colour."
+msgstr "خاصية تختلف بها متغيرات الصنف، مثل المقاس أو اللون."
+
+
+# Description of a DocType
+#: erpnext/edi/doctype/code_list/code_list.json
+msgid ""
+"A published list of codes, like units or tax categories, used in "
+"e-invoicing."
+msgstr "قائمة منشورة من الرموز، مثل رموز الوحدات أو الفئات الضريبية، تُستخدم في الفوترة الإلكترونية."
+
+
+# Description of a DocType
+#: erpnext/assets/doctype/asset_maintenance_log/asset_maintenance_log.json
+msgid "A record of maintenance done on an asset."
+msgstr "سجل بأعمال الصيانة المنفذة لأصل."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/share_transfer/share_transfer.json
+msgid "A record of shares issued, bought back or moved between shareholders."
+msgstr "سجل بالأسهم التي أُصدرت أو أُعيد شراؤها أو نُقلت بين المساهمين."
+
+
+# Description of a DocType
+#: erpnext/setup/doctype/territory/territory.json
+msgid "A region you sell in, to group customers and set targets."
+msgstr "منطقة تبيع فيها، لتجميع العملاء وتحديد الأهداف."
+
+
+# Description of a DocType
+#: erpnext/setup/doctype/email_digest/email_digest.json
+msgid "A regular email summing up how the business is doing."
+msgstr "رسالة بريد إلكتروني دورية تلخص أداء النشاط التجاري."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/dunning/dunning.json
+msgid "A reminder to a customer about an overdue invoice."
+msgstr "تذكير للعميل بفاتورة متأخرة السداد."
+
+
+# Description of a DocType
+#: erpnext/assets/doctype/asset_repair/asset_repair.json
+msgid "A repair made to an asset, and what it cost."
+msgstr "إصلاح أُجري لأصل وتكلفته."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/material_request/material_request.json
+msgid "A request to buy, transfer or make items."
+msgstr "طلب لشراء أصناف أو نقلها أو تصنيعها."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
+msgid "A sale made at the point of sale."
+msgstr "عملية بيع نُفذت في نقطة البيع."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/journal_entry_template/journal_entry_template.json
+msgid "A saved set of accounts to start journal entries from."
+msgstr "مجموعة حسابات محفوظة يمكنك البدء منها عند إنشاء قيود اليومية."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/finance_book/finance_book.json
+msgid ""
+"A separate set of books, for example to depreciate assets under another "
+"rule."
+msgstr "مجموعة دفاتر مستقلة، تُستخدم مثلًا لاستهلاك الأصول وفق قاعدة أخرى."
+
+
+# Description of a DocType
+#: erpnext/crm/doctype/email_campaign/email_campaign.json
+msgid "A series of emails sent to leads or contacts on a schedule."
+msgstr "سلسلة رسائل بريد إلكتروني تُرسل إلى العملاء المحتملين أو جهات الاتصال وفق جدول زمني."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/promotional_scheme/promotional_scheme.json
+msgid "A set of discounts and free items, like buy two get one free."
+msgstr "مجموعة من الخصومات والأصناف المجانية، مثل عرض اشترِ صنفين واحصل على ثالث مجانًا."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/price_list/price_list.json
+msgid "A set of item prices for buying, selling or both."
+msgstr "مجموعة من أسعار الأصناف للشراء أو البيع أو كليهما."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/payment_terms_template/payment_terms_template.json
+msgid "A set of payment terms to apply to invoices and orders."
+msgstr "مجموعة من شروط الدفع لتطبيقها على الفواتير والطلبات."
+
+
+# Description of a DocType
+#: erpnext/projects/doctype/project_template/project_template.json
+msgid "A set of tasks to start new projects from."
+msgstr "مجموعة مهام تُستخدم كنقطة بداية للمشاريع الجديدة."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/serial_no/serial_no.json
+msgid "A single unit of an item, tracked by its own number."
+msgstr "وحدة واحدة من صنف، تُتتبع برقمها الخاص."
+
+
+# Description of a DocType
+#: erpnext/manufacturing/doctype/operation/operation.json
+msgid "A step in making an item, like cutting or assembly."
+msgstr "خطوة في تصنيع صنف، مثل القطع أو التجميع."
+
+
+# Description of a DocType
+#: erpnext/crm/doctype/sales_stage/sales_stage.json
+msgid "A step in your sales process, like qualification or negotiation."
+msgstr "مرحلة في عملية البيع، مثل التأهيل أو التفاوض."
+
+
+# Description of a DocType
+#: erpnext/setup/doctype/uom/uom.json
+msgid "A unit you measure items in, like kg or box."
+msgstr "وحدة تقيس بها الأصناف، مثل الكيلوغرام أو الصندوق."
+
+
+# Description of a DocType
+#: erpnext/buying/doctype/supplier_scorecard_variable/supplier_scorecard_variable.json
+msgid "A value a scorecard criterion is calculated from."
+msgstr "قيمة يُحسب منها معيار بطاقة تقييم المورد."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/delivery_trip/delivery_trip.json
+msgid "A vehicle's route to deliver to several customers."
+msgstr "مسار مركبة لتوصيل الطلبات إلى عدة عملاء."
+
+
+# Description of a DocType
+#: erpnext/manufacturing/doctype/plant_floor/plant_floor.json
+msgid "A view of your workstations and what each is doing."
+msgstr "عرض لمحطات العمل لديك وما تنفذه كل محطة."
+
+
+# Description of a DocType
+#: erpnext/maintenance/doctype/maintenance_visit/maintenance_visit.json
+msgid "A visit to service or repair what a customer bought."
+msgstr "زيارة لصيانة أو إصلاح ما اشتراه العميل."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/mode_of_payment/mode_of_payment.json
+msgid "A way you pay or get paid, like cash, bank transfer or card."
+msgstr "طريقة للدفع أو استلام المدفوعات، مثل النقد أو التحويل المصرفي أو البطاقة."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/landed_cost_voucher/landed_cost_voucher.json
+msgid "Adds freight, duty and other charges to the cost of received items."
+msgstr "يضيف أجور الشحن والرسوم الجمركية والتكاليف الأخرى إلى تكلفة الأصناف المستلمة."
+
+
+# Description of a DocType
+#: erpnext/manufacturing/doctype/blanket_order/blanket_order.json
+msgid "An agreement to buy or sell an item at a fixed price over a period."
+msgstr "اتفاق لشراء صنف أو بيعه بسعر ثابت خلال فترة محددة."
+
+
+# Description of a DocType
+#: erpnext/crm/doctype/contract/contract.json
+msgid "An agreement with a customer, supplier or employee."
+msgstr "اتفاق مع عميل أو مورد أو موظف."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/accounting_dimension/accounting_dimension.json
+msgid ""
+"An extra way to tag entries, like branch or region, beyond cost centers."
+msgstr "طريقة إضافية لتصنيف القيود، مثل الفرع أو المنطقة، إلى جانب مراكز التكلفة."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/inventory_dimension/inventory_dimension.json
+msgid "An extra way to tag stock, like a rack or bin."
+msgstr "طريقة إضافية لتصنيف المخزون، مثل الرف أو الخانة."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/item_alternative/item_alternative.json
+msgid "An item you can use in place of another."
+msgstr "صنف يمكنك استخدامه بدلًا من صنف آخر."
+
+
+# Description of a DocType
+#: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
+msgid "An order for a subcontractor to make items from your materials."
+msgstr "طلب إلى متعهد من الباطن لتصنيع أصناف باستخدام موادك."
+
+
+# Description of a DocType
+#: erpnext/manufacturing/doctype/work_order/work_order.json
+msgid "An order to make a quantity of an item."
+msgstr "أمر لتصنيع كمية من صنف."
+
+
+# Description of a DocType
+#: erpnext/subcontracting/doctype/subcontracting_inward_order/subcontracting_inward_order.json
+msgid "An order to make items for a customer from materials they send."
+msgstr "أمر لتصنيع أصناف للعميل باستخدام المواد التي يرسلها."
+
+
+# Description of a DocType
+#: erpnext/buying/doctype/purchase_order/purchase_order.json
+msgid "An order you place with a supplier."
+msgstr "طلب شراء تصدره إلى مورد."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/tax_rule/tax_rule.json
+msgid "Applies a tax template automatically when its conditions match."
+msgstr "يطبق قالبًا ضريبيًا تلقائيًا عند تحقق شروطه."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/payment_request/payment_request.json
+msgid "Ask a customer to pay, by email with a payment link."
+msgstr "مطالبة العميل بالدفع عبر رسالة بريد إلكتروني تتضمن رابطًا للدفع."
+
+
+# Description of a DocType
+#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.json
+msgid "Ask suppliers for prices on the items you need."
+msgstr "طلب أسعار من الموردين للأصناف التي تحتاج إليها."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/subscription/subscription.json
+msgid "Bills a customer or supplier for the same things on a schedule."
+msgstr "يفوتر العميل أو المورد عن الأصناف نفسها وفق جدول زمني."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/process_deferred_accounting/process_deferred_accounting.json
+msgid "Books deferred revenue or expense for a period."
+msgstr "يسجل الإيرادات أو المصروفات المؤجلة لفترة محددة."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/bank_statement_import/bank_statement_import.json
+msgid "Bring in a bank statement to match its lines against your books."
+msgstr "استيراد كشف حساب مصرفي لمطابقة بنوده مع دفاترك."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.json
+msgid "Bring in your chart of accounts from a spreadsheet."
+msgstr "استيراد الشجرة المحاسبية من جدول بيانات."
+
+
+# Description of a DocType
+#: erpnext/manufacturing/doctype/bom_creator/bom_creator.json
+msgid "Build a multi-level BOM in one place."
+msgstr "إنشاء قائمة مواد متعددة المستويات في مكان واحد."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
+msgid "Changes a price or gives a discount when its conditions are met."
+msgstr "يغير السعر أو يمنح خصمًا عند تحقق شروطه."
+
+
+# Description of a DocType
+#: erpnext/assets/doctype/asset_value_adjustment/asset_value_adjustment.json
+msgid "Changes an asset's value outside its depreciation."
+msgstr "يعدل قيمة أصل خارج قيود استهلاكه."
+
+
+# Description of a DocType
+#: erpnext/assets/doctype/asset_shift_allocation/asset_shift_allocation.json
+msgid ""
+"Changes how many shifts an asset works, which changes its depreciation."
+msgstr "يعدل عدد الورديات التي يعملها الأصل، مما يؤثر في استهلاكه."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/quality_inspection/quality_inspection.json
+msgid "Checks an item against its quality parameters."
+msgstr "يفحص صنفًا وفق معايير الجودة الخاصة به."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/pos_closing_entry/pos_closing_entry.json
+msgid "Closes a POS shift and totals what was collected."
+msgstr "ينهي وردية نقطة البيع ويجمع المبالغ المحصلة."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.json
+msgid "Closes a fiscal year by moving its profit or loss to equity."
+msgstr "يقفل السنة المالية بترحيل أرباحها أو خسائرها إلى حقوق الملكية."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/stock_closing_entry/stock_closing_entry.json
+msgid "Closes stock balances for a period so reports run faster."
+msgstr "يقفل أرصدة المخزون لفترة لتسريع تشغيل التقارير."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/ledger_merge/ledger_merge.json
+msgid "Combine two or more accounts into one."
+msgstr "دمج حسابين أو أكثر في حساب واحد."
+
+
+# Description of a DocType
+#: erpnext/setup/doctype/transaction_deletion_record/transaction_deletion_record.json
+msgid "Deletes a company's transactions, keeping its masters."
+msgstr "يحذف معاملات الشركة مع الإبقاء على بياناتها الرئيسية."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.json
+msgid "Emails customers their statements on a schedule."
+msgstr "يرسل كشوف حساب العملاء عبر البريد الإلكتروني وفق جدول زمني."
+
+
+# Description of a DocType
+#: erpnext/quality_management/doctype/quality_feedback/quality_feedback.json
+msgid "Feedback on your quality from a customer or employee."
+msgstr "ملاحظات من عميل أو موظف حول جودة منتجاتك أو خدماتك."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/account_category/account_category.json
+msgid "Groups accounts into the lines your financial statements show."
+msgstr "يجمع الحسابات ضمن البنود الظاهرة في قوائمك المالية."
+
+
+# Description of a DocType
+#: erpnext/assets/doctype/asset_category/asset_category.json
+msgid "Groups assets that share accounts and depreciation rules."
+msgstr "يجمع الأصول التي تشترك في الحسابات وقواعد الاستهلاك."
+
+
+# Description of a DocType
+#: erpnext/setup/doctype/customer_group/customer_group.json
+msgid "Groups customers, for pricing and reporting."
+msgstr "يجمع العملاء لأغراض التسعير وإعداد التقارير."
+
+
+# Description of a DocType
+#: erpnext/setup/doctype/item_group/item_group.json
+msgid "Groups items, for pricing, defaults and reporting."
+msgstr "يجمع الأصناف لأغراض التسعير والإعدادات الافتراضية وإعداد التقارير."
+
+
+# Description of a DocType
+#: erpnext/setup/doctype/supplier_group/supplier_group.json
+msgid "Groups suppliers, for terms and reporting."
+msgstr "يجمع الموردين لأغراض الشروط وإعداد التقارير."
+
+
+# Description of a DocType
+#: erpnext/support/doctype/service_level_agreement/service_level_agreement.json
+msgid "How fast issues must be answered and resolved."
+msgstr "المدة المحددة للرد على المشكلات وحلها."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/stock_settings/stock_settings.json
+msgid "How items, warehouses and stock transactions work."
+msgstr "كيفية عمل الأصناف والمستودعات ومعاملات المخزون."
+
+
+# Description of a DocType
+#: erpnext/crm/doctype/crm_settings/crm_settings.json
+msgid "How leads, opportunities and appointments work."
+msgstr "كيفية إدارة العملاء المحتملين والفرص والمواعيد."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/item_lead_time/item_lead_time.json
+msgid "How long it takes to get or make an item."
+msgstr "المدة اللازمة لتوريد صنف أو تصنيعه."
+
+
+# Description of a DocType
+#: erpnext/setup/doctype/uom_conversion_factor/uom_conversion_factor.json
+msgid "How many of one unit make another, like 1000 g in a kg."
+msgstr "عدد وحدات قياس لازم لمعادلة وحدة أخرى، مثل 1000 غرام في الكيلوغرام."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/budget/budget.json
+msgid "How much a cost center or project may spend over a fiscal year."
+msgstr "المبلغ الذي يمكن لمركز تكلفة أو مشروع إنفاقه خلال سنة مالية."
+
+
+# Description of a DocType
+#: erpnext/assets/doctype/asset_shift_factor/asset_shift_factor.json
+msgid "How much faster an asset depreciates on a given shift."
+msgstr "مقدار تسارع استهلاك الأصل خلال وردية معينة."
+
+
+# Description of a DocType
+#: erpnext/manufacturing/doctype/master_production_schedule/master_production_schedule.json
+msgid "How much of each item to make, and when."
+msgstr "كمية كل صنف مطلوب تصنيعها وموعد تصنيعها."
+
+
+# Description of a DocType
+#: erpnext/manufacturing/doctype/sales_forecast/sales_forecast.json
+msgid "How much you expect to sell, to plan production."
+msgstr "الكمية المتوقع بيعها لتخطيط الإنتاج."
+
+
+# Description of a DocType
+#: erpnext/selling/doctype/selling_settings/selling_settings.json
+msgid "How quotations, sales orders and pricing work."
+msgstr "كيفية عمل عروض الأسعار وأوامر البيع والتسعير."
+
+
+# Description of a DocType
+#: erpnext/support/doctype/issue_priority/issue_priority.json
+msgid "How urgent an issue is."
+msgstr "مدى إلحاح المشكلة."
+
+
+# Description of a DocType
+#: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.json
+msgid "Items received from a subcontractor."
+msgstr "أصناف مستلمة من متعهد من الباطن."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
+msgid "Items received from a supplier."
+msgstr "أصناف مستلمة من مورد."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/delivery_note/delivery_note.json
+msgid "Items shipped to a customer."
+msgstr "أصناف مشحونة إلى عميل."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/process_payment_reconciliation/process_payment_reconciliation.json
+msgid "Matches payments to invoices in the background."
+msgstr "يطابق المدفوعات مع الفواتير في الخلفية."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/payment_entry/payment_entry.json
+msgid "Money you received or paid, matched against invoices."
+msgstr "مبلغ استلمته أو دفعته وطوبق مع الفواتير."
+
+
+# Description of a DocType
+#: erpnext/assets/doctype/asset_movement/asset_movement.json
+msgid "Moves an asset to another location or person."
+msgstr "ينقل أصلًا إلى موقع آخر أو إلى شخص آخر."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/stock_entry/stock_entry.json
+msgid "Moves, receives, issues or manufactures stock."
+msgstr "ينقل المخزون أو يستلمه أو يصرفه أو يصنعه."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.json
+msgid "Opens a POS shift with the cash in the drawer."
+msgstr "يفتح وردية نقطة البيع مع تسجيل النقد الموجود في الدرج."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/tax_category/tax_category.json
+msgid "Picks the right tax template for a customer, supplier or address."
+msgstr "يختار القالب الضريبي المناسب لعميل أو مورد أو عنوان."
+
+
+# Description of a DocType
+#: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.json
+msgid "Planned visits to service what a customer bought."
+msgstr "زيارات مجدولة لصيانة ما اشتراه العميل."
+
+
+# Description of a DocType
+#: erpnext/manufacturing/doctype/production_plan/production_plan.json
+msgid "Plans the work orders and materials needed for your demand."
+msgstr "يخطط لأوامر العمل والمواد اللازمة لتلبية الطلب."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/loyalty_point_entry/loyalty_point_entry.json
+msgid "Points a customer earned or spent under a loyalty program."
+msgstr "نقاط ولاء اكتسبها العميل أو أنفقها ضمن برنامج الولاء."
+
+
+# Description of a DocType
+#: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+msgid "Prices a supplier offered you."
+msgstr "أسعار عرضها عليك المورد."
+
+
+# Description of a DocType
+#: erpnext/selling/doctype/quotation/quotation.json
+msgid "Prices you offer a customer or lead."
+msgstr "أسعار تعرضها على عميل أو عميل محتمل."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/invoice_discounting/invoice_discounting.json
+msgid "Raise money against unpaid sales invoices."
+msgstr "الحصول على تمويل بضمان فواتير المبيعات غير المسددة."
+
+
+# Description of a DocType
+#: erpnext/buying/doctype/supplier_scorecard/supplier_scorecard.json
+msgid "Rates a supplier over time on criteria you choose."
+msgstr "يقيّم المورد بمرور الوقت وفق معايير تختارها."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.json
+msgid "Rebuilds the ledger entries of transactions that were posted wrongly."
+msgstr "يعيد إنشاء قيود دفتر الأستاذ للمعاملات التي رُحلت على نحو خاطئ."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/repost_payment_ledger/repost_payment_ledger.json
+msgid "Rebuilds the payment ledger so outstanding amounts are right again."
+msgstr "يعيد إنشاء دفتر أستاذ المدفوعات لتصحيح المبالغ المستحقة."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
+msgid "Recalculates stock values after a backdated change."
+msgstr "يعيد احتساب قيم المخزون بعد إجراء تعديل بتاريخ سابق."
+
+
+# Description of a DocType
+#: erpnext/manufacturing/doctype/bom_update_tool/bom_update_tool.json
+msgid "Replace a BOM everywhere it is used, or update the cost of all BOMs."
+msgstr "يستبدل قائمة المواد في كل موضع تُستخدم فيه أو يحدّث تكلفة جميع قوائم المواد."
+
+
+# Description of a DocType
+#: erpnext/setup/doctype/authorization_rule/authorization_rule.json
+msgid "Requires approval for transactions above a limit."
+msgstr "يشترط الموافقة على المعاملات التي تتجاوز حدًا معينًا."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/exchange_rate_revaluation/exchange_rate_revaluation.json
+msgid "Restates foreign currency balances at today's exchange rate."
+msgstr "يعيد تقييم أرصدة العملات الأجنبية بسعر الصرف الحالي."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/loyalty_program/loyalty_program.json
+msgid "Rewards customers with points they can spend on later purchases."
+msgstr "يكافئ العملاء بنقاط يمكنهم إنفاقها على مشتريات لاحقة."
+
+
+# Description of a DocType
+#: erpnext/selling/doctype/product_bundle/product_bundle.json
+msgid "Sells several items together as one item."
+msgstr "يبيع عدة أصناف معًا على أنها صنف واحد."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.json
+msgid ""
+"Sets stock quantities and values to what is actually in your warehouses."
+msgstr "يضبط كميات المخزون وقيمه لتطابق الكميات والقيم الفعلية في مستودعاتك."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/pos_profile/pos_profile.json
+msgid ""
+"Settings for a point of sale, like its warehouse, price list and payment "
+"methods."
+msgstr "إعدادات نقطة البيع، مثل المستودع وقائمة الأسعار وطرق الدفع."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/pos_invoice_merge_log/pos_invoice_merge_log.json
+msgid "Shows which POS invoices were merged into a sales invoice."
+msgstr "يوضح فواتير نقاط البيع التي دُمجت في فاتورة مبيعات."
+
+
+# Description of a DocType
+#: erpnext/crm/doctype/lead/lead.json
+msgid "Someone who might buy from you."
+msgstr "شخص قد يشتري منك."
+
+
+# Description of a DocType
+#: erpnext/setup/doctype/sales_person/sales_person.json
+msgid "Someone who sells for you, with targets and commission."
+msgstr "شخص يبيع نيابةً عنك، وله أهداف وعمولة."
+
+
+# Description of a DocType
+#: erpnext/buying/doctype/supplier_scorecard_criteria/supplier_scorecard_criteria.json
+msgid "Something a supplier is scored on, like on-time delivery."
+msgstr "معيار يُقيّم المورد على أساسه، مثل التسليم في الموعد المحدد."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/quality_inspection_parameter/quality_inspection_parameter.json
+msgid "Something an item is checked for, like weight or colour."
+msgstr "خاصية يُفحص الصنف على أساسها، مثل الوزن أو اللون."
+
+
+# Description of a DocType
+#: erpnext/quality_management/doctype/non_conformance/non_conformance.json
+msgid "Something that did not meet your quality standard."
+msgstr "حالة لم تستوفِ معيار الجودة لديك."
+
+
+# Description of a DocType
+#: erpnext/quality_management/doctype/quality_goal/quality_goal.json
+msgid ""
+"Something you measure and improve on a schedule, like on-time delivery."
+msgstr "مؤشر تقيسه وتحسّنه وفق جدول زمني، مثل التسليم في الموعد المحدد."
+
+
+# Description of a DocType
+#: erpnext/assets/doctype/asset/asset.json
+msgid ""
+"Something your business owns and uses over time, like a machine or a laptop."
+msgstr "شيء تمتلكه منشأتك وتستخدمه على مدى فترة، مثل آلة أو حاسوب محمول."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/cost_center_allocation/cost_center_allocation.json
+msgid "Splits one cost center's amounts across others by percentage."
+msgstr "يوزع مبالغ مركز تكلفة على مراكز تكلفة أخرى بحسب النسب المئوية."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/monthly_distribution/monthly_distribution.json
+msgid ""
+"Spreads a yearly budget or target across months for seasonal businesses."
+msgstr "يوزع ميزانية أو هدفًا سنويًا على الأشهر بما يناسب الأنشطة الموسمية."
+
+
+# Description of a DocType
+#: erpnext/setup/doctype/terms_and_conditions/terms_and_conditions.json
+msgid "Standard terms to add to quotes, orders and invoices."
+msgstr "شروط قياسية لإضافتها إلى عروض الأسعار والطلبات والفواتير."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
+msgid "Stock set aside for a sales order or production."
+msgstr "مخزون مخصص لأمر بيع أو للإنتاج."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/item_tax_template/item_tax_template.json
+msgid "Tax rates for items that are taxed differently from the rest."
+msgstr "معدلات ضريبية لأصناف تُفرض عليها ضرائب تختلف عن بقية الأصناف."
+
+
+# Description of a DocType
+#: erpnext/regional/doctype/south_africa_vat_settings/south_africa_vat_settings.json
+msgid "The VAT accounts to report in the South Africa VAT audit report."
+msgstr "حسابات ضريبة القيمة المضافة المطلوب إدراجها في تقرير تدقيق الضريبة بجنوب أفريقيا."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/packing_slip/packing_slip.json
+msgid "The contents and weight of each package in a delivery."
+msgstr "محتويات كل طرد في الشحنة ووزنه."
+
+
+# Description of a DocType
+#: erpnext/setup/doctype/holiday_list/holiday_list.json
+msgid "The holidays and weekly offs of a company or employee."
+msgstr "العطلات وأيام الإجازة الأسبوعية لشركة أو موظف."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/pick_list/pick_list.json
+msgid "The items and quantities to pick from the warehouse."
+msgstr "الأصناف والكميات المطلوب انتقاؤها من المستودع."
+
+
+# Description of a DocType
+#: erpnext/subcontracting/doctype/subcontracting_bom/subcontracting_bom.json
+msgid "The materials a subcontractor uses to make an item for you."
+msgstr "المواد التي يستخدمها المتعهد من الباطن لتصنيع صنف لك."
+
+
+# Description of a DocType
+#: erpnext/manufacturing/doctype/bom/bom.json
+msgid "The materials and operations it takes to make an item."
+msgstr "المواد والعمليات اللازمة لتصنيع صنف."
+
+
+# Description of a DocType
+#: erpnext/manufacturing/doctype/routing/routing.json
+msgid "The order of operations to make an item."
+msgstr "ترتيب العمليات اللازمة لتصنيع صنف."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/quality_inspection_template/quality_inspection_template.json
+msgid "The parameters to check an item for."
+msgstr "المعايير التي يُفحص الصنف على أساسها."
+
+
+# Description of a DocType
+#: erpnext/assets/doctype/asset_maintenance_team/asset_maintenance_team.json
+msgid "The people responsible for maintaining assets."
+msgstr "الأشخاص المسؤولون عن صيانة الأصول."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/item_price/item_price.json
+msgid "The price of an item in a price list."
+msgstr "سعر صنف في قائمة أسعار."
+
+
+# Description of a DocType
+#: erpnext/manufacturing/doctype/bom_update_log/bom_update_log.json
+msgid "The progress of a BOM replacement or cost update."
+msgstr "تقدم استبدال قائمة مواد أو تحديث تكلفتها."
+
+
+# Description of a DocType
+#: erpnext/quality_management/doctype/quality_feedback_template/quality_feedback_template.json
+msgid "The questions to ask when collecting quality feedback."
+msgstr "الأسئلة المطروحة عند جمع ملاحظات الجودة."
+
+
+# Description of a DocType
+#: erpnext/bulk_transaction/doctype/bulk_transaction_log/bulk_transaction_log.json
+msgid "The result of creating or submitting many documents at once."
+msgstr "نتيجة إنشاء مستندات عديدة أو اعتمادها دفعة واحدة."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/financial_report_template/financial_report_template.json
+msgid "The rows and formulas of a custom financial statement."
+msgstr "صفوف وصيغ قائمة مالية مخصصة."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.json
+msgid "The serial numbers and batches moved in a transaction."
+msgstr "الأرقام التسلسلية والدفعات المنقولة في معاملة."
+
+
+# Description of a DocType
+#: erpnext/quality_management/doctype/quality_procedure/quality_procedure.json
+msgid "The steps of a process you follow to keep quality in check."
+msgstr "خطوات عملية تتبعها لضمان مراقبة الجودة."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/customs_tariff_number/customs_tariff_number.json
+msgid "The tariff code an item is declared under at customs."
+msgstr "الرمز الجمركي الذي يُصرح عن الصنف بموجبه لدى الجمارك."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/purchase_taxes_and_charges_template/purchase_taxes_and_charges_template.json
+msgid ""
+"The taxes and charges, like shipping or insurance, to add to purchases."
+msgstr "الضرائب والرسوم، مثل الشحن أو التأمين، المطلوب إضافتها إلى المشتريات."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/sales_taxes_and_charges_template/sales_taxes_and_charges_template.json
+msgid "The taxes and charges, like shipping or insurance, to add to sales."
+msgstr "الضرائب والرسوم، مثل الشحن أو التأمين، المطلوب إضافتها إلى المبيعات."
+
+
+# Description of a DocType
+#: erpnext/assets/doctype/asset_maintenance/asset_maintenance.json
+msgid "The upkeep tasks an asset needs, and who does them."
+msgstr "أعمال الصيانة التي يحتاج إليها الأصل والجهة المسؤولة عن تنفيذها."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/dunning_type/dunning_type.json
+msgid "The wording and fee for a kind of payment reminder."
+msgstr "صيغة التذكير برسوم نوع معين من المدفوعات."
+
+
+# Description of a DocType
+#: erpnext/manufacturing/doctype/job_card/job_card.json
+msgid "The work done for one operation of a work order."
+msgstr "العمل المنجز لعملية واحدة ضمن أمر عمل."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/fiscal_year/fiscal_year.json
+msgid "The year your books are kept and closed for."
+msgstr "السنة التي تُمسك دفاترك وتُقفل عنها."
+
+
+# Description of a DocType
+#: erpnext/manufacturing/doctype/downtime_entry/downtime_entry.json
+msgid "Time a workstation stood idle, and why."
+msgstr "مدة توقف محطة العمل عن العمل وسبب ذلك."
+
+
+# Description of a DocType
+#: erpnext/projects/doctype/timesheet/timesheet.json
+msgid "Time spent on tasks and activities, to bill or cost."
+msgstr "الوقت المستغرق في المهام والأنشطة لأغراض الفوترة أو احتساب التكلفة."
+
+
+# Description of a DocType
+#: erpnext/assets/doctype/asset_capitalization/asset_capitalization.json
+msgid ""
+"Turns stock items or services into an asset, or one asset into another."
+msgstr "يحول أصناف المخزون أو الخدمات إلى أصل، أو يحول أصلًا إلى أصل آخر."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/unreconcile_payment/unreconcile_payment.json
+msgid "Undo a payment's match against invoices."
+msgstr "يلغي مطابقة دفعة مع الفواتير."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/subscription_plan/subscription_plan.json
+msgid "What a subscription bills for, and at what price."
+msgstr "ما تفوتره خطة الاشتراك والسعر المحدد له."
+
+
+# Description of a DocType
+#: erpnext/projects/doctype/activity_cost/activity_cost.json
+msgid "What an employee costs and bills per hour for an activity."
+msgstr "تكلفة الموظف والمبلغ المفوتر عنه لكل ساعة من نشاط."
+
+
+# Description of a DocType
+#: erpnext/quality_management/doctype/quality_action/quality_action.json
+msgid "What you did to fix or prevent a quality problem."
+msgstr "الإجراء الذي اتخذته لمعالجة مشكلة جودة أو منعها."
+
+
+# Description of a DocType
+#: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.json
+msgid "When an asset depreciates, and by how much."
+msgstr "مواعيد استهلاك الأصل ومقدار الاستهلاك في كل مرة."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/payment_term/payment_term.json
+msgid "When part of an invoice is due, like 50% in 30 days."
+msgstr "موعد استحقاق جزء من الفاتورة، مثل استحقاق 50% خلال 30 يومًا."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.json
+msgid "Where each detail goes when you print on your bank's cheque."
+msgstr "موضع كل بيان عند الطباعة على شيك البنك."
+
+
+# Description of a DocType
+#: erpnext/stock/doctype/putaway_rule/putaway_rule.json
+msgid "Which warehouse received items go to."
+msgstr "المستودع الذي تُنقل إليه الأصناف المستلمة."
+
+
+# Description of a DocType
+#: erpnext/telephony/doctype/incoming_call_settings/incoming_call_settings.json
+msgid "Who answers incoming calls, and when."
+msgstr "الشخص الذي يجيب عن المكالمات الواردة وموعد ذلك."
+
+
+# Description of a DocType
+#: erpnext/accounts/doctype/shipping_rule/shipping_rule.json
+msgid "Works out the shipping charge on a sale or purchase."
+msgstr "يحسب رسوم الشحن على عملية بيع أو شراء."
+
+
+# Description of a DocType
+#: erpnext/telephony/doctype/voice_call_settings/voice_call_settings.json
+msgid "Your calling preferences, like when you take calls."
+msgstr "تفضيلات الاتصال لديك، مثل أوقات استقبال المكالمات."
+
+msgid "Bank Reconciliation (old)"
+msgstr "مطابقة الحساب البنكي (قديم)"
+
+msgid "Template Type"
+msgstr "نوع القالب"
